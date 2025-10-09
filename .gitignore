@@ -5,6 +5,18 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+pnpm-debug.log*
+
+# Build output
+dist
+dist-ssr
+*.local
+
+# PWA
+dev-dist/
+sw.js
+sw.js.map
+workbox-*.js
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json

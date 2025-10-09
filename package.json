@@ -1,0 +1,37 @@
+{
+  "name": "doqi",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DoqiSHPK - High-quality furniture and mattress production website built with Vite, React, TailwindCSS, and PWA capabilities",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjeteKr/doqi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjeteKr/doqi/issues"
+  },
+  "homepage": "https://github.com/AjeteKr/doqi#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.4",
+    "vite": "^7.1.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14",
+    "vite-plugin-pwa": "^1.0.3"
+  }
+}

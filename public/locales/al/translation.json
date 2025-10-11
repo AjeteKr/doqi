@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Kryefaqja",
+    "about": "Rreth Nesh",
+    "products": "Produktet",
+    "contact": "Kontakti",
+    "starflex": "StarFlex"
+  },
+  "hero": {
+    "title": "Mirë se vini në DoqiSHPK",
+    "subtitle": "Prodhim mobiljesh dhe dyshekësh me cilësi të lartë",
+    "description": "Doçi Shpk, në partneritet me Starflex, sjell së bashku vite përvojë në prodhimin e mobiljeve dhe dyshekëve me cilësi të lartë. Me një fabrikë moderne, teknologji të avancuar dhe pasion për dizajn, ne ofrojmë produkte që kombinojnë rehatinë, qëndrueshmërinë dhe stilin.",
+    "cta": "Eksploro Produktet"
+  },
+  "home": {
+    "featuredProducts": "Produktet e Veçanta",
+    "aboutTitle": "Rreth DoqiSHPK",
+    "aboutDescription1": "Doçi Shpk, në partneritet me Starflex, sjell së bashku vite përvojë në prodhimin e mobiljeve dhe dyshekëve me cilësi të lartë. Me një fabrikë moderne, teknologji të avancuar dhe pasion për dizajn, ne ofrojmë produkte që kombinojnë rehatinë, qëndrueshmërinë dhe stilin.",
+    "aboutDescription2": "Përkushtimi ynë ndaj përsosmërisë siguron që çdo copë mobiljeje dhe çdo dyshek plotëson standardet më të larta të cilësisë dhe mjeshtërisë.",
+    "customerReviews": "Çfarë Thonë Klientët Tanë",
+    "reviewsSubtitle": "Vlerësime të vërteta nga klientët tanë të kënaqur"
+  },
+  "products": {
+    "title": "Produktet Tona",
+    "subtitle": "Eksploroni gamën tonë të plotë të mobiljeve dhe dyshekëve me cilësi të lartë",
+    "categories": {
+      "all": "Të gjitha",
+      "kitchen": "Kuzhina",
+      "bedroom": "Dhoma e gjumit",
+      "livingRoom": "Saloni",
+      "mattresses": "Dyshekë"
+    },
+    "loading": "Duke ngarkuar produktet...",
+    "noProducts": "Nuk ka produkte të disponueshme për momentin.",
+    "inStock": "Në stok",
+    "outOfStock": "Jashtë stokut",
+    "availableColors": "Ngjyrat e disponueshme:",
+    "viewDetails": "Shiko Detajet"
+  },
+  "about": {
+    "title": "Rreth DoqiSHPK",
+    "subtitle": "Mësoni më shumë për kompaninë dhe misionin tonë",
+    "description": "DoqiSHPK është e përkushtuar për të ofruar zgjidhje të jashtëzakonshme mobiljesh dhe dyshekësh që përmirësojnë rehatinë dhe stilin e hapësirave tuaja të jetesës."
+  },
+  "contact": {
+    "title": "Na Kontaktoni",
+    "subtitle": "Lidhuni me DoqiSHPK",
+    "info": "Informacioni i Kontaktit",
+    "description": "Do të donim të dëgjonim nga ju. Kontaktoni me ne për çdo pyetje rreth produkteve dhe shërbimeve tona."
+  },
+  "footer": {
+    "description": "Prodhim mobiljesh dhe dyshekësh me cilësi të lartë në partneritet me Starflex. Duke kombinuar rehatinë, qëndrueshmërinë dhe stilin me teknologji moderne.",
+    "quickLinks": "Lidhjet e Shpejta",
+    "partners": "Partnerët",
+    "copyright": "© 2025 DoqiSHPK. Të gjitha të drejtat e rezervuara."
+  },
+  "common": {
+    "price": "Çmimi",
+    "category": "Kategoria",
+    "stock": "Stoku",
+    "colors": "Ngjyrat",
+    "description": "Përshkrimi",
+    "search": "Kërko",
+    "language": "Gjuha"
+  }
+}

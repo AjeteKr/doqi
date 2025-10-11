@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "products": "Produkte",
+    "contact": "Kontakt",
+    "starflex": "StarFlex"
+  },
+  "hero": {
+    "title": "Willkommen bei DoqiSHPK",
+    "subtitle": "Hochwertige Möbel- und Matratzenproduktion",
+    "description": "Doçi Shpk bringt in Partnerschaft mit Starflex jahrelange Erfahrung in der hochwertigen Möbel- und Matratzenproduktion zusammen. Mit einer modernen Fabrik, fortschrittlicher Technologie und einer Leidenschaft für Design liefern wir Produkte, die Komfort, Haltbarkeit und Stil vereinen.",
+    "cta": "Produkte Erkunden"
+  },
+  "home": {
+    "featuredProducts": "Empfohlene Produkte",
+    "aboutTitle": "Über DoqiSHPK",
+    "aboutDescription1": "Doçi Shpk bringt in Partnerschaft mit Starflex jahrelange Erfahrung in der hochwertigen Möbel- und Matratzenproduktion zusammen. Mit einer modernen Fabrik, fortschrittlicher Technologie und einer Leidenschaft für Design liefern wir Produkte, die Komfort, Haltbarkeit und Stil vereinen.",
+    "aboutDescription2": "Unser Engagement für Exzellenz stellt sicher, dass jedes Möbelstück und jede Matratze den höchsten Qualitäts- und Handwerksstandards entspricht.",
+    "customerReviews": "Was Unsere Kunden Sagen",
+    "reviewsSubtitle": "Echtes Feedback von unseren zufriedenen Kunden"
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "subtitle": "Entdecken Sie unser komplettes Sortiment hochwertiger Möbel und Matratzen",
+    "categories": {
+      "all": "Alle",
+      "kitchen": "Küche",
+      "bedroom": "Schlafzimmer",
+      "livingRoom": "Wohnzimmer",
+      "mattresses": "Matratzen"
+    },
+    "loading": "Produkte werden geladen...",
+    "noProducts": "Derzeit sind keine Produkte verfügbar.",
+    "inStock": "Auf Lager",
+    "outOfStock": "Ausverkauft",
+    "availableColors": "Verfügbare Farben:",
+    "viewDetails": "Details Anzeigen"
+  },
+  "about": {
+    "title": "Über DoqiSHPK",
+    "subtitle": "Erfahren Sie mehr über unser Unternehmen und unsere Mission",
+    "description": "DoqiSHPK ist bestrebt, außergewöhnliche Möbel- und Matratzenlösungen zu liefern, die den Komfort und Stil Ihrer Wohnräume verbessern."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Nehmen Sie Kontakt mit DoqiSHPK auf",
+    "info": "Kontaktinformationen",
+    "description": "Wir würden gerne von Ihnen hören. Kontaktieren Sie uns für alle Anfragen zu unseren Produkten und Dienstleistungen."
+  },
+  "footer": {
+    "description": "Hochwertige Möbel- und Matratzenproduktion in Partnerschaft mit Starflex. Kombination von Komfort, Haltbarkeit und Stil mit moderner Technologie.",
+    "quickLinks": "Schnelle Links",
+    "partners": "Partner",
+    "copyright": "© 2025 DoqiSHPK. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "price": "Preis",
+    "category": "Kategorie",
+    "stock": "Lager",
+    "colors": "Farben",
+    "description": "Beschreibung",
+    "search": "Suchen",
+    "language": "Sprache"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "products": "Produits",
+    "contact": "Contact",
+    "starflex": "StarFlex"
+  },
+  "hero": {
+    "title": "Bienvenue chez DoqiSHPK",
+    "subtitle": "Production de meubles et matelas de haute qualité",
+    "description": "Doçi Shpk, en partenariat avec Starflex, rassemble des années d'expérience dans la production de meubles et matelas de haute qualité. Avec une usine moderne, une technologie avancée et une passion pour le design, nous livrons des produits qui allient confort, durabilité et style.",
+    "cta": "Explorez les Produits"
+  },
+  "home": {
+    "featuredProducts": "Produits Vedettes",
+    "aboutTitle": "À Propos de DoqiSHPK",
+    "aboutDescription1": "Doçi Shpk, en partenariat avec Starflex, rassemble des années d'expérience dans la production de meubles et matelas de haute qualité. Avec une usine moderne, une technologie avancée et une passion pour le design, nous livrons des produits qui allient confort, durabilité et style.",
+    "aboutDescription2": "Notre engagement envers l'excellence garantit que chaque meuble et chaque matelas répond aux plus hauts standards de qualité et d'artisanat.",
+    "customerReviews": "Ce Que Disent Nos Clients",
+    "reviewsSubtitle": "Vrais commentaires de nos clients satisfaits"
+  },
+  "products": {
+    "title": "Nos Produits",
+    "subtitle": "Explorez notre gamme complète de meubles et matelas de haute qualité",
+    "categories": {
+      "all": "Tous",
+      "kitchen": "Cuisine",
+      "bedroom": "Chambre",
+      "livingRoom": "Salon",
+      "mattresses": "Matelas"
+    },
+    "loading": "Chargement des produits...",
+    "noProducts": "Aucun produit disponible pour le moment.",
+    "inStock": "En stock",
+    "outOfStock": "Rupture de stock",
+    "availableColors": "Couleurs disponibles:",
+    "viewDetails": "Voir les Détails"
+  },
+  "about": {
+    "title": "À Propos de DoqiSHPK",
+    "subtitle": "En savoir plus sur notre entreprise et notre mission",
+    "description": "DoqiSHPK s'engage à fournir des solutions exceptionnelles de meubles et matelas qui améliorent le confort et le style de vos espaces de vie."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Entrez en contact avec DoqiSHPK",
+    "info": "Informations de Contact",
+    "description": "Nous aimerions avoir de vos nouvelles. Contactez-nous pour toute question concernant nos produits et services."
+  },
+  "footer": {
+    "description": "Production de meubles et matelas de haute qualité en partenariat avec Starflex. Alliant confort, durabilité et style avec une technologie moderne.",
+    "quickLinks": "Liens Rapides",
+    "partners": "Partenaires",
+    "copyright": "© 2025 DoqiSHPK. Tous droits réservés."
+  },
+  "common": {
+    "price": "Prix",
+    "category": "Catégorie",
+    "stock": "Stock",
+    "colors": "Couleurs",
+    "description": "Description",
+    "search": "Recherche",
+    "language": "Langue"
+  }
+}

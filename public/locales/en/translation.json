@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "starflex": "StarFlex"
+  },
+  "hero": {
+    "title": "Welcome to DoqiSHPK",
+    "subtitle": "High-quality furniture and mattress production",
+    "description": "Doçi Shpk, in partnership with Starflex, brings together years of experience in high-quality furniture and mattress production. With a modern factory, advanced technology, and a passion for design, we deliver products that combine comfort, durability, and style.",
+    "cta": "Explore Products"
+  },
+  "home": {
+    "featuredProducts": "Featured Products",
+    "aboutTitle": "About DoqiSHPK",
+    "aboutDescription1": "Doçi Shpk, in partnership with Starflex, brings together years of experience in high-quality furniture and mattress production. With a modern factory, advanced technology, and a passion for design, we deliver products that combine comfort, durability, and style.",
+    "aboutDescription2": "Our commitment to excellence ensures that every piece of furniture and every mattress meets the highest standards of quality and craftsmanship.",
+    "customerReviews": "What Our Customers Say",
+    "reviewsSubtitle": "Real feedback from our satisfied customers"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Explore our complete range of high-quality furniture and mattresses",
+    "categories": {
+      "all": "All",
+      "kitchen": "Kitchen",
+      "bedroom": "Bedroom",
+      "livingRoom": "Living Room",
+      "mattresses": "Mattresses"
+    },
+    "loading": "Loading products...",
+    "noProducts": "No products available at the moment.",
+    "inStock": "In stock",
+    "outOfStock": "Out of stock",
+    "availableColors": "Available colors:",
+    "viewDetails": "View Details"
+  },
+  "about": {
+    "title": "About DoqiSHPK",
+    "subtitle": "Learn more about our company and mission",
+    "description": "DoqiSHPK is committed to delivering exceptional furniture and mattress solutions that enhance the comfort and style of your living spaces."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with DoqiSHPK",
+    "info": "Contact Information",
+    "description": "We'd love to hear from you. Contact us for any inquiries about our products and services."
+  },
+  "footer": {
+    "description": "High-quality furniture and mattress production in partnership with Starflex. Combining comfort, durability, and style with modern technology.",
+    "quickLinks": "Quick Links",
+    "partners": "Partners",
+    "copyright": "© 2025 DoqiSHPK. All rights reserved."
+  },
+  "common": {
+    "price": "Price",
+    "category": "Category",
+    "stock": "Stock",
+    "colors": "Colors",
+    "description": "Description",
+    "search": "Search",
+    "language": "Language"
+  }
+}

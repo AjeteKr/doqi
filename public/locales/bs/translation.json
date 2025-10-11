@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Početna",
+    "about": "O nama",
+    "products": "Proizvodi",
+    "contact": "Kontakt",
+    "starflex": "StarFlex"
+  },
+  "hero": {
+    "title": "Dobrodošli u DoqiSHPK",
+    "subtitle": "Visokokvalitetna proizvodnja namještaja i dušeka",
+    "description": "Doçi Shpk, u partnerstvu sa Starflex, spaja godine iskustva u proizvodnji visokokvalitetnog namještaja i dušeka. Sa modernom tvornicom, naprednom tehnologijom i strašću za dizajn, isporučujemo proizvode koji kombiniraju udobnost, trajnost i stil.",
+    "cta": "Istražite proizvode"
+  },
+  "home": {
+    "featuredProducts": "Izdvojeni proizvodi",
+    "aboutTitle": "O DoqiSHPK",
+    "aboutDescription1": "Doçi Shpk, u partnerstvu sa Starflex, spaja godine iskustva u proizvodnji visokokvalitetnog namještaja i dušeka. Sa modernom tvornicom, naprednom tehnologijom i strašću za dizajn, isporučujemo proizvode koji kombiniraju udobnost, trajnost i stil.",
+    "aboutDescription2": "Naša posvećenost izvrsnosti osigurava da svaki komad namještaja i svaki dušek ispunjava najviše standarde kvaliteta i zanatstva.",
+    "customerReviews": "Što kažu naši kupci",
+    "reviewsSubtitle": "Prave recenzije od naših zadovoljnih kupaca"
+  },
+  "products": {
+    "title": "Naši proizvodi",
+    "subtitle": "Istražite naš kompletan asortiman visokokvalitetnog namještaja i dušeka",
+    "categories": {
+      "all": "Sve",
+      "kitchen": "Kuhinja",
+      "bedroom": "Spavaća soba",
+      "livingRoom": "Dnevna soba",
+      "mattresses": "Dušeci"
+    },
+    "loading": "Učitavanje proizvoda...",
+    "noProducts": "Trenutno nema dostupnih proizvoda.",
+    "inStock": "Na skladištu",
+    "outOfStock": "Nema na skladištu",
+    "availableColors": "Dostupne boje:",
+    "viewDetails": "Pogledaj detalje"
+  },
+  "about": {
+    "title": "O DoqiSHPK",
+    "subtitle": "Saznajte više o našoj kompaniji i misiji",
+    "description": "DoqiSHPK je posvećena isporuci izuzetnih rješenja namještaja i dušeka koja poboljšavaju udobnost i stil vaših životnih prostora."
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Stupite u kontakt sa DoqiSHPK",
+    "info": "Kontakt informacije",
+    "description": "Voljeli bismo čuti od vas. Kontaktirajte nas za bilo koja pitanja o našim proizvodima i uslugama."
+  },
+  "footer": {
+    "description": "Visokokvalitetna proizvodnja namještaja i dušeka u partnerstvu sa Starflex. Kombinirajući udobnost, trajnost i stil sa modernom tehnologijom.",
+    "quickLinks": "Brze veze",
+    "partners": "Partneri",
+    "copyright": "© 2025 DoqiSHPK. Sva prava zadržana."
+  },
+  "common": {
+    "price": "Cijena",
+    "category": "Kategorija",
+    "stock": "Skladište",
+    "colors": "Boje",
+    "description": "Opis",
+    "search": "Pretraga",
+    "language": "Jezik"
+  }
+}

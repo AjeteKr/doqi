@@ -1,73 +1,77 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from './LanguageSwitcher'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const { t } = useTranslation()
 
   return (
     <nav className="bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 relative">
-          {/* Mobile menu button */}
-          <div className="md:hidden">
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-500 hover:text-gray-700 focus:outline-none"
-            >
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
-
-          {/* Logo */}
+        <div className="flex items-center justify-between h-16">
+          {/* Left side: Mobile menu button + Logo */}
           <div className="flex items-center">
+            {/* Mobile menu button */}
+            <div className="md:hidden mr-4">
+              <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className="text-gray-500 hover:text-gray-700 focus:outline-none"
+              >
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Logo */}
             <Link to="/" className="flex items-center">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-black rounded border border-black flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">D</span>
-                </div>
-                <span className="text-xl font-bold text-black tracking-wide">DOQI</span>
+                <img 
+                  src="/src/assets/images/doqi-logo.png" 
+                  alt="DOQI Logo" 
+                  className="h-8 w-auto"
+                />
               </div>
             </Link>
           </div>
 
-          {/* Desktop Navigation Links - Centered */}
-          <div className="hidden md:flex items-center space-x-12 absolute left-1/2 transform -translate-x-1/2">
+          {/* Center: Desktop Navigation Links */}
+          <div className="hidden md:flex items-center space-x-8">
             <Link 
               to="/" 
               className="text-gray-700 hover:text-gray-900 text-base font-medium transition-colors"
             >
-              Home
+              {t('nav.home')}
             </Link>
             <Link 
               to="/about" 
               className="text-gray-700 hover:text-gray-900 text-base font-medium transition-colors"
             >
-              About
+              {t('nav.about')}
             </Link>
             <Link 
               to="/products" 
               className="text-gray-700 hover:text-red-900 text-base font-medium transition-colors"
             >
-              Products
+              {t('nav.products')}
             </Link>
             <Link 
               to="/contact" 
               className="text-gray-700 hover:text-gray-900 text-base font-medium transition-colors"
             >
-              Contact
+              {t('nav.contact')}
             </Link>
           </div>
 
           {/* Right side elements */}
           <div className="flex items-center space-x-4">
-            {/* StarFlex Brand */}
             <Link 
               to="/starflex" 
-              className="hidden sm:flex items-center bg-red-600 text-white px-3 py-1 rounded text-xs font-bold hover:bg-red-700 transition-colors"
+              className="items-center text-white px-2 py-1 rounded text-xs font-bold hover:bg-red-200 transition-colors font-extrabold"
             >
-              star<span className="font-normal">FLEX</span>
+              <img src="/src/assets/images/starflex-logo.png" alt="StarFlex Logo" className="h-16 w-auto" />
             </Link>
 
             {/* Icons */}
@@ -87,12 +91,7 @@ const Navbar = () => {
               </button>
 
               {/* Language Selector */}
-              <div className="hidden sm:flex items-center">
-                <select className="text-sm font-medium text-red-700 bg-transparent border-none focus:outline-none cursor-pointer">
-                  <option value="en">EN</option>
-                  <option value="al">AL</option>
-                </select>
-              </div>
+              <LanguageSwitcher className="hidden sm:flex" />
             </div>
           </div>
         </div>
@@ -106,28 +105,28 @@ const Navbar = () => {
                 className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Home
+                {t('nav.home')}
               </Link>
               <Link 
                 to="/about" 
                 className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                About
+                {t('nav.about')}
               </Link>
               <Link 
                 to="/products" 
                 className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Products
+                {t('nav.products')}
               </Link>
               <Link 
                 to="/contact" 
                 className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Contact
+                {t('nav.contact')}
               </Link>
               <Link 
                 to="/starflex" 

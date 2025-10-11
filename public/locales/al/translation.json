@@ -7,10 +7,11 @@
     "starflex": "StarFlex"
   },
   "hero": {
-    "title": "Mirë se vini në DoqiSHPK",
-    "subtitle": "Prodhim mobiljesh dhe dyshekësh me cilësi të lartë",
-    "description": "Doçi Shpk, në partneritet me Starflex, sjell së bashku vite përvojë në prodhimin e mobiljeve dhe dyshekëve me cilësi të lartë. Me një fabrikë moderne, teknologji të avancuar dhe pasion për dizajn, ne ofrojmë produkte që kombinojnë rehatinë, qëndrueshmërinë dhe stilin.",
-    "cta": "Eksploro Produktet"
+    "title": "Cilësi që Mund të Besosh,",
+    "subtitle": "Dizajne që do t'i Duash",
+    "description": "Projektuar me precizion, ndërtuar për performancë – bërë për ty",
+    "exploreProducts": "Eksploro Produktet",
+    "shopReadyStock": "Blej Stokun Gati"
   },
   "home": {
     "featuredProducts": "Produktet e Veçanta",

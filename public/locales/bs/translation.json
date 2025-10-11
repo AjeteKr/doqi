@@ -7,10 +7,11 @@
     "starflex": "StarFlex"
   },
   "hero": {
-    "title": "Dobrodošli u DoqiSHPK",
-    "subtitle": "Visokokvalitetna proizvodnja namještaja i dušeka",
-    "description": "Doçi Shpk, u partnerstvu sa Starflex, spaja godine iskustva u proizvodnji visokokvalitetnog namještaja i dušeka. Sa modernom tvornicom, naprednom tehnologijom i strašću za dizajn, isporučujemo proizvode koji kombiniraju udobnost, trajnost i stil.",
-    "cta": "Istražite proizvode"
+    "title": "Kvalitet kojem možete vjerovati,",
+    "subtitle": "Dizajni koje ćete voljeti",
+    "description": "Dizajnirano precizno, napravljeno za performanse – napravljeno za vas",
+    "exploreProducts": "Istražite proizvode",
+    "shopReadyStock": "Kupite gotovu robu"
   },
   "home": {
     "featuredProducts": "Izdvojeni proizvodi",

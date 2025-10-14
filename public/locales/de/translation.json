@@ -7,10 +7,11 @@
     "starflex": "StarFlex"
   },
   "hero": {
-    "title": "Willkommen bei DoqiSHPK",
-    "subtitle": "Hochwertige Möbel- und Matratzenproduktion",
-    "description": "Doçi Shpk bringt in Partnerschaft mit Starflex jahrelange Erfahrung in der hochwertigen Möbel- und Matratzenproduktion zusammen. Mit einer modernen Fabrik, fortschrittlicher Technologie und einer Leidenschaft für Design liefern wir Produkte, die Komfort, Haltbarkeit und Stil vereinen.",
-    "cta": "Produkte Erkunden"
+    "title": "Qualität, der Sie vertrauen können,",
+    "subtitle": "Designs, die Sie lieben werden",
+    "description": "Mit Präzision entworfen, für Leistung gebaut – für Sie gemacht",
+    "exploreProducts": "Produkte Erkunden",
+    "shopReadyStock": "Lagerware Kaufen"
   },
   "home": {
     "featuredProducts": "Empfohlene Produkte",

@@ -7,10 +7,11 @@
     "starflex": "StarFlex"
   },
   "hero": {
-    "title": "Bienvenue chez DoqiSHPK",
-    "subtitle": "Production de meubles et matelas de haute qualité",
-    "description": "Doçi Shpk, en partenariat avec Starflex, rassemble des années d'expérience dans la production de meubles et matelas de haute qualité. Avec une usine moderne, une technologie avancée et une passion pour le design, nous livrons des produits qui allient confort, durabilité et style.",
-    "cta": "Explorez les Produits"
+    "title": "Qualité en qui vous pouvez avoir confiance,",
+    "subtitle": "Designs que vous allez adorer",
+    "description": "Conçu avec précision, construit pour la performance – fait pour vous",
+    "exploreProducts": "Explorez les Produits",
+    "shopReadyStock": "Achetez en Stock"
   },
   "home": {
     "featuredProducts": "Produits Vedettes",

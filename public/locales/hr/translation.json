@@ -7,10 +7,11 @@
     "starflex": "StarFlex"
   },
   "hero": {
-    "title": "Dobrodošli u DoqiSHPK",
-    "subtitle": "Visokokvalitetna proizvodnja namještaja i madracea",
-    "description": "Doçi Shpk, u partnerstvu sa Starflex, spaja godine iskustva u proizvodnji visokokvalitetnog namještaja i madracea. S modernom tvornicom, naprednom tehnologijom i strašću za dizajn, dostavljamo proizvode koji kombiniraju udobnost, trajnost i stil.",
-    "cta": "Istražite proizvode"
+    "title": "Kvaliteta kojoj možete vjerovati,",
+    "subtitle": "Dizajni koje ćete voljeti",
+    "description": "Dizajnirano precizno, napravljeno za performanse – napravljeno za vas",
+    "exploreProducts": "Istražite proizvode",
+    "shopReadyStock": "Kupite gotovu robu"
   },
   "home": {
     "featuredProducts": "Izdvojeni proizvodi",

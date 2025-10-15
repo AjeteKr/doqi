@@ -2,6 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero'
 import AboutSection from '../components/AboutSection'
+import LatestArrivals from '../components/LatestArrivals'
 import ProductsGrid from '../components/ProductsGrid'
 import Reviews from '../components/Reviews'
 
@@ -16,11 +17,8 @@ const Home = () => {
       {/* About Section */}
       <AboutSection />
       
-      {/* Featured Products Section */}
-      <ProductsGrid 
-        products={featuredProducts.slice(0, 6)} 
-        title={t('home.featuredProducts')} 
-      />
+      {/* Latest Arrivals Section */}
+      <LatestArrivals />
       
       {/* Featured Products Section */}
       <ProductsGrid 

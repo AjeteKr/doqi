@@ -15,9 +15,18 @@
   },
   "home": {
     "featuredProducts": "Featured Products",
+    "aboutUsTitle": "About Us",
+    "aboutHeading": "Surfaces Made to Inspire.",
     "aboutTitle": "About DoqiSHPK",
-    "aboutDescription1": "Doçi Shpk, in partnership with Starflex, brings together years of experience in high-quality furniture and mattress production. With a modern factory, advanced technology, and a passion for design, we deliver products that combine comfort, durability, and style.",
-    "aboutDescription2": "Our commitment to excellence ensures that every piece of furniture and every mattress meets the highest standards of quality and craftsmanship.",
+    "aboutCompanyDescription": "Doqi Shpk, in partnership with Starflex, brings together years of experience in high-quality furniture and mattress production. With a modern factory, advanced technology, and a passion for design, we delive ...",
+    "missionDescription": "Doqi Shpk, in partnership with Starflex, brings together years of experience in high-quality furniture and mattress production. With a modern factory, advanced technology, and a passion for design, we delive",
+    "visionDescription": "Doqi Shpk, in partnership with Starflex, brings together years of experience in high-quality furniture and mattress production.",
+    "stat1Label": "Besueshmeria",
+    "stat1Description": "High customer trust and satisfaction",
+    "stat2Label": "Nr i produkteve",
+    "stat2Description": "Unique products to meet every construction and design need",
+    "stat3Label": "Costumers ...30 years with DoqiSHPK",
+    "stat3Description": "Customers who have chosen Doqi SHPK over 30 years of success",
     "customerReviews": "What Our Customers Say",
     "reviewsSubtitle": "Real feedback from our satisfied customers"
   },
@@ -62,6 +71,8 @@
     "colors": "Colors",
     "description": "Description",
     "search": "Search",
-    "language": "Language"
+    "language": "Language",
+    "readMore": "Read More",
+    "readLess": "Read Less"
   }
 }

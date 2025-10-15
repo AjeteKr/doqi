@@ -15,9 +15,18 @@
   },
   "home": {
     "featuredProducts": "Produits Vedettes",
+    "aboutUsTitle": "À Propos",
+    "aboutHeading": "Des surfaces conçues pour inspirer.",
     "aboutTitle": "À Propos de DoqiSHPK",
-    "aboutDescription1": "Doçi Shpk, en partenariat avec Starflex, rassemble des années d'expérience dans la production de meubles et matelas de haute qualité. Avec une usine moderne, une technologie avancée et une passion pour le design, nous livrons des produits qui allient confort, durabilité et style.",
-    "aboutDescription2": "Notre engagement envers l'excellence garantit que chaque meuble et chaque matelas répond aux plus hauts standards de qualité et d'artisanat.",
+    "aboutDescription1": "Doçi Shpk, en partenariat avec Starflex, rassemble des années d'expérience dans la production de meubles et matelas de haute qualité. Avec une usine moderne, une technologie avancée et une passion pour le design, nous livrons",
+    "aboutDescription2": "Doçi Shpk, en partenariat avec Starflex, rassemble des années d'expérience dans la production de meubles et matelas de haute qualité.",
+    "aboutDescription2Short": "Doçi Shpk, en partenariat avec Starflex, rassemble des années d'expérience dans la production de meubles et matelas de haute qualité.",
+    "stat1Label": "Fiabilité",
+    "stat1Description": "Haute confiance et satisfaction des clients",
+    "stat2Label": "Nombre de produits",
+    "stat2Description": "Produits uniques pour répondre à tous les besoins de construction et de design",
+    "stat3Label": "Clients ...30 ans avec DoqiSHPK",
+    "stat3Description": "Clients qui ont choisi Doqi SHPK au cours de 30 ans de succès",
     "customerReviews": "Ce Que Disent Nos Clients",
     "reviewsSubtitle": "Vrais commentaires de nos clients satisfaits"
   },
@@ -62,6 +71,8 @@
     "colors": "Couleurs",
     "description": "Description",
     "search": "Recherche",
-    "language": "Langue"
+    "language": "Langue",
+    "readMore": "Lire plus",
+    "readLess": "Lire moins"
   }
 }

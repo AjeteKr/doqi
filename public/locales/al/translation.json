@@ -15,9 +15,18 @@
   },
   "home": {
     "featuredProducts": "Produktet e Veçanta",
+    "aboutUsTitle": "Rreth Nesh",
+    "aboutHeading": "Sipërfaqe të Bëra për të Frymëzuar.",
     "aboutTitle": "Rreth DoqiSHPK",
-    "aboutDescription1": "Doçi Shpk, në partneritet me Starflex, sjell së bashku vite përvojë në prodhimin e mobiljeve dhe dyshekëve me cilësi të lartë. Me një fabrikë moderne, teknologji të avancuar dhe pasion për dizajn, ne ofrojmë produkte që kombinojnë rehatinë, qëndrueshmërinë dhe stilin.",
-    "aboutDescription2": "Përkushtimi ynë ndaj përsosmërisë siguron që çdo copë mobiljeje dhe çdo dyshek plotëson standardet më të larta të cilësisë dhe mjeshtërisë.",
+    "aboutCompanyDescription": "Doçi Shpk, në partneritet me Starflex, sjell së bashku vite përvojë në prodhimin e mobiljeve dhe dyshekëve me cilësi të lartë. Me një fabrikë moderne, teknologji të avancuar dhe pasion për dizajn, ne ofrojmë ...",
+    "missionDescription": "Doçi Shpk, në partneritet me Starflex, sjell së bashku vite përvojë në prodhimin e mobiljeve dhe dyshekëve me cilësi të lartë. Me një fabrikë moderne, teknologji të avancuar dhe pasion për dizajn, ne ofrojmë",
+    "visionDescription": "Doçi Shpk, në partneritet me Starflex, sjell së bashku vite përvojë në prodhimin e mobiljeve dhe dyshekëve me cilësi të lartë.",
+    "stat1Label": "Besueshmëria",
+    "stat1Description": "Besim dhe kënaqësi e lartë e klientëve",
+    "stat2Label": "Nr i produkteve",
+    "stat2Description": "Produkte unike për të përmbushur çdo nevojë ndërtimi dhe dizajni",
+    "stat3Label": "Klientë ...30 vjet me DoqiSHPK",
+    "stat3Description": "Klientë që kanë zgjedhur Doqi SHPK gjatë 30 viteve të suksesit",
     "customerReviews": "Çfarë Thonë Klientët Tanë",
     "reviewsSubtitle": "Vlerësime të vërteta nga klientët tanë të kënaqur"
   },
@@ -62,6 +71,8 @@
     "colors": "Ngjyrat",
     "description": "Përshkrimi",
     "search": "Kërko",
-    "language": "Gjuha"
+    "language": "Gjuha",
+    "readMore": "Lexo Më Shumë",
+    "readLess": "Lexo Më Pak"
   }
 }

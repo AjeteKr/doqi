@@ -15,9 +15,18 @@
   },
   "home": {
     "featuredProducts": "Издвојени производи",
+    "aboutUsTitle": "О нама",
+    "aboutHeading": "Површине креиране да инспиришу.",
     "aboutTitle": "О DoqiSHPK",
-    "aboutDescription1": "Doçi Shpk, у партнерству са Starflex, спаја године искуства у производњи висококвалитетног намештаја и душека. Са модерном фабриком, напредном технологијом и страшћу за дизајн, испоручујемо производе који комбинују удобност, трајност и стил.",
-    "aboutDescription2": "Наша посвећеност изврсности осигурава да сваки комад намештаја и сваки душек испуњава највише стандарде квалитета и занатства.",
+    "aboutDescription1": "Doçi Shpk, у партнерству са Starflex, спаја године искуства у производњи висококвалитетног намештаја и душека. Са модерном фабриком, напредном технологијом и страшћу за дизајн, испоручујемо",
+    "aboutDescription2": "Doçi Shpk, у партнерству са Starflex, спаја године искуства у производњи висококвалитетног намештаја и душека.",
+    "aboutDescription2Short": "Doçi Shpk, у партнерству са Starflex, спаја године искуства у производњи висококвалитетног намештаја и душека.",
+    "stat1Label": "Поузданост",
+    "stat1Description": "Visoko poverenje i zadovoljstvo kupaca",
+    "stat2Label": "Број производа",
+    "stat2Description": "Jedinstveni proizvodi za zadovoljavanje svake građevinske i dizajnerske potrebe",
+    "stat3Label": "Купци ...30 година са DoqiSHPK",
+    "stat3Description": "Kupci koji su odabrali Doqi SHPK tokom 30 godina uspeha",
     "customerReviews": "Шта кажу наши купци",
     "reviewsSubtitle": "Стварне рецензије од наших задовољних купаца"
   },
@@ -62,6 +71,8 @@
     "colors": "Боје",
     "description": "Опис",
     "search": "Претрага",
-    "language": "Језик"
+    "language": "Језик",
+    "readMore": "Прочитај више",
+    "readLess": "Прочитај мање"
   }
 }

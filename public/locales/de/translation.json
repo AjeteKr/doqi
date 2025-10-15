@@ -15,9 +15,18 @@
   },
   "home": {
     "featuredProducts": "Empfohlene Produkte",
+    "aboutUsTitle": "Über uns",
+    "aboutHeading": "Oberflächen, die inspirieren.",
     "aboutTitle": "Über DoqiSHPK",
-    "aboutDescription1": "Doçi Shpk bringt in Partnerschaft mit Starflex jahrelange Erfahrung in der hochwertigen Möbel- und Matratzenproduktion zusammen. Mit einer modernen Fabrik, fortschrittlicher Technologie und einer Leidenschaft für Design liefern wir Produkte, die Komfort, Haltbarkeit und Stil vereinen.",
-    "aboutDescription2": "Unser Engagement für Exzellenz stellt sicher, dass jedes Möbelstück und jede Matratze den höchsten Qualitäts- und Handwerksstandards entspricht.",
+    "aboutDescription1": "Doçi Shpk bringt in Partnerschaft mit Starflex jahrelange Erfahrung in der hochwertigen Möbel- und Matratzenproduktion zusammen. Mit einer modernen Fabrik, fortschrittlicher Technologie und einer Leidenschaft für Design liefern",
+    "aboutDescription2": "Doçi Shpk bringt in Partnerschaft mit Starflex jahrelange Erfahrung in der hochwertigen Möbel- und Matratzenproduktion zusammen.",
+    "aboutDescription2Short": "Doçi Shpk bringt in Partnerschaft mit Starflex jahrelange Erfahrung in der hochwertigen Möbel- und Matratzenproduktion zusammen.",
+    "stat1Label": "Zuverlässigkeit",
+    "stat1Description": "Hohes Kundenvertrauen und Zufriedenheit",
+    "stat2Label": "Anzahl der Produkte",
+    "stat2Description": "Einzigartige Produkte für jeden Bau- und Designbedarf",
+    "stat3Label": "Kunden ...30 Jahre mit DoqiSHPK",
+    "stat3Description": "Kunden, die sich über 30 Jahre Erfolg für Doqi SHPK entschieden haben",
     "customerReviews": "Was Unsere Kunden Sagen",
     "reviewsSubtitle": "Echtes Feedback von unseren zufriedenen Kunden"
   },
@@ -62,6 +71,8 @@
     "colors": "Farben",
     "description": "Beschreibung",
     "search": "Suchen",
-    "language": "Sprache"
+    "language": "Sprache",
+    "readMore": "Mehr lesen",
+    "readLess": "Weniger lesen"
   }
 }

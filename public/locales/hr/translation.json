@@ -15,9 +15,18 @@
   },
   "home": {
     "featuredProducts": "Izdvojeni proizvodi",
+    "aboutUsTitle": "O nama",
+    "aboutHeading": "Površine stvorene da inspiriraju.",
     "aboutTitle": "O DoqiSHPK",
-    "aboutDescription1": "Doçi Shpk, u partnerstvu sa Starflex, spaja godine iskustva u proizvodnji visokokvalitetnog namještaja i madracea. S modernom tvornicom, naprednom tehnologijom i strašću za dizajn, dostavljamo proizvode koji kombiniraju udobnost, trajnost i stil.",
-    "aboutDescription2": "Naša predanost izvrsnosti osigurava da svaki komad namještaja i svaki madrac ispunjava najviše standarde kvalitete i zanata.",
+    "aboutDescription1": "Doçi Shpk, u partnerstvu sa Starflex, spaja godine iskustva u proizvodnji visokokvalitetnog namještaja i madracea. S modernom tvornicom, naprednom tehnologijom i strašću za dizajn, dostavljamo",
+    "aboutDescription2": "Doçi Shpk, u partnerstvu sa Starflex, spaja godine iskustva u proizvodnji visokokvalitetnog namještaja i madracea.",
+    "aboutDescription2Short": "Doçi Shpk, u partnerstvu sa Starflex, spaja godine iskustva u proizvodnji visokokvalitetnog namještaja i madracea.",
+    "stat1Label": "Pouzdanost",
+    "stat1Description": "Visoko povjerenje i zadovoljstvo kupaca",
+    "stat2Label": "Broj proizvoda",
+    "stat2Description": "Jedinstveni proizvodi za zadovoljavanje svake građevinske i dizajnerske potrebe",
+    "stat3Label": "Kupci ...30 godina s DoqiSHPK",
+    "stat3Description": "Kupci koji su odabrali Doqi SHPK tijekom 30 godina uspjeha",
     "customerReviews": "Što kažu naši kupci",
     "reviewsSubtitle": "Prave recenzije naših zadovoljnih kupaca"
   },
@@ -62,6 +71,8 @@
     "colors": "Boje",
     "description": "Opis",
     "search": "Pretraživanje",
-    "language": "Jezik"
+    "language": "Jezik",
+    "readMore": "Pročitaj više",
+    "readLess": "Pročitaj manje"
   }
 }

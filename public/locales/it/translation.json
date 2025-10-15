@@ -15,9 +15,18 @@
   },
   "home": {
     "featuredProducts": "Prodotti in Evidenza",
+    "aboutUsTitle": "Chi Siamo",
+    "aboutHeading": "Superfici create per ispirare.",
     "aboutTitle": "Chi è DoqiSHPK",
-    "aboutDescription1": "Doçi Shpk, in collaborazione con Starflex, unisce anni di esperienza nella produzione di mobili e materassi di alta qualità. Con una fabbrica moderna, tecnologia avanzata e passione per il design, forniamo prodotti che combinano comfort, durata e stile.",
-    "aboutDescription2": "Il nostro impegno per l'eccellenza garantisce che ogni mobile e ogni materasso soddisfi i più alti standard di qualità e artigianalità.",
+    "aboutDescription1": "Doçi Shpk, in collaborazione con Starflex, unisce anni di esperienza nella produzione di mobili e materassi di alta qualità. Con una fabbrica moderna, tecnologia avanzata e passione per il design, forniamo",
+    "aboutDescription2": "Doçi Shpk, in collaborazione con Starflex, unisce anni di esperienza nella produzione di mobili e materassi di alta qualità.",
+    "aboutDescription2Short": "Doçi Shpk, in collaborazione con Starflex, unisce anni di esperienza nella produzione di mobili e materassi di alta qualità.",
+    "stat1Label": "Affidabilità",
+    "stat1Description": "Alta fiducia e soddisfazione dei clienti",
+    "stat2Label": "Numero di prodotti",
+    "stat2Description": "Prodotti unici per soddisfare ogni esigenza di costruzione e design",
+    "stat3Label": "Clienti ...30 anni con DoqiSHPK",
+    "stat3Description": "Clienti che hanno scelto Doqi SHPK in 30 anni di successo",
     "customerReviews": "Cosa Dicono i Nostri Clienti",
     "reviewsSubtitle": "Feedback reali dai nostri clienti soddisfatti"
   },
@@ -62,6 +71,8 @@
     "colors": "Colori",
     "description": "Descrizione",
     "search": "Cerca",
-    "language": "Lingua"
+    "language": "Lingua",
+    "readMore": "Leggi di più",
+    "readLess": "Leggi di meno"
   }
 }

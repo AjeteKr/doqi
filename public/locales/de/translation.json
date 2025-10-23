@@ -35,12 +35,16 @@
   "products": {
     "title": "Unsere Produkte",
     "subtitle": "Entdecken Sie unser komplettes Sortiment hochwertiger Möbel und Matratzen",
+    "ourProducts": "Unsere Produkte",
+    "findYourPerfectPiece": "Finden Sie Ihr perfektes Stück. Durchstöbern Sie unser vielfältiges Produktsortiment, um die Qualität und das Design zu entdecken, das zu Ihnen spricht.",
     "categories": {
       "all": "Alle",
-      "kitchen": "Küche",
-      "bedroom": "Schlafzimmer",
-      "livingRoom": "Wohnzimmer",
-      "mattresses": "Matratzen"
+      "customerService": "Kundendienst",
+      "mattress": "Matratze",
+      "sofaChair": "Sofa und Stuhl",
+      "mdfChipBoard": "MDF und Spanplatte",
+      "compactHPL": "Kompakt HPL",
+      "accessories": "Zubehör"
     },
     "loading": "Produkte werden geladen...",
     "noProducts": "Derzeit sind keine Produkte verfügbar.",

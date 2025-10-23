@@ -35,12 +35,16 @@
   "products": {
     "title": "I Nostri Prodotti",
     "subtitle": "Esplora la nostra gamma completa di mobili e materassi di alta qualità",
+    "ourProducts": "I Nostri Prodotti",
+    "findYourPerfectPiece": "Trova il tuo pezzo perfetto. Sfoglia la nostra vasta gamma di prodotti per scoprire la qualità e il design che ti parla.",
     "categories": {
       "all": "Tutti",
-      "kitchen": "Cucina",
-      "bedroom": "Camera da Letto",
-      "livingRoom": "Soggiorno",
-      "mattresses": "Materassi"
+      "customerService": "Servizio Clienti",
+      "mattress": "Materasso",
+      "sofaChair": "Divano e Sedia",
+      "mdfChipBoard": "MDF e Truciolato",
+      "compactHPL": "HPL Compatto",
+      "accessories": "Accessori"
     },
     "loading": "Caricamento prodotti...",
     "noProducts": "Al momento non ci sono prodotti disponibili.",

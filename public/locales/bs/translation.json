@@ -35,12 +35,16 @@
   "products": {
     "title": "Naši proizvodi",
     "subtitle": "Istražite naš kompletan asortiman visokokvalitetnog namještaja i dušeka",
+    "ourProducts": "Naši proizvodi",
+    "findYourPerfectPiece": "Pronađite svoj savršeni komad. Pregledajte naš raznolik asortiman proizvoda da otkrijete kvalitet i dizajn koji govori vama.",
     "categories": {
       "all": "Sve",
-      "kitchen": "Kuhinja",
-      "bedroom": "Spavaća soba",
-      "livingRoom": "Dnevna soba",
-      "mattresses": "Dušeci"
+      "customerService": "Korisnička Podrška",
+      "mattress": "Dušek",
+      "sofaChair": "Sofa i Stolica",
+      "mdfChipBoard": "MDF i Iverica",
+      "compactHPL": "Kompaktni HPL",
+      "accessories": "Pribor"
     },
     "loading": "Učitavanje proizvoda...",
     "noProducts": "Trenutno nema dostupnih proizvoda.",

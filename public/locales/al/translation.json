@@ -35,12 +35,16 @@
   "products": {
     "title": "Produktet Tona",
     "subtitle": "Eksploroni gamën tonë të plotë të mobiljeve dhe dyshekëve me cilësi të lartë",
+    "ourProducts": "Produktet Tona",
+    "findYourPerfectPiece": "Gjeni pjesën tuaj të përsosur. Shfletoni gamën tonë të larmishme të produkteve për të zbuluar cilësinë dhe dizajnin që ju flet.",
     "categories": {
       "all": "Të gjitha",
-      "kitchen": "Kuzhina",
-      "bedroom": "Dhoma e gjumit",
-      "livingRoom": "Saloni",
-      "mattresses": "Dyshekë"
+      "customerService": "Shërbimi i Klientit",
+      "mattress": "Dyshek",
+      "sofaChair": "Divan dhe Karrige",
+      "mdfChipBoard": "MDF dhe Pllakë Druri",
+      "compactHPL": "HPL Kompakte",
+      "accessories": "Aksesorë"
     },
     "loading": "Duke ngarkuar produktet...",
     "noProducts": "Nuk ka produkte të disponueshme për momentin.",

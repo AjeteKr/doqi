@@ -35,12 +35,16 @@
   "products": {
     "title": "Nos Produits",
     "subtitle": "Explorez notre gamme complète de meubles et matelas de haute qualité",
+    "ourProducts": "Nos Produits",
+    "findYourPerfectPiece": "Trouvez votre pièce parfaite. Parcourez notre gamme diversifiée de produits pour découvrir la qualité et le design qui vous parle.",
     "categories": {
       "all": "Tous",
-      "kitchen": "Cuisine",
-      "bedroom": "Chambre",
-      "livingRoom": "Salon",
-      "mattresses": "Matelas"
+      "customerService": "Service Client",
+      "mattress": "Matelas",
+      "sofaChair": "Canapé et Chaise",
+      "mdfChipBoard": "MDF et Aggloméré",
+      "compactHPL": "HPL Compact",
+      "accessories": "Accessoires"
     },
     "loading": "Chargement des produits...",
     "noProducts": "Aucun produit disponible pour le moment.",

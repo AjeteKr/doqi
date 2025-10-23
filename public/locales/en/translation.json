@@ -35,12 +35,16 @@
   "products": {
     "title": "Our Products",
     "subtitle": "Explore our complete range of high-quality furniture and mattresses",
+    "ourProducts": "Our Products",
+    "findYourPerfectPiece": "Find your perfect piece. Browse our diverse range of products to discover the quality and design that speaks to you.",
     "categories": {
       "all": "All",
-      "kitchen": "Kitchen",
-      "bedroom": "Bedroom",
-      "livingRoom": "Living Room",
-      "mattresses": "Mattresses"
+      "customerService": "Customer Service",
+      "mattress": "Mattress",
+      "sofaChair": "Sofa and Chair",
+      "mdfChipBoard": "MDF and Chip Board",
+      "compactHPL": "Compact HPL",
+      "accessories": "Accessories"
     },
     "loading": "Loading products...",
     "noProducts": "No products available at the moment.",

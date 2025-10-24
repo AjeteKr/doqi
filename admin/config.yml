@@ -6,14 +6,14 @@ backend:
 media_folder: "public/images/products"
 public_folder: "/images/products"
 
-# Site URL (replace with your actual Netlify URL)
+# Site URL
 site_url: https://doqi-website.netlify.app
 display_url: https://doqi-website.netlify.app
 
 # Collections
 collections:
   - name: "products"
-    label: "Product Management"
+    label: "Products"
     files:
       - file: "products.json"
         label: "Products Database"
@@ -68,4 +68,7 @@ collections:
                   - { label: "Finish", name: "finish", widget: "string", required: false }
                   - { label: "Warranty", name: "warranty", widget: "string", required: false }
                   - { label: "Certification", name: "certification", widget: "string", required: false }
+                  - { label: "Color", name: "color", widget: "string", required: false }
+                  - { label: "Finish", name: "finish", widget: "string", required: false }
+                  - { label: "Warranty", name: "warranty", widget: "string", required: false }
                   - { label: "Additional Info", name: "additional", widget: "text", required: false }

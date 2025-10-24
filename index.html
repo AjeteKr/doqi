@@ -19,11 +19,24 @@
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
+          // If user is already logged in and on homepage, show admin button
+          if (user && window.location.pathname === '/') {
+            console.log('User already logged in:', user);
+            // Add admin button to page
+            setTimeout(() => {
+              const adminBtn = document.createElement('button');
+              adminBtn.innerText = 'Go to Admin Panel';
+              adminBtn.style.cssText = 'position:fixed; top:20px; right:20px; z-index:9999; padding:10px 20px; background:#007acc; color:white; border:none; border-radius:5px; cursor:pointer;';
+              adminBtn.onclick = () => window.location.href = '/admin/';
+              document.body.appendChild(adminBtn);
+            }, 1000);
           }
+          
+          // Handle login events
+          window.netlifyIdentity.on("login", () => {
+            console.log('Login successful, redirecting...');
+            window.location.href = "/admin/";
+          });
         });
       }
     </script>

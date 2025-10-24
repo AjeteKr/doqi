@@ -15,7 +15,7 @@ collections:
   - name: "products"
     label: "Products"
     files:
-      - file: "products.json"
+      - file: "public/products.json"
         label: "Products Database"
         name: "products"
         fields:

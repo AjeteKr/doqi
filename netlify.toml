@@ -10,7 +10,7 @@
   publish = "dist"
 
   # Default build command.
-  command = "npm run build"
+  command = "npm run sync-data && npm run build"
 
   # Functions directory - where Netlify serverless functions are stored
   functions = "netlify/functions"

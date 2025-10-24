@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doqi SHPK - Admin Panel</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <!-- Loading indicator -->
+  <div id="loading" style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif;">
+    <div>
+      <div style="border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 2s linear infinite; margin: 0 auto;"></div>
+      <p style="margin-top: 20px; text-align: center;">Loading Admin Panel...</p>
+      <p style="margin-top: 10px; text-align: center; font-size: 12px; color: #666;">URL: <span id="currentUrl"></span></p>
+    </div>
+  </div>
+  
+  <style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0/dist/netlify-cms.js"></script>
+  
+  <script>
+    // Show current URL for debugging
+    document.getElementById('currentUrl').textContent = window.location.href;
+    
+    // COMPLETELY DISABLE automatic initialization to prevent redirects
+    window.CMS_MANUAL_INIT = true;
+    
+    // Simple, no-redirect version
+    if (window.netlifyIdentity) {
+      console.log('=== ADMIN PANEL DEBUG ===');
+      console.log('Current URL:', window.location.href);
+      console.log('Pathname:', window.location.pathname);
+      console.log('Host:', window.location.host);
+      
+      // ZERO automatic actions - everything manual
+      window.netlifyIdentity.on("init", user => {
+        console.log('Identity initialized. User:', user ? user.email : 'None');
+        
+        if (user) {
+          console.log('✅ User authenticated, initializing CMS...');
+          document.getElementById('loading').innerHTML = `
+            <div style="text-align: center;">
+              <h3>✅ Authentication Successful</h3>
+              <p>Welcome, ${user.email}!</p>
+              <p>Initializing Content Management System...</p>
+              <button onclick="initializeCMS()" style="background: #28a745; color: white; border: none; padding: 10px 20px; margin: 10px; border-radius: 4px; cursor: pointer;">
+                Initialize CMS
+              </button>
+              <br>
+              <small style="color: #666;">URL: ${window.location.href}</small>
+            </div>
+          `;
+        } else {
+          console.log('❌ No user authenticated');
+          document.getElementById('loading').innerHTML = `
+            <div style="text-align: center;">
+              <h3>🔐 Admin Panel Access</h3>
+              <p>Please authenticate to access the content management system.</p>
+              <button onclick="window.netlifyIdentity.open('login')" style="background: #007cba; color: white; border: none; padding: 10px 20px; margin: 10px; border-radius: 4px; cursor: pointer;">
+                Login
+              </button>
+              <br>
+              <small style="color: #666;">URL: ${window.location.href}</small>
+            </div>
+          `;
+        }
+      });
+      
+      // Login handler - ABSOLUTELY NO REDIRECTS
+      window.netlifyIdentity.on("login", user => {
+        console.log('🎉 Login successful:', user.email);
+        console.log('Current URL after login:', window.location.href);
+        
+        // Clean URL hash without any redirects
+        if (window.location.hash) {
+          window.history.replaceState({}, document.title, window.location.pathname);
+        }
+        
+        // Update the display
+        document.getElementById('loading').innerHTML = `
+          <div style="text-align: center;">
+            <h3>✅ Login Successful!</h3>
+            <p>Welcome, ${user.email}</p>
+            <p>Ready to initialize CMS</p>
+            <button onclick="initializeCMS()" style="background: #28a745; color: white; border: none; padding: 10px 20px; margin: 10px; border-radius: 4px; cursor: pointer;">
+              Start CMS
+            </button>
+            <br>
+            <small style="color: #666;">URL: ${window.location.href}</small>
+          </div>
+        `;
+      });
+      
+      // Logout handler - NO redirects
+      window.netlifyIdentity.on("logout", () => {
+        console.log('👋 User logged out');
+        document.body.innerHTML = `
+          <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif; text-align: center;">
+            <div>
+              <h2>👋 Logged Out</h2>
+              <p>You have been logged out successfully.</p>
+              <button onclick="window.location.href='/'" style="background: #007cba; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">
+                Return to Website
+              </button>
+            </div>
+          </div>
+        `;
+      });
+    }
+    
+    // Manual CMS initialization function
+    function initializeCMS() {
+      console.log('🚀 Manually initializing CMS...');
+      if (window.CMS) {
+        document.getElementById('loading').style.display = 'none';
+        window.CMS.init();
+        console.log('✅ CMS initialized successfully');
+      } else {
+        console.error('❌ CMS not available');
+        alert('Error: CMS failed to load. Please refresh the page.');
+      }
+    }
+    
+    // Make function globally available
+    window.initializeCMS = initializeCMS;
+  </script>
+</body>
+</html>

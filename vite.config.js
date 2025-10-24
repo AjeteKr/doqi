@@ -4,6 +4,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // Ensure admin files are available in the build
+  publicDir: 'public',
   plugins: [
     react(),
     VitePWA({

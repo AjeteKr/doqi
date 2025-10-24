@@ -1,87 +1,89 @@
-[
-  {
-    "id": 1,
-    "title": "Compact HPL Panel - Premium",
-    "description": "High-pressure laminate panel with superior durability and aesthetic appeal. Perfect for modern interior design projects.",
-    "image": "/images/products/compact-hpl-premium.jpg",
-    "price": "45€/m²",
-    "category": "compactHPL",
-    "subCategory": "",
-    "inStock": true,
-    "featured": true,
-    "specifications": {
-      "thickness": "12mm",
-      "size": "2440x1220mm",
-      "finish": "Matte",
-      "certification": "CE marked"
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Compact HPL Panel - Premium",
+      "description": "High-pressure laminate panel with superior durability and aesthetic appeal. Perfect for modern interior design projects.",
+      "image": "/images/products/compact-hpl-premium.jpg",
+      "price": "45€/m²",
+      "category": "compactHPL",
+      "subCategory": "",
+      "inStock": true,
+      "featured": true,
+      "specifications": {
+        "thickness": "12mm",
+        "size": "2440x1220mm",
+        "finish": "Matte",
+        "certification": "CE marked"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Eco Flex Mattress - King Size",
+      "description": "Premium eco-friendly mattress with superior comfort and support. Made with sustainable materials.",
+      "image": "/images/products/eco-flex-mattress.jpg",
+      "price": "380€",
+      "category": "mattress",
+      "subCategory": "ecoFlex",
+      "inStock": true,
+      "featured": true,
+      "specifications": {
+        "size": "200x160cm",
+        "height": "25cm",
+        "firmness": "Medium-Firm",
+        "warranty": "10 years"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Modern 3-Seat Sofa",
+      "description": "Contemporary design sofa with premium fabric upholstery and solid wood frame. Perfect for modern living spaces.",
+      "image": "/images/products/modern-sofa-3seat.jpg",
+      "price": "890€",
+      "category": "sofaChair",
+      "subCategory": "sofa",
+      "inStock": true,
+      "featured": false,
+      "specifications": {
+        "dimensions": "220x90x80cm",
+        "material": "Premium fabric + Solid wood",
+        "color": "Charcoal Gray",
+        "warranty": "2 years"
+      }
+    },
+    {
+      "id": 4,
+      "title": "CNC Cutting Service",
+      "description": "Precision CNC cutting and machining services for various materials including wood, MDF, and composite panels.",
+      "image": "/images/products/cnc-cutting-service.jpg",
+      "price": "15€/hour",
+      "category": "customerService",
+      "subCategory": "cnc",
+      "inStock": true,
+      "featured": false,
+      "specifications": {
+        "accuracy": "±0.1mm",
+        "maxSize": "2500x1300mm",
+        "materials": "Wood, MDF, HPL, Aluminum",
+        "turnaround": "24-48 hours"
+      }
+    },
+    {
+      "id": 5,
+      "title": "MDF Board - Standard Grade",
+      "description": "High-quality Medium Density Fiberboard suitable for furniture manufacturing and construction applications.",
+      "image": "/images/products/mdf-standard-board.jpg",
+      "price": "18€/m²",
+      "category": "mdfChipBoard",
+      "subCategory": "",
+      "inStock": true,
+      "featured": false,
+      "specifications": {
+        "thickness": "18mm",
+        "density": "720 kg/m³",
+        "size": "2440x1220mm",
+        "grade": "Standard"
+      }
     }
-  },
-  {
-    "id": 2,
-    "title": "Eco Flex Mattress - King Size",
-    "description": "Premium eco-friendly mattress with superior comfort and support. Made with sustainable materials.",
-    "image": "/images/products/eco-flex-mattress.jpg",
-    "price": "380€",
-    "category": "mattress",
-    "subCategory": "ecoFlex",
-    "inStock": true,
-    "featured": true,
-    "specifications": {
-      "size": "200x160cm",
-      "height": "25cm",
-      "firmness": "Medium-Firm",
-      "warranty": "10 years"
-    }
-  },
-  {
-    "id": 3,
-    "title": "Modern 3-Seat Sofa",
-    "description": "Contemporary design sofa with premium fabric upholstery and solid wood frame. Perfect for modern living spaces.",
-    "image": "/images/products/modern-sofa-3seat.jpg",
-    "price": "890€",
-    "category": "sofaChair",
-    "subCategory": "sofa",
-    "inStock": true,
-    "featured": false,
-    "specifications": {
-      "dimensions": "220x90x80cm",
-      "material": "Premium fabric + Solid wood",
-      "color": "Charcoal Gray",
-      "warranty": "2 years"
-    }
-  },
-  {
-    "id": 4,
-    "title": "CNC Cutting Service",
-    "description": "Precision CNC cutting and machining services for various materials including wood, MDF, and composite panels.",
-    "image": "/images/products/cnc-cutting-service.jpg",
-    "price": "15€/hour",
-    "category": "customerService",
-    "subCategory": "cnc",
-    "inStock": true,
-    "featured": false,
-    "specifications": {
-      "accuracy": "±0.1mm",
-      "maxSize": "2500x1300mm",
-      "materials": "Wood, MDF, HPL, Aluminum",
-      "turnaround": "24-48 hours"
-    }
-  },
-  {
-    "id": 5,
-    "title": "MDF Board - Standard Grade",
-    "description": "High-quality Medium Density Fiberboard suitable for furniture manufacturing and construction applications.",
-    "image": "/images/products/mdf-standard-board.jpg",
-    "price": "18€/m²",
-    "category": "mdfChipBoard",
-    "subCategory": "",
-    "inStock": true,
-    "featured": false,
-    "specifications": {
-      "thickness": "18mm",
-      "density": "720 kg/m³",
-      "size": "2440x1220mm",
-      "grade": "Standard"
-    }
-  }
-]
+  ]
+}

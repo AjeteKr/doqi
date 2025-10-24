@@ -1,3 +1,15 @@
 {
-  "products": []
+  "products": [
+    {
+      "price": "23",
+      "featured": true,
+      "inStock": true,
+      "title": "Sierra Ocean",
+      "id": 1,
+      "image": "/images/products/whatsapp-image-2025-10-22-at-16.47.10.jpeg",
+      "description": "This is a Sierra Ocean product, very good product.",
+      "category": "compactHPL",
+      "subCategory": null
+    }
+  ]
 }

@@ -35,12 +35,27 @@
   "products": {
     "title": "Naši proizvodi",
     "subtitle": "Istražite naš kompletan asortiman visokokvalitetnog namještaja i madracea",
+    "ourProducts": "Naši proizvodi",
+    "findYourPerfectPiece": "Pronađite svoj savršeni komad. Pregledajte naš raznolik asortiman proizvoda da otkrijete kvalitetu i dizajn koji govori vama.",
     "categories": {
       "all": "Sve",
-      "kitchen": "Kuhinja",
-      "bedroom": "Spavaća soba",
-      "livingRoom": "Dnevni boravak",
-      "mattresses": "Madraci"
+      "customerService": "Korisnička Podrška",
+      "mattress": "Madrac",
+      "sofaChair": "Sofa i Stolica",
+      "mdfChipBoard": "MDF i Iverica",
+      "compactHPL": "Kompaktni HPL",
+      "accessories": "Pribor"
+    },
+    "subCategories": {
+      "cutting": "Rezanje",
+      "edgeBanding": "Bandažiranje Rubova",
+      "cnc": "CNC",
+      "ecoFlex": "Eco Flex",
+      "mediumFlex": "Medium Flex",
+      "starFlex": "Star Flex",
+      "hotelLineConcept": "Hotel Line Concept",
+      "sofa": "Sofa",
+      "chair": "Stolica"
     },
     "loading": "Učitavanje proizvoda...",
     "noProducts": "Trenutno nema dostupnih proizvoda.",

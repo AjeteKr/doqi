@@ -42,12 +42,23 @@
             window.netlifyIdentity.close(); // Close any open modals
             if (window.CMS) {
               window.CMS.init();
+            } else {
+              console.error('CMS not available');
+              document.getElementById('loading').innerHTML = '<p style="color: red;">Error: CMS failed to load. Please refresh the page.</p>';
             }
-          }, 1000);
+          }, 1500);
         } else {
-          // No user, redirect to login
-          console.log('No user found, opening login...');
-          window.netlifyIdentity.open();
+          // No user, show login - but DON'T automatically open it
+          console.log('No user found, login required');
+          document.getElementById('loading').innerHTML = `
+            <div style="text-align: center;">
+              <h3>Authentication Required</h3>
+              <p>Please log in to access the admin panel.</p>
+              <button onclick="window.netlifyIdentity.open()" style="background: #007cba; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">
+                Login
+              </button>
+            </div>
+          `;
         }
         
         // Check for invite token in URL
@@ -56,31 +67,42 @@
         
         if (inviteToken && !user) {
           // Handle invite acceptance
+          console.log('Invite token found, opening signup');
           window.netlifyIdentity.open('signup');
         }
       });
       
-      // Handle successful login
+      // Handle successful login - NO REDIRECTS
       window.netlifyIdentity.on("login", user => {
-        console.log('User logged in:', user);
-        // Clean URL without reload to prevent loops
+        console.log('User logged in:', user.email);
+        // Just clean the URL and initialize CMS
         if (window.location.hash) {
           window.history.replaceState({}, document.title, window.location.pathname);
         }
-        // Initialize CMS instead of reloading
+        // Initialize CMS
         setTimeout(() => {
           document.getElementById('loading').style.display = 'none';
           if (window.CMS) {
             window.CMS.init();
           }
-        }, 500);
+        }, 1000);
       });
       
-      // Handle logout - stay on same domain
+      // Handle logout - NO AUTOMATIC REDIRECTS
       window.netlifyIdentity.on("logout", () => {
         console.log('User logged out');
-        // Use relative path to avoid domain switching
-        window.location.href = "../";
+        // Just show a message instead of redirecting
+        document.body.innerHTML = `
+          <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif; text-align: center;">
+            <div>
+              <h2>Logged Out Successfully</h2>
+              <p>You have been logged out of the admin panel.</p>
+              <button onclick="window.location.href='/'" style="background: #007cba; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">
+                Return to Home
+              </button>
+            </div>
+          </div>
+        `;
       });
     } else {
       console.error('Netlify Identity not loaded');

@@ -10,6 +10,16 @@
       "description": "This is a Sierra Ocean product, very good product.",
       "category": "compactHPL",
       "subCategory": null
+    },
+    {
+      "inStock": true,
+      "featured": false,
+      "id": 2,
+      "title": "Royce",
+      "description": "this is a Royce product.",
+      "image": "/images/products/whatsapp-image-2025-10-22-at-16.46.48.jpeg",
+      "price": "3",
+      "category": "compactHPL"
     }
   ]
 }

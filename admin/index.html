@@ -63,15 +63,24 @@
       // Handle successful login
       window.netlifyIdentity.on("login", user => {
         console.log('User logged in:', user);
-        // Clean URL and reload
-        window.location.hash = '';
-        window.location.reload();
+        // Clean URL without reload to prevent loops
+        if (window.location.hash) {
+          window.history.replaceState({}, document.title, window.location.pathname);
+        }
+        // Initialize CMS instead of reloading
+        setTimeout(() => {
+          document.getElementById('loading').style.display = 'none';
+          if (window.CMS) {
+            window.CMS.init();
+          }
+        }, 500);
       });
       
-      // Handle logout
+      // Handle logout - stay on same domain
       window.netlifyIdentity.on("logout", () => {
         console.log('User logged out');
-        document.location.href = "/";
+        // Use relative path to avoid domain switching
+        window.location.href = "../";
       });
     } else {
       console.error('Netlify Identity not loaded');

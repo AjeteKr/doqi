@@ -16,7 +16,7 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
           throw new Error('Failed to fetch products')
         }
         const data = await response.json()
-        setProducts(data || [])
+        setProducts(data.products || [])
       } catch (err) {
         setError(err.message)
         console.error('Error fetching products:', err)

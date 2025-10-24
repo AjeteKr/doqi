@@ -46,6 +46,17 @@
       "compactHPL": "Kompakt HPL",
       "accessories": "Zubehör"
     },
+    "subCategories": {
+      "cutting": "Schneiden",
+      "edgeBanding": "Kantenbeschichtung",
+      "cnc": "CNC",
+      "ecoFlex": "Eco Flex",
+      "mediumFlex": "Medium Flex",
+      "starFlex": "Star Flex",
+      "hotelLineConcept": "Hotel Line Concept",
+      "sofa": "Sofa",
+      "chair": "Stuhl"
+    },
     "loading": "Produkte werden geladen...",
     "noProducts": "Derzeit sind keine Produkte verfügbar.",
     "inStock": "Auf Lager",

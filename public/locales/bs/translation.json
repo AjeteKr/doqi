@@ -46,6 +46,17 @@
       "compactHPL": "Kompaktni HPL",
       "accessories": "Pribor"
     },
+    "subCategories": {
+      "cutting": "Rezanje",
+      "edgeBanding": "Bandaža Rubova",
+      "cnc": "CNC",
+      "ecoFlex": "Eco Flex",
+      "mediumFlex": "Medium Flex",
+      "starFlex": "Star Flex",
+      "hotelLineConcept": "Hotel Line Concept",
+      "sofa": "Sofa",
+      "chair": "Stolica"
+    },
     "loading": "Učitavanje proizvoda...",
     "noProducts": "Trenutno nema dostupnih proizvoda.",
     "inStock": "Na skladištu",

@@ -10,20 +10,60 @@ import cuttingIcon from '../assets/icons/cutting.png'
 const ProductCategories = ({ onCategoryChange }) => {
   const { t } = useTranslation()
   const [activeCategory, setActiveCategory] = useState(null)
+  const [activeSubCategory, setActiveSubCategory] = useState(null)
+  const [showSubCategories, setShowSubCategories] = useState(false)
 
   const categories = [
-    { id: 'customerService', icon: cuttingIcon },
-    { id: 'mattress', icon: mattressIcon },
-    { id: 'sofaChair', icon: sofaChairIcon },
-    { id: 'mdfChipBoard', icon: mdfChipBoardIcon },
-    { id: 'compactHPL', icon: compactHPLIcon },
-    { id: 'accessories', icon: accessoriesIcon }
+    { 
+      id: 'customerService', 
+      icon: cuttingIcon,
+      hasSubCategories: true,
+      subCategories: ['cutting', 'edgeBanding', 'cnc']
+    },
+    { 
+      id: 'mattress', 
+      icon: mattressIcon,
+      hasSubCategories: true,
+      subCategories: ['ecoFlex', 'mediumFlex', 'starFlex', 'hotelLineConcept']
+    },
+    { 
+      id: 'sofaChair', 
+      icon: sofaChairIcon,
+      hasSubCategories: true,
+      subCategories: ['sofa', 'chair']
+    },
+    { id: 'mdfChipBoard', icon: mdfChipBoardIcon, hasSubCategories: false },
+    { id: 'compactHPL', icon: compactHPLIcon, hasSubCategories: false },
+    { id: 'accessories', icon: accessoriesIcon, hasSubCategories: false }
   ]
 
   const handleCategoryClick = (categoryId) => {
-    setActiveCategory(categoryId)
+    const category = categories.find(cat => cat.id === categoryId)
+    
+    if (category && category.hasSubCategories) {
+      if (activeCategory === categoryId && showSubCategories) {
+        setShowSubCategories(false)
+        setActiveCategory(null)
+        setActiveSubCategory(null)
+      } else {
+        setActiveCategory(categoryId)
+        setShowSubCategories(true)
+        setActiveSubCategory(null)
+      }
+    } else {
+      setActiveCategory(categoryId)
+      setShowSubCategories(false)
+      setActiveSubCategory(null)
+      if (onCategoryChange) {
+        onCategoryChange(categoryId)
+      }
+    }
+  }
+
+  const handleSubCategoryClick = (subCategoryId) => {
+    setActiveSubCategory(subCategoryId)
     if (onCategoryChange) {
-      onCategoryChange(categoryId)
+      onCategoryChange(`${activeCategory}.${subCategoryId}`)
     }
   }
 
@@ -77,14 +117,28 @@ const ProductCategories = ({ onCategoryChange }) => {
           ))}
         </div>
 
-        {/* Active Category Indicator */}
-        {activeCategory && (
-          <div className="mt-8 text-center">
-            <span className="inline-flex items-center px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium">
-              Showing: {t(`products.categories.${activeCategory}`)}
-            </span>
+        {/* Sub-Categories */}
+        {showSubCategories && activeCategory && (
+          <div className="mt-6">
+            <div className="flex flex-wrap gap-4">
+              {categories.find(cat => cat.id === activeCategory)?.subCategories.map((subCategory) => (
+                <span
+                  key={subCategory}
+                  onClick={() => handleSubCategoryClick(subCategory)}
+                  className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                    activeSubCategory === subCategory
+                      ? 'text-red-500'
+                      : 'text-gray-600 hover:text-red-400'
+                  }`}
+                >
+                  {t(`products.subCategories.${subCategory}`)}
+                </span>
+              ))}
+            </div>
           </div>
         )}
+
+
       </div>
     </section>
   )

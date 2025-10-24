@@ -46,6 +46,17 @@
       "compactHPL": "HPL Kompakte",
       "accessories": "Aksesorë"
     },
+    "subCategories": {
+      "cutting": "Prerje",
+      "edgeBanding": "Bandazh Skajesh",
+      "cnc": "CNC",
+      "ecoFlex": "Eco Flex",
+      "mediumFlex": "Medium Flex",
+      "starFlex": "Star Flex",
+      "hotelLineConcept": "Hotel Line Concept",
+      "sofa": "Divan",
+      "chair": "Karrige"
+    },
     "loading": "Duke ngarkuar produktet...",
     "noProducts": "Nuk ka produkte të disponueshme për momentin.",
     "inStock": "Në stok",

@@ -46,6 +46,17 @@
       "compactHPL": "Компактни HPL",
       "accessories": "Прибор"
     },
+    "subCategories": {
+      "cutting": "Сечење",
+      "edgeBanding": "Бандажирање Ивица",
+      "cnc": "CNC",
+      "ecoFlex": "Eco Flex",
+      "mediumFlex": "Medium Flex",
+      "starFlex": "Star Flex",
+      "hotelLineConcept": "Hotel Line Concept",
+      "sofa": "Софа",
+      "chair": "Столица"
+    },
     "loading": "Учитавање производа...",
     "noProducts": "Тренутно нема доступних производа.",
     "inStock": "На складишту",

@@ -46,6 +46,17 @@
       "compactHPL": "HPL Compatto",
       "accessories": "Accessori"
     },
+    "subCategories": {
+      "cutting": "Taglio",
+      "edgeBanding": "Bordatura",
+      "cnc": "CNC",
+      "ecoFlex": "Eco Flex",
+      "mediumFlex": "Medium Flex",
+      "starFlex": "Star Flex",
+      "hotelLineConcept": "Hotel Line Concept",
+      "sofa": "Divano",
+      "chair": "Sedia"
+    },
     "loading": "Caricamento prodotti...",
     "noProducts": "Al momento non ci sono prodotti disponibili.",
     "inStock": "Disponibile",

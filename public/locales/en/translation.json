@@ -46,6 +46,17 @@
       "compactHPL": "Compact HPL",
       "accessories": "Accessories"
     },
+    "subCategories": {
+      "cutting": "Cutting",
+      "edgeBanding": "Edge Banding",
+      "cnc": "CNC",
+      "ecoFlex": "Eco Flex",
+      "mediumFlex": "Medium Flex",
+      "starFlex": "Star Flex",
+      "hotelLineConcept": "Hotel Line Concept",
+      "sofa": "Sofa",
+      "chair": "Chair"
+    },
     "loading": "Loading products...",
     "noProducts": "No products available at the moment.",
     "inStock": "In stock",

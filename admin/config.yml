@@ -2,9 +2,6 @@ backend:
   name: git-gateway
   branch: main
 
-# Local development
-local_backend: true
-
 # Media files
 media_folder: "public/images/products"
 public_folder: "/images/products"
@@ -16,81 +13,25 @@ display_url: https://doqi-website.netlify.app
 # Collections
 collections:
   - name: "products"
-    label: "Products"
-    label_singular: "Product" 
-    description: "Manage Doqi SHPK products"
-    folder: "content/products"
-    create: true
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - { label: "ID", name: "id", widget: "number", value_type: "int" }
-      - { label: "Product Title", name: "title", widget: "string", required: true }
-      - { label: "Description", name: "description", widget: "text", required: true }
-      - { label: "Product Image", name: "image", widget: "image", required: true }
-      - { label: "Price", name: "price", widget: "string", required: true, hint: "e.g., 45€/m² or 380€" }
-      - label: "Main Category"
-        name: "category"
-        widget: "select"
-        required: true
-        options:
-          - { label: "Customer Service", value: "customerService" }
-          - { label: "Mattress", value: "mattress" }
-          - { label: "Sofa and Chair", value: "sofaChair" }
-          - { label: "MDF and Chip Board", value: "mdfChipBoard" }
-          - { label: "Compact HPL", value: "compactHPL" }
-          - { label: "Accessories", value: "accessories" }
-      - label: "Sub Category"
-        name: "subCategory"
-        widget: "select"
-        required: false
-        options:
-          - { label: "None", value: "" }
-          - { label: "Cutting", value: "cutting" }
-          - { label: "Edge Banding", value: "edgeBanding" }
-          - { label: "CNC", value: "cnc" }
-          - { label: "Eco Flex", value: "ecoFlex" }
-          - { label: "Medium Flex", value: "mediumFlex" }
-          - { label: "Star Flex", value: "starFlex" }
-          - { label: "Hotel Line Concept", value: "hotelLineConcept" }
-          - { label: "Sofa", value: "sofa" }
-          - { label: "Chair", value: "chair" }
-      - { label: "In Stock", name: "inStock", widget: "boolean", default: true }
-      - { label: "Featured Product", name: "featured", widget: "boolean", default: false }
-      - label: "Specifications"
-        name: "specifications"
-        widget: "object"
-        required: false
-        fields:
-          - { label: "Dimensions/Size", name: "size", widget: "string", required: false }
-          - { label: "Thickness", name: "thickness", widget: "string", required: false }
-          - { label: "Material", name: "material", widget: "string", required: false }
-          - { label: "Color", name: "color", widget: "string", required: false }
-          - { label: "Finish", name: "finish", widget: "string", required: false }
-          - { label: "Warranty", name: "warranty", widget: "string", required: false }
-          - { label: "Certification", name: "certification", widget: "string", required: false }
-          - { label: "Additional Info", name: "additional", widget: "text", required: false }
-
-  - name: "settings"
-    label: "Site Settings"
+    label: "Product Management"
     files:
       - file: "products.json"
         label: "Products Database"
-        name: "products-db"
+        name: "products"
         fields:
           - label: "Products"
             name: "products"
             widget: "list"
             fields:
               - { label: "ID", name: "id", widget: "number", value_type: "int" }
-              - { label: "Product Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
-              - { label: "Product Image", name: "image", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Product Title", name: "title", widget: "string", required: true }
+              - { label: "Description", name: "description", widget: "text", required: true }
+              - { label: "Product Image", name: "image", widget: "image", required: true }
+              - { label: "Price", name: "price", widget: "string", required: true, hint: "e.g., 45€/m² or 380€" }
               - label: "Main Category"
                 name: "category"
                 widget: "select"
+                required: true
                 options:
                   - { label: "Customer Service", value: "customerService" }
                   - { label: "Mattress", value: "mattress" }
@@ -98,18 +39,33 @@ collections:
                   - { label: "MDF and Chip Board", value: "mdfChipBoard" }
                   - { label: "Compact HPL", value: "compactHPL" }
                   - { label: "Accessories", value: "accessories" }
-              - { label: "Sub Category", name: "subCategory", widget: "string", required: false }
+              - label: "Sub Category"
+                name: "subCategory"
+                widget: "select"
+                required: false
+                options:
+                  - { label: "None", value: "" }
+                  - { label: "Cutting", value: "cutting" }
+                  - { label: "Edge Banding", value: "edgeBanding" }
+                  - { label: "CNC", value: "cnc" }
+                  - { label: "Eco Flex", value: "ecoFlex" }
+                  - { label: "Medium Flex", value: "mediumFlex" }
+                  - { label: "Star Flex", value: "starFlex" }
+                  - { label: "Hotel Line Concept", value: "hotelLineConcept" }
+                  - { label: "Sofa", value: "sofa" }
+                  - { label: "Chair", value: "chair" }
               - { label: "In Stock", name: "inStock", widget: "boolean", default: true }
-              - { label: "Featured", name: "featured", widget: "boolean", default: false }
+              - { label: "Featured Product", name: "featured", widget: "boolean", default: false }
               - label: "Specifications"
                 name: "specifications"
                 widget: "object"
                 required: false
                 fields:
-                  - { label: "Size/Dimensions", name: "size", widget: "string", required: false }
+                  - { label: "Dimensions/Size", name: "size", widget: "string", required: false }
                   - { label: "Thickness", name: "thickness", widget: "string", required: false }
                   - { label: "Material", name: "material", widget: "string", required: false }
                   - { label: "Color", name: "color", widget: "string", required: false }
                   - { label: "Finish", name: "finish", widget: "string", required: false }
                   - { label: "Warranty", name: "warranty", widget: "string", required: false }
                   - { label: "Certification", name: "certification", widget: "string", required: false }
+                  - { label: "Additional Info", name: "additional", widget: "text", required: false }

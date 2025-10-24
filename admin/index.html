@@ -7,13 +7,49 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
+  <!-- Loading indicator -->
+  <div id="loading" style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif;">
+    <div>
+      <div style="border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 2s linear infinite; margin: 0 auto;"></div>
+      <p style="margin-top: 20px; text-align: center;">Loading Admin Panel...</p>
+    </div>
+  </div>
+  
+  <style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0/dist/netlify-cms.js"></script>
   
   <script>
+    // Hide loading indicator when CMS loads
+    window.CMS_MANUAL_INIT = true;
+    
     // Initialize Netlify Identity
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
+        console.log('Identity initialized, user:', user);
+        
+        if (user) {
+          // User is logged in, initialize CMS
+          console.log('User is authenticated, initializing CMS...');
+          setTimeout(() => {
+            document.getElementById('loading').style.display = 'none';
+            window.netlifyIdentity.close(); // Close any open modals
+            if (window.CMS) {
+              window.CMS.init();
+            }
+          }, 1000);
+        } else {
+          // No user, redirect to login
+          console.log('No user found, opening login...');
+          window.netlifyIdentity.open();
+        }
+        
         // Check for invite token in URL
         const params = new URLSearchParams(window.location.hash.substring(1));
         const inviteToken = params.get('invite_token');
@@ -21,20 +57,15 @@
         if (inviteToken && !user) {
           // Handle invite acceptance
           window.netlifyIdentity.open('signup');
-        } else if (!user) {
-          // No user, show login
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
         }
       });
       
       // Handle successful login
       window.netlifyIdentity.on("login", user => {
         console.log('User logged in:', user);
-        // Redirect to clean admin URL after login
+        // Clean URL and reload
         window.location.hash = '';
-        window.location.pathname = '/admin/';
+        window.location.reload();
       });
       
       // Handle logout
@@ -42,6 +73,9 @@
         console.log('User logged out');
         document.location.href = "/";
       });
+    } else {
+      console.error('Netlify Identity not loaded');
+      document.getElementById('loading').innerHTML = '<p style="color: red;">Error: Netlify Identity not loaded. Please check your configuration.</p>';
     }
   </script>
 </body>

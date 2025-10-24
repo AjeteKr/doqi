@@ -9,14 +9,38 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0/dist/netlify-cms.js"></script>
+  
   <script>
+    // Initialize Netlify Identity
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
-        if (!user) {
+        // Check for invite token in URL
+        const params = new URLSearchParams(window.location.hash.substring(1));
+        const inviteToken = params.get('invite_token');
+        
+        if (inviteToken && !user) {
+          // Handle invite acceptance
+          window.netlifyIdentity.open('signup');
+        } else if (!user) {
+          // No user, show login
           window.netlifyIdentity.on("login", () => {
             document.location.href = "/admin/";
           });
         }
+      });
+      
+      // Handle successful login
+      window.netlifyIdentity.on("login", user => {
+        console.log('User logged in:', user);
+        // Redirect to clean admin URL after login
+        window.location.hash = '';
+        window.location.pathname = '/admin/';
+      });
+      
+      // Handle logout
+      window.netlifyIdentity.on("logout", () => {
+        console.log('User logged out');
+        document.location.href = "/";
       });
     }
   </script>

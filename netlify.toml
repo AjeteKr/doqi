@@ -31,18 +31,13 @@
   NODE_VERSION = "18"
 
 # Redirects and rewrites
-# Admin routes should be handled before the catch-all
+# Simplified admin handling to prevent path duplication
 [[redirects]]
   from = "/admin"
   to = "/admin/"
   status = 301
 
-[[redirects]]
-  from = "/admin/*"
-  to = "/admin/index.html"
-  status = 200
-
-# Catch-all for SPA routes
+# Catch-all for SPA routes (admin files will be served directly)
 [[redirects]]
   from = "/*"
   to = "/index.html"

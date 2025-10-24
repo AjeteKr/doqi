@@ -97,29 +97,9 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
   return (
     <section className="py-8 sm:py-12 lg:py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Title */}
-        {title && (
-          <div className="text-center mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              {title}
-            </h2>
-          </div>
-        )}
 
-        {/* Results Header */}
-        <div className="mb-8">
-          <p className="text-gray-600 text-sm">
-            {filteredProducts.length} {filteredProducts.length === 1 ? 'product' : 'products'} found
-            {selectedCategory && (
-              <span className="ml-2 text-red-600 font-medium">
-                in {t(`products.categories.${selectedCategory}`)}
-                {selectedSubCategory && (
-                  <span> › {t(`products.subCategories.${selectedSubCategory}`)}</span>
-                )}
-              </span>
-            )}
-          </p>
-        </div>
+
+
 
         {/* Products Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -147,60 +127,21 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
                   </div>
                 )}
                 
-                {/* Featured Badge */}
-                {product.featured && (
-                  <div className="absolute top-3 left-3 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-medium">
-                    Featured
-                  </div>
-                )}
-
-                {/* Stock Status */}
-                <div className={`absolute top-3 right-3 px-2 py-1 rounded-full text-xs font-medium ${
-                  product.inStock 
-                    ? 'bg-green-100 text-green-800' 
-                    : 'bg-red-100 text-red-800'
-                }`}>
-                  {product.inStock ? 'In Stock' : 'Out of Stock'}
-                </div>
+                {/* Heart/Favorite Icon */}
+                <button className="absolute top-3 right-3 p-2 rounded-full bg-white/80 hover:bg-white transition-colors">
+                  <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </button>
               </div>
 
               {/* Product Info */}
               <div className="p-4">
-                <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
-                  {product.title}
-                </h3>
-                
-                <p className="text-gray-600 text-sm mb-3 line-clamp-2">
-                  {product.description}
-                </p>
-
-                <div className="flex items-center justify-between">
-                  <span className="text-lg font-bold text-red-600">
-                    {formatPrice(product.price)}
-                  </span>
-                  
-                  <button className="px-4 py-2 bg-red-500 text-white rounded-lg text-sm font-medium hover:bg-red-600 transition-colors">
-                    View Details
-                  </button>
+                <h3 className="text-sm font-medium text-gray-900 mb-2">{product.title}</h3>
+                <div className="flex items-center gap-1">
+                  <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
+                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 </div>
-
-                {/* Specifications Preview */}
-                {product.specifications && (
-                  <div className="mt-3 pt-3 border-t border-gray-100">
-                    <div className="flex flex-wrap gap-2">
-                      {product.specifications.size && (
-                        <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
-                          {product.specifications.size}
-                        </span>
-                      )}
-                      {product.specifications.material && (
-                        <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
-                          {product.specifications.material}
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                )}
               </div>
             </div>
           ))}

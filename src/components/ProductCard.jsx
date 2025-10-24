@@ -4,74 +4,32 @@ import { Link } from 'react-router-dom'
 const ProductCard = ({ product }) => {
   const {
     id,
-    name,
-    category,
-    price,
-    stock,
-    colors = [],
-    image,
-    description
+    title,
+    image
   } = product
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-      <div className="aspect-w-16 aspect-h-9 bg-gray-200">
+    <div className="bg-white rounded-lg overflow-hidden hover:shadow-md transition-shadow group cursor-pointer">
+      {/* Heart/Favorite Icon */}
+      <div className="relative">
         <img 
           src={image || "/api/placeholder/400/300"} 
-          alt={name}
+          alt={title}
           className="w-full h-48 object-cover"
         />
+        <button className="absolute top-3 right-3 p-2 rounded-full bg-white/80 hover:bg-white transition-colors">
+          <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+        </button>
       </div>
       
-      <div className="p-6">
-        <div className="flex justify-between items-start mb-2">
-          <h3 className="text-lg font-semibold text-gray-900">{name}</h3>
-          <span className="text-sm text-blue-600 bg-blue-100 px-2 py-1 rounded">
-            {category}
-          </span>
+      <div className="p-4">
+        <h3 className="text-sm font-medium text-gray-900 mb-1">{title}</h3>
+        <div className="flex items-center gap-1">
+          <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
+          <div className="w-3 h-3 bg-green-500 rounded-full"></div>
         </div>
-        
-        <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-          {description}
-        </p>
-        
-        <div className="flex justify-between items-center mb-4">
-          <div>
-            <span className="text-lg font-bold text-gray-900">
-              {price}
-            </span>
-          </div>
-          <span className={`text-sm px-2 py-1 rounded ${
-            stock === 'In stock' 
-              ? 'text-green-700 bg-green-100' 
-              : 'text-red-700 bg-red-100'
-          }`}>
-            {stock}
-          </span>
-        </div>
-        
-        {colors.length > 0 && (
-          <div className="mb-4">
-            <span className="text-sm text-gray-600">Available colors:</span>
-            <div className="flex space-x-2 mt-1">
-              {colors.map((color, index) => (
-                <span 
-                  key={index}
-                  className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded"
-                >
-                  {color}
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
-        
-        <Link 
-          to={`/products/${id}`}
-          className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors text-center block"
-        >
-          View Details
-        </Link>
       </div>
     </div>
   )

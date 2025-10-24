@@ -68,7 +68,11 @@ collections:
                   - { label: "Finish", name: "finish", widget: "string", required: false }
                   - { label: "Warranty", name: "warranty", widget: "string", required: false }
                   - { label: "Certification", name: "certification", widget: "string", required: false }
-                  - { label: "Color", name: "color", widget: "string", required: false }
-                  - { label: "Finish", name: "finish", widget: "string", required: false }
-                  - { label: "Warranty", name: "warranty", widget: "string", required: false }
+                  - { label: "Density", name: "density", widget: "string", required: false }
+                  - { label: "Grade/Quality", name: "grade", widget: "string", required: false }
+                  - { label: "Accuracy", name: "accuracy", widget: "string", required: false }
+                  - { label: "Turnaround Time", name: "turnaround", widget: "string", required: false }
+                  - { label: "Max Size", name: "maxSize", widget: "string", required: false }
+                  - { label: "Firmness", name: "firmness", widget: "string", required: false }
+                  - { label: "Height", name: "height", widget: "string", required: false }
                   - { label: "Additional Info", name: "additional", widget: "text", required: false }

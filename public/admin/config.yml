@@ -27,7 +27,8 @@ collections:
               - { label: "Product Title", name: "title", widget: "string", required: true }
               - { label: "Description", name: "description", widget: "text", required: true }
               - { label: "Product Image", name: "image", widget: "image", required: true }
-              - { label: "Price", name: "price", widget: "string", required: true, hint: "e.g., 45€/m² or 380€" }
+              - { label: "Origin", name: "origin", widget: "string", required: true, hint: "e.g., Italy, Germany, Turkey, etc." }
+              - { label: "Price", name: "price", widget: "string", required: false, hint: "Optional - e.g., 45€/m² or 380€" }
               - label: "Main Category"
                 name: "category"
                 widget: "select"

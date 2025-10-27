@@ -47,6 +47,7 @@
       "accessories": "Aksesorë"
     },
     "subCategories": {
+      "all": "Të gjitha",
       "cutting": "Prerje",
       "edgeBanding": "Bandazh Skajesh",
       "cnc": "CNC",

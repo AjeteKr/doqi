@@ -47,6 +47,7 @@
       "accessories": "Zubehör"
     },
     "subCategories": {
+      "all": "Alle",
       "cutting": "Schneiden",
       "edgeBanding": "Kantenbeschichtung",
       "cnc": "CNC",

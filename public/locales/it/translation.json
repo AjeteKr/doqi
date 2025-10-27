@@ -47,6 +47,7 @@
       "accessories": "Accessori"
     },
     "subCategories": {
+      "all": "Tutti",
       "cutting": "Taglio",
       "edgeBanding": "Bordatura",
       "cnc": "CNC",

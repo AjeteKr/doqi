@@ -23,7 +23,6 @@
         window.netlifyIdentity.on("init", user => {
           // Only show admin button if user is logged in, NO automatic redirects
           if (user && window.location.pathname === '/') {
-            console.log('User already logged in:', user.email);
             // Add admin button to page
             setTimeout(() => {
               const adminBtn = document.createElement('button');
@@ -37,10 +36,7 @@
             }, 1000);
           }
         });
-        
-        // NO login event handler - prevents automatic redirects
-        console.log('Netlify Identity initialized without automatic redirects');
-      }
+            }
     </script>
   </body>
 </html>

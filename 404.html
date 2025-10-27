@@ -163,14 +163,7 @@
             const elements = document.querySelectorAll('.animation');
             elements.forEach((el, index) => {
                 el.style.animationDelay = `${index * 0.1}s`;
-            });
-
-            // Log 404 for analytics (if you have analytics)
-            console.log('404 Error:', {
-                url: window.location.href,
-                referrer: document.referrer,
-                timestamp: new Date().toISOString()
-            });
+            })
 
             // Optional: Send 404 to analytics
             if (typeof gtag !== 'undefined') {

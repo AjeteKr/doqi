@@ -92,5 +92,20 @@
     "language": "Language",
     "readMore": "Read More",
     "readLess": "Read Less"
+  },
+  "notFound": {
+    "title": "Oops! Page Not Found",
+    "description": "Looks like this page has been moved to our warehouse! The furniture might be here, but this page isn't.",
+    "helpText": "Don't worry, we'll help you find your way back to quality products.",
+    "homeButton": "Back to Home",
+    "homeDescription": "Return to our homepage",
+    "productsButton": "View Products",
+    "productsDescription": "Explore our furniture range",
+    "contactButton": "Contact Us",
+    "contactDescription": "We're here to help",
+    "funFactLabel": "Did you know?",
+    "funFact": "DoqiSHPK specializes in high-quality Compact HPL products and mattresses. Explore our collection to find the perfect piece for your space!",
+    "keyboardHint": "Press",
+    "keyboardHintAction": "to go home"
   }
 }

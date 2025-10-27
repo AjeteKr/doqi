@@ -92,5 +92,19 @@
     "language": "Language",
     "readMore": "Read More",
     "readLess": "Read Less"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "clearAll": "Clear All",
+    "empty": {
+      "title": "No favorites yet",
+      "description": "Start adding products to your favorites by clicking the heart icon.",
+      "browseProducts": "Browse Products"
+    }
+  },
+  "product": {
+    "from": "From",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites"
   }
 }

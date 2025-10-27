@@ -92,5 +92,19 @@
     "language": "Langue",
     "readMore": "Lire plus",
     "readLess": "Lire moins"
+  },
+  "favorites": {
+    "title": "Mes Favoris",
+    "empty": {
+      "title": "Aucun favori",
+      "description": "Commencez à ajouter des produits à vos favoris en cliquant sur l'icône cœur.",
+      "browseProducts": "Parcourir les Produits"
+    },
+    "clearAll": "Tout effacer"
+  },
+  "product": {
+    "from": "De",
+    "addToFavorites": "Ajouter aux Favoris",
+    "removeFromFavorites": "Retirer des Favoris"
   }
 }

@@ -92,5 +92,19 @@
     "language": "Gjuha",
     "readMore": "Lexo Më Shumë",
     "readLess": "Lexo Më Pak"
+  },
+  "favorites": {
+    "title": "Të Preferuarat",
+    "clearAll": "Pastro Të Gjitha",
+    "empty": {
+      "title": "Nuk keni të preferuara ende",
+      "description": "Filloni të shtoni produkte në të preferuarat tuaja duke klikuar ikonën e zemrës.",
+      "browseProducts": "Shfletoni Produktet"
+    }
+  },
+  "product": {
+    "from": "Nga",
+    "addToFavorites": "Shto në të preferuara",
+    "removeFromFavorites": "Hiq nga të preferuarat"
   }
 }

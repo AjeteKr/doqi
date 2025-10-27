@@ -91,5 +91,19 @@
     "language": "Jezik",
     "readMore": "Pročitaj više",
     "readLess": "Pročitaj manje"
+  },
+  "favorites": {
+    "title": "Moji Favoriti",
+    "empty": {
+      "title": "Nema favorita",
+      "description": "Počnite dodavanjem proizvoda u favorite klikom na ikonu srca.",
+      "browseProducts": "Pregledaj Proizvode"
+    },
+    "clearAll": "Obriši Sve"
+  },
+  "product": {
+    "from": "Iz",
+    "addToFavorites": "Dodaj u Favorite",
+    "removeFromFavorites": "Ukloni iz Favorita"
   }
 }

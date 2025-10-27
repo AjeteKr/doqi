@@ -35,17 +35,10 @@
     
     // Simple, no-redirect version
     if (window.netlifyIdentity) {
-      console.log('=== ADMIN PANEL DEBUG ===');
-      console.log('Current URL:', window.location.href);
-      console.log('Pathname:', window.location.pathname);
-      console.log('Host:', window.location.host);
-      
       // ZERO automatic actions - everything manual
       window.netlifyIdentity.on("init", user => {
-        console.log('Identity initialized. User:', user ? user.email : 'None');
         
         if (user) {
-          console.log('✅ User authenticated, initializing CMS...');
           document.getElementById('loading').innerHTML = `
             <div style="text-align: center;">
               <h3>✅ Authentication Successful</h3>
@@ -59,7 +52,6 @@
             </div>
           `;
         } else {
-          console.log('❌ No user authenticated');
           document.getElementById('loading').innerHTML = `
             <div style="text-align: center;">
               <h3>🔐 Admin Panel Access</h3>
@@ -76,8 +68,6 @@
       
       // Login handler - ABSOLUTELY NO REDIRECTS
       window.netlifyIdentity.on("login", user => {
-        console.log('🎉 Login successful:', user.email);
-        console.log('Current URL after login:', window.location.href);
         
         // Clean URL hash without any redirects
         if (window.location.hash) {
@@ -101,7 +91,6 @@
       
       // Logout handler - NO redirects
       window.netlifyIdentity.on("logout", () => {
-        console.log('👋 User logged out');
         document.body.innerHTML = `
           <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif; text-align: center;">
             <div>
@@ -118,11 +107,9 @@
     
     // Manual CMS initialization function
     function initializeCMS() {
-      console.log('🚀 Manually initializing CMS...');
       if (window.CMS) {
         document.getElementById('loading').style.display = 'none';
         window.CMS.init();
-        console.log('✅ CMS initialized successfully');
       } else {
         console.error('❌ CMS not available');
         alert('Error: CMS failed to load. Please refresh the page.');

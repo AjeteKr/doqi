@@ -9,7 +9,8 @@
       "image": "/images/products/whatsapp-image-2025-10-22-at-16.47.10.jpeg",
       "description": "This is a Sierra Ocean product, very good product.",
       "category": "compactHPL",
-      "subCategory": null
+      "subCategory": null,
+      "origin": "Italy"
     },
     {
       "inStock": true,
@@ -19,7 +20,8 @@
       "description": "this is a Royce product.",
       "image": "/images/products/whatsapp-image-2025-10-22-at-16.46.48.jpeg",
       "price": "3",
-      "category": "compactHPL"
+      "category": "compactHPL",
+      "origin": "Italy"
     }
   ]
 }

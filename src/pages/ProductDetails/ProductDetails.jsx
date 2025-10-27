@@ -1,30 +1,53 @@
 import React, { useState, useEffect } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams, Link, useLocation, useNavigate } from 'react-router-dom'
 
 const ProductDetails = () => {
-  const { id } = useParams()
+  const { slug } = useParams()
+  const location = useLocation()
+  const navigate = useNavigate()
   const [product, setProduct] = useState(null)
   const [loading, setLoading] = useState(true)
-  const [selectedColor, setSelectedColor] = useState('')
+  const [allProducts, setAllProducts] = useState([])
 
   useEffect(() => {
-    // This will be replaced with actual API call later
     const loadProduct = async () => {
       try {
-        // Simulating API call
-        setTimeout(() => {
-          // For now, return null since we don't have products yet
-          setProduct(null)
+        setLoading(true)
+        
+        if (location.state?.product) {
+          setProduct(location.state.product)
           setLoading(false)
-        }, 1000)
+          return
+        }
+
+        const response = await fetch('/products.json')
+        if (!response.ok) {
+          throw new Error('Failed to fetch products')
+        }
+        const data = await response.json()
+        const products = data.products || []
+        setAllProducts(products)
+
+        // Find product by matching slug
+        const foundProduct = products.find(p => {
+          const productSlug = p.title
+            .toLowerCase()
+            .replace(/[^a-z0-9\s-]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .trim()
+          return productSlug === slug
+        })
+
+        setProduct(foundProduct || null)
+        setLoading(false)
       } catch (error) {
-        console.error('Error loading product:', error)
         setLoading(false)
       }
     }
 
     loadProduct()
-  }, [id])
+  }, [slug, location.state])
 
   if (loading) {
     return (
@@ -54,115 +77,214 @@ const ProductDetails = () => {
     )
   }
 
+  const getProductImagePath = (imagePath) => {
+    if (imagePath?.startsWith('http') || imagePath?.startsWith('/')) {
+      return imagePath
+    }
+    return `/images/products/${imagePath}`
+  }
+
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gray-50 pt-20 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
-        <div className="mb-8">
-          <nav className="flex" aria-label="Breadcrumb">
-            <ol className="flex items-center space-x-4">
-              <li>
-                <Link to="/" className="text-gray-500 hover:text-gray-700">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <span className="text-gray-400">/</span>
-              </li>
-              <li>
-                <Link to="/products" className="text-gray-500 hover:text-gray-700">
-                  Products
-                </Link>
-              </li>
-              <li>
-                <span className="text-gray-400">/</span>
-              </li>
-              <li>
-                <span className="text-gray-900 font-medium">
-                  {product.name}
-                </span>
-              </li>
-            </ol>
-          </nav>
-        </div>
+        <nav className="flex mb-8" aria-label="Breadcrumb">
+          <ol className="flex items-center space-x-4">
+            <li>
+              <Link to="/" className="text-gray-500 hover:text-red-600 transition-colors">
+                Home
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <svg className="w-4 h-4 text-gray-400 mx-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+              </svg>
+              <button 
+                onClick={() => navigate(-1)}
+                className="text-gray-500 hover:text-red-600 transition-colors"
+              >
+                Products
+              </button>
+            </li>
+            <li className="flex items-center">
+              <svg className="w-4 h-4 text-gray-400 mx-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+              </svg>
+              <span className="text-gray-900 font-medium">
+                {product.title}
+              </span>
+            </li>
+          </ol>
+        </nav>
 
-        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div className="md:flex">
+        {/* Product Details */}
+        <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+          <div className="lg:flex">
             {/* Product Image */}
-            <div className="md:w-1/2">
-              <img 
-                src={product.image || "/api/placeholder/600/400"} 
-                alt={product.name}
-                className="w-full h-96 md:h-full object-cover"
-              />
+            <div className="lg:w-1/2 relative">
+              <div className="aspect-w-16 aspect-h-9 lg:aspect-none lg:h-full">
+                {product.image ? (
+                  <img 
+                    src={getProductImagePath(product.image)} 
+                    alt={product.title}
+                    className="w-full h-64 sm:h-80 lg:h-full object-cover"
+                    onError={(e) => {
+                      e.target.src = '/images/placeholder-product.jpg'
+                    }}
+                  />
+                ) : (
+                  <div className="w-full h-64 sm:h-80 lg:h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+                    <svg className="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                )}
+              </div>
+
+              {/* Status Badges */}
+              <div className="absolute top-4 left-4 flex flex-col gap-2">
+                {product.inStock && (
+                  <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full font-medium">
+                    In Stock
+                  </span>
+                )}
+                {product.featured && (
+                  <span className="bg-red-500 text-white text-sm px-3 py-1 rounded-full font-medium">
+                    Featured
+                  </span>
+                )}
+              </div>
             </div>
 
             {/* Product Info */}
-            <div className="md:w-1/2 p-8">
-              <div className="mb-4">
-                <span className="text-sm text-blue-600 bg-blue-100 px-3 py-1 rounded">
-                  {product.category}
-                </span>
+            <div className="lg:w-1/2 p-6 sm:p-8 lg:p-12">
+              {/* Category and Subcategory */}
+              <div className="flex flex-wrap gap-2 mb-4">
+                {product.category && (
+                  <span className="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full font-medium">
+                    {product.category}
+                  </span>
+                )}
+                {product.subCategory && (
+                  <span className="bg-red-50 text-red-700 text-sm px-3 py-1 rounded-full font-medium">
+                    {product.subCategory}
+                  </span>
+                )}
               </div>
               
-              <h1 className="text-3xl font-bold text-gray-900 mb-4">
-                {product.name}
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                {product.title}
               </h1>
               
-              <p className="text-gray-600 text-lg mb-6">
-                {product.description}
-              </p>
+              {product.description && (
+                <p className="text-gray-600 text-lg mb-6 leading-relaxed">
+                  {product.description}
+                </p>
+              )}
 
-              <div className="mb-6">
-                <span className="text-2xl font-bold text-gray-900">
-                  {product.price}
-                </span>
-                <span className={`ml-4 px-3 py-1 rounded text-sm ${
-                  product.stock === 'In stock' 
-                    ? 'text-green-700 bg-green-100' 
-                    : 'text-red-700 bg-red-100'
-                }`}>
-                  {product.stock}
-                </span>
-              </div>
+              {/* Origin Information */}
+              {product.origin && (
+                <div className="mb-8 p-4 bg-gray-50 rounded-lg">
+                  <div className="flex items-center gap-2">
+                    <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span className="text-gray-600 font-medium">Origin:</span>
+                    <span className="text-gray-900 font-semibold">{product.origin}</span>
+                  </div>
+                </div>
+              )}
 
-              {/* Color Selection */}
-              {product.colors && product.colors.length > 0 && (
-                <div className="mb-6">
-                  <h3 className="text-lg font-semibold mb-3">Available Colors:</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {product.colors.map((color) => (
-                      <button
-                        key={color}
-                        onClick={() => setSelectedColor(color)}
-                        className={`px-4 py-2 rounded border transition-colors ${
-                          selectedColor === color
-                            ? 'bg-blue-600 text-white border-blue-600'
-                            : 'bg-white text-gray-700 border-gray-300 hover:border-gray-400'
-                        }`}
-                      >
-                        {color}
-                      </button>
-                    ))}
+              {/* Specifications */}
+              {product.specifications && Object.keys(product.specifications).length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">Specifications</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {Object.entries(product.specifications).map(([key, value]) => {
+                      if (!value) return null
+                      return (
+                        <div key={key} className="flex justify-between py-2 border-b border-gray-100">
+                          <span className="text-gray-600 capitalize">
+                            {key.replace(/([A-Z])/g, ' $1').trim()}:
+                          </span>
+                          <span className="text-gray-900 font-medium">{value}</span>
+                        </div>
+                      )
+                    })}
                   </div>
                 </div>
               )}
 
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="flex-1 bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-semibold">
-                  Contact for Quote
-                </button>
                 <Link 
                   to="/contact"
-                  className="flex-1 bg-gray-200 text-gray-800 py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors font-semibold text-center"
+                  className="flex-1 bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-red-700 transition-colors font-semibold text-center"
                 >
-                  Get More Info
+                  Request Quote
                 </Link>
+                <button 
+                  onClick={() => navigate(-1)}
+                  className="flex-1 bg-gray-200 text-gray-800 py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors font-semibold"
+                >
+                  Back to Products
+                </button>
+              </div>
+
+              {/* Contact Info */}
+              <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+                <h4 className="font-semibold text-gray-900 mb-2">Need More Information?</h4>
+                <p className="text-gray-600 text-sm">
+                  Contact our team for detailed specifications, custom sizing, or bulk pricing.
+                </p>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Related Products */}
+        {allProducts.length > 1 && (
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Other Products</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {allProducts
+                .filter(p => p.id !== product.id)
+                .slice(0, 4)
+                .map((relatedProduct) => (
+                  <div
+                    key={relatedProduct.id}
+                    onClick={() => {
+                      const newSlug = relatedProduct.title
+                        .toLowerCase()
+                        .replace(/[^a-z0-9\s-]/g, '')
+                        .replace(/\s+/g, '-')
+                        .replace(/-+/g, '-')
+                        .trim()
+                      navigate(`/product/${newSlug}`, { state: { product: relatedProduct } })
+                    }}
+                    className="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100 cursor-pointer"
+                  >
+                    <div className="aspect-w-16 aspect-h-9">
+                      <img
+                        src={getProductImagePath(relatedProduct.image)}
+                        alt={relatedProduct.title}
+                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                        onError={(e) => {
+                          e.target.src = '/images/placeholder-product.jpg'
+                        }}
+                      />
+                    </div>
+                    <div className="p-4">
+                      <h3 className="text-sm font-semibold text-gray-900 line-clamp-2">
+                        {relatedProduct.title}
+                      </h3>
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

@@ -45,10 +45,16 @@ const ProductCategories = ({ onCategoryChange }) => {
         setShowSubCategories(false)
         setActiveCategory(null)
         setActiveSubCategory(null)
+        if (onCategoryChange) {
+          onCategoryChange(null)
+        }
       } else {
         setActiveCategory(categoryId)
         setShowSubCategories(true)
         setActiveSubCategory(null)
+        if (onCategoryChange) {
+          onCategoryChange(categoryId)
+        }
       }
     } else {
       setActiveCategory(categoryId)
@@ -121,13 +127,29 @@ const ProductCategories = ({ onCategoryChange }) => {
         {showSubCategories && activeCategory && (
           <div className="mt-6">
             <div className="flex flex-wrap gap-4">
+              <span
+                onClick={() => {
+                  setActiveSubCategory(null)
+                  if (onCategoryChange) {
+                    onCategoryChange(activeCategory)
+                  }
+                }}
+                className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                  activeSubCategory === null
+                    ? 'text-red-500 font-semibold'
+                    : 'text-gray-600 hover:text-red-400'
+                }`}
+              >
+                {t('products.subCategories.all')}
+              </span>
+              
               {categories.find(cat => cat.id === activeCategory)?.subCategories.map((subCategory) => (
                 <span
                   key={subCategory}
                   onClick={() => handleSubCategoryClick(subCategory)}
                   className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
                     activeSubCategory === subCategory
-                      ? 'text-red-500'
+                      ? 'text-red-500 font-semibold'
                       : 'text-gray-600 hover:text-red-400'
                   }`}
                 >

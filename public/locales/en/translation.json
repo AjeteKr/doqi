@@ -47,6 +47,7 @@
       "accessories": "Accessories"
     },
     "subCategories": {
+      "all": "All",
       "cutting": "Cutting",
       "edgeBanding": "Edge Banding",
       "cnc": "CNC",

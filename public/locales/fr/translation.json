@@ -47,6 +47,7 @@
       "accessories": "Accessoires"
     },
     "subCategories": {
+      "all": "Tous",
       "cutting": "Découpe",
       "edgeBanding": "Chant",
       "cnc": "CNC",

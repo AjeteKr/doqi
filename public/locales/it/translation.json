@@ -92,5 +92,20 @@
     "language": "Lingua",
     "readMore": "Leggi di più",
     "readLess": "Leggi di meno"
+  },
+  "notFound": {
+    "title": "Ops! Pagina non trovata",
+    "description": "Sembra che questa pagina sia stata spostata nel nostro magazzino! I mobili potrebbero essere qui, ma questa pagina non lo è.",
+    "helpText": "Non preoccuparti, ti aiuteremo a ritrovare la strada verso prodotti di qualità.",
+    "homeButton": "Torna alla Home",
+    "homeDescription": "Ritorna alla nostra homepage",
+    "productsButton": "Vedi Prodotti",
+    "productsDescription": "Esplora la nostra gamma di mobili",
+    "contactButton": "Contattaci",
+    "contactDescription": "Siamo qui per aiutare",
+    "funFactLabel": "Lo sapevi?",
+    "funFact": "DoqiSHPK è specializzata in prodotti HPL compatti di alta qualità e materassi. Esplora la nostra collezione per trovare il pezzo perfetto per il tuo spazio!",
+    "keyboardHint": "Premi",
+    "keyboardHintAction": "per tornare alla home"
   }
 }

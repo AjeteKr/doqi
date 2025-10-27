@@ -92,5 +92,20 @@
     "language": "Sprache",
     "readMore": "Mehr lesen",
     "readLess": "Weniger lesen"
+  },
+  "notFound": {
+    "title": "Ups! Seite nicht gefunden",
+    "description": "Es sieht so aus, als wäre diese Seite in unser Lager verschoben worden! Die Möbel mögen hier sein, aber diese Seite ist es nicht.",
+    "helpText": "Keine Sorge, wir helfen Ihnen, den Weg zurück zu Qualitätsprodukten zu finden.",
+    "homeButton": "Zurück zur Startseite",
+    "homeDescription": "Zurück zu unserer Homepage",
+    "productsButton": "Produkte Anzeigen",
+    "productsDescription": "Erkunden Sie unser Möbelsortiment",
+    "contactButton": "Kontaktieren Sie Uns",
+    "contactDescription": "Wir sind hier, um zu helfen",
+    "funFactLabel": "Wussten Sie?",
+    "funFact": "DoqiSHPK ist spezialisiert auf hochwertige Kompakt-HPL-Produkte und Matratzen. Entdecken Sie unsere Kollektion, um das perfekte Stück für Ihren Raum zu finden!",
+    "keyboardHint": "Drücken Sie",
+    "keyboardHintAction": "um zur Startseite zu gelangen"
   }
 }

@@ -92,5 +92,20 @@
     "language": "Gjuha",
     "readMore": "Lexo Më Shumë",
     "readLess": "Lexo Më Pak"
+  },
+  "notFound": {
+    "title": "Ups! Faqja Nuk u Gjet",
+    "description": "Duket se kjo faqe është zhvendosur në depon tonë! Mobiljet mund të jenë këtu, por kjo faqe nuk është.",
+    "helpText": "Mos u shqetësoni, ne do t'ju ndihmojmë të gjeni rrugën tuaj prapa te produktet me cilësi.",
+    "homeButton": "Kthehu në Kryefaqe",
+    "homeDescription": "Kthehu në faqen tonë kryesore",
+    "productsButton": "Shiko Produktet",
+    "productsDescription": "Eksploro gamën tonë të mobiljeve",
+    "contactButton": "Na Kontaktoni",
+    "contactDescription": "Jemi këtu për të ndihmuar",
+    "funFactLabel": "A e dini?",
+    "funFact": "DoqiSHPK specializohet në produkte HPL Kompakte me cilësi të lartë dhe dyshekë. Eksploroni koleksionin tonë për të gjetur pjesën e përsosur për hapësirën tuaj!",
+    "keyboardHint": "Shtyp",
+    "keyboardHintAction": "për të shkuar në kryefaqe"
   }
 }

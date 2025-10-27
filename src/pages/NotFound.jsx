@@ -1,9 +1,25 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 const NotFound = () => {
   const { t } = useTranslation()
+  const navigate = useNavigate()
+
+  // Keyboard shortcut handler
+  useEffect(() => {
+    const handleKeyPress = (e) => {
+      if (e.key === 'h' || e.key === 'H') {
+        navigate('/')
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyPress)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress)
+    }
+  }, [navigate])
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center px-4 py-16 mt-16">
@@ -116,22 +132,6 @@ const NotFound = () => {
       </div>
     </div>
   )
-}
-
-// Keyboard shortcut handler
-if (typeof window !== 'undefined') {
-  window.addEventListener('keydown', (e) => {
-    if (e.key === 'h' || e.key === 'H') {
-      // Only trigger if we're on a 404 page (check if current path doesn't match any known routes)
-      const currentPath = window.location.pathname
-      const knownPaths = ['/', '/about', '/contact', '/products', '/product/']
-      const isKnownPath = knownPaths.some(path => currentPath === path || currentPath.startsWith('/product/'))
-      
-      if (!isKnownPath) {
-        window.location.href = '/'
-      }
-    }
-  })
 }
 
 export default NotFound

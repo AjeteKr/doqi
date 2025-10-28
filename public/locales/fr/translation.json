@@ -60,6 +60,7 @@
     },
     "loading": "Chargement des produits...",
     "noProducts": "Aucun produit disponible pour le moment.",
+    "seeMoreProducts": "Voir Plus de Produits",
     "inStock": "En stock",
     "outOfStock": "Rupture de stock",
     "availableColors": "Couleurs disponibles:",

@@ -51,9 +51,21 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
     return true
   })
 
-  const formatPrice = (price) => {
-    return price || 'Contact for price'
-  }
+  // Limit products based on screen size: 2 on mobile, 6 on larger screens
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 640)
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 640)
+    }
+    
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+  
+  const maxProducts = isMobile ? 2 : 6
+  const displayProducts = filteredProducts.slice(0, maxProducts)
+  const hasMoreProducts = filteredProducts.length > maxProducts
 
   const getProductImagePath = (imagePath) => {
     // Handle both relative and absolute paths
@@ -122,8 +134,8 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
 
 
         {/* Products Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
-          {filteredProducts.map((product) => (
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+          {displayProducts.map((product) => (
             <div
               key={product.id}
               onClick={() => handleProductClick(product)}
@@ -196,6 +208,21 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
             </div>
           ))}
         </div>
+
+        {/* See More Products Button */}
+        {hasMoreProducts && (
+          <div className="mt-8 text-center">
+            <button
+              onClick={() => navigate('/products')}
+              className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
+            >
+              <span>{t('products.seeMoreProducts')}</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </button>
+          </div>
+        )}
       </div>
     </section>
   )

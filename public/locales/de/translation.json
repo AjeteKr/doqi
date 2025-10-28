@@ -93,6 +93,21 @@
     "readMore": "Mehr lesen",
     "readLess": "Weniger lesen"
   },
+
+  "favorites": {
+    "title": "Meine Favoriten",
+    "empty": {
+      "title": "Keine Favoriten",
+      "description": "Beginnen Sie, Produkte zu Ihren Favoriten hinzuzufügen, indem Sie auf das Herz-Symbol klicken.",
+      "browseProducts": "Produkte durchsuchen"
+    },
+    "clearAll": "Alle löschen"
+  },
+  "product": {
+    "from": "Aus",
+    "addToFavorites": "Zu Favoriten hinzufügen",
+    "removeFromFavorites": "Aus Favoriten entfernen"
+  },
   "notFound": {
     "title": "Ups! Seite nicht gefunden",
     "description": "Es sieht so aus, als wäre diese Seite in unser Lager verschoben worden! Die Möbel mögen hier sein, aber diese Seite ist es nicht.",

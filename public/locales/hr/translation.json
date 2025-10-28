@@ -92,19 +92,37 @@
     "readMore": "Pročitaj više",
     "readLess": "Pročitaj manje"
   },
+  "favorites": {
+    "title": "Moji Favoriti",
+    "empty": {
+      "title": "Nema favorita",
+      "description": "Počnite dodavanjem proizvoda u favorite klikom na ikonu srca.",
+      "browseProducts": "Pregledaj Proizvode"
+    },
+    "clearAll": "Obriši Sve"
+  },
+  "product": {
+    "from": "Iz",
+    "addToFavorites": "Dodaj u Favorite",
+    "removeFromFavorites": "Ukloni iz Favorita"
+  },
   "notFound": {
-    "title": "Ups! Stranica nije pronađena",
-    "description": "Izgleda da je ova stranica premještena u naše skladište! Namještaj može biti ovdje, ali ova stranica nije.",
-    "helpText": "Ne brinite, pomoći ćemo vam da pronađete put natrag do kvalitetnih proizvoda.",
-    "homeButton": "Natrag na Početnu",
-    "homeDescription": "Vratite se na našu početnu stranicu",
-    "productsButton": "Pogledaj Proizvode",
-    "productsDescription": "Istražite našu ponudu namještaja",
-    "contactButton": "Kontaktirajte Nas",
-    "contactDescription": "Tu smo da pomognemo",
-    "funFactLabel": "Jeste li znali?",
-    "funFact": "DoqiSHPK specijaliziran je za visokokvalitetne Compact HPL proizvode i dušeke. Istražite našu kolekciju kako biste pronašli savršen komad za vaš prostor!",
-    "keyboardHint": "Pritisnite",
-    "keyboardHintAction": "za povratak na početnu"
+    "subtitle": "Namještaj Nije Pronađen",
+    "title": "Ups! Ova soba je prazna 🪑",
+    "message": "Čini se da ste zalutali u nenamještenu sobu. Ne brinite, imamo puno lijepog namještaja za popunjavanje bilo kojeg prostora!",
+    "goHome": "Idi u Salon",
+    "browseProducts": "Pregledaj Namještaj", 
+    "contact": "Kontaktiraj Dizajnera",
+    "goBack": "Idi Nazad",
+    "funFact": {
+      "title": "Jeste li znali?",
+      "text": "Najstariji poznati namještaj datira iz 3100-2500. pr. Kr. U DoqiSHPK kombiniramo drevno umijeće s modernim dizajnom kako bismo stvorili bezvremenski namještaj za vaš dom."
+    },
+    "help": "Izgubljeni? Pokušajte ove popularne sekcije:",
+    "footerMessage": "Izgubljeni u našem namještajnom čudu? Dopustite nam da vas odvedemo kući!",
+    "whoopsTitle": "Ups! Izgubljeni u svemiru?",
+    "pageNotFoundMessage": "Stranica koju tražite nije pronađena :(",
+    "suggestHome": "Predlažemo da se vratite na početnu",
+    "backToHome": "Nazad na Početnu"
   }
 }

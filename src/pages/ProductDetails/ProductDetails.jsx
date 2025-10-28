@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Link, useLocation, useNavigate } from 'react-router-dom'
+import { useFavorites } from '../../context/FavoritesContext'
+import { HeartIcon, ArrowLeftIcon } from '@heroicons/react/24/outline'
+import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid'
 
 const ProductDetails = () => {
   const { slug } = useParams()
   const location = useLocation()
   const navigate = useNavigate()
+  const { toggleFavorite, isFavorite } = useFavorites()
   const [product, setProduct] = useState(null)
   const [loading, setLoading] = useState(true)
   const [allProducts, setAllProducts] = useState([])
@@ -172,9 +176,21 @@ const ProductDetails = () => {
                 )}
               </div>
               
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {product.title}
-              </h1>
+              <div className="flex items-start justify-between mb-4">
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 flex-1 mr-4">
+                  {product.title}
+                </h1>
+                <button
+                  onClick={() => toggleFavorite(product)}
+                  className="flex-shrink-0 p-3 bg-gray-50 hover:bg-gray-100 rounded-full transition-colors duration-200 group"
+                >
+                  {isFavorite(product.id) ? (
+                    <HeartSolidIcon className="w-6 h-6 text-red-500" />
+                  ) : (
+                    <HeartIcon className="w-6 h-6 text-gray-600 group-hover:text-red-500 transition-colors" />
+                  )}
+                </button>
+              </div>
               
               {product.description && (
                 <p className="text-gray-600 text-lg mb-6 leading-relaxed">

@@ -92,6 +92,21 @@
     "readMore": "Pročitaj više",
     "readLess": "Pročitaj manje"
   },
+
+  "favorites": {
+    "title": "Moji Favoriti",
+    "empty": {
+      "title": "Nema favorita",
+      "description": "Počnite dodavanjem proizvoda u favorite klikom na ikonu srca.",
+      "browseProducts": "Pregledaj Proizvode"
+    },
+    "clearAll": "Obriši Sve"
+  },
+  "product": {
+    "from": "Iz",
+    "addToFavorites": "Dodaj u Favorite",
+    "removeFromFavorites": "Ukloni iz Favorita"
+  },
   "notFound": {
     "title": "Ups! Stranica nije pronađena",
     "description": "Izgleda da je ova stranica premještena u naše skladište! Namještaj može biti ovdje, ali ova stranica nije.",

@@ -93,6 +93,20 @@
     "readMore": "Read More",
     "readLess": "Read Less"
   },
+  "favorites": {
+    "title": "My Favorites",
+    "clearAll": "Clear All",
+    "empty": {
+      "title": "No favorites yet",
+      "description": "Start adding products to your favorites by clicking the heart icon.",
+      "browseProducts": "Browse Products"
+    }
+  },
+  "product": {
+    "from": "From",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites"
+  },
   "notFound": {
     "title": "Oops! Page Not Found",
     "description": "Looks like this page has been moved to our warehouse! The furniture might be here, but this page isn't.",

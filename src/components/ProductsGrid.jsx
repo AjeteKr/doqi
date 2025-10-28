@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
+import { useFavorites } from '../context/FavoritesContext'
+import { HeartIcon } from '@heroicons/react/24/outline'
+import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid'
 
 const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, title = null }) => {
   const { t } = useTranslation()
   const navigate = useNavigate()
+  const { toggleFavorite, isFavorite } = useFavorites()
   const [products, setProducts] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -128,12 +132,15 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
               <button 
                 onClick={(e) => {
                   e.stopPropagation();
+                  toggleFavorite(product);
                 }}
                 className="absolute top-4 left-4 z-10 p-2 bg-white/80 backdrop-blur-sm rounded-full hover:bg-white transition-colors duration-200"
               >
-                <svg className="w-5 h-5 text-gray-600 hover:text-red-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                </svg>
+                {isFavorite(product.id) ? (
+                  <HeartSolidIcon className="w-5 h-5 text-red-500" />
+                ) : (
+                  <HeartIcon className="w-5 h-5 text-gray-600 hover:text-red-500 transition-colors" />
+                )}
               </button>
 
               {/* Product Image */}

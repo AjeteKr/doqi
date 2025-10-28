@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { useFavorites } from '../context/FavoritesContext'
 import LanguageSwitcher from './LanguageSwitcher'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const { t } = useTranslation()
+  const { favoritesCount } = useFavorites()
 
   return (
     <nav className="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
@@ -62,12 +64,20 @@ const Navbar = () => {
             </Link>
             
             <div className="hidden lg:flex items-center space-x-5">
-              {/* Favorites/Wishlist Icon */}
-              <button className="text-gray-700 hover:text-red-600 transition-colors">
+              {/* Favorites/Wishlist Icon with Counter */}
+              <Link 
+                to="/favorites" 
+                className="relative text-gray-700 hover:text-red-600 transition-colors"
+              >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
-              </button>
+                {favoritesCount > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                    {favoritesCount}
+                  </span>
+                )}
+              </Link>
 
               {/* Search Icon */}
               <button className="text-gray-700 hover:text-red-600 transition-colors">

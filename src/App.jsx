@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Products from './pages/Products/Products'
 import ProductDetails from './pages/ProductDetails/ProductDetails'
 import Favorites from './pages/Favorites'
+import NotFound from './pages/NotFound'
 import { FavoritesProvider } from './context/FavoritesContext'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
               <Route path="/products" element={<Products />} />
               <Route path="/product/:slug" element={<ProductDetails />} />
               <Route path="/favorites" element={<Favorites />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
         </div>

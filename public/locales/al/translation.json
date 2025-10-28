@@ -109,8 +109,9 @@
   },
   "notFound": {
     "subtitle": "Mobiljet Nuk u Gjetën",
-    "title": "Ops! Kjo dhomë është bosh 🪑",
+    "title": "Ups! Faqja Nuk u Gjet",
     "message": "Duket sikur keni hyrë në një dhomë të pambushur. Mos u shqetësoni, ne kemi shumë mobilje të bukura për të mbushur çdo hapësirë!",
+    "description": "Duket se kjo faqe është zhvendosur në depon tonë! Mobiljet mund të jenë këtu, por kjo faqe nuk është.",
     "goHome": "Shko në Ekspozitë",
     "browseProducts": "Shfleto Mobiljet", 
     "contact": "Kontakto Dizajnerin",
@@ -119,15 +120,12 @@
       "text": "Mobiljet më të vjetra të njohura datojnë në 3100-2500 p.e.s. Në DoqiSHPK, ne kombinojmë zejtarinë e lashtë me dizajnin modern për të krijuar copa të përjetshme për shtëpinë tuaj."
     },
     "help": "I humbur? Provo këto seksione të njohura:",
+    "helpText": "Mos u shqetësoni, ne do t'ju ndihmojmë të gjeni rrugën tuaj prapa te produktet me cilësi.",
     "footerMessage": "I humbur në botën tonë magjike të mobiljeve? Lejona t'ju udhëheqim në shtëpi!",
     "whoopsTitle": "Ops! I humbur në hapësirë?",
     "pageNotFoundMessage": "Faqja që po kërkoni nuk u gjet :(",
     "suggestHome": "Ju sugjerojmë të ktheheni në shtëpi",
-    "backToHome": "Kthehu në Shtëpi"
-  "notFound": {
-    "title": "Ups! Faqja Nuk u Gjet",
-    "description": "Duket se kjo faqe është zhvendosur në depon tonë! Mobiljet mund të jenë këtu, por kjo faqe nuk është.",
-    "helpText": "Mos u shqetësoni, ne do t'ju ndihmojmë të gjeni rrugën tuaj prapa te produktet me cilësi.",
+    "backToHome": "Kthehu në Shtëpi",
     "homeButton": "Kthehu në Kryefaqe",
     "homeDescription": "Kthehu në faqen tonë kryesore",
     "productsButton": "Shiko Produktet",
@@ -135,7 +133,6 @@
     "contactButton": "Na Kontaktoni",
     "contactDescription": "Jemi këtu për të ndihmuar",
     "funFactLabel": "A e dini?",
-    "funFact": "DoqiSHPK specializohet në produkte HPL Kompakte me cilësi të lartë dhe dyshekë. Eksploroni koleksionin tonë për të gjetur pjesën e përsosur për hapësirën tuaj!",
     "keyboardHint": "Shtyp",
     "keyboardHintAction": "për të shkuar në kryefaqe"
   }

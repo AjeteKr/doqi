@@ -108,24 +108,6 @@
     "removeFromFavorites": "Retirer des Favoris"
   },
   "notFound": {
-    "subtitle": "Meubles Non Trouvés",
-    "title": "Oups! Cette pièce est vide 🪑",
-    "message": "On dirait que vous vous êtes égaré dans une pièce non meublée. Ne vous inquiétez pas, nous avons de beaux meubles pour remplir n'importe quel espace!",
-    "goHome": "Aller au Showroom",
-    "browseProducts": "Parcourir les Meubles", 
-    "contact": "Contacter le Designer",
-    "goBack": "Retour",
-    "funFact": {
-      "title": "Le saviez-vous?",
-      "text": "Les plus anciens meubles connus datent de 3100-2500 av. J.-C. Chez DoqiSHPK, nous combinons l'artisanat ancien avec le design moderne pour créer des pièces intemporelles pour votre maison."
-    },
-    "help": "Perdu? Essayez ces sections populaires:",
-    "footerMessage": "Perdu dans notre pays des merveilles du mobilier? Laissez-nous vous guider vers la maison!",
-    "whoopsTitle": "Oups! Perdu dans l'Espace?",
-    "pageNotFoundMessage": "La page que vous recherchez n'a pas été trouvée :(",
-    "suggestHome": "Nous vous suggérons de retourner à l'accueil",
-    "backToHome": "Retour à l'Accueil"
-  "notFound": {
     "title": "Oups! Page non trouvée",
     "description": "On dirait que cette page a été déplacée dans notre entrepôt! Les meubles sont peut-être ici, mais cette page ne l'est pas.",
     "helpText": "Ne vous inquiétez pas, nous vous aiderons à retrouver le chemin vers des produits de qualité.",

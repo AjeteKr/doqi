@@ -108,24 +108,6 @@
     "removeFromFavorites": "Rimuovi dai Preferiti"
   },
   "notFound": {
-    "subtitle": "Mobili Non Trovati",
-    "title": "Ops! Questa stanza è vuota 🪑",
-    "message": "Sembra che ti sei perso in una stanza non arredata. Non preoccuparti, abbiamo molti mobili bellissimi per riempire qualsiasi spazio!",
-    "goHome": "Vai alla Mostra",
-    "browseProducts": "Sfoglia Mobili", 
-    "contact": "Contatta Designer",
-    "goBack": "Torna Indietro",
-    "funFact": {
-      "title": "Lo sapevi?",
-      "text": "I mobili più antichi conosciuti risalgono al 3100-2500 a.C. Da DoqiSHPK, combiniamo l'artigianato antico con il design moderno per creare pezzi senza tempo per la tua casa."
-    },
-    "help": "Perso? Prova queste sezioni popolari:",
-    "footerMessage": "Perso nel nostro paese delle meraviglie dei mobili? Lascia che ti guidiamo a casa!",
-    "whoopsTitle": "Ops! Perso nello Spazio?",
-    "pageNotFoundMessage": "La pagina che stai cercando non è stata trovata :(",
-    "suggestHome": "Ti suggeriamo di tornare a casa",
-    "backToHome": "Torna a Casa"
-  "notFound": {
     "title": "Ops! Pagina non trovata",
     "description": "Sembra che questa pagina sia stata spostata nel nostro magazzino! I mobili potrebbero essere qui, ma questa pagina non lo è.",
     "helpText": "Non preoccuparti, ti aiuteremo a ritrovare la strada verso prodotti di qualità.",

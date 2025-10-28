@@ -108,23 +108,6 @@
     "removeFromFavorites": "Remove from favorites"
   },
   "notFound": {
-    "subtitle": "Furniture Not Found",
-    "title": "Oops! This room is empty 🪑",
-    "message": "Looks like you've wandered into an unfurnished room. Don't worry, we have plenty of beautiful furniture to fill any space!",
-    "goHome": "Go to Showroom",
-    "browseProducts": "Browse Furniture", 
-    "contact": "Contact Designer",
-    "funFact": {
-      "title": "Did you know?",
-      "text": "The oldest known furniture dates back to 3100-2500 BC. At DoqiSHPK, we combine ancient craftsmanship with modern design to create timeless pieces for your home."
-    },
-    "help": "Lost? Try these popular sections:",
-    "footerMessage": "Lost in our furniture wonderland? Let us guide you home!",
-    "whoopsTitle": "Whoops! Lost in Space?",
-    "pageNotFoundMessage": "The page you're looking for isn't found :(",
-    "suggestHome": "We suggest you back to home",
-    "backToHome": "Back to Home"
-  "notFound": {
     "title": "Oops! Page Not Found",
     "description": "Looks like this page has been moved to our warehouse! The furniture might be here, but this page isn't.",
     "helpText": "Don't worry, we'll help you find your way back to quality products.",

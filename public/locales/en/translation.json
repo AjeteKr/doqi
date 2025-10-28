@@ -60,6 +60,7 @@
     },
     "loading": "Loading products...",
     "noProducts": "No products available at the moment.",
+    "seeMoreProducts": "See More Products",
     "inStock": "In stock",
     "outOfStock": "Out of stock",
     "availableColors": "Available colors:",

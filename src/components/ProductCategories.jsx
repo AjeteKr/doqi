@@ -74,7 +74,7 @@ const ProductCategories = ({ onCategoryChange }) => {
   }
 
   return (
-    <section className="py-8 sm:py-12 lg:py-20 bg-gray-50">
+    <section className="sm:py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-left mb-6 sm:mb-8 lg:mb-12">

@@ -106,5 +106,23 @@
     "from": "Nga",
     "addToFavorites": "Shto në të preferuara",
     "removeFromFavorites": "Hiq nga të preferuarat"
+  },
+  "notFound": {
+    "subtitle": "Mobiljet Nuk u Gjetën",
+    "title": "Ops! Kjo dhomë është bosh 🪑",
+    "message": "Duket sikur keni hyrë në një dhomë të pambushur. Mos u shqetësoni, ne kemi shumë mobilje të bukura për të mbushur çdo hapësirë!",
+    "goHome": "Shko në Ekspozitë",
+    "browseProducts": "Shfleto Mobiljet", 
+    "contact": "Kontakto Dizajnerin",
+    "funFact": {
+      "title": "E dini që?",
+      "text": "Mobiljet më të vjetra të njohura datojnë në 3100-2500 p.e.s. Në DoqiSHPK, ne kombinojmë zejtarinë e lashtë me dizajnin modern për të krijuar copa të përjetshme për shtëpinë tuaj."
+    },
+    "help": "I humbur? Provo këto seksione të njohura:",
+    "footerMessage": "I humbur në botën tonë magjike të mobiljeve? Lejona t'ju udhëheqim në shtëpi!",
+    "whoopsTitle": "Ops! I humbur në hapësirë?",
+    "pageNotFoundMessage": "Faqja që po kërkoni nuk u gjet :(",
+    "suggestHome": "Ju sugjerojmë të ktheheni në shtëpi",
+    "backToHome": "Kthehu në Shtëpi"
   }
 }

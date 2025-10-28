@@ -106,5 +106,24 @@
     "from": "Aus",
     "addToFavorites": "Zu Favoriten hinzufügen",
     "removeFromFavorites": "Aus Favoriten entfernen"
+  },
+  "notFound": {
+    "subtitle": "Möbel Nicht Gefunden",
+    "title": "Hoppla! Dieser Raum ist leer 🪑",
+    "message": "Es scheint, als wären Sie in einen unmöblierten Raum geraten. Keine Sorge, wir haben viele schöne Möbel, um jeden Raum zu füllen!",
+    "goHome": "Zum Showroom gehen",
+    "browseProducts": "Möbel durchsuchen", 
+    "contact": "Designer kontaktieren",
+    "goBack": "Zurück",
+    "funFact": {
+      "title": "Wussten Sie das?",
+      "text": "Die ältesten bekannten Möbel stammen aus 3100-2500 v. Chr. Bei DoqiSHPK kombinieren wir antike Handwerkskunst mit modernem Design, um zeitlose Stücke für Ihr Zuhause zu schaffen."
+    },
+    "help": "Verloren? Probieren Sie diese beliebten Bereiche:",
+    "footerMessage": "Verloren in unserem Möbel-Wunderland? Lassen Sie uns Sie nach Hause führen!",
+    "whoopsTitle": "Hoppla! Im Weltraum verloren?",
+    "pageNotFoundMessage": "Die Seite, die Sie suchen, wurde nicht gefunden :(",
+    "suggestHome": "Wir schlagen vor, dass Sie zur Startseite zurückkehren",
+    "backToHome": "Zurück zur Startseite"
   }
 }

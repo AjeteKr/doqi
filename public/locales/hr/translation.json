@@ -105,5 +105,24 @@
     "from": "Iz",
     "addToFavorites": "Dodaj u Favorite",
     "removeFromFavorites": "Ukloni iz Favorita"
+  },
+  "notFound": {
+    "subtitle": "Namještaj Nije Pronađen",
+    "title": "Ups! Ova soba je prazna 🪑",
+    "message": "Čini se da ste zalutali u nenamještenu sobu. Ne brinite, imamo puno lijepog namještaja za popunjavanje bilo kojeg prostora!",
+    "goHome": "Idi u Salon",
+    "browseProducts": "Pregledaj Namještaj", 
+    "contact": "Kontaktiraj Dizajnera",
+    "goBack": "Idi Nazad",
+    "funFact": {
+      "title": "Jeste li znali?",
+      "text": "Najstariji poznati namještaj datira iz 3100-2500. pr. Kr. U DoqiSHPK kombiniramo drevno umijeće s modernim dizajnom kako bismo stvorili bezvremenski namještaj za vaš dom."
+    },
+    "help": "Izgubljeni? Pokušajte ove popularne sekcije:",
+    "footerMessage": "Izgubljeni u našem namještajnom čudu? Dopustite nam da vas odvedemo kući!",
+    "whoopsTitle": "Ups! Izgubljeni u svemiru?",
+    "pageNotFoundMessage": "Stranica koju tražite nije pronađena :(",
+    "suggestHome": "Predlažemo da se vratite na početnu",
+    "backToHome": "Nazad na Početnu"
   }
 }

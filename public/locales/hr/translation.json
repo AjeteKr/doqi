@@ -124,5 +124,19 @@
     "pageNotFoundMessage": "Stranica koju tražite nije pronađena :(",
     "suggestHome": "Predlažemo da se vratite na početnu",
     "backToHome": "Nazad na Početnu"
+  "notFound": {
+    "title": "Ups! Stranica nije pronađena",
+    "description": "Izgleda da je ova stranica premještena u naše skladište! Namještaj može biti ovdje, ali ova stranica nije.",
+    "helpText": "Ne brinite, pomoći ćemo vam da pronađete put natrag do kvalitetnih proizvoda.",
+    "homeButton": "Natrag na Početnu",
+    "homeDescription": "Vratite se na našu početnu stranicu",
+    "productsButton": "Pogledaj Proizvode",
+    "productsDescription": "Istražite našu ponudu namještaja",
+    "contactButton": "Kontaktirajte Nas",
+    "contactDescription": "Tu smo da pomognemo",
+    "funFactLabel": "Jeste li znali?",
+    "funFact": "DoqiSHPK specijaliziran je za visokokvalitetne Compact HPL proizvode i dušeke. Istražite našu kolekciju kako biste pronašli savršen komad za vaš prostor!",
+    "keyboardHint": "Pritisnite",
+    "keyboardHintAction": "za povratak na početnu"
   }
 }

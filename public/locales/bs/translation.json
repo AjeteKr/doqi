@@ -68,7 +68,58 @@
   "about": {
     "title": "O DoqiSHPK",
     "subtitle": "Saznajte više o našoj kompaniji i misiji",
-    "description": "DoqiSHPK je posvećena isporuci izuzetnih rješenja namještaja i dušeka koja poboljšavaju udobnost i stil vaših životnih prostora."
+    "description": "DoqiSHPK je posvećena isporuci izuzetnih rješenja namještaja i dušeka koja poboljšavaju udobnost i stil vaših životnih prostora",
+    "hero": {
+      "title": "O DoqiSHPK",
+      "subtitle": "Izrada Izvrsnosti u Namještaju i Dušecima Od Našeg Osnivanja"
+    },
+    "mission": {
+      "title": "Naša Misija",
+      "description": "Pružiti izuzetna rješenja namještaja i dušeka koja transformišu životne prostore u oaze udobnosti, stila i funkcionalnosti. Posvećeni smo isporuci proizvoda koji premašuju očekivanja uz održavanje najviših standarda kvaliteta i zanata."
+    },
+    "vision": {
+      "title": "Naša Vizija",
+      "description": "Biti vodeći proizvođač namještaja i dušeka u regiji, prepoznat po inovacijama, kvalitetu i zadovoljstvu kupaca. Zamišljamo budućnost u kojoj je svaki dom obogaćen našim pažljivo dizajniranim i stručno izrađenim proizvodima."
+    },
+    "story": {
+      "title": "Naša Priča",
+      "description": "DoqiSHPK je započeo sa jednostavnom vizijom: kreirati namještaj i dušeke koji kombinuju udobnost, trajnost i estetsku privlačnost. Kroz godine posvećenosti i kontinuirane inovacije, etablirali smo se kao pouzdano ime u industriji. Naše partnerstvo sa StarFlex omogućilo nam je da iskoristimo najnoviju tehnologiju i proširimo našu ponudu proizvoda kako bismo zadovoljili različite potrebe kupaca."
+    },
+    "values": {
+      "title": "Naše Vrijednosti",
+      "quality": {
+        "title": "Kvalitet na Prvom Mjestu",
+        "description": "Nikada ne pravimo kompromise po pitanju kvaliteta, koristeći samo najbolje materijale i primjenjujući rigorozne procese kontrole kvaliteta."
+      },
+      "innovation": {
+        "title": "Inovacija",
+        "description": "Kontinuirano ulažemo u nove tehnologije i dizajnerske pristupe kako bismo ostali ispred industrijskih trendova."
+      },
+      "customer": {
+        "title": "Fokus na Kupca",
+        "description": "Naši kupci su u središtu svega što radimo. Slušamo, razumijemo i isporučujemo rješenja koja premašuju očekivanja."
+      },
+      "sustainability": {
+        "title": "Održivost",
+        "description": "Posvećeni smo ekološki odgovornim praksama u našim proizvodnim procesima i nabavci materijala."
+      }
+    },
+    "factory": {
+      "title": "Moderna Proizvodnja",
+      "description": "Naš moderni proizvodni pogon opremljen je naprednim mašinama i tehnologijom, omogućavajući nam da održavamo dosljedan kvalitet dok zadovoljavamo rastuću potražnju. Kombinujemo tradicionalni zanat sa modernim proizvodnim tehnikama kako bismo kreirali proizvode koji izdržavaju probu vremena."
+    },
+    "team": {
+      "title": "Naš Stručni Tim",
+      "description": "Iza svakog DoqiSHPK proizvoda stoji tim vještih zanatlija, dizajnera i stručnjaka za kvalitet koji dijele strast prema izvrsnosti. Naši iskusni profesionalci unose decenije kombinovanog iskustva kako bi osigurali da svaki proizvod ispunjava naše stroge standarde."
+    },
+    "commitment": {
+      "title": "Naša Posvećenost Vama",
+      "description": "Posvećeni smo pružanju ne samo proizvoda, već kompletnih rješenja koja poboljšavaju vaše životno iskustvo. Od početnih dizajnerskih koncepata do finalne isporuke, osiguravamo da svaki aspekt naše usluge odražava našu posvećenost izvrsnosti i zadovoljstvu kupaca."
+    },
+    "partners": {
+      "title": "Naši Pouzdani Partneri",
+      "subtitle": "Sarađujemo sa vodećim kompanijama u industriji kako bismo pružili izuzetnu kvalitetu i inovaciju"
+    }
   },
   "contact": {
     "title": "Kontaktirajte nas",

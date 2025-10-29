@@ -159,6 +159,49 @@
     "addToFavorites": "Shto në të preferuara",
     "removeFromFavorites": "Hiq nga të preferuarat"
   },
+  "productDetails": {
+    "requestQuote": "Kërko Ofertë",
+    "backToProducts": "Kthehu",
+    "technicalSpecs": "Specifikimet Teknike",
+    "keyFeatures": "Karakteristikat Kryesore",
+    "applications": "Aplikime",
+    "features": {
+      "premiumMaterial": "Material Premium",
+      "surfaceFinish": "Përfundimi i Sipërfaqes",
+      "warranty": "Garanci",
+      "certifiedQuality": "Cilësi e Certifikuar",
+      "contactForFeatures": "Na kontaktoni për më shumë detaje rreth karakteristikave të këtij produkti"
+    },
+    "usageAreas": {
+      "compactHPL": {
+        "item1": "Banka pune dhe sipërfaqe kuzhine",
+        "item2": "Panele muri dhe ndarje",
+        "item3": "Fasada mobiljesh dhe dyer"
+      },
+      "mattress": {
+        "item1": "Dhoma gjumi rezidenciale",
+        "item2": "Dhoma hoteli dhe mikpritjeje",
+        "item3": "Konvikte dhe akomodime studentore"
+      },
+      "mdfChipBoard": {
+        "item1": "Prodhim mobiljesh të personalizuar",
+        "item2": "Dollape dhe njësi ruajtjeje",
+        "item3": "Raftet dhe ekranet e shfaqjes"
+      },
+      "sofaChair": {
+        "item1": "Dhoma ndenjeje dhe hapësira jetese",
+        "item2": "Zyra dhe hapësira pune",
+        "item3": "Hapësira mikpritjeje dhe pritjeje"
+      },
+      "default": {
+        "item1": "Projekte rezidenciale dhe komerciale",
+        "item2": "Aplikime dizajni interieri",
+        "item3": "Projekte prodhimi të personalizuar"
+      }
+    },
+    "otherProducts": "Mund të Pëlqeni Gjithashtu",
+    "origin": "Origjina"
+  },
   "notFound": {
     "subtitle": "Mobiljet Nuk u Gjetën",
     "title": "Ups! Faqja Nuk u Gjet",

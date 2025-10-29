@@ -159,6 +159,49 @@
     "addToFavorites": "Add to favorites",
     "removeFromFavorites": "Remove from favorites"
   },
+  "productDetails": {
+    "requestQuote": "Request Quote",
+    "backToProducts": "Back",
+    "technicalSpecs": "Technical Specifications",
+    "keyFeatures": "Key Features",
+    "applications": "Applications",
+    "features": {
+      "premiumMaterial": "Premium Material",
+      "surfaceFinish": "Surface Finish",
+      "warranty": "Warranty",
+      "certifiedQuality": "Certified Quality",
+      "contactForFeatures": "Contact us for detailed product features and specifications."
+    },
+    "usageAreas": {
+      "compactHPL": {
+        "item1": "Interior wall cladding and decorative panels",
+        "item2": "Furniture surfaces and countertops",
+        "item3": "Commercial and residential applications"
+      },
+      "mattress": {
+        "item1": "Residential bedrooms for optimal comfort",
+        "item2": "Hotels and hospitality projects",
+        "item3": "Guest rooms and dormitories"
+      },
+      "mdfChipBoard": {
+        "item1": "Kitchen and wardrobe manufacturing",
+        "item2": "Furniture production and carpentry",
+        "item3": "Interior design projects"
+      },
+      "sofaChair": {
+        "item1": "Living rooms and lounges",
+        "item2": "Office and commercial spaces",
+        "item3": "Hospitality and reception areas"
+      },
+      "default": {
+        "item1": "Residential and commercial projects",
+        "item2": "Interior design applications",
+        "item3": "Custom fabrication projects"
+      }
+    },
+    "otherProducts": "You May Also Like",
+    "origin": "Origin"
+  },
   "notFound": {
     "title": "Oops! Page Not Found",
     "description": "Looks like this page has been moved to our warehouse! The furniture might be here, but this page isn't.",

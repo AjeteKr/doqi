@@ -160,6 +160,49 @@
     "addToFavorites": "Zu Favoriten hinzufügen",
     "removeFromFavorites": "Aus Favoriten entfernen"
   },
+  "productDetails": {
+    "requestQuote": "Angebot Anfordern",
+    "backToProducts": "Zurück",
+    "technicalSpecs": "Technische Daten",
+    "keyFeatures": "Hauptmerkmale",
+    "applications": "Anwendungen",
+    "features": {
+      "premiumMaterial": "Premium Material",
+      "surfaceFinish": "Oberflächenveredelung",
+      "warranty": "Garantie",
+      "certifiedQuality": "Zertifizierte Qualität",
+      "contactForFeatures": "Kontaktieren Sie uns für weitere Details zu den Eigenschaften dieses Produkts"
+    },
+    "usageAreas": {
+      "compactHPL": {
+        "item1": "Küchenarbeitsplatten und -oberflächen",
+        "item2": "Wandpaneele und Trennwände",
+        "item3": "Möbelfassaden und Türen"
+      },
+      "mattress": {
+        "item1": "Wohnschlafzimmer",
+        "item2": "Hotel- und Gastgewerbezimmer",
+        "item3": "Wohnheime und Studentenunterkünfte"
+      },
+      "mdfChipBoard": {
+        "item1": "Maßgeschneiderte Möbelherstellung",
+        "item2": "Schränke und Aufbewahrungseinheiten",
+        "item3": "Regale und Displays"
+      },
+      "sofaChair": {
+        "item1": "Wohnzimmer und Wohnbereiche",
+        "item2": "Büros und Arbeitsbereiche",
+        "item3": "Empfangs- und Rezeptionsbereiche"
+      },
+      "default": {
+        "item1": "Wohn- und Gewerbeprojekte",
+        "item2": "Innenarchitektur-Anwendungen",
+        "item3": "Maßgeschneiderte Fertigungsprojekte"
+      }
+    },
+    "otherProducts": "Das Könnte Ihnen Auch Gefallen",
+    "origin": "Herkunft"
+  },
   "notFound": {
     "title": "Ups! Seite nicht gefunden",
     "description": "Es sieht so aus, als wäre diese Seite in unser Lager verschoben worden! Die Möbel mögen hier sein, aber diese Seite ist es nicht.",

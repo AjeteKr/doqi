@@ -159,6 +159,49 @@
     "addToFavorites": "Ajouter aux Favoris",
     "removeFromFavorites": "Retirer des Favoris"
   },
+  "productDetails": {
+    "requestQuote": "Demander un Devis",
+    "backToProducts": "Retour",
+    "technicalSpecs": "Spécifications Techniques",
+    "keyFeatures": "Caractéristiques Principales",
+    "applications": "Applications",
+    "features": {
+      "premiumMaterial": "Matériau Premium",
+      "surfaceFinish": "Finition de Surface",
+      "warranty": "Garantie",
+      "certifiedQuality": "Qualité Certifiée",
+      "contactForFeatures": "Contactez-nous pour plus de détails sur les caractéristiques de ce produit"
+    },
+    "usageAreas": {
+      "compactHPL": {
+        "item1": "Comptoirs et surfaces de cuisine",
+        "item2": "Panneaux muraux et cloisons",
+        "item3": "Façades de meubles et portes"
+      },
+      "mattress": {
+        "item1": "Chambres à coucher résidentielles",
+        "item2": "Chambres d'hôtel et d'hospitalité",
+        "item3": "Dortoirs et logements étudiants"
+      },
+      "mdfChipBoard": {
+        "item1": "Fabrication de meubles personnalisés",
+        "item2": "Armoires et unités de rangement",
+        "item3": "Étagères et présentoirs"
+      },
+      "sofaChair": {
+        "item1": "Salons et espaces de vie",
+        "item2": "Bureaux et espaces de travail",
+        "item3": "Espaces d'accueil et de réception"
+      },
+      "default": {
+        "item1": "Projets résidentiels et commerciaux",
+        "item2": "Applications de design d'intérieur",
+        "item3": "Projets de fabrication sur mesure"
+      }
+    },
+    "otherProducts": "Vous Aimerez Aussi",
+    "origin": "Origine"
+  },
   "notFound": {
     "title": "Oups! Page non trouvée",
     "description": "On dirait que cette page a été déplacée dans notre entrepôt! Les meubles sont peut-être ici, mais cette page ne l'est pas.",

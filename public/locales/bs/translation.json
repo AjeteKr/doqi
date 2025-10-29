@@ -159,6 +159,49 @@
     "addToFavorites": "Dodaj u Favorite",
     "removeFromFavorites": "Ukloni iz Favorita"
   },
+  "productDetails": {
+    "requestQuote": "Zatraži Ponudu",
+    "backToProducts": "Nazad",
+    "technicalSpecs": "Tehničke Specifikacije",
+    "keyFeatures": "Ključne Karakteristike",
+    "applications": "Primjene",
+    "features": {
+      "premiumMaterial": "Premium Materijal",
+      "surfaceFinish": "Površinska Obrada",
+      "warranty": "Garancija",
+      "certifiedQuality": "Certificirana Kvaliteta",
+      "contactForFeatures": "Kontaktirajte nas za više detalja o karakteristikama ovog proizvoda"
+    },
+    "usageAreas": {
+      "compactHPL": {
+        "item1": "Kuhinjske radne površine i stolovi",
+        "item2": "Zidni paneli i pregrade",
+        "item3": "Fasade namještaja i vrata"
+      },
+      "mattress": {
+        "item1": "Stambene spavaće sobe",
+        "item2": "Hotelske i ugostiteljske sobe",
+        "item3": "Domovi i studentski smještaji"
+      },
+      "mdfChipBoard": {
+        "item1": "Proizvodnja namještaja po mjeri",
+        "item2": "Ormarići i jedinice za skladištenje",
+        "item3": "Police i izlozi"
+      },
+      "sofaChair": {
+        "item1": "Dnevne sobe i prostori za život",
+        "item2": "Kancelarije i radni prostori",
+        "item3": "Prostori za ugošćavanje i recepciju"
+      },
+      "default": {
+        "item1": "Stambeni i komercijalni projekti",
+        "item2": "Primjene unutarnjeg dizajna",
+        "item3": "Projekti izrade po mjeri"
+      }
+    },
+    "otherProducts": "Možda Vam se Također Sviđa",
+    "origin": "Porijeklo"
+  },
   "notFound": {
     "title": "Ups! Stranica nije pronađena",
     "description": "Izgleda da je ova stranica premještena u naše skladište! Namještaj može biti ovdje, ali ova stranica nije.",

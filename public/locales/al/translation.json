@@ -69,7 +69,58 @@
   "about": {
     "title": "Rreth DoqiSHPK",
     "subtitle": "Mësoni më shumë për kompaninë dhe misionin tonë",
-    "description": "DoqiSHPK është e përkushtuar për të ofruar zgjidhje të jashtëzakonshme mobiljesh dhe dyshekësh që përmirësojnë rehatinë dhe stilin e hapësirave tuaja të jetesës."
+    "description": "DoqiSHPK është e përkushtuar për të ofruar zgjidhje të jashtëzakonshme mobiljesh dhe dyshekësh që përmirësojnë rehatinë dhe stilin e hapësirave tuaja të jetesës",
+    "hero": {
+      "title": "Rreth DoqiSHPK",
+      "subtitle": "Krijimi i Përsosmërisë në Mobilje & Dyshekë Që nga Themelimi Ynë"
+    },
+    "mission": {
+      "title": "Misioni Ynë",
+      "description": "Të ofrojmë zgjidhje të jashtëzakonshme mobiljesh dhe dyshekësh që transformojnë hapësirat e jetesës në vende rehatije, stili dhe funksionaliteti. Ne jemi të përkushtuar për të ofruar produkte që tejkalojnë pritshmëritë duke mbajtur standardet më të larta të cilësisë dhe artizanatit."
+    },
+    "vision": {
+      "title": "Vizioni Ynë",
+      "description": "Të jemi prodhuesi kryesor i mobiljeve dhe dyshekëve në rajon, të njohur për inovacionin, cilësinë dhe kënaqësinë e klientit. Ne parashikojmë një të ardhme ku çdo shtëpi përmirësohet nga produktet tona të dizajnuara me kujdes dhe të punuara nga ekspertë."
+    },
+    "story": {
+      "title": "Historia Jonë",
+      "description": "DoqiSHPK filloi me një vizion të thjeshtë: të krijojë mobilje dhe dyshekë që kombinojnë rehatinë, qëndrueshmërinë dhe tërheqjen estetike. Përmes viteve të përkushtimit dhe inovacionit të vazhdueshëm, ne jemi vendosur si një emër i besueshëm në industri. Partneriteti ynë me StarFlex na ka mundësuar të shfrytëzojmë teknologjinë më të avancuar dhe të zgjerojmë gamën tonë të produkteve për të plotësuar nevojat e ndryshme të klientëve."
+    },
+    "values": {
+      "title": "Vlerat Tona",
+      "quality": {
+        "title": "Cilësia Së Pari",
+        "description": "Ne kurrë nuk bëjmë kompromis mbi cilësinë, duke përdorur vetëm materialet më të mira dhe duke zbatuar procese rigoroze të kontrollit të cilësisë."
+      },
+      "innovation": {
+        "title": "Inovacioni",
+        "description": "Ne investojmë vazhdimisht në teknologji të reja dhe qasje të dizajnit për të qëndruar përpara tendencave të industrisë."
+      },
+      "customer": {
+        "title": "Fokusi te Klienti",
+        "description": "Klientët tanë janë në zemër të gjithçkaje që bëjmë. Ne dëgjojmë, kuptojmë dhe ofrojmë zgjidhje që tejkalojnë pritshmëritë."
+      },
+      "sustainability": {
+        "title": "Qëndrueshmëria",
+        "description": "Ne jemi të përkushtuar ndaj praktikave përgjegjëse mjedisore në proceset tona të prodhimit dhe furnizimit me materiale."
+      }
+    },
+    "factory": {
+      "title": "Prodhim Modern",
+      "description": "Objekti ynë modern i prodhimit është i pajisur me makina dhe teknologji të avancuara, duke na mundësuar të mbajmë cilësi të qëndrueshme ndërsa përmbushim kërkesën në rritje. Ne kombinojmë artizanatin tradicional me teknikat moderne të prodhimit për të krijuar produkte që qëndrojnë në provën e kohës."
+    },
+    "team": {
+      "title": "Ekipi Ynë i Ekspertëve",
+      "description": "Pas çdo produkti DoqiSHPK është një ekip artizanësh të kualifikuar, dizajnerësh dhe specialistësh të cilësisë që ndajnë një pasion për përsosmërinë. Profesionistët tanë me përvojë sjellin dekada ekspertize të kombinuar për të siguruar që çdo produkt të plotësojë standardet tona të rrepta."
+    },
+    "commitment": {
+      "title": "Përkushtimi Ynë Ndaj Jush",
+      "description": "Ne jemi të përkushtuar për të ofruar jo vetëm produkte, por zgjidhje të plota që përmirësojnë përvojën tuaj të jetesës. Nga konceptet fillestare të dizajnit deri në dorëzimin final, ne sigurojmë që çdo aspekt i shërbimit tonë reflekton përkushtimin tonë ndaj përsosmërisë dhe kënaqësisë së klientit."
+    },
+    "partners": {
+      "title": "Partnerët Tanë të Besuar",
+      "subtitle": "Ne bashkëpunojmë me kompani lider të industrisë për të ofruar cilësi dhe inovacion të jashtëzakonshëm"
+    }
   },
   "contact": {
     "title": "Na Kontaktoni",

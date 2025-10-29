@@ -69,7 +69,58 @@
   "about": {
     "title": "Über DoqiSHPK",
     "subtitle": "Erfahren Sie mehr über unser Unternehmen und unsere Mission",
-    "description": "DoqiSHPK ist bestrebt, außergewöhnliche Möbel- und Matratzenlösungen zu liefern, die den Komfort und Stil Ihrer Wohnräume verbessern."
+    "description": "DoqiSHPK ist bestrebt, außergewöhnliche Möbel- und Matratzenlösungen zu liefern, die den Komfort und Stil Ihrer Wohnräume verbessern",
+    "hero": {
+      "title": "Über DoqiSHPK",
+      "subtitle": "Exzellenz in Möbeln & Matratzen Seit Unserer Gründung"
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Außergewöhnliche Möbel- und Matratzenlösungen bereitzustellen, die Wohnräume in Oasen von Komfort, Stil und Funktionalität verwandeln. Wir sind bestrebt, Produkte zu liefern, die Erwartungen übertreffen und dabei höchste Qualitäts- und Handwerksstandards aufrechtzuerhalten."
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "description": "Der führende Möbel- und Matratzenhersteller in der Region zu sein, anerkannt für Innovation, Qualität und Kundenzufriedenheit. Wir stellen uns eine Zukunft vor, in der jedes Zuhause durch unsere sorgfältig gestalteten und fachmännisch gefertigten Produkte bereichert wird."
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "description": "DoqiSHPK begann mit einer einfachen Vision: Möbel und Matratzen zu schaffen, die Komfort, Langlebigkeit und ästhetische Anziehungskraft vereinen. Durch Jahre der Hingabe und kontinuierlichen Innovation haben wir uns als vertrauenswürdiger Name in der Branche etabliert. Unsere Partnerschaft mit StarFlex hat es uns ermöglicht, modernste Technologie zu nutzen und unser Produktsortiment zu erweitern, um vielfältige Kundenbedürfnisse zu erfüllen."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "quality": {
+        "title": "Qualität Zuerst",
+        "description": "Wir machen niemals Kompromisse bei der Qualität und verwenden nur die besten Materialien und wenden strenge Qualitätskontrollverfahren an."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Wir investieren kontinuierlich in neue Technologien und Designansätze, um den Branchentrends voraus zu sein."
+      },
+      "customer": {
+        "title": "Kundenfokus",
+        "description": "Unsere Kunden stehen im Mittelpunkt von allem, was wir tun. Wir hören zu, verstehen und liefern Lösungen, die Erwartungen übertreffen."
+      },
+      "sustainability": {
+        "title": "Nachhaltigkeit",
+        "description": "Wir sind umweltverantwortlichen Praktiken in unseren Herstellungsprozessen und der Materialbeschaffung verpflichtet."
+      }
+    },
+    "factory": {
+      "title": "Hochmoderne Fertigung",
+      "description": "Unsere moderne Produktionsanlage ist mit fortschrittlichen Maschinen und Technologie ausgestattet, die es uns ermöglicht, konstante Qualität zu gewährleisten und gleichzeitig der wachsenden Nachfrage gerecht zu werden. Wir kombinieren traditionelles Handwerk mit modernen Fertigungstechniken, um Produkte zu schaffen, die die Zeit überdauern."
+    },
+    "team": {
+      "title": "Unser Expertenteam",
+      "description": "Hinter jedem DoqiSHPK-Produkt steht ein Team aus qualifizierten Handwerkern, Designern und Qualitätsspezialisten, die eine Leidenschaft für Exzellenz teilen. Unsere erfahrenen Fachleute bringen jahrzehntelange kombinierte Expertise ein, um sicherzustellen, dass jedes Produkt unseren anspruchsvollen Standards entspricht."
+    },
+    "commitment": {
+      "title": "Unser Engagement für Sie",
+      "description": "Wir widmen uns der Bereitstellung nicht nur von Produkten, sondern von kompletten Lösungen, die Ihre Wohnerfahrung verbessern. Von den ersten Designkonzepten bis zur endgültigen Lieferung stellen wir sicher, dass jeder Aspekt unseres Service unser Engagement für Exzellenz und Kundenzufriedenheit widerspiegelt."
+    },
+    "partners": {
+      "title": "Unsere Vertrauenswürdigen Partner",
+      "subtitle": "Wir arbeiten mit führenden Unternehmen der Branche zusammen, um außergewöhnliche Qualität und Innovation zu liefern"
+    }
   },
   "contact": {
     "title": "Kontaktieren Sie Uns",

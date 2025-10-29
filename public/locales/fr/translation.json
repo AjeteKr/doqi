@@ -69,7 +69,58 @@
   "about": {
     "title": "À Propos de DoqiSHPK",
     "subtitle": "En savoir plus sur notre entreprise et notre mission",
-    "description": "DoqiSHPK s'engage à fournir des solutions exceptionnelles de meubles et matelas qui améliorent le confort et le style de vos espaces de vie."
+    "description": "DoqiSHPK s'engage à fournir des solutions exceptionnelles de meubles et matelas qui améliorent le confort et le style de vos espaces de vie",
+    "hero": {
+      "title": "À Propos de DoqiSHPK",
+      "subtitle": "Excellence Artisanale en Mobilier & Matelas Depuis Notre Fondation"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Fournir des solutions exceptionnelles de mobilier et matelas qui transforment les espaces de vie en havres de confort, style et fonctionnalité. Nous nous engageons à livrer des produits qui dépassent les attentes tout en maintenant les plus hauts standards de qualité et d'artisanat."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Être le fabricant leader de mobilier et matelas dans la région, reconnu pour l'innovation, la qualité et la satisfaction client. Nous envisageons un avenir où chaque foyer est enrichi par nos produits conçus avec soin et fabriqués par des experts."
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "description": "DoqiSHPK a commencé avec une vision simple : créer des meubles et matelas qui combinent confort, durabilité et attrait esthétique. Grâce à des années de dévouement et d'innovation continue, nous nous sommes établis comme un nom de confiance dans l'industrie. Notre partenariat avec StarFlex nous a permis de tirer parti de technologies de pointe et d'élargir notre gamme de produits pour répondre aux besoins diversifiés des clients."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "quality": {
+        "title": "Qualité Avant Tout",
+        "description": "Nous ne faisons jamais de compromis sur la qualité, utilisant uniquement les meilleurs matériaux et employant des processus rigoureux de contrôle qualité."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous investissons continuellement dans de nouvelles technologies et approches de conception pour rester à l'avant-garde des tendances de l'industrie."
+      },
+      "customer": {
+        "title": "Focus Client",
+        "description": "Nos clients sont au cœur de tout ce que nous faisons. Nous écoutons, comprenons et livrons des solutions qui dépassent les attentes."
+      },
+      "sustainability": {
+        "title": "Durabilité",
+        "description": "Nous nous engageons à des pratiques respectueuses de l'environnement dans nos processus de fabrication et d'approvisionnement en matériaux."
+      }
+    },
+    "factory": {
+      "title": "Fabrication de Pointe",
+      "description": "Notre installation de production moderne est équipée de machines et technologies avancées, nous permettant de maintenir une qualité constante tout en répondant à la demande croissante. Nous combinons l'artisanat traditionnel avec des techniques de fabrication modernes pour créer des produits qui résistent à l'épreuve du temps."
+    },
+    "team": {
+      "title": "Notre Équipe d'Experts",
+      "description": "Derrière chaque produit DoqiSHPK se trouve une équipe d'artisans qualifiés, de designers et de spécialistes qualité qui partagent une passion pour l'excellence. Nos professionnels expérimentés apportent des décennies d'expertise combinée pour s'assurer que chaque produit répond à nos standards exigeants."
+    },
+    "commitment": {
+      "title": "Notre Engagement Envers Vous",
+      "description": "Nous nous dédions à fournir non seulement des produits, mais des solutions complètes qui améliorent votre expérience de vie. De la conception initiale à la livraison finale, nous nous assurons que chaque aspect de notre service reflète notre engagement envers l'excellence et la satisfaction client."
+    },
+    "partners": {
+      "title": "Nos Partenaires de Confiance",
+      "subtitle": "Nous collaborons avec des entreprises leaders de l'industrie pour offrir une qualité et une innovation exceptionnelles"
+    }
   },
   "contact": {
     "title": "Contactez-Nous",

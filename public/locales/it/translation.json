@@ -69,7 +69,58 @@
   "about": {
     "title": "Chi è DoqiSHPK",
     "subtitle": "Scopri di più sulla nostra azienda e missione",
-    "description": "DoqiSHPK si impegna a fornire soluzioni eccezionali di mobili e materassi che migliorano il comfort e lo stile dei vostri spazi abitativi."
+    "description": "DoqiSHPK si impegna a fornire soluzioni eccezionali di mobili e materassi che migliorano il comfort e lo stile dei vostri spazi abitativi",
+    "hero": {
+      "title": "Chi è DoqiSHPK",
+      "subtitle": "Creazione di Eccellenza in Mobili e Materassi Dalla Nostra Fondazione"
+    },
+    "mission": {
+      "title": "La Nostra Missione",
+      "description": "Fornire soluzioni eccezionali di mobili e materassi che trasformano gli spazi abitativi in rifugi di comfort, stile e funzionalità. Ci impegniamo a fornire prodotti che superano le aspettative mantenendo i più alti standard di qualità e artigianato."
+    },
+    "vision": {
+      "title": "La Nostra Visione",
+      "description": "Essere il principale produttore di mobili e materassi nella regione, riconosciuto per innovazione, qualità e soddisfazione del cliente. Immaginiamo un futuro in cui ogni casa è arricchita dai nostri prodotti progettati con cura e realizzati da esperti."
+    },
+    "story": {
+      "title": "La Nostra Storia",
+      "description": "DoqiSHPK è iniziata con una visione semplice: creare mobili e materassi che combinino comfort, durata e appeal estetico. Attraverso anni di dedizione e innovazione continua, ci siamo affermati come un nome di fiducia nel settore. La nostra partnership con StarFlex ci ha permesso di sfruttare tecnologie all'avanguardia e ampliare la nostra gamma di prodotti per soddisfare diverse esigenze dei clienti."
+    },
+    "values": {
+      "title": "I Nostri Valori",
+      "quality": {
+        "title": "Qualità Prima di Tutto",
+        "description": "Non scendiamo mai a compromessi sulla qualità, utilizzando solo i migliori materiali e impiegando rigorosi processi di controllo qualità."
+      },
+      "innovation": {
+        "title": "Innovazione",
+        "description": "Investiamo continuamente in nuove tecnologie e approcci di design per rimanere all'avanguardia delle tendenze del settore."
+      },
+      "customer": {
+        "title": "Focus sul Cliente",
+        "description": "I nostri clienti sono al centro di tutto ciò che facciamo. Ascoltiamo, comprendiamo e forniamo soluzioni che superano le aspettative."
+      },
+      "sustainability": {
+        "title": "Sostenibilità",
+        "description": "Siamo impegnati in pratiche responsabili dal punto di vista ambientale nei nostri processi di produzione e nell'approvvigionamento dei materiali."
+      }
+    },
+    "factory": {
+      "title": "Produzione All'Avanguardia",
+      "description": "Il nostro moderno impianto di produzione è dotato di macchinari e tecnologia avanzati, permettendoci di mantenere una qualità costante mentre soddisfiamo la crescente domanda. Combiniamo l'artigianato tradizionale con moderne tecniche di produzione per creare prodotti che resistono alla prova del tempo."
+    },
+    "team": {
+      "title": "Il Nostro Team di Esperti",
+      "description": "Dietro ogni prodotto DoqiSHPK c'è un team di artigiani qualificati, designer e specialisti della qualità che condividono una passione per l'eccellenza. I nostri professionisti esperti portano decenni di esperienza combinata per garantire che ogni prodotto soddisfi i nostri rigorosi standard."
+    },
+    "commitment": {
+      "title": "Il Nostro Impegno Verso di Voi",
+      "description": "Ci dedichiamo a fornire non solo prodotti, ma soluzioni complete che migliorano la vostra esperienza di vita. Dai concetti di design iniziali alla consegna finale, assicuriamo che ogni aspetto del nostro servizio rifletta il nostro impegno per l'eccellenza e la soddisfazione del cliente."
+    },
+    "partners": {
+      "title": "I Nostri Partner di Fiducia",
+      "subtitle": "Collaboriamo con aziende leader del settore per fornire qualità e innovazione eccezionali"
+    }
   },
   "contact": {
     "title": "Contattaci",

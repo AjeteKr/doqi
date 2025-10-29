@@ -69,7 +69,58 @@
   "about": {
     "title": "About DoqiSHPK",
     "subtitle": "Learn more about our company and mission",
-    "description": "DoqiSHPK is committed to delivering exceptional furniture and mattress solutions that enhance the comfort and style of your living spaces."
+    "description": "DoqiSHPK is committed to delivering exceptional furniture and mattress solutions that enhance the comfort and style of your living spaces",
+    "hero": {
+      "title": "About DoqiSHPK",
+      "subtitle": "Crafting Excellence in Furniture & Mattresses Since Our Foundation"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide exceptional furniture and mattress solutions that transform living spaces into havens of comfort, style, and functionality. We are committed to delivering products that exceed expectations while maintaining the highest standards of quality and craftsmanship."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading furniture and mattress manufacturer in the region, recognized for innovation, quality, and customer satisfaction. We envision a future where every home is enhanced by our thoughtfully designed and expertly crafted products."
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "DoqiSHPK began with a simple vision: to create furniture and mattresses that combine comfort, durability, and aesthetic appeal. Through years of dedication and continuous innovation, we have established ourselves as a trusted name in the industry. Our partnership with StarFlex has enabled us to leverage cutting-edge technology and expand our product range to meet diverse customer needs."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality First",
+        "description": "We never compromise on quality, using only the finest materials and employing rigorous quality control processes."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously invest in new technologies and design approaches to stay ahead of industry trends."
+      },
+      "customer": {
+        "title": "Customer Focus",
+        "description": "Our customers are at the heart of everything we do. We listen, understand, and deliver solutions that exceed expectations."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "We are committed to environmentally responsible practices in our manufacturing processes and material sourcing."
+      }
+    },
+    "factory": {
+      "title": "State-of-the-Art Manufacturing",
+      "description": "Our modern production facility is equipped with advanced machinery and technology, enabling us to maintain consistent quality while meeting growing demand. We combine traditional craftsmanship with modern manufacturing techniques to create products that stand the test of time."
+    },
+    "team": {
+      "title": "Our Expert Team",
+      "description": "Behind every DoqiSHPK product is a team of skilled craftsmen, designers, and quality specialists who share a passion for excellence. Our experienced professionals bring decades of combined expertise to ensure every product meets our exacting standards."
+    },
+    "commitment": {
+      "title": "Our Commitment to You",
+      "description": "We are dedicated to providing not just products, but complete solutions that enhance your living experience. From initial design concepts to final delivery, we ensure every aspect of our service reflects our commitment to excellence and customer satisfaction."
+    },
+    "partners": {
+      "title": "Our Trusted Partners",
+      "subtitle": "We collaborate with industry-leading companies to deliver exceptional quality and innovation"
+    }
   },
   "contact": {
     "title": "Contact Us",

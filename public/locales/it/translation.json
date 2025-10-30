@@ -64,7 +64,11 @@
     "inStock": "Disponibile",
     "outOfStock": "Esaurito",
     "availableColors": "Colori disponibili:",
-    "viewDetails": "Vedi Dettagli"
+    "viewDetails": "Vedi Dettagli",
+    "productFound": "prodotto trovato",
+    "productsFound": "prodotti trovati",
+    "tryAdjusting": "Prova a modificare la tua ricerca o il filtro per trovare ciò che stai cercando.",
+    "clearAllFilters": "Cancella Tutti i Filtri"
   },
   "about": {
     "title": "Chi è DoqiSHPK",
@@ -158,6 +162,49 @@
     "from": "Da",
     "addToFavorites": "Aggiungi ai Preferiti",
     "removeFromFavorites": "Rimuovi dai Preferiti"
+  },
+  "productDetails": {
+    "requestQuote": "Richiedi Preventivo",
+    "backToProducts": "Indietro",
+    "technicalSpecs": "Specifiche Tecniche",
+    "keyFeatures": "Caratteristiche Principali",
+    "applications": "Applicazioni",
+    "features": {
+      "premiumMaterial": "Materiale Premium",
+      "surfaceFinish": "Finitura Superficiale",
+      "warranty": "Garanzia",
+      "certifiedQuality": "Qualità Certificata",
+      "contactForFeatures": "Contattaci per maggiori dettagli sulle caratteristiche di questo prodotto"
+    },
+    "usageAreas": {
+      "compactHPL": {
+        "item1": "Piani di lavoro e superfici da cucina",
+        "item2": "Pannelli murali e divisori",
+        "item3": "Facciate di mobili e porte"
+      },
+      "mattress": {
+        "item1": "Camere da letto residenziali",
+        "item2": "Camere d'albergo e ospitalità",
+        "item3": "Dormitori e alloggi studenteschi"
+      },
+      "mdfChipBoard": {
+        "item1": "Produzione di mobili su misura",
+        "item2": "Armadi e unità di stoccaggio",
+        "item3": "Scaffali e espositori"
+      },
+      "sofaChair": {
+        "item1": "Soggiorni e spazi abitativi",
+        "item2": "Uffici e spazi di lavoro",
+        "item3": "Aree di ospitalità e reception"
+      },
+      "default": {
+        "item1": "Progetti residenziali e commerciali",
+        "item2": "Applicazioni di interior design",
+        "item3": "Progetti di fabbricazione personalizzata"
+      }
+    },
+    "otherProducts": "Potrebbe Piacerti Anche",
+    "origin": "Origine"
   },
   "notFound": {
     "title": "Ops! Pagina non trovata",

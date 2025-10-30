@@ -63,7 +63,11 @@
     "inStock": "Na skladištu",
     "outOfStock": "Nema na skladištu",
     "availableColors": "Dostupne boje:",
-    "viewDetails": "Pogledaj detalje"
+    "viewDetails": "Pogledaj detalje",
+    "productFound": "proizvod pronađen",
+    "productsFound": "proizvoda pronađeno",
+    "tryAdjusting": "Pokušajte prilagoditi svoju pretragu ili filter kako biste pronašli ono što tražite.",
+    "clearAllFilters": "Obriši Sve Filtere"
   },
   "about": {
     "title": "O DoqiSHPK",
@@ -157,6 +161,49 @@
     "from": "Iz",
     "addToFavorites": "Dodaj u Favorite",
     "removeFromFavorites": "Ukloni iz Favorita"
+  },
+  "productDetails": {
+    "requestQuote": "Zatraži Ponudu",
+    "backToProducts": "Natrag",
+    "technicalSpecs": "Tehničke Specifikacije",
+    "keyFeatures": "Ključne Značajke",
+    "applications": "Primjene",
+    "features": {
+      "premiumMaterial": "Premium Materijal",
+      "surfaceFinish": "Površinska Obrada",
+      "warranty": "Jamstvo",
+      "certifiedQuality": "Certificirana Kvaliteta",
+      "contactForFeatures": "Kontaktirajte nas za više detalja o značajkama ovog proizvoda"
+    },
+    "usageAreas": {
+      "compactHPL": {
+        "item1": "Kuhinjske radne površine i stolovi",
+        "item2": "Zidni paneli i pregrade",
+        "item3": "Fasade namještaja i vrata"
+      },
+      "mattress": {
+        "item1": "Stambene spavaće sobe",
+        "item2": "Hotelske i ugostiteljske sobe",
+        "item3": "Domovi i studentski smještaji"
+      },
+      "mdfChipBoard": {
+        "item1": "Proizvodnja namještaja po mjeri",
+        "item2": "Ormarići i jedinice za skladištenje",
+        "item3": "Police i izlozi"
+      },
+      "sofaChair": {
+        "item1": "Dnevne sobe i prostori za život",
+        "item2": "Uredi i radni prostori",
+        "item3": "Prostori za ugošćavanje i recepciju"
+      },
+      "default": {
+        "item1": "Stambeni i komercijalni projekti",
+        "item2": "Primjene unutarnjeg dizajna",
+        "item3": "Projekti izrade po mjeri"
+      }
+    },
+    "otherProducts": "Možda Će Vam se Također Svidjeti",
+    "origin": "Podrijetlo"
   },
   "notFound": {
     "subtitle": "Namještaj Nije Pronađen",

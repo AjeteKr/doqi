@@ -64,7 +64,11 @@
     "inStock": "In stock",
     "outOfStock": "Out of stock",
     "availableColors": "Available colors:",
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "productFound": "product found",
+    "productsFound": "products found",
+    "tryAdjusting": "Try adjusting your search or filter to find what you're looking for.",
+    "clearAllFilters": "Clear All Filters"
   },
   "about": {
     "title": "About DoqiSHPK",

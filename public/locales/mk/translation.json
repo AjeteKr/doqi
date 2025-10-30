@@ -63,7 +63,11 @@
     "inStock": "На залиха",
     "outOfStock": "Нема на залиha",
     "availableColors": "Достапни бои:",
-    "viewDetails": "Види детали"
+    "viewDetails": "Види детали",
+    "productFound": "производ пронајден",
+    "productsFound": "производи пронајдени",
+    "tryAdjusting": "Обидете се да ја прилагодите вашата пребарување или филтер за да го пронајдете она што го барате.",
+    "clearAllFilters": "Избриши Ги Сите Филтри"
   },
   "about": {
     "title": "За DoqiSHPK",

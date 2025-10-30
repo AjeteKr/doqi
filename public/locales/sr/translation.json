@@ -63,7 +63,11 @@
     "inStock": "На складишту",
     "outOfStock": "Нема на складишту",
     "availableColors": "Доступне боје:",
-    "viewDetails": "Погледај детаље"
+    "viewDetails": "Погледај детаље",
+    "productFound": "производ пронађен",
+    "productsFound": "производа пронађено",
+    "tryAdjusting": "Покушајте да прилагодите вашу претрагу или филтер да пронађете оно што тражите.",
+    "clearAllFilters": "Обриши Све Филтере"
   },
   "about": {
     "title": "О DoqiSHPK",

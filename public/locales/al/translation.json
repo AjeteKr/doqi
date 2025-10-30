@@ -59,12 +59,16 @@
       "chair": "Karrige"
     },
     "loading": "Duke ngarkuar produktet...",
-    "noProducts": "Nuk ka produkte të disponueshme për momentin.",
+    "noProducts": "Nuk ka produkte të disponueshme në këtë moment.",
     "seeMoreProducts": "Shiko Më Shumë Produkte",
-    "inStock": "Në stok",
+    "inStock": "Në gjendje",
     "outOfStock": "Jashtë stokut",
     "availableColors": "Ngjyrat e disponueshme:",
-    "viewDetails": "Shiko Detajet"
+    "viewDetails": "Shiko Detajet",
+    "productFound": "produkt u gjet",
+    "productsFound": "produkte u gjetën",
+    "tryAdjusting": "Provoni të përshtatni kërkimin ose filtrin tuaj për të gjetur atë që po kërkoni.",
+    "clearAllFilters": "Pastro Të Gjitha Filtrat"
   },
   "about": {
     "title": "Rreth DoqiSHPK",

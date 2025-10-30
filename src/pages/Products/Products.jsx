@@ -285,7 +285,7 @@ const Products = () => {
               {searchQuery ? `${t('common.search')} "${searchQuery}"` : t('products.ourProducts')}
             </h2>
             <p className="text-gray-600 mt-1">
-              {filteredProducts.length} {filteredProducts.length === 1 ? 'product' : 'products'} found
+              {filteredProducts.length} {filteredProducts.length === 1 ? t('products.productFound') : t('products.productsFound')}
             </p>
           </div>
         </div>
@@ -324,7 +324,7 @@ const Products = () => {
               {t('products.noProducts')}
             </h3>
             <p className="text-gray-600 mb-6">
-              Try adjusting your search or filter to find what you're looking for.
+              {t('products.tryAdjusting')}
             </p>
             <button
               onClick={() => {
@@ -334,7 +334,7 @@ const Products = () => {
               }}
               className="bg-red-600 text-white px-6 py-3 rounded-full hover:bg-red-700 transition-colors font-semibold"
             >
-              Clear All Filters
+              {t('products.clearAllFilters')}
             </button>
           </div>
         )}

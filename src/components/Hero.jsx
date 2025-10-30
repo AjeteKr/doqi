@@ -8,9 +8,9 @@ const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
   
   const images = [
-    '/images/hero-bg-1.jpg',
-    '/images/hero-bg-2.jpg',
-    '/images/hero-bg-3.jpg'
+    '/images/hero-bg-1.png',
+    '/images/hero-bg-2.png',
+    '/images/hero-bg-3.png'
   ]
 
   const nextSlide = () => {

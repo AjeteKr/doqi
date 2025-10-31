@@ -221,5 +221,24 @@
     "funFact": "DoqiSHPK ist spezialisiert auf hochwertige Kompakt-HPL-Produkte und Matratzen. Entdecken Sie unsere Kollektion, um das perfekte Stück für Ihren Raum zu finden!",
     "keyboardHint": "Drücken Sie",
     "keyboardHintAction": "um zur Startseite zu gelangen"
+  },
+  "reviews": {
+    "title": "Vertraut von Tausenden Zufriedener Kunden",
+    "subtitle": "Kundenzufriedenheit",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Restaurantbesitzerin",
+      "comment": "Als Restaurantbesitzerin sind Haltbarkeit und Design gleichermaßen wichtig. Die HPL-Kompaktplatten, die wir von Doqi Shpk gekauft haben, verliehen unserem Raum ein modernes Aussehen und können den täglichen Verschleiß problemlos bewältigen. Kunden loben oft das Design — es war die richtige Investition für unser Geschäft."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Innenarchitekt",
+      "comment": "Die Zusammenarbeit mit Doqi hat meine Herangehensweise an kommerzielle Projekte verändert. Ihr umfangreiches Materialangebot und ihre professionelle Beratung haben mir geholfen, außergewöhnliche Ergebnisse für meine Kunden zu erzielen. Die Qualität spricht für sich."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Hotelmanagerin",
+      "comment": "Wir haben unser gesamtes Hotel mit Materialien von Doqi eingerichtet. Die Kombination aus Haltbarkeit, Stil und wettbewerbsfähigen Preisen machte sie zu unserem bevorzugten Partner. Unsere Gäste loben durchweg die moderne Ästhetik."
+    }
   }
 }

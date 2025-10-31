@@ -223,5 +223,24 @@
     "pageNotFoundMessage": "Stranica koju tražite nije pronađena :(",
     "suggestHome": "Predlažemo da se vratite na početnu",
     "backToHome": "Nazad na Početnu"
+  },
+  "reviews": {
+    "title": "Povjerenje Tisuća Zadovoljnih Kupaca",
+    "subtitle": "Zadovoljstvo Kupaca",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Vlasnica Restorana",
+      "comment": "Kao vlasnica restorana, izdržljivost i dizajn su jednako važni. HPL Compact paneli koje smo kupili od Doqi Shpk dali su našem prostoru moderan izgled i lako podnose svakodnevno trošenje. Kupci često komplimentiraju dizajn — bila je to prava investicija za naš posao."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Dizajner Interijera",
+      "comment": "Rad s Doqi transformirao je način na koji pristupam komercijalnim projektima. Njihov široki asortiman materijala i profesionalno savjetovanje pomogli su mi postići izvanredne rezultate za moje klijente. Kvaliteta govori sama za sebe."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Menadžerica Hotela",
+      "comment": "Namjestili smo cijeli naš hotel materijalima od Doqi. Kombinacija izdržljivosti, stila i konkurentnih cijena učinila ih je našim preferiranim partnerom. Naši gosti stalno hvale modernu estetiku."
+    }
   }
 }

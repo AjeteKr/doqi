@@ -234,5 +234,24 @@
     "funFactLabel": "A e dini?",
     "keyboardHint": "Shtyp",
     "keyboardHintAction": "për të shkuar në kryefaqe"
+  },
+  "reviews": {
+    "title": "Besuar nga Mijëra Klientë të Kënaqur",
+    "subtitle": "Kënaqësia e Klientit",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Pronare Restoranti",
+      "comment": "Si pronare e restorantit, qëndrueshmëria dhe dizajni janë po aq të rëndësishëm. Panelet HPL Kompakte që blemë nga Doqi Shpk i dhanë hapësirës sonë një pamje moderne dhe mund të përballojnë lehtësisht konsumimin dhe grisjen e përditshme. Klientët shpesh komplimentojnë dizajnin — ishte investimi i duhur për biznesin tonë."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Dizajner Interiori",
+      "comment": "Puna me Doqi ka transformuar mënyrën se si i qasem projekteve komerciale. Gama e tyre e gjerë e materialeve dhe konsulenca profesionale më ndihmoi të ofroj rezultate të jashtëzakonshme për klientët e mi. Cilësia flet vetë."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Menaxhere Hoteli",
+      "comment": "Mobiluam të gjithë hotelin tonë me materiale nga Doqi. Kombinimi i qëndrueshmërisë, stilit dhe çmimeve konkurruese i bëri ata partnerin tonë të preferuar. Mysafirët tanë vazhdimisht lavdërojnë estetikën moderne."
+    }
   }
 }

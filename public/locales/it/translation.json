@@ -220,5 +220,24 @@
     "funFact": "DoqiSHPK è specializzata in prodotti HPL compatti di alta qualità e materassi. Esplora la nostra collezione per trovare il pezzo perfetto per il tuo spazio!",
     "keyboardHint": "Premi",
     "keyboardHintAction": "per tornare alla home"
+  },
+  "reviews": {
+    "title": "Scelto da Migliaia di Clienti Soddisfatti",
+    "subtitle": "Soddisfazione del Cliente",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Proprietaria di Ristorante",
+      "comment": "Come proprietaria di un ristorante, durata e design sono ugualmente importanti. I pannelli HPL Compatti che abbiamo acquistato da Doqi Shpk hanno dato al nostro spazio un aspetto moderno e possono facilmente gestire l'usura quotidiana. I clienti spesso complimentano il design — è stato l'investimento giusto per la nostra attività."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Designer d'Interni",
+      "comment": "Lavorare con Doqi ha trasformato il mio approccio ai progetti commerciali. La loro vasta gamma di materiali e la consulenza professionale mi hanno aiutato a ottenere risultati eccezionali per i miei clienti. La qualità parla da sé."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Direttrice d'Albergo",
+      "comment": "Abbiamo arredato tutto il nostro hotel con materiali di Doqi. La combinazione di durata, stile e prezzi competitivi li ha resi il nostro partner preferito. I nostri ospiti lodano costantemente l'estetica moderna."
+    }
   }
 }

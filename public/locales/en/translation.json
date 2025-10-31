@@ -80,15 +80,15 @@
     },
     "mission": {
       "title": "Our Mission",
-      "description": "To provide exceptional furniture and mattress solutions that transform living spaces into havens of comfort, style, and functionality. We are committed to delivering products that exceed expectations while maintaining the highest standards of quality and craftsmanship."
+      "description": "Our mission is to develop and grow our company by offering quality products and services in the field of furniture, with a wide range of raw materials for the production of kitchens, bedrooms, sofas, doors, office furniture, hotels, and indoor and outdoor environments. We also offer high-quality mattresses produced by our company and trade raw materials for local and international manufacturers. Our goal is to anticipate market needs by strategically positioning ourselves through partnerships with the world's most renowned brands from Germany, Turkey, Italy, Spain, Greece, and other countries, to offer unique and modern solutions. We continuously invest in our people, building a culture of collaboration, trust, and transparency with our clients, whom we consider long-term partners on the shared path towards sustainability and development."
     },
     "vision": {
       "title": "Our Vision",
-      "description": "To be the leading furniture and mattress manufacturer in the region, recognized for innovation, quality, and customer satisfaction. We envision a future where every home is enhanced by our thoughtfully designed and expertly crafted products."
+      "description": "DOQI aims to be the reference point in Europe for supplying raw materials for the furniture industry and mattress production through our StarFlex branch. Our vision is to build a sustainable value chain that combines quality, innovation, and respect for the environment, offering products that inspire comfort, functionality, and longevity. We aim to lead with responsibility and passion in the European markets where we operate, creating strong partnerships and building trust through the highest standards of performance and ethics. Supported by our core values – quality, reliability, innovation, and commitment to values – DOQI aspires to become a symbol of sustainable development in the furniture and mattress industry, positively impacting people's lives and the planet's future."
     },
     "story": {
       "title": "Our Story",
-      "description": "DoqiSHPK began with a simple vision: to create furniture and mattresses that combine comfort, durability, and aesthetic appeal. Through years of dedication and continuous innovation, we have established ourselves as a trusted name in the industry. Our partnership with StarFlex has enabled us to leverage cutting-edge technology and expand our product range to meet diverse customer needs."
+      "description": "DOQI Company was founded in 1992 in Kosovo, during an extremely difficult period under the Yugoslav regime, when working conditions were very harsh. During 1998-1999, war broke out, which brought the destruction of everything we had built with dedication over the years. However, the great desire to work, unwavering will, and faith in the future pushed us to start from scratch, in a new reality, with great emotional and spiritual challenges. We did not give up. Year after year, with dedication and professionalism, we managed to rebuild the company, initially focusing on selling raw materials for furniture production, a sector with great development needs in our country. Thanks to seriousness and correctness, we became a trusted partner both inside and outside Kosovo, offering excellent services and quality products. Seeing the growing demand for imported mattresses, in 2011 we decided to invest and start producing them domestically. Thus, we created the StarFlex brand, which became known in the local market and beyond, distinguished for quality, flexibility, and fast service. In addition to mattress production, our company has also become an important supplier of raw materials for this industry, positioning itself as a market leader and an example of local success. In 2013, we also started cutting, edge banding, and CNC technology services, offering our customers opportunities to grow their businesses. These services are offered at low cost, with a clear purpose: raising local capacities to provide services at the country level, contributing to reducing imports and the economic development of Kosovo. This is the story of a company born from sacrifice, grown from dedication, and strengthened by determination. DOQI remains living proof that success is not accidental, but the result of passionate work and unwavering faith in our vision."
     },
     "values": {
       "title": "Our Values",
@@ -128,13 +128,59 @@
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Get in touch with DoqiSHPK",
+    "subtitle": "We'd love to hear from you. Get in touch with us for any inquiries.",
     "info": "Contact Information",
-    "description": "We'd love to hear from you. Contact us for any inquiries about our products and services."
+    "description": "We'd love to hear from you. Contact us for any inquiries about our products and services.",
+    "location": "Our Location",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "sendMessage": "Send us a Message",
+    "formDescription": "Fill out the form below and we will get back to you as soon as possible.",
+    "name": "Full Name",
+    "namePlaceholder": "John Doe",
+    "company": "Company Name",
+    "companyPlaceholder": "Your Company",
+    "subject": "Subject",
+    "subjectPlaceholder": "How can we help you?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us more about your inquiry...",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent Successfully!",
+    "successMessage": "Thank you for contacting us. We will respond within 24 hours.",
+    "whyContactUs": "Why Contact Us?",
+    "reason1": "Expert advice on product selection",
+    "reason2": "Competitive pricing for bulk orders",
+    "reason3": "Fast delivery across Kosovo and region",
+    "reason4": "After-sales support and warranty",
+    "reason5": "Custom solutions for your business",
+    "visitUs": "Visit Our Showroom",
+    "weekdays": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "appointmentNote": "For visits outside business hours, please contact us to schedule an appointment.",
+    "ctaTitle": "Ready to Start Your Project?",
+    "ctaDescription": "Let's discuss how we can help bring your vision to life with our premium materials.",
+    "callNow": "Call Now",
+    "emailUs": "Email Us"
   },
   "footer": {
-    "description": "High-quality furniture and mattress production in partnership with Starflex. Combining comfort, durability, and style with modern technology.",
+    "tagline": "Quality Since 1992",
+    "description": "Leading supplier of furniture raw materials and mattress production. Over 30 years of excellence in the industry.",
+    "yearsExperience": "Years of Experience",
     "quickLinks": "Quick Links",
+    "products": "Our Products",
+    "contact": "Contact Us",
+    "address": "Prishtina, Kosovo",
+    "workingHours": "Mon - Fri: 8:00 - 17:00",
+    "saturday": "Sat: 9:00 - 14:00",
+    "followUs": "Follow Us",
+    "officialPartner": "Official Partner",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
     "partners": "Partners",
     "copyright": "© 2025 DoqiSHPK. All rights reserved."
   },
@@ -220,5 +266,93 @@
     "funFact": "DoqiSHPK specializes in high-quality Compact HPL products and mattresses. Explore our collection to find the perfect piece for your space!",
     "keyboardHint": "Press",
     "keyboardHintAction": "to go home"
+  },
+  "reviews": {
+    "title": "Trusted by Thousands of Happy Customers",
+    "subtitle": "Customer Satisfaction",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Restaurant Owner",
+      "comment": "As a restaurant owner, durability and design are equally important. The HPL Compact panels we purchased from Doqi Shpk gave our space a modern look and can easily handle daily wear and tear. Customers often compliment the design — it was the right investment for our business."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Interior Designer",
+      "comment": "Working with Doqi has transformed how I approach commercial projects. Their extensive range of materials and professional consultation helped me deliver exceptional results to my clients. The quality speaks for itself."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Hotel Manager",
+      "comment": "We furnished our entire hotel with materials from Doqi. The combination of durability, style, and competitive pricing made them our preferred partner. Our guests consistently praise the modern aesthetic."
+    }
+  },
+  "starflex": {
+    "badge": "Premium Mattress Collection",
+    "hero": {
+      "subtitle": "Sleep in Ultimate Comfort",
+      "description": "Experience the perfect blend of comfort, support, and quality. Our premium mattresses are designed to give you the best sleep of your life.",
+      "shopNow": "Shop Mattresses",
+      "contact": "Contact Us"
+    },
+    "since": "Since",
+    "years": "Years",
+    "customers": "Happy Customers",
+    "certified": "Certified",
+    "certifiedText": "International Standards",
+    "whyChoose": "Why Choose StarFlex?",
+    "whyChooseDescription": "Discover what makes our mattresses the perfect choice for your sleep needs",
+    "features": {
+      "quality": {
+        "title": "Premium Quality",
+        "description": "Certified materials meeting international standards for comfort and durability."
+      },
+      "comfort": {
+        "title": "Ultimate Comfort",
+        "description": "Advanced foam technology providing optimal support for restful sleep."
+      },
+      "variety": {
+        "title": "Wide Range",
+        "description": "Multiple sizes and firmness levels to suit every preference."
+      },
+      "warranty": {
+        "title": "10-Year Warranty",
+        "description": "Long-lasting quality backed by comprehensive warranty coverage."
+      },
+      "delivery": {
+        "title": "Fast Delivery",
+        "description": "Quick and reliable delivery service across Kosovo and beyond."
+      },
+      "health": {
+        "title": "Health Support",
+        "description": "Orthopedic design promoting proper spinal alignment."
+      }
+    },
+    "ourCollection": "Our Mattress Collection",
+    "collectionDescription": "Find the perfect mattress tailored to your comfort preferences",
+    "types": {
+      "orthopedic": {
+        "name": "Orthopedic",
+        "description": "Medical-grade support for back health"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Contours to your body shape"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Individual pocket springs for motion isolation"
+      },
+      "hybrid": {
+        "name": "Hybrid",
+        "description": "Combination of foam and springs"
+      }
+    },
+    "viewDetails": "View Details",
+    "cta": {
+      "title": "Ready for Better Sleep?",
+      "description": "Visit our showroom or contact us today to find your perfect mattress",
+      "visitShowroom": "Visit Showroom",
+      "browseCollection": "Browse Collection"
+    }
   }
 }

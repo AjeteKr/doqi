@@ -80,15 +80,15 @@
     },
     "mission": {
       "title": "Unsere Mission",
-      "description": "Außergewöhnliche Möbel- und Matratzenlösungen bereitzustellen, die Wohnräume in Oasen von Komfort, Stil und Funktionalität verwandeln. Wir sind bestrebt, Produkte zu liefern, die Erwartungen übertreffen und dabei höchste Qualitäts- und Handwerksstandards aufrechtzuerhalten."
+      "description": "Unsere Mission ist es, unser Unternehmen zu entwickeln und zu erweitern, indem wir qualitativ hochwertige Produkte und Dienstleistungen im Möbelbereich anbieten, mit einer breiten Palette von Rohstoffen für die Herstellung von Küchen, Schlafzimmern, Sofas, Türen, Büromöbeln, Hotels und Innen- und Außenumgebungen. Wir bieten auch hochwertige Matratzen aus eigener Produktion an und handeln mit Rohstoffen für lokale und internationale Hersteller. Unser Ziel ist es, die Marktbedürfnisse vorauszusehen, indem wir uns strategisch durch Partnerschaften mit den weltweit renommiertesten Marken aus Deutschland, der Türkei, Italien, Spanien, Griechenland und anderen Ländern positionieren, um einzigartige und moderne Lösungen anzubieten. Wir investieren kontinuierlich in unsere Mitarbeiter und bauen eine Kultur der Zusammenarbeit, des Vertrauens und der Transparenz mit unseren Kunden auf, die wir als langfristige Partner auf dem gemeinsamen Weg zu Nachhaltigkeit und Entwicklung betrachten."
     },
     "vision": {
       "title": "Unsere Vision",
-      "description": "Der führende Möbel- und Matratzenhersteller in der Region zu sein, anerkannt für Innovation, Qualität und Kundenzufriedenheit. Wir stellen uns eine Zukunft vor, in der jedes Zuhause durch unsere sorgfältig gestalteten und fachmännisch gefertigten Produkte bereichert wird."
+      "description": "DOQI strebt danach, der Referenzpunkt in Europa für die Lieferung von Rohstoffen für die Möbelindustrie und die Matratzenproduktion über unsere StarFlex-Niederlassung zu sein. Unsere Vision ist es, eine nachhaltige Wertschöpfungskette aufzubauen, die Qualität, Innovation und Respekt für die Umwelt vereint und Produkte anbietet, die Komfort, Funktionalität und Langlebigkeit inspirieren. Wir streben danach, mit Verantwortung und Leidenschaft in den europäischen Märkten zu führen, in denen wir tätig sind, starke Partnerschaften aufzubauen und Vertrauen durch höchste Performance- und Ethikstandards zu schaffen. Unterstützt von unseren Kernwerten – Qualität, Zuverlässigkeit, Innovation und Engagement für Werte – strebt DOQI danach, ein Symbol für nachhaltige Entwicklung in der Möbel- und Matratzenindustrie zu werden und das Leben der Menschen und die Zukunft des Planeten positiv zu beeinflussen."
     },
     "story": {
       "title": "Unsere Geschichte",
-      "description": "DoqiSHPK begann mit einer einfachen Vision: Möbel und Matratzen zu schaffen, die Komfort, Langlebigkeit und ästhetische Anziehungskraft vereinen. Durch Jahre der Hingabe und kontinuierlichen Innovation haben wir uns als vertrauenswürdiger Name in der Branche etabliert. Unsere Partnerschaft mit StarFlex hat es uns ermöglicht, modernste Technologie zu nutzen und unser Produktsortiment zu erweitern, um vielfältige Kundenbedürfnisse zu erfüllen."
+      "description": "Das Unternehmen DOQI wurde 1992 im Kosovo gegründet, in einer äußerst schwierigen Zeit unter dem jugoslawischen Regime, als die Arbeitsbedingungen sehr hart waren. In den Jahren 1998-1999 brach der Krieg aus, der die Zerstörung von allem brachte, was wir über Jahre mit Hingabe aufgebaut hatten. Dennoch trieb uns der große Arbeitswille, der unerschütterliche Wille und der Glaube an die Zukunft dazu, von vorne anzufangen, in einer neuen Realität, mit großen emotionalen und spirituellen Herausforderungen. Wir gaben nicht auf. Jahr für Jahr gelang es uns mit Hingabe und Professionalität, das Unternehmen wieder aufzubauen, zunächst mit Fokus auf den Verkauf von Rohstoffen für die Möbelproduktion, ein Sektor mit großem Entwicklungsbedarf in unserem Land. Dank Seriosität und Korrektheit wurden wir ein vertrauenswürdiger Partner sowohl innerhalb als auch außerhalb des Kosovo und boten exzellente Dienstleistungen und Qualitätsprodukte an. Angesichts der wachsenden Nachfrage nach importierten Matratzen beschlossen wir 2011 zu investieren und mit der heimischen Produktion zu beginnen. So schufen wir die Marke StarFlex, die auf dem lokalen Markt und darüber hinaus bekannt wurde, ausgezeichnet durch Qualität, Flexibilität und schnellen Service. Neben der Matratzenproduktion wurde unser Unternehmen auch ein wichtiger Lieferant von Rohstoffen für diese Industrie und positionierte sich als Marktführer und Beispiel für lokalen Erfolg. 2013 starteten wir auch Schneide-, Kanten- und CNC-Technologie-Dienstleistungen und boten unseren Kunden Möglichkeiten, ihre Geschäfte auszubauen. Diese Dienstleistungen werden zu niedrigen Kosten angeboten, mit einem klaren Ziel: Aufbau lokaler Kapazitäten zur Bereitstellung von Dienstleistungen auf Landesebene, Beitrag zur Reduzierung von Importen und zur wirtschaftlichen Entwicklung des Kosovo. Dies ist die Geschichte eines Unternehmens, das aus Opfern geboren, durch Hingabe gewachsen und durch Entschlossenheit gestärkt wurde. DOQI bleibt der lebende Beweis, dass Erfolg kein Zufall ist, sondern das Ergebnis leidenschaftlicher Arbeit und unerschütterlichen Glaubens an unsere Vision."
     },
     "values": {
       "title": "Unsere Werte",
@@ -128,13 +128,59 @@
   },
   "contact": {
     "title": "Kontaktieren Sie Uns",
-    "subtitle": "Nehmen Sie Kontakt mit DoqiSHPK auf",
+    "subtitle": "Wir würden gerne von Ihnen hören. Kontaktieren Sie uns für alle Anfragen.",
     "info": "Kontaktinformationen",
-    "description": "Wir würden gerne von Ihnen hören. Kontaktieren Sie uns für alle Anfragen zu unseren Produkten und Dienstleistungen."
+    "description": "Wir würden gerne von Ihnen hören. Kontaktieren Sie uns für alle Anfragen zu unseren Produkten und Dienstleistungen.",
+    "location": "Unser Standort",
+    "phone": "Telefon",
+    "email": "Email",
+    "hours": "Öffnungszeiten",
+    "sendMessage": "Senden Sie uns eine Nachricht",
+    "formDescription": "Füllen Sie das untenstehende Formular aus und wir werden uns schnellstmöglich bei Ihnen melden.",
+    "name": "Vollständiger Name",
+    "namePlaceholder": "Max Mustermann",
+    "company": "Firmenname",
+    "companyPlaceholder": "Ihre Firma",
+    "subject": "Betreff",
+    "subjectPlaceholder": "Wie können wir Ihnen helfen?",
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie uns mehr über Ihre Anfrage...",
+    "sendButton": "Nachricht Senden",
+    "sending": "Wird gesendet...",
+    "successTitle": "Nachricht Erfolgreich Gesendet!",
+    "successMessage": "Vielen Dank, dass Sie uns kontaktiert haben. Wir werden innerhalb von 24 Stunden antworten.",
+    "whyContactUs": "Warum Uns Kontaktieren?",
+    "reason1": "Expertenberatung zur Produktauswahl",
+    "reason2": "Wettbewerbsfähige Preise für Großbestellungen",
+    "reason3": "Schnelle Lieferung im gesamten Kosovo und der Region",
+    "reason4": "Kundendienst und Garantie",
+    "reason5": "Maßgeschneiderte Lösungen für Ihr Unternehmen",
+    "visitUs": "Besuchen Sie Unseren Showroom",
+    "weekdays": "Montag - Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "closed": "Geschlossen",
+    "appointmentNote": "Für Besuche außerhalb der Geschäftszeiten kontaktieren Sie uns bitte, um einen Termin zu vereinbaren.",
+    "ctaTitle": "Bereit, Ihr Projekt zu Starten?",
+    "ctaDescription": "Lassen Sie uns besprechen, wie wir Ihnen helfen können, Ihre Vision mit unseren Premium-Materialien zum Leben zu erwecken.",
+    "callNow": "Jetzt Anrufen",
+    "emailUs": "Email Senden"
   },
   "footer": {
-    "description": "Hochwertige Möbel- und Matratzenproduktion in Partnerschaft mit Starflex. Kombination von Komfort, Haltbarkeit und Stil mit moderner Technologie.",
-    "quickLinks": "Schnelle Links",
+    "tagline": "Qualität seit 1992",
+    "description": "Führender Lieferant von Möbelrohstoffen und Matratzenproduktion. Über 30 Jahre Exzellenz in der Branche.",
+    "yearsExperience": "Jahre Erfahrung",
+    "quickLinks": "Schnelllinks",
+    "products": "Unsere Produkte",
+    "contact": "Kontaktieren Sie Uns",
+    "address": "Pristina, Kosovo",
+    "workingHours": "Mo - Fr: 8:00 - 17:00",
+    "saturday": "Sa: 9:00 - 14:00",
+    "followUs": "Folgen Sie Uns",
+    "officialPartner": "Offizieller Partner",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
     "partners": "Partner",
     "copyright": "© 2025 DoqiSHPK. Alle Rechte vorbehalten."
   },
@@ -221,5 +267,93 @@
     "funFact": "DoqiSHPK ist spezialisiert auf hochwertige Kompakt-HPL-Produkte und Matratzen. Entdecken Sie unsere Kollektion, um das perfekte Stück für Ihren Raum zu finden!",
     "keyboardHint": "Drücken Sie",
     "keyboardHintAction": "um zur Startseite zu gelangen"
+  },
+  "reviews": {
+    "title": "Vertraut von Tausenden Zufriedener Kunden",
+    "subtitle": "Kundenzufriedenheit",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Restaurantbesitzerin",
+      "comment": "Als Restaurantbesitzerin sind Haltbarkeit und Design gleichermaßen wichtig. Die HPL-Kompaktplatten, die wir von Doqi Shpk gekauft haben, verliehen unserem Raum ein modernes Aussehen und können den täglichen Verschleiß problemlos bewältigen. Kunden loben oft das Design — es war die richtige Investition für unser Geschäft."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Innenarchitekt",
+      "comment": "Die Zusammenarbeit mit Doqi hat meine Herangehensweise an kommerzielle Projekte verändert. Ihr umfangreiches Materialangebot und ihre professionelle Beratung haben mir geholfen, außergewöhnliche Ergebnisse für meine Kunden zu erzielen. Die Qualität spricht für sich."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Hoteldirektorin",
+      "comment": "Wir haben unser gesamtes Hotel mit Materialien von Doqi eingerichtet. Die Kombination aus Haltbarkeit, Stil und wettbewerbsfähigen Preisen machte sie zu unserem bevorzugten Partner. Unsere Gäste loben durchweg die moderne Ästhetik."
+    }
+  },
+  "starflex": {
+    "badge": "Premium Matratzen-Kollektion",
+    "hero": {
+      "subtitle": "Schlafen Sie in ultimativem Komfort",
+      "description": "Erleben Sie die perfekte Mischung aus Komfort, Unterstützung und Qualität. Unsere Premium-Matratzen sind so konzipiert, dass sie Ihnen den besten Schlaf Ihres Lebens bieten.",
+      "shopNow": "Matratzen Kaufen",
+      "contact": "Kontaktieren Sie Uns"
+    },
+    "since": "Seit",
+    "years": "Jahre",
+    "customers": "Zufriedene Kunden",
+    "certified": "Zertifiziert",
+    "certifiedText": "Internationale Standards",
+    "whyChoose": "Warum StarFlex Wählen?",
+    "whyChooseDescription": "Entdecken Sie, was unsere Matratzen zur perfekten Wahl für Ihre Schlafbedürfnisse macht",
+    "features": {
+      "quality": {
+        "title": "Premium-Qualität",
+        "description": "Zertifizierte Materialien, die internationale Standards für Komfort und Haltbarkeit erfüllen."
+      },
+      "comfort": {
+        "title": "Ultimativer Komfort",
+        "description": "Fortschrittliche Schaumtechnologie für optimale Unterstützung und erholsamen Schlaf."
+      },
+      "variety": {
+        "title": "Große Auswahl",
+        "description": "Mehrere Größen und Härtegrade für jede Vorliebe."
+      },
+      "warranty": {
+        "title": "10 Jahre Garantie",
+        "description": "Langlebige Qualität mit umfassender Garantieabdeckung."
+      },
+      "delivery": {
+        "title": "Schnelle Lieferung",
+        "description": "Schneller und zuverlässiger Lieferservice im gesamten Kosovo und darüber hinaus."
+      },
+      "health": {
+        "title": "Gesundheitsunterstützung",
+        "description": "Orthopädisches Design zur Förderung der richtigen Wirbelsäulenausrichtung."
+      }
+    },
+    "ourCollection": "Unsere Matratzen-Kollektion",
+    "collectionDescription": "Finden Sie die perfekte Matratze, die auf Ihre Komfortvorlieben zugeschnitten ist",
+    "types": {
+      "orthopedic": {
+        "name": "Orthopädisch",
+        "description": "Medizinische Unterstützung für Rückengesundheit"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Passt sich Ihrer Körperform an"
+      },
+      "pocket": {
+        "name": "Taschenfeder",
+        "description": "Einzelne Taschenfedern für Bewegungsisolierung"
+      },
+      "hybrid": {
+        "name": "Hybrid",
+        "description": "Kombination aus Schaum und Federn"
+      }
+    },
+    "viewDetails": "Details Anzeigen",
+    "cta": {
+      "title": "Bereit für Besseren Schlaf?",
+      "description": "Besuchen Sie unseren Showroom oder kontaktieren Sie uns noch heute, um Ihre perfekte Matratze zu finden",
+      "visitShowroom": "Showroom Besuchen",
+      "browseCollection": "Kollektion Durchsuchen"
+    }
   }
 }

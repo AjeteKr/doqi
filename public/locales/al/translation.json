@@ -80,15 +80,15 @@
     },
     "mission": {
       "title": "Misioni Ynë",
-      "description": "Të ofrojmë zgjidhje të jashtëzakonshme mobiljesh dhe dyshekësh që transformojnë hapësirat e jetesës në vende rehatije, stili dhe funksionaliteti. Ne jemi të përkushtuar për të ofruar produkte që tejkalojnë pritshmëritë duke mbajtur standardet më të larta të cilësisë dhe artizanatit."
+      "description": "Misioni ynë është të zhvillojmë dhe rrisim kompaninë tonë duke ofruar produkte dhe shërbime cilësore në fushën e mobiljeve, me një gamë të gjerë të lëndëve të para për prodhimin e kuzhinave, dhomave të gjumit, divaneve, dyerve, mobilieve për zyre lokale hotele ne ambiente të brendshme e të jashtme. Gjithashtu ofrojmë dyshekë të cilësisë së lartë të prodhuar nga kompania jonë dhe tregtim të lëndëve të para për prodhuesit vendorë e ndërkombëtarë. Qëllimi ynë është të parashikojmë nevojat e tregut, duke u pozicionuar strategjikisht përmes bashkëpunimit me markat më të njohura botërore nga Gjermania, Turqia, Italia, Spanja, Greqia e vende të tjera, për të ofruar zgjidhje unike dhe moderne. Ne investojmë vazhdimisht te njerëzit tanë, duke ndërtuar një kulturë bashkëpunimi, besimi dhe transparence me klientët tanë, të cilët i konsiderojmë partnerë afatgjatë në rrugën e përbashkët drejt qëndrueshmërisë dhe zhvillimit."
     },
     "vision": {
       "title": "Vizioni Ynë",
-      "description": "Të jemi prodhuesi kryesor i mobiljeve dhe dyshekëve në rajon, të njohur për inovacionin, cilësinë dhe kënaqësinë e klientit. Ne parashikojmë një të ardhme ku çdo shtëpi përmirësohet nga produktet tona të dizajnuara me kujdes dhe të punuara nga ekspertë."
+      "description": "DOQI synon të jetë pika e referencës në Evropë për furnizimin me lëndë të para për industrinë e mobiljeve dhe prodhimin e dyshekëve përmes degës sonë Starflex. Vizioni ynë është të ndërtojmë një zinxhir vlerash të qëndrueshëm që bashkon cilësinë, inovacionin dhe respektin për mjedisin, duke ofruar produkte që frymëzojnë rehati, funksionalitet dhe jetëgjatësi. Ne synojmë të udhëheqim me përgjegjësi dhe pasion në tregjet europiane ku operojmë duke krijuar partneritete të forta dhe duke ndërtuar besim përmes standardeve më të larta të performancës dhe etikës. E mbështetur në vlerat tona thelbësore – cilësia, besueshmëria, inovacioni dhe përkushtimi ndaj vlerave – DOQI aspiron të bëhet simbol i zhvillimit të qëndrueshëm në industrinë e mobiljeve dhe të dyshekëve, duke ndikuar pozitivisht në jetën e njerëzve dhe në të ardhmen e planetit."
     },
     "story": {
       "title": "Historia Jonë",
-      "description": "DoqiSHPK filloi me një vizion të thjeshtë: të krijojë mobilje dhe dyshekë që kombinojnë rehatinë, qëndrueshmërinë dhe tërheqjen estetike. Përmes viteve të përkushtimit dhe inovacionit të vazhdueshëm, ne jemi vendosur si një emër i besueshëm në industri. Partneriteti ynë me StarFlex na ka mundësuar të shfrytëzojmë teknologjinë më të avancuar dhe të zgjerojmë gamën tonë të produkteve për të plotësuar nevojat e ndryshme të klientëve."
+      "description": "Kompania DOQI Sh.p.k u themelua në vitin 1992 në Kosovë, në një periudhë jashtëzakonisht të vështirë, nën regjimin Jugosllav, kur kushtet për të punuar ishin tepër të rënda. Gjatë viteve 1998–1999, shpërtheu lufta, e cila solli shkatërrimin e gjithçkaje që kishim ndërtuar me përkushtim ndër vite. Megjithatë, dëshira e madhe për punë, vullneti i palëkundur dhe besimi në të ardhmen na shtynë të fillojmë nga e para, në një realitet të ri, me sfida të mëdha emocionale dhe shpirtërore. Nuk u dorëzuam. Viti pas viti, me përkushtim dhe profesionalizëm, arritëm ta ringremë kompaninë, duke u fokusuar fillimisht në shitjen e lëndëve të para për prodhimin e mobiljeve, një sektor me nevojë të madhe zhvillimi në vendin tonë. Falë seriozitetit dhe korrektësisë, u bëmë partner i besueshëm si brenda, ashtu edhe jashtë Kosovës, duke ofruar shërbime të shkëlqyera dhe produkte cilësore. Duke parë kërkesën në rritje për dyshekë të importuar, në vitin 2011 vendosëm të investojmë dhe të fillojmë prodhimin e tyre brenda vendit. Kështu, krijuam markën StarFlex, e cila u bë e njohur në tregun vendor dhe më gjerë, e dalluar për cilësinë, fleksibilitetin dhe shërbimin e shpejtë. Përveç prodhimit të dyshekëve, kompania jonë është bërë edhe furnizues i rëndësishëm i lëndëve të para për këtë industri, duke u pozicionuar si lider në treg dhe si shembull i suksesit vendor. Në vitin 2013, nisëm edhe shërbimet e prerjes, kantimit dhe përdorimit të teknologjisë CNC, duke i ofruar klientëve tanë mundësi për rritjen e bizneseve të tyre. Këto shërbime ofrohen me kosto të ulët, me një qëllim të qartë: ngritjen e kapaciteteve vendore për të ofruar shërbime në nivel vendi, duke kontribuar në uljen e importeve dhe zhvillimin ekonomik të Kosovës. Kjo është historia e një kompanie që lindi nga sakrifica, u rrit nga përkushtimi dhe u forcua nga vendosmëria. DOQI mbetet dëshmi e gjallë se suksesi nuk është rastësi, por rezultat i punës me pasion dhe besimit të palëkundur në vizionin tonë."
     },
     "values": {
       "title": "Vlerat Tona",
@@ -128,13 +128,59 @@
   },
   "contact": {
     "title": "Na Kontaktoni",
-    "subtitle": "Lidhuni me DoqiSHPK",
+    "subtitle": "Do të donim të dëgjonim nga ju. Kontaktoni me ne për çdo pyetje.",
     "info": "Informacioni i Kontaktit",
-    "description": "Do të donim të dëgjonim nga ju. Kontaktoni me ne për çdo pyetje rreth produkteve dhe shërbimeve tona."
+    "description": "Do të donim të dëgjonim nga ju. Kontaktoni me ne për çdo pyetje rreth produkteve dhe shërbimeve tona.",
+    "location": "Vendndodhja Jonë",
+    "phone": "Telefoni",
+    "email": "Email",
+    "hours": "Orët e Punës",
+    "sendMessage": "Na Dërgoni një Mesazh",
+    "formDescription": "Plotësoni formularin më poshtë dhe ne do t'ju përgjigjemi sa më shpejt të jetë e mundur.",
+    "name": "Emri i Plotë",
+    "namePlaceholder": "Filan Fisteku",
+    "company": "Emri i Kompanisë",
+    "companyPlaceholder": "Kompania Juaj",
+    "subject": "Subjekti",
+    "subjectPlaceholder": "Si mund t'ju ndihmojmë?",
+    "message": "Mesazhi",
+    "messagePlaceholder": "Na tregoni më shumë rreth pyetjes suaj...",
+    "sendButton": "Dërgo Mesazhin",
+    "sending": "Duke dërguar...",
+    "successTitle": "Mesazhi u Dërgua me Sukses!",
+    "successMessage": "Faleminderit që na kontaktuat. Do të përgjigjemi brenda 24 orëve.",
+    "whyContactUs": "Pse të Na Kontaktoni?",
+    "reason1": "Këshilla ekspertësh për zgjedhjen e produkteve",
+    "reason2": "Çmime konkurruese për porosi masive",
+    "reason3": "Dërgim i shpejtë në të gjithë Kosovën dhe rajon",
+    "reason4": "Mbështetje pas shitjes dhe garanci",
+    "reason5": "Zgjidhje të personalizuara për biznesin tuaj",
+    "visitUs": "Vizitoni Sallonin Tonë",
+    "weekdays": "E Hënë - E Premte",
+    "saturday": "E Shtunë",
+    "sunday": "E Diel",
+    "closed": "Mbyllur",
+    "appointmentNote": "Për vizita jashtë orarit të punës, ju lutemi na kontaktoni për të caktuar një takim.",
+    "ctaTitle": "Gati për të Filluar Projektin Tuaj?",
+    "ctaDescription": "Le të diskutojmë se si mund t'ju ndihmojmë të realizoni vizionin tuaj me materialet tona premium.",
+    "callNow": "Telefono Tani",
+    "emailUs": "Na Dërgoni Email"
   },
   "footer": {
-    "description": "Prodhim mobiljesh dhe dyshekësh me cilësi të lartë në partneritet me Starflex. Duke kombinuar rehatinë, qëndrueshmërinë dhe stilin me teknologji moderne.",
-    "quickLinks": "Lidhjet e Shpejta",
+    "tagline": "Cilësi që nga 1992",
+    "description": "Furnizues kryesor i lëndëve të para për mobilje dhe prodhim dyshekësh. Mbi 30 vjet përsosmëri në industri.",
+    "yearsExperience": "Vite Përvojë",
+    "quickLinks": "Lidhje të Shpejta",
+    "products": "Produktet Tona",
+    "contact": "Na Kontaktoni",
+    "address": "Prishtinë, Kosovë",
+    "workingHours": "Hën - Pre: 8:00 - 17:00",
+    "saturday": "Sht: 9:00 - 14:00",
+    "followUs": "Na Ndiqni",
+    "officialPartner": "Partner Zyrtar",
+    "rights": "Të gjitha të drejtat e rezervuara.",
+    "privacy": "Politika e Privatësisë",
+    "terms": "Kushtet e Shërbimit",
     "partners": "Partnerët",
     "copyright": "© 2025 DoqiSHPK. Të gjitha të drejtat e rezervuara."
   },
@@ -234,5 +280,93 @@
     "funFactLabel": "A e dini?",
     "keyboardHint": "Shtyp",
     "keyboardHintAction": "për të shkuar në kryefaqe"
+  },
+  "reviews": {
+    "title": "Besuar nga Mijëra Klientë të Kënaqur",
+    "subtitle": "Kënaqësia e Klientit",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Pronare Restoranti",
+      "comment": "Si pronare e restorantit, qëndrueshmëria dhe dizajni janë po aq të rëndësishëm. Panelet HPL Kompakte që blemë nga Doqi Shpk i dhanë hapësirës sonë një pamje moderne dhe mund të përballojnë lehtësisht konsumimin dhe grisjen e përditshme. Klientët shpesh komplimentojnë dizajnin — ishte investimi i duhur për biznesin tonë."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Dizajner Interiori",
+      "comment": "Puna me Doqi ka transformuar mënyrën se si i qasem projekteve komerciale. Gama e tyre e gjerë e materialeve dhe konsulenca profesionale më ndihmoi të ofroj rezultate të jashtëzakonshme për klientët e mi. Cilësia flet vetë."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Menaxhere Hoteli",
+      "comment": "Ne mobiliuam tërë hotelin tonë me materiale nga Doqi. Kombinimi i qëndrueshmërisë, stilit dhe çmimeve konkurruese i bëri ata partnerin tonë të preferuar. Mysafirët tanë vazhdimisht lavdërojnë estetikën moderne."
+    }
+  },
+  "starflex": {
+    "badge": "Koleksioni Premium i Dyshekëve",
+    "hero": {
+      "subtitle": "Flini në Komoditet të Plotë",
+      "description": "Përvoni përzierjën perfekte të komoditetit, mbështetjes dhe cilësisë. Dyshekët tanë premium janë dizajnuar t'ju japin gjumin më të mirë të jetës suaj.",
+      "shopNow": "Blej Dyshekë",
+      "contact": "Na Kontaktoni"
+    },
+    "since": "Që nga",
+    "years": "Vite",
+    "customers": "Klientë të Kënaqur",
+    "certified": "I Certifikuar",
+    "certifiedText": "Standarde Ndërkombëtare",
+    "whyChoose": "Pse të Zgjidhni StarFlex?",
+    "whyChooseDescription": "Zbuloni çfarë i bën dyshekët tanë zgjedhjen perfekte për nevojat tuaja të gjumit",
+    "features": {
+      "quality": {
+        "title": "Cilësi Premium",
+        "description": "Materiale të certifikuara që plotësojnë standardet ndërkombëtare për komoditet dhe qëndrueshmëri."
+      },
+      "comfort": {
+        "title": "Komoditet i Plotë",
+        "description": "Teknologji e avancuar e shkumës që ofron mbështetje optimale për gjumë të qetë."
+      },
+      "variety": {
+        "title": "Gamë e Gjerë",
+        "description": "Shumë madhësi dhe nivele fortësie për të përshtatur çdo preferencë."
+      },
+      "warranty": {
+        "title": "Garanci 10 Vjeçare",
+        "description": "Cilësi e qëndrueshme e mbështetur nga garanci gjithëpërfshirëse."
+      },
+      "delivery": {
+        "title": "Dërgim i Shpejtë",
+        "description": "Shërbim i shpejtë dhe i besueshëm dërgimi në të gjithë Kosovën dhe më gjerë."
+      },
+      "health": {
+        "title": "Mbështetje Shëndetësore",
+        "description": "Dizajn ortopedik që promovon rreshtimin e duhur të shtyllës kurrizore."
+      }
+    },
+    "ourCollection": "Koleksioni Ynë i Dyshekëve",
+    "collectionDescription": "Gjeni dyshekun perfekt të përshtatur me preferencat tuaja të komoditetit",
+    "types": {
+      "orthopedic": {
+        "name": "Ortopedik",
+        "description": "Mbështetje mjekësore për shëndetin e shpinës"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Përshtatet me formën e trupit tuaj"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Sustë individuale për izolim lëvizjeje"
+      },
+      "hybrid": {
+        "name": "Hybrid",
+        "description": "Kombinim i shkumës dhe sustave"
+      }
+    },
+    "viewDetails": "Shiko Detajet",
+    "cta": {
+      "title": "Gati për Gjumë më të Mirë?",
+      "description": "Vizitoni sallonin tonë ose na kontaktoni sot për të gjetur dyshekun tuaj perfekt",
+      "visitShowroom": "Vizito Sallonin",
+      "browseCollection": "Shfleto Koleksionin"
+    }
   }
 }

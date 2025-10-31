@@ -80,15 +80,15 @@
     },
     "mission": {
       "title": "Notre Mission",
-      "description": "Fournir des solutions exceptionnelles de mobilier et matelas qui transforment les espaces de vie en havres de confort, style et fonctionnalité. Nous nous engageons à livrer des produits qui dépassent les attentes tout en maintenant les plus hauts standards de qualité et d'artisanat."
+      "description": "Notre mission est de développer et de faire croître notre entreprise en offrant des produits et services de qualité dans le domaine de l'ameublement, avec une large gamme de matières premières pour la production de cuisines, chambres à coucher, canapés, portes, meubles de bureau, hôtels et environnements intérieurs et extérieurs. Nous offrons également des matelas de haute qualité produits par notre entreprise et commercialisons des matières premières pour les fabricants locaux et internationaux. Notre objectif est d'anticiper les besoins du marché en nous positionnant stratégiquement à travers des partenariats avec les marques les plus renommées au monde d'Allemagne, Turquie, Italie, Espagne, Grèce et d'autres pays, pour offrir des solutions uniques et modernes. Nous investissons continuellement dans nos équipes, en construisant une culture de collaboration, de confiance et de transparence avec nos clients, que nous considérons comme des partenaires à long terme sur le chemin commun vers la durabilité et le développement."
     },
     "vision": {
       "title": "Notre Vision",
-      "description": "Être le fabricant leader de mobilier et matelas dans la région, reconnu pour l'innovation, la qualité et la satisfaction client. Nous envisageons un avenir où chaque foyer est enrichi par nos produits conçus avec soin et fabriqués par des experts."
+      "description": "DOQI vise à être le point de référence en Europe pour la fourniture de matières premières pour l'industrie du meuble et la production de matelas via notre branche StarFlex. Notre vision est de construire une chaîne de valeur durable qui combine qualité, innovation et respect de l'environnement, en offrant des produits qui inspirent confort, fonctionnalité et longévité. Nous visons à diriger avec responsabilité et passion sur les marchés européens où nous opérons, en créant des partenariats solides et en construisant la confiance à travers les plus hauts standards de performance et d'éthique. Soutenu par nos valeurs fondamentales – qualité, fiabilité, innovation et engagement envers les valeurs – DOQI aspire à devenir un symbole de développement durable dans l'industrie du meuble et des matelas, impactant positivement la vie des gens et l'avenir de la planète."
     },
     "story": {
       "title": "Notre Histoire",
-      "description": "DoqiSHPK a commencé avec une vision simple : créer des meubles et matelas qui combinent confort, durabilité et attrait esthétique. Grâce à des années de dévouement et d'innovation continue, nous nous sommes établis comme un nom de confiance dans l'industrie. Notre partenariat avec StarFlex nous a permis de tirer parti de technologies de pointe et d'élargir notre gamme de produits pour répondre aux besoins diversifiés des clients."
+      "description": "La société DOQI a été fondée en 1992 au Kosovo, pendant une période extrêmement difficile sous le régime yougoslave, lorsque les conditions de travail étaient très dures. Au cours des années 1998-1999, la guerre a éclaté, apportant la destruction de tout ce que nous avions construit avec dévouement au fil des années. Cependant, le grand désir de travailler, la volonté inébranlable et la foi en l'avenir nous ont poussés à recommencer à zéro, dans une nouvelle réalité, avec de grands défis émotionnels et spirituels. Nous n'avons pas abandonné. Année après année, avec dévouement et professionnalisme, nous avons réussi à reconstruire l'entreprise, en nous concentrant d'abord sur la vente de matières premières pour la production de meubles, un secteur ayant de grands besoins de développement dans notre pays. Grâce au sérieux et à la rigueur, nous sommes devenus un partenaire de confiance tant à l'intérieur qu'à l'extérieur du Kosovo, offrant d'excellents services et des produits de qualité. Voyant la demande croissante de matelas importés, en 2011, nous avons décidé d'investir et de commencer à les produire localement. Ainsi, nous avons créé la marque StarFlex, qui est devenue connue sur le marché local et au-delà, distinguée par sa qualité, sa flexibilité et son service rapide. En plus de la production de matelas, notre entreprise est également devenue un fournisseur important de matières premières pour cette industrie, se positionnant comme leader du marché et exemple de succès local. En 2013, nous avons également lancé des services de découpe, de chant et de technologie CNC, offrant à nos clients des opportunités de développer leurs entreprises. Ces services sont offerts à faible coût, avec un objectif clair : accroître les capacités locales pour fournir des services au niveau national, contribuant à réduire les importations et au développement économique du Kosovo. C'est l'histoire d'une entreprise née du sacrifice, grandie par le dévouement et renforcée par la détermination. DOQI reste la preuve vivante que le succès n'est pas accidentel, mais le résultat d'un travail passionné et d'une foi inébranlable en notre vision."
     },
     "values": {
       "title": "Nos Valeurs",
@@ -128,13 +128,59 @@
   },
   "contact": {
     "title": "Contactez-Nous",
-    "subtitle": "Entrez en contact avec DoqiSHPK",
+    "subtitle": "Nous aimerions avoir de vos nouvelles. Contactez-nous pour toute question.",
     "info": "Informations de Contact",
-    "description": "Nous aimerions avoir de vos nouvelles. Contactez-nous pour toute question concernant nos produits et services."
+    "description": "Nous aimerions avoir de vos nouvelles. Contactez-nous pour toute question concernant nos produits et services.",
+    "location": "Notre Emplacement",
+    "phone": "Téléphone",
+    "email": "Email",
+    "hours": "Heures d'Ouverture",
+    "sendMessage": "Envoyez-nous un Message",
+    "formDescription": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
+    "name": "Nom Complet",
+    "namePlaceholder": "Jean Dupont",
+    "company": "Nom de l'Entreprise",
+    "companyPlaceholder": "Votre Entreprise",
+    "subject": "Sujet",
+    "subjectPlaceholder": "Comment pouvons-nous vous aider?",
+    "message": "Message",
+    "messagePlaceholder": "Parlez-nous de votre demande...",
+    "sendButton": "Envoyer le Message",
+    "sending": "Envoi en cours...",
+    "successTitle": "Message Envoyé avec Succès!",
+    "successMessage": "Merci de nous avoir contactés. Nous répondrons dans les 24 heures.",
+    "whyContactUs": "Pourquoi Nous Contacter?",
+    "reason1": "Conseil d'expert sur la sélection de produits",
+    "reason2": "Prix compétitifs pour les commandes en gros",
+    "reason3": "Livraison rapide au Kosovo et dans la région",
+    "reason4": "Service après-vente et garantie",
+    "reason5": "Solutions personnalisées pour votre entreprise",
+    "visitUs": "Visitez Notre Showroom",
+    "weekdays": "Lundi - Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "closed": "Fermé",
+    "appointmentNote": "Pour les visites en dehors des heures d'ouverture, veuillez nous contacter pour prendre rendez-vous.",
+    "ctaTitle": "Prêt à Démarrer Votre Projet?",
+    "ctaDescription": "Discutons de la manière dont nous pouvons vous aider à concrétiser votre vision avec nos matériaux premium.",
+    "callNow": "Appelez Maintenant",
+    "emailUs": "Envoyez-nous un Email"
   },
   "footer": {
-    "description": "Production de meubles et matelas de haute qualité en partenariat avec Starflex. Alliant confort, durabilité et style avec une technologie moderne.",
+    "tagline": "Qualité depuis 1992",
+    "description": "Principal fournisseur de matières premières pour meubles et production de matelas. Plus de 30 ans d'excellence dans l'industrie.",
+    "yearsExperience": "Années d'Expérience",
     "quickLinks": "Liens Rapides",
+    "products": "Nos Produits",
+    "contact": "Contactez-nous",
+    "address": "Pristina, Kosovo",
+    "workingHours": "Lun - Ven: 8:00 - 17:00",
+    "saturday": "Sam: 9:00 - 14:00",
+    "followUs": "Suivez-nous",
+    "officialPartner": "Partenaire Officiel",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
     "partners": "Partenaires",
     "copyright": "© 2025 DoqiSHPK. Tous droits réservés."
   },
@@ -220,5 +266,93 @@
     "funFact": "DoqiSHPK est spécialisé dans les produits HPL compacts de haute qualité et les matelas. Explorez notre collection pour trouver la pièce parfaite pour votre espace!",
     "keyboardHint": "Appuyez sur",
     "keyboardHintAction": "pour retourner à l'accueil"
+  },
+  "reviews": {
+    "title": "Approuvé par des Milliers de Clients Satisfaits",
+    "subtitle": "Satisfaction Client",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Propriétaire de Restaurant",
+      "comment": "En tant que propriétaire de restaurant, la durabilité et le design sont tout aussi importants. Les panneaux HPL compacts que nous avons achetés chez Doqi Shpk ont donné à notre espace un look moderne et peuvent facilement supporter l'usure quotidienne. Les clients complimentent souvent le design — c'était le bon investissement pour notre entreprise."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Designer d'Intérieur",
+      "comment": "Travailler avec Doqi a transformé ma façon d'aborder les projets commerciaux. Leur vaste gamme de matériaux et leurs conseils professionnels m'ont aidé à obtenir des résultats exceptionnels pour mes clients. La qualité parle d'elle-même."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Directrice d'Hôtel",
+      "comment": "Nous avons meublé tout notre hôtel avec des matériaux de Doqi. La combinaison de durabilité, de style et de prix compétitifs en a fait notre partenaire privilégié. Nos clients louent constamment l'esthétique moderne."
+    }
+  },
+  "starflex": {
+    "badge": "Collection de Matelas Premium",
+    "hero": {
+      "subtitle": "Dormez dans un Confort Ultime",
+      "description": "Découvrez le mélange parfait de confort, de soutien et de qualité. Nos matelas premium sont conçus pour vous offrir le meilleur sommeil de votre vie.",
+      "shopNow": "Acheter des Matelas",
+      "contact": "Contactez-Nous"
+    },
+    "since": "Depuis",
+    "years": "Ans",
+    "customers": "Clients Satisfaits",
+    "certified": "Certifié",
+    "certifiedText": "Normes Internationales",
+    "whyChoose": "Pourquoi Choisir StarFlex?",
+    "whyChooseDescription": "Découvrez ce qui fait de nos matelas le choix parfait pour vos besoins de sommeil",
+    "features": {
+      "quality": {
+        "title": "Qualité Premium",
+        "description": "Matériaux certifiés conformes aux normes internationales de confort et de durabilité."
+      },
+      "comfort": {
+        "title": "Confort Ultime",
+        "description": "Technologie de mousse avancée offrant un soutien optimal pour un sommeil réparateur."
+      },
+      "variety": {
+        "title": "Large Gamme",
+        "description": "Plusieurs tailles et niveaux de fermeté pour répondre à toutes les préférences."
+      },
+      "warranty": {
+        "title": "Garantie 10 Ans",
+        "description": "Qualité durable soutenue par une couverture de garantie complète."
+      },
+      "delivery": {
+        "title": "Livraison Rapide",
+        "description": "Service de livraison rapide et fiable à travers le Kosovo et au-delà."
+      },
+      "health": {
+        "title": "Soutien Santé",
+        "description": "Conception orthopédique favorisant un bon alignement de la colonne vertébrale."
+      }
+    },
+    "ourCollection": "Notre Collection de Matelas",
+    "collectionDescription": "Trouvez le matelas parfait adapté à vos préférences de confort",
+    "types": {
+      "orthopedic": {
+        "name": "Orthopédique",
+        "description": "Soutien médical pour la santé du dos"
+      },
+      "memory": {
+        "name": "Mousse à Mémoire",
+        "description": "S'adapte à la forme de votre corps"
+      },
+      "pocket": {
+        "name": "Ressorts Ensachés",
+        "description": "Ressorts individuels pour l'isolation des mouvements"
+      },
+      "hybrid": {
+        "name": "Hybride",
+        "description": "Combinaison de mousse et de ressorts"
+      }
+    },
+    "viewDetails": "Voir les Détails",
+    "cta": {
+      "title": "Prêt pour un Meilleur Sommeil?",
+      "description": "Visitez notre showroom ou contactez-nous aujourd'hui pour trouver votre matelas parfait",
+      "visitShowroom": "Visiter le Showroom",
+      "browseCollection": "Parcourir la Collection"
+    }
   }
 }

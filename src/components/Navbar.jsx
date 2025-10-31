@@ -80,11 +80,14 @@ const Navbar = () => {
               </Link>
 
               {/* Search Icon */}
-              <button className="text-gray-700 hover:text-red-600 transition-colors">
+              <Link 
+                to="/products" 
+                className="text-gray-700 hover:text-red-600 transition-colors"
+              >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-              </button>
+              </Link>
 
               {/* Language Selector */}
               <LanguageSwitcher className="flex" />
@@ -144,16 +147,24 @@ const Navbar = () => {
                 <img src="/src/assets/images/starflex-logo.png" alt="StarFlex Logo" className="h-6 w-auto" />
               </Link>
               <div className="px-3 py-2 flex items-center space-x-4">
-                <button className="text-gray-700 hover:text-red-600 transition-colors">
+                <Link 
+                  to="/favorites" 
+                  className="text-gray-700 hover:text-red-600 transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
-                </button>
-                <button className="text-gray-700 hover:text-red-600 transition-colors">
+                </Link>
+                <Link 
+                  to="/products" 
+                  className="text-gray-700 hover:text-red-600 transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
-                </button>
+                </Link>
                 <LanguageSwitcher />
               </div>
             </div>

@@ -79,15 +79,15 @@
     },
     "mission": {
       "title": "Naša Misija",
-      "description": "Pružiti izuzetna rješenja namještaja i dušeka koja transformišu životne prostore u oaze udobnosti, stila i funkcionalnosti. Posvećeni smo isporuci proizvoda koji premašuju očekivanja uz održavanje najviših standarda kvaliteta i zanata."
+      "description": "Naša misija je razvijati i širiti našu kompaniju nudeći kvalitetne proizvode i usluge u oblasti namještaja, sa širokim asortimanom sirovina za proizvodnju kuhinja, spavaćih soba, sofa, vrata, kancelarijskog namještaja, hotela i unutrašnjih i vanjskih prostora. Takođe nudimo visokokvalitetne dušeke proizvedene od strane naše kompanije i trgovinu sirovinama za lokalne i međunarodne proizvođače. Naš cilj je predvidjeti potrebe tržišta, strategijski se pozicionirajući kroz partnerstva sa najpoznatijim svjetskim brendovima iz Njemačke, Turske, Italije, Španije, Grčke i drugih zemalja, kako bismo ponudili jedinstvena i moderna rješenja. Kontinuirano ulažemo u naše ljude, gradajući kulturu saradnje, povjerenja i transparentnosti sa našim klijentima, koje smatramo dugoročnim partnerima na zajedničkom putu ka održivosti i razvoju."
     },
     "vision": {
       "title": "Naša Vizija",
-      "description": "Biti vodeći proizvođač namještaja i dušeka u regiji, prepoznat po inovacijama, kvalitetu i zadovoljstvu kupaca. Zamišljamo budućnost u kojoj je svaki dom obogaćen našim pažljivo dizajniranim i stručno izrađenim proizvodima."
+      "description": "DOQI želi biti referentna tačka u Evropi za snabdijevanje sirovinama za industriju namještaja i proizvodnju dušeka kroz našu filijalu StarFlex. Naša vizija je izgraditi održiv lanac vrijednosti koji kombinuje kvalitet, inovacije i poštovanje prema okolišu, nudeći proizvode koji inspirišu udobnost, funkcionalnost i dugotrajnost. Nastojimo voditi sa odgovornošću i strašću na evropskim tržištima gdje poslujemo, stvarajući snažna partnerstva i gradajući povjerenje kroz najviše standarde performansi i etike. Podržani našim osnovnim vrijednostima – kvalitet, pouzdanost, inovacije i posvećenost vrijednostima – DOQI teži da postane simbol održivog razvoja u industriji namještaja i dušeka, pozitivno utičući na živote ljudi i budućnost planete."
     },
     "story": {
       "title": "Naša Priča",
-      "description": "DoqiSHPK je započeo sa jednostavnom vizijom: kreirati namještaj i dušeke koji kombinuju udobnost, trajnost i estetsku privlačnost. Kroz godine posvećenosti i kontinuirane inovacije, etablirali smo se kao pouzdano ime u industriji. Naše partnerstvo sa StarFlex omogućilo nam je da iskoristimo najnoviju tehnologiju i proširimo našu ponudu proizvoda kako bismo zadovoljili različite potrebe kupaca."
+      "description": "Kompanija DOQI osnovana je 1992. godine na Kosovu, tokom izuzetno teškog perioda pod jugoslavenskim režimom, kada su uslovi rada bili veoma teški. Tokom 1998–1999, izbio je rat koji je donio uništenje svega što smo godinama gradili sa predanošću. Ipak, velika želja za radom, nepokolebljiva volja i vjera u budućnost potaknuli su nas da počnemo ispočetka, u novoj realnosti, sa velikim emocionalnim i duhovnim izazovima. Nismo odustali. Godina za godinom, sa predanošću i profesionalizmom, uspjeli smo obnoviti kompaniju, fokusirajući se najpre na prodaju sirovina za proizvodnju namještaja, sektor sa velikim razvojnim potrebama u našoj zemlji. Zahvaljujući ozbiljnosti i korektnosti, postali smo pouzdan partner kako unutar tako i van Kosova, nudeći odlične usluge i kvalitetne proizvode. Vidjevši rastuću potražnju za uvoznim dušecima, 2011. godine odlučili smo investirati i započeti njihovu proizvodnju u zemlji. Tako smo kreirali brend StarFlex, koji je postao poznat na lokalnom tržištu i šire, istaknut po kvalitetu, fleksibilnosti i brzoj usluzi. Pored proizvodnje dušeka, naša kompanija je postala i značajan dobavljač sirovina za ovu industriju, pozicionirajući se kao lider na tržištu i primjer lokalnog uspjeha. 2013. godine pokrenuli smo i usluge sječenja, kantovanja i CNC tehnologije, nudeći našim klijentima mogućnosti da razviju svoje biznise. Ove usluge se nude po niskim cijenama, sa jasnim ciljem: podizanje lokalnih kapaciteta za pružanje usluga na nivou zemlje, doprinoseći smanjenju uvoza i ekonomskom razvoju Kosova. Ovo je priča o kompaniji rođenoj iz žrtve, izrasloj iz predanosti i ojačanoj odlučnošću. DOQI ostaje živi dokaz da uspjeh nije slučajan, već rezultat strastvenog rada i nepokolebljive vjere u našu viziju."
     },
     "values": {
       "title": "Naše Vrijednosti",
@@ -127,13 +127,59 @@
   },
   "contact": {
     "title": "Kontaktirajte nas",
-    "subtitle": "Stupite u kontakt sa DoqiSHPK",
+    "subtitle": "Voljeli bismo čuti od vas. Kontaktirajte nas za bilo koja pitanja.",
     "info": "Kontakt informacije",
-    "description": "Voljeli bismo čuti od vas. Kontaktirajte nas za bilo koja pitanja o našim proizvodima i uslugama."
+    "description": "Voljeli bismo čuti od vas. Kontaktirajte nas za bilo koja pitanja o našim proizvodima i uslugama.",
+    "location": "Naša Lokacija",
+    "phone": "Telefon",
+    "email": "Email",
+    "hours": "Radno Vrijeme",
+    "sendMessage": "Pošaljite nam Poruku",
+    "formDescription": "Ispunite formu ispod i mi ćemo vam se javiti u najkraćem mogućem roku.",
+    "name": "Puno Ime",
+    "namePlaceholder": "Marko Marković",
+    "company": "Naziv Firme",
+    "companyPlaceholder": "Vaša Firma",
+    "subject": "Predmet",
+    "subjectPlaceholder": "Kako vam možemo pomoći?",
+    "message": "Poruka",
+    "messagePlaceholder": "Recite nam više o vašem upitu...",
+    "sendButton": "Pošalji Poruku",
+    "sending": "Slanje...",
+    "successTitle": "Poruka Uspješno Poslana!",
+    "successMessage": "Hvala što ste nas kontaktirali. Odgovorit ćemo u roku od 24 sata.",
+    "whyContactUs": "Zašto Nas Kontaktirati?",
+    "reason1": "Stručni savjeti o izboru proizvoda",
+    "reason2": "Konkurentne cijene za veće narudžbe",
+    "reason3": "Brza dostava širom Kosova i regije",
+    "reason4": "Podrška nakon prodaje i garancija",
+    "reason5": "Prilagođena rješenja za vaš biznis",
+    "visitUs": "Posjetite Naš Showroom",
+    "weekdays": "Ponedjeljak - Petak",
+    "saturday": "Subota",
+    "sunday": "Nedjelja",
+    "closed": "Zatvoreno",
+    "appointmentNote": "Za posjete izvan radnog vremena, molimo kontaktirajte nas da zakažete termin.",
+    "ctaTitle": "Spremni za Početak Vašeg Projekta?",
+    "ctaDescription": "Razgovarajmo o tome kako možemo pomoći da ostvarite vašu viziju s našim premium materijalima.",
+    "callNow": "Pozovite Sad",
+    "emailUs": "Pošaljite Email"
   },
   "footer": {
-    "description": "Visokokvalitetna proizvodnja namještaja i dušeka u partnerstvu sa Starflex. Kombinirajući udobnost, trajnost i stil sa modernom tehnologijom.",
-    "quickLinks": "Brze veze",
+    "tagline": "Kvalitet od 1992",
+    "description": "Vodeći dobavljač sirovina za namještaj i proizvodnju dušeka. Preko 30 godina izvrsnosti u industriji.",
+    "yearsExperience": "Godina Iskustva",
+    "quickLinks": "Brze Veze",
+    "products": "Naši Proizvodi",
+    "contact": "Kontaktirajte Nas",
+    "address": "Priština, Kosovo",
+    "workingHours": "Pon - Pet: 8:00 - 17:00",
+    "saturday": "Sub: 9:00 - 14:00",
+    "followUs": "Pratite Nas",
+    "officialPartner": "Zvanični Partner",
+    "rights": "Sva prava zadržana.",
+    "privacy": "Politika Privatnosti",
+    "terms": "Uslovi Korištenja",
     "partners": "Partneri",
     "copyright": "© 2025 DoqiSHPK. Sva prava zadržana."
   },
@@ -220,5 +266,93 @@
     "funFact": "DoqiSHPK specijaliziran je za visokokvalitetne Compact HPL proizvode i dušeke. Istražite našu kolekciju kako biste pronašli savršen komad za vaš prostor!",
     "keyboardHint": "Pritisnite",
     "keyboardHintAction": "za povratak na početnu"
+  },
+  "reviews": {
+    "title": "Povjerenje Hiljada Zadovoljnih Kupaca",
+    "subtitle": "Zadovoljstvo Kupaca",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Vlasnica Restorana",
+      "comment": "Kao vlasnica restorana, izdržljivost i dizajn su podjednako važni. HPL Compact paneli koje smo kupili od Doqi Shpk dali su našem prostoru moderan izgled i lako podnose svakodnevno trošenje. Kupci često komplimentiraju dizajn — bila je to prava investicija za naš posao."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Dizajner Enterijera",
+      "comment": "Rad sa Doqi je transformisao način na koji pristupam komercijalnim projektima. Njihov širok asortiman materijala i profesionalno savjetovanje pomogli su mi da postignem izuzetne rezultate za moje klijente. Kvalitet govori sam za sebe."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Menadžer Hotela",
+      "comment": "Opremili smo cijeli naš hotel materijalima od Doqi. Kombinacija izdržljivosti, stila i konkurentnih cijena učinila ih je našim preferiranim partnerom. Naši gosti stalno hvale modernu estetiku."
+    }
+  },
+  "starflex": {
+    "badge": "Premium Kolekcija Dušeka",
+    "hero": {
+      "subtitle": "Spavajte u Ultimativnoj Udobnosti",
+      "description": "Doživite savršenu kombinaciju udobnosti, podrške i kvaliteta. Naši premium dušeci dizajnirani su da vam pruže najbolji san u vašem životu.",
+      "shopNow": "Kupite Dušeke",
+      "contact": "Kontaktirajte Nas"
+    },
+    "since": "Od",
+    "years": "Godine",
+    "customers": "Zadovoljnih Kupaca",
+    "certified": "Certificirano",
+    "certifiedText": "Međunarodni Standardi",
+    "whyChoose": "Zašto Odabrati StarFlex?",
+    "whyChooseDescription": "Otkrijte što naše dušeke čini savršenim izborom za vaše potrebe spavanja",
+    "features": {
+      "quality": {
+        "title": "Premium Kvalitet",
+        "description": "Certificirani materijali koji zadovoljavaju međunarodne standarde udobnosti i izdržljivosti."
+      },
+      "comfort": {
+        "title": "Ultimativna Udobnost",
+        "description": "Napredna tehnologija pjene koja pruža optimalnu podršku za odmoran san."
+      },
+      "variety": {
+        "title": "Širok Asortiman",
+        "description": "Više veličina i nivoa čvrstoće za svaku preferenciju."
+      },
+      "warranty": {
+        "title": "10-Godišnja Garancija",
+        "description": "Dugotrajna kvaliteta podržana sveobuhvatnom garancijom."
+      },
+      "delivery": {
+        "title": "Brza Dostava",
+        "description": "Brza i pouzdana usluga dostave širom Kosova i šire."
+      },
+      "health": {
+        "title": "Zdravstvena Podrška",
+        "description": "Ortopedski dizajn koji promovira pravilno poravnanje kičme."
+      }
+    },
+    "ourCollection": "Naša Kolekcija Dušeka",
+    "collectionDescription": "Pronađite savršen dušek prilagođen vašim preferencijama udobnosti",
+    "types": {
+      "orthopedic": {
+        "name": "Ortopedski",
+        "description": "Medicinska podrška za zdravlje leđa"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Prilagođava se obliku vašeg tijela"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Individualni opruge za izolaciju pokreta"
+      },
+      "hybrid": {
+        "name": "Hibridni",
+        "description": "Kombinacija pjene i opruga"
+      }
+    },
+    "viewDetails": "Pogledaj Detalje",
+    "cta": {
+      "title": "Spremni za Bolji San?",
+      "description": "Posjetite naš showroom ili nas kontaktirajte danas da pronađete svoj savršen dušek",
+      "visitShowroom": "Posjetite Showroom",
+      "browseCollection": "Pregledajte Kolekciju"
+    }
   }
 }

@@ -79,15 +79,15 @@
     },
     "mission": {
       "title": "Naša Misija",
-      "description": "Pružiti iznimna rješenja namještaja i madracea koja transformiraju životne prostore u utočišta udobnosti, stila i funkcionalnosti. Predani smo pružanju proizvoda koji nadmašuju očekivanja uz održavanje najviših standarda kvalitete i zanata."
+      "description": "Naša misija je razvijati i širiti našu tvrtku nudeći kvalitetne proizvode i usluge u području namještaja, sa širokim asortimanom sirovina za proizvodnju kuhinja, spavaćih soba, sofa, vrata, uredskog namještaja, hotela i unutarnjih i vanjskih prostora. Također nudimo visokokvalitetne madrace proizvedene od strane naše tvrtke i trgovinu sirovinama za lokalne i međunarodne proizvođače. Naš cilj je predvidjeti potrebe tržišta, strateški se pozicionirajući kroz partnerstva s najpoznatijim svjetskim brendovima iz Njemačke, Turske, Italije, Španjolske, Grčke i drugih zemalja, kako bismo ponudili jedinstvena i moderna rješenja. Kontinuirano ulažemo u naše ljude, gradajući kulturu suradnje, povjerenja i transparentnosti s našim klijentima, koje smatramo dugoročnim partnerima na zajedničkom putu prema održivosti i razvoju."
     },
     "vision": {
       "title": "Naša Vizija",
-      "description": "Biti vodeći proizvođač namještaja i madracea u regiji, prepoznat po inovaciji, kvaliteti i zadovoljstvu kupaca. Zamišljamo budućnost u kojoj je svaki dom obogaćen našim pažljivo dizajniranim i stručno izrađenim proizvodima."
+      "description": "DOQI teži biti referentna točka u Europi za opskrbu sirovinama za industriju namještaja i proizvodnju madracea kroz našu podružnicu StarFlex. Naša vizija je izgraditi održiv lanac vrijednosti koji kombinira kvalitetu, inovacije i poštovanje prema okolišu, nudeći proizvode koji inspiriraju udobnost, funkcionalnost i dugotrajnost. Nastojimo voditi s odgovornošću i strašću na europskim tržištima gdje poslujemo, stvarajući snažna partnerstva i gradajući povjerenje kroz najviše standarde performansi i etike. Podržani našim osnovnim vrijednostima – kvaliteta, pouzdanost, inovacije i predanost vrijednostima – DOQI teži postati simbol održivog razvoja u industriji namještaja i madracea, pozitivno utječući na živote ljudi i budućnost planeta."
     },
     "story": {
       "title": "Naša Priča",
-      "description": "DoqiSHPK je započeo s jednostavnom vizijom: stvoriti namještaj i madrace koji kombiniraju udobnost, trajnost i estetsku privlačnost. Kroz godine predanosti i kontinuirane inovacije, etablirali smo se kao pouzdano ime u industriji. Naše partnerstvo sa StarFlex omogućilo nam je korištenje najnovije tehnologije i proširenje naše ponude proizvoda kako bismo zadovoljili raznolike potrebe kupaca."
+      "description": "Tvrtka DOQI osnovana je 1992. godine na Kosovu, tijekom iznimno teškog razdoblja pod jugoslavenskim režimom, kada su uvjeti rada bili vrlo teški. Tijekom 1998-1999, izbio je rat koji je donio uništenje svega što smo godinama gradili s predanošću. Ipak, velika želja za radom, nepokolebljiva volja i vjera u budućnost potaknuli su nas da počnemo ispočetka, u novoj stvarnosti, s velikim emocionalnim i duhovnim izazovima. Nismo odustali. Godina za godinom, s predanošću i profesionalizmom, uspjeli smo obnoviti tvrtku, fokusirajući se najprije na prodaju sirovina za proizvodnju namještaja, sektor s velikim razvojnim potrebama u našoj zemlji. Zahvaljujući ozbiljnosti i korektnosti, postali smo pouzdan partner kako unutar tako i izvan Kosova, nudeći izvrsne usluge i kvalitetne proizvode. Vidjevši rastuću potražnju za uvoznim madracijima, 2011. godine odlučili smo investirati i započeti njihovu proizvodnju u zemlji. Tako smo kreirali brend StarFlex, koji je postao poznat na lokalnom tržištu i šire, istaknut po kvaliteti, fleksibilnosti i brzoj usluzi. Osim proizvodnje madracea, naša tvrtka postala je i značajan dobavljač sirovina za ovu industriju, pozicionirajući se kao lider na tržištu i primjer lokalnog uspjeha. 2013. godine pokrenuli smo i usluge rezanja, kantovanja i CNC tehnologije, nudeći našim klijentima mogućnosti da razviju svoje poslove. Ove usluge se nude po niskim cijenama, s jasnim ciljem: podizanje lokalnih kapaciteta za pružanje usluga na razini zemlje, doprinoseći smanjenju uvoza i ekonomskom razvoju Kosova. Ovo je priča o tvrtki rođenoj iz žrtve, izrasloj iz predanosti i ojačanoj odlučnošću. DOQI ostaje živi dokaz da uspjeh nije slučajan, već rezultat strastvenog rada i nepokolebljive vjere u našu viziju."
     },
     "values": {
       "title": "Naše Vrijednosti",
@@ -127,13 +127,59 @@
   },
   "contact": {
     "title": "Kontaktirajte nas",
-    "subtitle": "Stupite u kontakt s DoqiSHPK",
+    "subtitle": "Rado bismo čuli od vas. Kontaktirajte nas za sva pitanja.",
     "info": "Kontakt informacije",
-    "description": "Rado bismo čuli od vas. Kontaktirajte nas za sva pitanja o našim proizvodima i uslugama."
+    "description": "Rado bismo čuli od vas. Kontaktirajte nas za sva pitanja o našim proizvodima i uslugama.",
+    "location": "Naša Lokacija",
+    "phone": "Telefon",
+    "email": "Email",
+    "hours": "Radno Vrijeme",
+    "sendMessage": "Pošaljite nam Poruku",
+    "formDescription": "Ispunite obrazac ispod i mi ćemo vam se javiti što je prije moguće.",
+    "name": "Puno Ime",
+    "namePlaceholder": "Ivan Horvat",
+    "company": "Naziv Tvrtke",
+    "companyPlaceholder": "Vaša Tvrtka",
+    "subject": "Predmet",
+    "subjectPlaceholder": "Kako vam možemo pomoći?",
+    "message": "Poruka",
+    "messagePlaceholder": "Recite nam više o vašem upitu...",
+    "sendButton": "Pošalji Poruku",
+    "sending": "Slanje...",
+    "successTitle": "Poruka Uspješno Poslana!",
+    "successMessage": "Hvala što ste nas kontaktirali. Odgovorit ćemo u roku od 24 sata.",
+    "whyContactUs": "Zašto Nas Kontaktirati?",
+    "reason1": "Stručni savjeti o izboru proizvoda",
+    "reason2": "Konkurentne cijene za veće narudžbe",
+    "reason3": "Brza dostava širom Kosova i regije",
+    "reason4": "Podrška nakon prodaje i jamstvo",
+    "reason5": "Prilagođena rješenja za vaš posao",
+    "visitUs": "Posjetite Naš Showroom",
+    "weekdays": "Ponedjeljak - Petak",
+    "saturday": "Subota",
+    "sunday": "Nedjelja",
+    "closed": "Zatvoreno",
+    "appointmentNote": "Za posjete izvan radnog vremena, molimo kontaktirajte nas da zakažete termin.",
+    "ctaTitle": "Spremni za Početak Vašeg Projekta?",
+    "ctaDescription": "Razgovarajmo o tome kako možemo pomoći ostvariti vašu viziju s našim premium materijalima.",
+    "callNow": "Nazovite Sad",
+    "emailUs": "Pošaljite Email"
   },
   "footer": {
-    "description": "Visokokvalitetna proizvodnja namještaja i madracea u partnerstvu sa Starflex. Kombiniranje udobnosti, trajnosti i stila s modernom tehnologijom.",
-    "quickLinks": "Brze veze",
+    "tagline": "Kvaliteta od 1992",
+    "description": "Vodeći dobavljač sirovina za namještaj i proizvodnju madraca. Preko 30 godina izvrsnosti u industriji.",
+    "yearsExperience": "Godina Iskustva",
+    "quickLinks": "Brze Veze",
+    "products": "Naši Proizvodi",
+    "contact": "Kontaktirajte Nas",
+    "address": "Priština, Kosovo",
+    "workingHours": "Pon - Pet: 8:00 - 17:00",
+    "saturday": "Sub: 9:00 - 14:00",
+    "followUs": "Pratite Nas",
+    "officialPartner": "Službeni Partner",
+    "rights": "Sva prava pridržana.",
+    "privacy": "Politika Privatnosti",
+    "terms": "Uvjeti Korištenja",
     "partners": "Partneri",
     "copyright": "© 2025 DoqiSHPK. Sva prava pridržana."
   },
@@ -223,5 +269,93 @@
     "pageNotFoundMessage": "Stranica koju tražite nije pronađena :(",
     "suggestHome": "Predlažemo da se vratite na početnu",
     "backToHome": "Nazad na Početnu"
+  },
+  "reviews": {
+    "title": "Povjerenje Tisuća Zadovoljnih Kupaca",
+    "subtitle": "Zadovoljstvo Kupaca",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Vlasnica Restorana",
+      "comment": "Kao vlasnica restorana, izdržljivost i dizajn su jednako važni. HPL Compact paneli koje smo kupili od Doqi Shpk dali su našem prostoru moderan izgled i lako podnose svakodnevno trošenje. Kupci često komplimentiraju dizajn — bila je to prava investicija za naš posao."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Dizajner Interijera",
+      "comment": "Rad s Doqi transformirao je način na koji pristupam komercijalnim projektima. Njihov široki asortiman materijala i profesionalno savjetovanje pomogli su mi postići izvanredne rezultate za moje klijente. Kvaliteta govori sama za sebe."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Menadžer Hotela",
+      "comment": "Opremili smo cijeli naš hotel materijalima iz Doqi. Kombinacija izdržljivosti, stila i konkurentnih cijena učinila ih je našim preferiranim partnerom. Naši gosti stalno hvale modernu estetiku."
+    }
+  },
+  "starflex": {
+    "badge": "Premium Kolekcija Madraca",
+    "hero": {
+      "subtitle": "Spavajte u Vrhunskoj Udobnosti",
+      "description": "Doživite savršenu kombinaciju udobnosti, podrške i kvalitete. Naši premium madraci dizajnirani su da vam pruže najbolji san u vašem životu.",
+      "shopNow": "Kupite Madrace",
+      "contact": "Kontaktirajte Nas"
+    },
+    "since": "Od",
+    "years": "Godina",
+    "customers": "Zadovoljnih Kupaca",
+    "certified": "Certificirano",
+    "certifiedText": "Međunarodni Standardi",
+    "whyChoose": "Zašto Odabrati StarFlex?",
+    "whyChooseDescription": "Otkrijte što naše madrace čini savršenim izborom za vaše potrebe spavanja",
+    "features": {
+      "quality": {
+        "title": "Premium Kvaliteta",
+        "description": "Certificirani materijali koji zadovoljavaju međunarodne standarde udobnosti i izdržljivosti."
+      },
+      "comfort": {
+        "title": "Vrhunska Udobnost",
+        "description": "Napredna tehnologija pjene koja pruža optimalnu podršku za odmoran san."
+      },
+      "variety": {
+        "title": "Širok Izbor",
+        "description": "Više veličina i razina čvrstoće za svaku preferenciju."
+      },
+      "warranty": {
+        "title": "10-Godišnja Garancija",
+        "description": "Dugotrajna kvaliteta podržana sveobuhvatnom garancijom."
+      },
+      "delivery": {
+        "title": "Brza Dostava",
+        "description": "Brza i pouzdana usluga dostave diljem Kosova i šire."
+      },
+      "health": {
+        "title": "Zdravstvena Podrška",
+        "description": "Ortopedski dizajn koji promovira pravilno poravnanje kralježnice."
+      }
+    },
+    "ourCollection": "Naša Kolekcija Madraca",
+    "collectionDescription": "Pronađite savršen madrac prilagođen vašim preferencijama udobnosti",
+    "types": {
+      "orthopedic": {
+        "name": "Ortopedski",
+        "description": "Medicinska podrška za zdravlje leđa"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Prilagođava se obliku vašeg tijela"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Individualne opruge za izolaciju pokreta"
+      },
+      "hybrid": {
+        "name": "Hibridni",
+        "description": "Kombinacija pjene i opruga"
+      }
+    },
+    "viewDetails": "Pogledaj Detalje",
+    "cta": {
+      "title": "Spremni za Bolji San?",
+      "description": "Posjetite naš showroom ili nas kontaktirajte danas da pronađete svoj savršeni madrac",
+      "visitShowroom": "Posjetite Showroom",
+      "browseCollection": "Pregledajte Kolekciju"
+    }
   }
 }

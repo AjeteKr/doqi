@@ -80,15 +80,15 @@
     },
     "mission": {
       "title": "La Nostra Missione",
-      "description": "Fornire soluzioni eccezionali di mobili e materassi che trasformano gli spazi abitativi in rifugi di comfort, stile e funzionalità. Ci impegniamo a fornire prodotti che superano le aspettative mantenendo i più alti standard di qualità e artigianato."
+      "description": "La nostra missione è sviluppare e far crescere la nostra azienda offrendo prodotti e servizi di qualità nel settore dell'arredamento, con una vasta gamma di materie prime per la produzione di cucine, camere da letto, divani, porte, mobili per ufficio, hotel e ambienti interni ed esterni. Offriamo anche materassi di alta qualità prodotti dalla nostra azienda e commercializziamo materie prime per produttori locali e internazionali. Il nostro obiettivo è anticipare le esigenze del mercato, posizionandoci strategicamente attraverso partnership con i marchi più rinomati al mondo da Germania, Turchia, Italia, Spagna, Grecia e altri paesi, per offrire soluzioni uniche e moderne. Investiamo continuamente nelle nostre persone, costruendo una cultura di collaborazione, fiducia e trasparenza con i nostri clienti, che consideriamo partner a lungo termine nel percorso condiviso verso la sostenibilità e lo sviluppo."
     },
     "vision": {
       "title": "La Nostra Visione",
-      "description": "Essere il principale produttore di mobili e materassi nella regione, riconosciuto per innovazione, qualità e soddisfazione del cliente. Immaginiamo un futuro in cui ogni casa è arricchita dai nostri prodotti progettati con cura e realizzati da esperti."
+      "description": "DOQI mira ad essere il punto di riferimento in Europa per la fornitura di materie prime per l'industria del mobile e la produzione di materassi attraverso la nostra filiale StarFlex. La nostra visione è costruire una catena del valore sostenibile che combina qualità, innovazione e rispetto per l'ambiente, offrendo prodotti che ispirano comfort, funzionalità e longevità. Miriamo a guidare con responsabilità e passione nei mercati europei in cui operiamo, creando partnership solide e costruendo fiducia attraverso i più alti standard di prestazioni ed etica. Supportati dai nostri valori fondamentali – qualità, affidabilità, innovazione e impegno verso i valori – DOQI aspira a diventare un simbolo di sviluppo sostenibile nell'industria del mobile e dei materassi, influenzando positivamente la vita delle persone e il futuro del pianeta."
     },
     "story": {
       "title": "La Nostra Storia",
-      "description": "DoqiSHPK è iniziata con una visione semplice: creare mobili e materassi che combinino comfort, durata e appeal estetico. Attraverso anni di dedizione e innovazione continua, ci siamo affermati come un nome di fiducia nel settore. La nostra partnership con StarFlex ci ha permesso di sfruttare tecnologie all'avanguardia e ampliare la nostra gamma di prodotti per soddisfare diverse esigenze dei clienti."
+      "description": "L'azienda DOQI è stata fondata nel 1992 in Kosovo, durante un periodo estremamente difficile sotto il regime jugoslavo, quando le condizioni di lavoro erano molto dure. Durante il 1998-1999, scoppiò la guerra che portò alla distruzione di tutto ciò che avevamo costruito con dedizione negli anni. Tuttavia, il grande desiderio di lavorare, la volontà incrollabile e la fede nel futuro ci hanno spinto a ricominciare da capo, in una nuova realtà, con grandi sfide emotive e spirituali. Non ci siamo arresi. Anno dopo anno, con dedizione e professionalità, siamo riusciti a ricostruire l'azienda, concentrandoci inizialmente sulla vendita di materie prime per la produzione di mobili, un settore con grandi necessità di sviluppo nel nostro paese. Grazie alla serietà e correttezza, siamo diventati un partner affidabile sia all'interno che all'esterno del Kosovo, offrendo servizi eccellenti e prodotti di qualità. Vedendo la crescente domanda di materassi importati, nel 2011 abbiamo deciso di investire e iniziare a produrli localmente. Così abbiamo creato il marchio StarFlex, che è diventato noto nel mercato locale e oltre, distinto per qualità, flessibilità e servizio rapido. Oltre alla produzione di materassi, la nostra azienda è diventata anche un importante fornitore di materie prime per questa industria, posizionandosi come leader di mercato ed esempio di successo locale. Nel 2013 abbiamo anche avviato servizi di taglio, bordatura e tecnologia CNC, offrendo ai nostri clienti opportunità per far crescere le loro attività. Questi servizi sono offerti a basso costo, con un obiettivo chiaro: aumentare le capacità locali per fornire servizi a livello nazionale, contribuendo alla riduzione delle importazioni e allo sviluppo economico del Kosovo. Questa è la storia di un'azienda nata dal sacrificio, cresciuta dalla dedizione e rafforzata dalla determinazione. DOQI rimane la prova vivente che il successo non è casuale, ma il risultato di un lavoro appassionato e di una fede incrollabile nella nostra visione."
     },
     "values": {
       "title": "I Nostri Valori",
@@ -128,13 +128,59 @@
   },
   "contact": {
     "title": "Contattaci",
-    "subtitle": "Mettiti in contatto con DoqiSHPK",
+    "subtitle": "Ci piacerebbe sentire da te. Contattaci per qualsiasi domanda.",
     "info": "Informazioni di Contatto",
-    "description": "Ci piacerebbe sentire da te. Contattaci per qualsiasi domanda sui nostri prodotti e servizi."
+    "description": "Ci piacerebbe sentire da te. Contattaci per qualsiasi domanda sui nostri prodotti e servizi.",
+    "location": "La Nostra Sede",
+    "phone": "Telefono",
+    "email": "Email",
+    "hours": "Orari di Apertura",
+    "sendMessage": "Inviaci un Messaggio",
+    "formDescription": "Compila il modulo qui sotto e ti risponderemo il prima possibile.",
+    "name": "Nome Completo",
+    "namePlaceholder": "Mario Rossi",
+    "company": "Nome Azienda",
+    "companyPlaceholder": "La Tua Azienda",
+    "subject": "Oggetto",
+    "subjectPlaceholder": "Come possiamo aiutarti?",
+    "message": "Messaggio",
+    "messagePlaceholder": "Raccontaci di più sulla tua richiesta...",
+    "sendButton": "Invia Messaggio",
+    "sending": "Invio in corso...",
+    "successTitle": "Messaggio Inviato con Successo!",
+    "successMessage": "Grazie per averci contattato. Risponderemo entro 24 ore.",
+    "whyContactUs": "Perché Contattarci?",
+    "reason1": "Consulenza esperta sulla selezione dei prodotti",
+    "reason2": "Prezzi competitivi per ordini all'ingrosso",
+    "reason3": "Consegna rapida in tutto il Kosovo e nella regione",
+    "reason4": "Supporto post-vendita e garanzia",
+    "reason5": "Soluzioni personalizzate per la tua attività",
+    "visitUs": "Visita il Nostro Showroom",
+    "weekdays": "Lunedì - Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica",
+    "closed": "Chiuso",
+    "appointmentNote": "Per visite fuori orario, contattaci per fissare un appuntamento.",
+    "ctaTitle": "Pronto a Iniziare il Tuo Progetto?",
+    "ctaDescription": "Discutiamo di come possiamo aiutarti a realizzare la tua visione con i nostri materiali premium.",
+    "callNow": "Chiama Ora",
+    "emailUs": "Inviaci un'Email"
   },
   "footer": {
-    "description": "Produzione di mobili e materassi di alta qualità in collaborazione con Starflex. Combinando comfort, durata e stile con tecnologia moderna.",
+    "tagline": "Qualità dal 1992",
+    "description": "Fornitore leader di materie prime per mobili e produzione di materassi. Oltre 30 anni di eccellenza nel settore.",
+    "yearsExperience": "Anni di Esperienza",
     "quickLinks": "Link Rapidi",
+    "products": "I Nostri Prodotti",
+    "contact": "Contattaci",
+    "address": "Pristina, Kosovo",
+    "workingHours": "Lun - Ven: 8:00 - 17:00",
+    "saturday": "Sab: 9:00 - 14:00",
+    "followUs": "Seguici",
+    "officialPartner": "Partner Ufficiale",
+    "rights": "Tutti i diritti riservati.",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
     "partners": "Partner",
     "copyright": "© 2025 DoqiSHPK. Tutti i diritti riservati."
   },
@@ -220,5 +266,93 @@
     "funFact": "DoqiSHPK è specializzata in prodotti HPL compatti di alta qualità e materassi. Esplora la nostra collezione per trovare il pezzo perfetto per il tuo spazio!",
     "keyboardHint": "Premi",
     "keyboardHintAction": "per tornare alla home"
+  },
+  "reviews": {
+    "title": "Scelto da Migliaia di Clienti Soddisfatti",
+    "subtitle": "Soddisfazione del Cliente",
+    "review1": {
+      "name": "Elira M.",
+      "role": "Proprietaria di Ristorante",
+      "comment": "Come proprietaria di un ristorante, durata e design sono ugualmente importanti. I pannelli HPL Compatti che abbiamo acquistato da Doqi Shpk hanno dato al nostro spazio un aspetto moderno e possono facilmente gestire l'usura quotidiana. I clienti spesso complimentano il design — è stato l'investimento giusto per la nostra attività."
+    },
+    "review2": {
+      "name": "Petrit G.",
+      "role": "Designer d'Interni",
+      "comment": "Lavorare con Doqi ha trasformato il mio approccio ai progetti commerciali. La loro vasta gamma di materiali e la consulenza professionale mi hanno aiutato a ottenere risultati eccezionali per i miei clienti. La qualità parla da sé."
+    },
+    "review3": {
+      "name": "Ana K.",
+      "role": "Direttrice Hotel",
+      "comment": "Abbiamo arredato l'intero nostro hotel con materiali di Doqi. La combinazione di durata, stile e prezzi competitivi li ha resi il nostro partner preferito. I nostri ospiti lodano costantemente l'estetica moderna."
+    }
+  },
+  "starflex": {
+    "badge": "Collezione Materassi Premium",
+    "hero": {
+      "subtitle": "Dormi nel Massimo Comfort",
+      "description": "Sperimenta la perfetta combinazione di comfort, supporto e qualità. I nostri materassi premium sono progettati per darti il miglior sonno della tua vita.",
+      "shopNow": "Acquista Materassi",
+      "contact": "Contattaci"
+    },
+    "since": "Dal",
+    "years": "Anni",
+    "customers": "Clienti Soddisfatti",
+    "certified": "Certificato",
+    "certifiedText": "Standard Internazionali",
+    "whyChoose": "Perché Scegliere StarFlex?",
+    "whyChooseDescription": "Scopri cosa rende i nostri materassi la scelta perfetta per le tue esigenze di sonno",
+    "features": {
+      "quality": {
+        "title": "Qualità Premium",
+        "description": "Materiali certificati che soddisfano gli standard internazionali di comfort e durata."
+      },
+      "comfort": {
+        "title": "Massimo Comfort",
+        "description": "Tecnologia schiuma avanzata che offre un supporto ottimale per un sonno riposante."
+      },
+      "variety": {
+        "title": "Vasta Gamma",
+        "description": "Più dimensioni e livelli di fermezza per soddisfare ogni preferenza."
+      },
+      "warranty": {
+        "title": "Garanzia 10 Anni",
+        "description": "Qualità duratura supportata da una copertura di garanzia completa."
+      },
+      "delivery": {
+        "title": "Consegna Veloce",
+        "description": "Servizio di consegna veloce e affidabile in tutto il Kosovo e oltre."
+      },
+      "health": {
+        "title": "Supporto Salute",
+        "description": "Design ortopedico che promuove il corretto allineamento della colonna vertebrale."
+      }
+    },
+    "ourCollection": "La Nostra Collezione di Materassi",
+    "collectionDescription": "Trova il materasso perfetto su misura per le tue preferenze di comfort",
+    "types": {
+      "orthopedic": {
+        "name": "Ortopedico",
+        "description": "Supporto medico per la salute della schiena"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Si adatta alla forma del tuo corpo"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Molle insacchettate individuali per isolamento del movimento"
+      },
+      "hybrid": {
+        "name": "Ibrido",
+        "description": "Combinazione di schiuma e molle"
+      }
+    },
+    "viewDetails": "Vedi Dettagli",
+    "cta": {
+      "title": "Pronto per un Sonno Migliore?",
+      "description": "Visita il nostro showroom o contattaci oggi per trovare il tuo materasso perfetto",
+      "visitShowroom": "Visita Showroom",
+      "browseCollection": "Sfoglia Collezione"
+    }
   }
 }

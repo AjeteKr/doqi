@@ -249,8 +249,77 @@
     },
     "review3": {
       "name": "Ana K.",
-      "role": "Hotelmanagerin",
+      "role": "Hoteldirektorin",
       "comment": "Wir haben unser gesamtes Hotel mit Materialien von Doqi eingerichtet. Die Kombination aus Haltbarkeit, Stil und wettbewerbsfähigen Preisen machte sie zu unserem bevorzugten Partner. Unsere Gäste loben durchweg die moderne Ästhetik."
+    }
+  },
+  "starflex": {
+    "badge": "Premium Matratzen-Kollektion",
+    "hero": {
+      "subtitle": "Schlafen Sie in ultimativem Komfort",
+      "description": "Erleben Sie die perfekte Mischung aus Komfort, Unterstützung und Qualität. Unsere Premium-Matratzen sind so konzipiert, dass sie Ihnen den besten Schlaf Ihres Lebens bieten.",
+      "shopNow": "Matratzen Kaufen",
+      "contact": "Kontaktieren Sie Uns"
+    },
+    "since": "Seit",
+    "years": "Jahre",
+    "customers": "Zufriedene Kunden",
+    "certified": "Zertifiziert",
+    "certifiedText": "Internationale Standards",
+    "whyChoose": "Warum StarFlex Wählen?",
+    "whyChooseDescription": "Entdecken Sie, was unsere Matratzen zur perfekten Wahl für Ihre Schlafbedürfnisse macht",
+    "features": {
+      "quality": {
+        "title": "Premium-Qualität",
+        "description": "Zertifizierte Materialien, die internationale Standards für Komfort und Haltbarkeit erfüllen."
+      },
+      "comfort": {
+        "title": "Ultimativer Komfort",
+        "description": "Fortschrittliche Schaumtechnologie für optimale Unterstützung und erholsamen Schlaf."
+      },
+      "variety": {
+        "title": "Große Auswahl",
+        "description": "Mehrere Größen und Härtegrade für jede Vorliebe."
+      },
+      "warranty": {
+        "title": "10 Jahre Garantie",
+        "description": "Langlebige Qualität mit umfassender Garantieabdeckung."
+      },
+      "delivery": {
+        "title": "Schnelle Lieferung",
+        "description": "Schneller und zuverlässiger Lieferservice im gesamten Kosovo und darüber hinaus."
+      },
+      "health": {
+        "title": "Gesundheitsunterstützung",
+        "description": "Orthopädisches Design zur Förderung der richtigen Wirbelsäulenausrichtung."
+      }
+    },
+    "ourCollection": "Unsere Matratzen-Kollektion",
+    "collectionDescription": "Finden Sie die perfekte Matratze, die auf Ihre Komfortvorlieben zugeschnitten ist",
+    "types": {
+      "orthopedic": {
+        "name": "Orthopädisch",
+        "description": "Medizinische Unterstützung für Rückengesundheit"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Passt sich Ihrer Körperform an"
+      },
+      "pocket": {
+        "name": "Taschenfeder",
+        "description": "Einzelne Taschenfedern für Bewegungsisolierung"
+      },
+      "hybrid": {
+        "name": "Hybrid",
+        "description": "Kombination aus Schaum und Federn"
+      }
+    },
+    "viewDetails": "Details Anzeigen",
+    "cta": {
+      "title": "Bereit für Besseren Schlaf?",
+      "description": "Besuchen Sie unseren Showroom oder kontaktieren Sie uns noch heute, um Ihre perfekte Matratze zu finden",
+      "visitShowroom": "Showroom Besuchen",
+      "browseCollection": "Kollektion Durchsuchen"
     }
   }
 }

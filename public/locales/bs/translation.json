@@ -248,8 +248,77 @@
     },
     "review3": {
       "name": "Ana K.",
-      "role": "Menadžerica Hotela",
-      "comment": "Namjestili smo cijeli naš hotel materijalima od Doqi. Kombinacija izdržljivosti, stila i konkurentnih cijena učinila ih je našim preferiranim partnerom. Naši gosti stalno hvale modernu estetiku."
+      "role": "Menadžer Hotela",
+      "comment": "Opremili smo cijeli naš hotel materijalima od Doqi. Kombinacija izdržljivosti, stila i konkurentnih cijena učinila ih je našim preferiranim partnerom. Naši gosti stalno hvale modernu estetiku."
+    }
+  },
+  "starflex": {
+    "badge": "Premium Kolekcija Dušeka",
+    "hero": {
+      "subtitle": "Spavajte u Ultimativnoj Udobnosti",
+      "description": "Doživite savršenu kombinaciju udobnosti, podrške i kvaliteta. Naši premium dušeci dizajnirani su da vam pruže najbolji san u vašem životu.",
+      "shopNow": "Kupite Dušeke",
+      "contact": "Kontaktirajte Nas"
+    },
+    "since": "Od",
+    "years": "Godine",
+    "customers": "Zadovoljnih Kupaca",
+    "certified": "Certificirano",
+    "certifiedText": "Međunarodni Standardi",
+    "whyChoose": "Zašto Odabrati StarFlex?",
+    "whyChooseDescription": "Otkrijte što naše dušeke čini savršenim izborom za vaše potrebe spavanja",
+    "features": {
+      "quality": {
+        "title": "Premium Kvalitet",
+        "description": "Certificirani materijali koji zadovoljavaju međunarodne standarde udobnosti i izdržljivosti."
+      },
+      "comfort": {
+        "title": "Ultimativna Udobnost",
+        "description": "Napredna tehnologija pjene koja pruža optimalnu podršku za odmoran san."
+      },
+      "variety": {
+        "title": "Širok Asortiman",
+        "description": "Više veličina i nivoa čvrstoće za svaku preferenciju."
+      },
+      "warranty": {
+        "title": "10-Godišnja Garancija",
+        "description": "Dugotrajna kvaliteta podržana sveobuhvatnom garancijom."
+      },
+      "delivery": {
+        "title": "Brza Dostava",
+        "description": "Brza i pouzdana usluga dostave širom Kosova i šire."
+      },
+      "health": {
+        "title": "Zdravstvena Podrška",
+        "description": "Ortopedski dizajn koji promovira pravilno poravnanje kičme."
+      }
+    },
+    "ourCollection": "Naša Kolekcija Dušeka",
+    "collectionDescription": "Pronađite savršen dušek prilagođen vašim preferencijama udobnosti",
+    "types": {
+      "orthopedic": {
+        "name": "Ortopedski",
+        "description": "Medicinska podrška za zdravlje leđa"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Prilagođava se obliku vašeg tijela"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Individualni opruge za izolaciju pokreta"
+      },
+      "hybrid": {
+        "name": "Hibridni",
+        "description": "Kombinacija pjene i opruga"
+      }
+    },
+    "viewDetails": "Pogledaj Detalje",
+    "cta": {
+      "title": "Spremni za Bolji San?",
+      "description": "Posjetite naš showroom ili nas kontaktirajte danas da pronađete svoj savršen dušek",
+      "visitShowroom": "Posjetite Showroom",
+      "browseCollection": "Pregledajte Kolekciju"
     }
   }
 }

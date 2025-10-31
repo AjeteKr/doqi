@@ -248,8 +248,77 @@
     },
     "review3": {
       "name": "Ana K.",
-      "role": "Direttrice d'Albergo",
-      "comment": "Abbiamo arredato tutto il nostro hotel con materiali di Doqi. La combinazione di durata, stile e prezzi competitivi li ha resi il nostro partner preferito. I nostri ospiti lodano costantemente l'estetica moderna."
+      "role": "Direttrice Hotel",
+      "comment": "Abbiamo arredato l'intero nostro hotel con materiali di Doqi. La combinazione di durata, stile e prezzi competitivi li ha resi il nostro partner preferito. I nostri ospiti lodano costantemente l'estetica moderna."
+    }
+  },
+  "starflex": {
+    "badge": "Collezione Materassi Premium",
+    "hero": {
+      "subtitle": "Dormi nel Massimo Comfort",
+      "description": "Sperimenta la perfetta combinazione di comfort, supporto e qualità. I nostri materassi premium sono progettati per darti il miglior sonno della tua vita.",
+      "shopNow": "Acquista Materassi",
+      "contact": "Contattaci"
+    },
+    "since": "Dal",
+    "years": "Anni",
+    "customers": "Clienti Soddisfatti",
+    "certified": "Certificato",
+    "certifiedText": "Standard Internazionali",
+    "whyChoose": "Perché Scegliere StarFlex?",
+    "whyChooseDescription": "Scopri cosa rende i nostri materassi la scelta perfetta per le tue esigenze di sonno",
+    "features": {
+      "quality": {
+        "title": "Qualità Premium",
+        "description": "Materiali certificati che soddisfano gli standard internazionali di comfort e durata."
+      },
+      "comfort": {
+        "title": "Massimo Comfort",
+        "description": "Tecnologia schiuma avanzata che offre un supporto ottimale per un sonno riposante."
+      },
+      "variety": {
+        "title": "Vasta Gamma",
+        "description": "Più dimensioni e livelli di fermezza per soddisfare ogni preferenza."
+      },
+      "warranty": {
+        "title": "Garanzia 10 Anni",
+        "description": "Qualità duratura supportata da una copertura di garanzia completa."
+      },
+      "delivery": {
+        "title": "Consegna Veloce",
+        "description": "Servizio di consegna veloce e affidabile in tutto il Kosovo e oltre."
+      },
+      "health": {
+        "title": "Supporto Salute",
+        "description": "Design ortopedico che promuove il corretto allineamento della colonna vertebrale."
+      }
+    },
+    "ourCollection": "La Nostra Collezione di Materassi",
+    "collectionDescription": "Trova il materasso perfetto su misura per le tue preferenze di comfort",
+    "types": {
+      "orthopedic": {
+        "name": "Ortopedico",
+        "description": "Supporto medico per la salute della schiena"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Si adatta alla forma del tuo corpo"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Molle insacchettate individuali per isolamento del movimento"
+      },
+      "hybrid": {
+        "name": "Ibrido",
+        "description": "Combinazione di schiuma e molle"
+      }
+    },
+    "viewDetails": "Vedi Dettagli",
+    "cta": {
+      "title": "Pronto per un Sonno Migliore?",
+      "description": "Visita il nostro showroom o contattaci oggi per trovare il tuo materasso perfetto",
+      "visitShowroom": "Visita Showroom",
+      "browseCollection": "Sfoglia Collezione"
     }
   }
 }

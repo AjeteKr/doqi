@@ -251,5 +251,74 @@
       "role": "Hotel Manager",
       "comment": "We furnished our entire hotel with materials from Doqi. The combination of durability, style, and competitive pricing made them our preferred partner. Our guests consistently praise the modern aesthetic."
     }
+  },
+  "starflex": {
+    "badge": "Premium Mattress Collection",
+    "hero": {
+      "subtitle": "Sleep in Ultimate Comfort",
+      "description": "Experience the perfect blend of comfort, support, and quality. Our premium mattresses are designed to give you the best sleep of your life.",
+      "shopNow": "Shop Mattresses",
+      "contact": "Contact Us"
+    },
+    "since": "Since",
+    "years": "Years",
+    "customers": "Happy Customers",
+    "certified": "Certified",
+    "certifiedText": "International Standards",
+    "whyChoose": "Why Choose StarFlex?",
+    "whyChooseDescription": "Discover what makes our mattresses the perfect choice for your sleep needs",
+    "features": {
+      "quality": {
+        "title": "Premium Quality",
+        "description": "Certified materials meeting international standards for comfort and durability."
+      },
+      "comfort": {
+        "title": "Ultimate Comfort",
+        "description": "Advanced foam technology providing optimal support for restful sleep."
+      },
+      "variety": {
+        "title": "Wide Range",
+        "description": "Multiple sizes and firmness levels to suit every preference."
+      },
+      "warranty": {
+        "title": "10-Year Warranty",
+        "description": "Long-lasting quality backed by comprehensive warranty coverage."
+      },
+      "delivery": {
+        "title": "Fast Delivery",
+        "description": "Quick and reliable delivery service across Kosovo and beyond."
+      },
+      "health": {
+        "title": "Health Support",
+        "description": "Orthopedic design promoting proper spinal alignment."
+      }
+    },
+    "ourCollection": "Our Mattress Collection",
+    "collectionDescription": "Find the perfect mattress tailored to your comfort preferences",
+    "types": {
+      "orthopedic": {
+        "name": "Orthopedic",
+        "description": "Medical-grade support for back health"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Contours to your body shape"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Individual pocket springs for motion isolation"
+      },
+      "hybrid": {
+        "name": "Hybrid",
+        "description": "Combination of foam and springs"
+      }
+    },
+    "viewDetails": "View Details",
+    "cta": {
+      "title": "Ready for Better Sleep?",
+      "description": "Visit our showroom or contact us today to find your perfect mattress",
+      "visitShowroom": "Visit Showroom",
+      "browseCollection": "Browse Collection"
+    }
   }
 }

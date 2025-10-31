@@ -251,5 +251,74 @@
       "role": "Directrice d'Hôtel",
       "comment": "Nous avons meublé tout notre hôtel avec des matériaux de Doqi. La combinaison de durabilité, de style et de prix compétitifs en a fait notre partenaire privilégié. Nos clients louent constamment l'esthétique moderne."
     }
+  },
+  "starflex": {
+    "badge": "Collection de Matelas Premium",
+    "hero": {
+      "subtitle": "Dormez dans un Confort Ultime",
+      "description": "Découvrez le mélange parfait de confort, de soutien et de qualité. Nos matelas premium sont conçus pour vous offrir le meilleur sommeil de votre vie.",
+      "shopNow": "Acheter des Matelas",
+      "contact": "Contactez-Nous"
+    },
+    "since": "Depuis",
+    "years": "Ans",
+    "customers": "Clients Satisfaits",
+    "certified": "Certifié",
+    "certifiedText": "Normes Internationales",
+    "whyChoose": "Pourquoi Choisir StarFlex?",
+    "whyChooseDescription": "Découvrez ce qui fait de nos matelas le choix parfait pour vos besoins de sommeil",
+    "features": {
+      "quality": {
+        "title": "Qualité Premium",
+        "description": "Matériaux certifiés conformes aux normes internationales de confort et de durabilité."
+      },
+      "comfort": {
+        "title": "Confort Ultime",
+        "description": "Technologie de mousse avancée offrant un soutien optimal pour un sommeil réparateur."
+      },
+      "variety": {
+        "title": "Large Gamme",
+        "description": "Plusieurs tailles et niveaux de fermeté pour répondre à toutes les préférences."
+      },
+      "warranty": {
+        "title": "Garantie 10 Ans",
+        "description": "Qualité durable soutenue par une couverture de garantie complète."
+      },
+      "delivery": {
+        "title": "Livraison Rapide",
+        "description": "Service de livraison rapide et fiable à travers le Kosovo et au-delà."
+      },
+      "health": {
+        "title": "Soutien Santé",
+        "description": "Conception orthopédique favorisant un bon alignement de la colonne vertébrale."
+      }
+    },
+    "ourCollection": "Notre Collection de Matelas",
+    "collectionDescription": "Trouvez le matelas parfait adapté à vos préférences de confort",
+    "types": {
+      "orthopedic": {
+        "name": "Orthopédique",
+        "description": "Soutien médical pour la santé du dos"
+      },
+      "memory": {
+        "name": "Mousse à Mémoire",
+        "description": "S'adapte à la forme de votre corps"
+      },
+      "pocket": {
+        "name": "Ressorts Ensachés",
+        "description": "Ressorts individuels pour l'isolation des mouvements"
+      },
+      "hybrid": {
+        "name": "Hybride",
+        "description": "Combinaison de mousse et de ressorts"
+      }
+    },
+    "viewDetails": "Voir les Détails",
+    "cta": {
+      "title": "Prêt pour un Meilleur Sommeil?",
+      "description": "Visitez notre showroom ou contactez-nous aujourd'hui pour trouver votre matelas parfait",
+      "visitShowroom": "Visiter le Showroom",
+      "browseCollection": "Parcourir la Collection"
+    }
   }
 }

@@ -263,7 +263,76 @@
     "review3": {
       "name": "Ana K.",
       "role": "Menaxhere Hoteli",
-      "comment": "Mobiluam të gjithë hotelin tonë me materiale nga Doqi. Kombinimi i qëndrueshmërisë, stilit dhe çmimeve konkurruese i bëri ata partnerin tonë të preferuar. Mysafirët tanë vazhdimisht lavdërojnë estetikën moderne."
+      "comment": "Ne mobiliuam tërë hotelin tonë me materiale nga Doqi. Kombinimi i qëndrueshmërisë, stilit dhe çmimeve konkurruese i bëri ata partnerin tonë të preferuar. Mysafirët tanë vazhdimisht lavdërojnë estetikën moderne."
+    }
+  },
+  "starflex": {
+    "badge": "Koleksioni Premium i Dyshekëve",
+    "hero": {
+      "subtitle": "Flini në Komoditet të Plotë",
+      "description": "Përvoni përzierjën perfekte të komoditetit, mbështetjes dhe cilësisë. Dyshekët tanë premium janë dizajnuar t'ju japin gjumin më të mirë të jetës suaj.",
+      "shopNow": "Blej Dyshekë",
+      "contact": "Na Kontaktoni"
+    },
+    "since": "Që nga",
+    "years": "Vite",
+    "customers": "Klientë të Kënaqur",
+    "certified": "I Certifikuar",
+    "certifiedText": "Standarde Ndërkombëtare",
+    "whyChoose": "Pse të Zgjidhni StarFlex?",
+    "whyChooseDescription": "Zbuloni çfarë i bën dyshekët tanë zgjedhjen perfekte për nevojat tuaja të gjumit",
+    "features": {
+      "quality": {
+        "title": "Cilësi Premium",
+        "description": "Materiale të certifikuara që plotësojnë standardet ndërkombëtare për komoditet dhe qëndrueshmëri."
+      },
+      "comfort": {
+        "title": "Komoditet i Plotë",
+        "description": "Teknologji e avancuar e shkumës që ofron mbështetje optimale për gjumë të qetë."
+      },
+      "variety": {
+        "title": "Gamë e Gjerë",
+        "description": "Shumë madhësi dhe nivele fortësie për të përshtatur çdo preferencë."
+      },
+      "warranty": {
+        "title": "Garanci 10 Vjeçare",
+        "description": "Cilësi e qëndrueshme e mbështetur nga garanci gjithëpërfshirëse."
+      },
+      "delivery": {
+        "title": "Dërgim i Shpejtë",
+        "description": "Shërbim i shpejtë dhe i besueshëm dërgimi në të gjithë Kosovën dhe më gjerë."
+      },
+      "health": {
+        "title": "Mbështetje Shëndetësore",
+        "description": "Dizajn ortopedik që promovon rreshtimin e duhur të shtyllës kurrizore."
+      }
+    },
+    "ourCollection": "Koleksioni Ynë i Dyshekëve",
+    "collectionDescription": "Gjeni dyshekun perfekt të përshtatur me preferencat tuaja të komoditetit",
+    "types": {
+      "orthopedic": {
+        "name": "Ortopedik",
+        "description": "Mbështetje mjekësore për shëndetin e shpinës"
+      },
+      "memory": {
+        "name": "Memory Foam",
+        "description": "Përshtatet me formën e trupit tuaj"
+      },
+      "pocket": {
+        "name": "Pocket Spring",
+        "description": "Sustë individuale për izolim lëvizjeje"
+      },
+      "hybrid": {
+        "name": "Hybrid",
+        "description": "Kombinim i shkumës dhe sustave"
+      }
+    },
+    "viewDetails": "Shiko Detajet",
+    "cta": {
+      "title": "Gati për Gjumë më të Mirë?",
+      "description": "Vizitoni sallonin tonë ose na kontaktoni sot për të gjetur dyshekun tuaj perfekt",
+      "visitShowroom": "Vizito Sallonin",
+      "browseCollection": "Shfleto Koleksionin"
     }
   }
 }

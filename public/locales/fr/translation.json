@@ -133,8 +133,20 @@
     "description": "Nous aimerions avoir de vos nouvelles. Contactez-nous pour toute question concernant nos produits et services."
   },
   "footer": {
-    "description": "Production de meubles et matelas de haute qualité en partenariat avec Starflex. Alliant confort, durabilité et style avec une technologie moderne.",
+    "tagline": "Qualité depuis 1992",
+    "description": "Principal fournisseur de matières premières pour meubles et production de matelas. Plus de 30 ans d'excellence dans l'industrie.",
+    "yearsExperience": "Années d'Expérience",
     "quickLinks": "Liens Rapides",
+    "products": "Nos Produits",
+    "contact": "Contactez-nous",
+    "address": "Pristina, Kosovo",
+    "workingHours": "Lun - Ven: 8:00 - 17:00",
+    "saturday": "Sam: 9:00 - 14:00",
+    "followUs": "Suivez-nous",
+    "officialPartner": "Partenaire Officiel",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
     "partners": "Partenaires",
     "copyright": "© 2025 DoqiSHPK. Tous droits réservés."
   },

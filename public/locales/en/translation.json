@@ -133,8 +133,20 @@
     "description": "We'd love to hear from you. Contact us for any inquiries about our products and services."
   },
   "footer": {
-    "description": "High-quality furniture and mattress production in partnership with Starflex. Combining comfort, durability, and style with modern technology.",
+    "tagline": "Quality Since 1992",
+    "description": "Leading supplier of furniture raw materials and mattress production. Over 30 years of excellence in the industry.",
+    "yearsExperience": "Years of Experience",
     "quickLinks": "Quick Links",
+    "products": "Our Products",
+    "contact": "Contact Us",
+    "address": "Prishtina, Kosovo",
+    "workingHours": "Mon - Fri: 8:00 - 17:00",
+    "saturday": "Sat: 9:00 - 14:00",
+    "followUs": "Follow Us",
+    "officialPartner": "Official Partner",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
     "partners": "Partners",
     "copyright": "© 2025 DoqiSHPK. All rights reserved."
   },

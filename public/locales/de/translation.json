@@ -133,8 +133,20 @@
     "description": "Wir würden gerne von Ihnen hören. Kontaktieren Sie uns für alle Anfragen zu unseren Produkten und Dienstleistungen."
   },
   "footer": {
-    "description": "Hochwertige Möbel- und Matratzenproduktion in Partnerschaft mit Starflex. Kombination von Komfort, Haltbarkeit und Stil mit moderner Technologie.",
-    "quickLinks": "Schnelle Links",
+    "tagline": "Qualität seit 1992",
+    "description": "Führender Lieferant von Möbelrohstoffen und Matratzenproduktion. Über 30 Jahre Exzellenz in der Branche.",
+    "yearsExperience": "Jahre Erfahrung",
+    "quickLinks": "Schnelllinks",
+    "products": "Unsere Produkte",
+    "contact": "Kontaktieren Sie Uns",
+    "address": "Pristina, Kosovo",
+    "workingHours": "Mo - Fr: 8:00 - 17:00",
+    "saturday": "Sa: 9:00 - 14:00",
+    "followUs": "Folgen Sie Uns",
+    "officialPartner": "Offizieller Partner",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
     "partners": "Partner",
     "copyright": "© 2025 DoqiSHPK. Alle Rechte vorbehalten."
   },

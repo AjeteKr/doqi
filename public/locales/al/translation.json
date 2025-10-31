@@ -133,8 +133,20 @@
     "description": "Do të donim të dëgjonim nga ju. Kontaktoni me ne për çdo pyetje rreth produkteve dhe shërbimeve tona."
   },
   "footer": {
-    "description": "Prodhim mobiljesh dhe dyshekësh me cilësi të lartë në partneritet me Starflex. Duke kombinuar rehatinë, qëndrueshmërinë dhe stilin me teknologji moderne.",
-    "quickLinks": "Lidhjet e Shpejta",
+    "tagline": "Cilësi që nga 1992",
+    "description": "Furnizues kryesor i lëndëve të para për mobilje dhe prodhim dyshekësh. Mbi 30 vjet përsosmëri në industri.",
+    "yearsExperience": "Vite Përvojë",
+    "quickLinks": "Lidhje të Shpejta",
+    "products": "Produktet Tona",
+    "contact": "Na Kontaktoni",
+    "address": "Prishtinë, Kosovë",
+    "workingHours": "Hën - Pre: 8:00 - 17:00",
+    "saturday": "Sht: 9:00 - 14:00",
+    "followUs": "Na Ndiqni",
+    "officialPartner": "Partner Zyrtar",
+    "rights": "Të gjitha të drejtat e rezervuara.",
+    "privacy": "Politika e Privatësisë",
+    "terms": "Kushtet e Shërbimit",
     "partners": "Partnerët",
     "copyright": "© 2025 DoqiSHPK. Të gjitha të drejtat e rezervuara."
   },

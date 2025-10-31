@@ -132,8 +132,20 @@
     "description": "Rado bismo čuli od vas. Kontaktirajte nas za sva pitanja o našim proizvodima i uslugama."
   },
   "footer": {
-    "description": "Visokokvalitetna proizvodnja namještaja i madracea u partnerstvu sa Starflex. Kombiniranje udobnosti, trajnosti i stila s modernom tehnologijom.",
-    "quickLinks": "Brze veze",
+    "tagline": "Kvaliteta od 1992",
+    "description": "Vodeći dobavljač sirovina za namještaj i proizvodnju madraca. Preko 30 godina izvrsnosti u industriji.",
+    "yearsExperience": "Godina Iskustva",
+    "quickLinks": "Brze Veze",
+    "products": "Naši Proizvodi",
+    "contact": "Kontaktirajte Nas",
+    "address": "Priština, Kosovo",
+    "workingHours": "Pon - Pet: 8:00 - 17:00",
+    "saturday": "Sub: 9:00 - 14:00",
+    "followUs": "Pratite Nas",
+    "officialPartner": "Službeni Partner",
+    "rights": "Sva prava pridržana.",
+    "privacy": "Politika Privatnosti",
+    "terms": "Uvjeti Korištenja",
     "partners": "Partneri",
     "copyright": "© 2025 DoqiSHPK. Sva prava pridržana."
   },

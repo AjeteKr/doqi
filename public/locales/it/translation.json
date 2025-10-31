@@ -133,8 +133,20 @@
     "description": "Ci piacerebbe sentire da te. Contattaci per qualsiasi domanda sui nostri prodotti e servizi."
   },
   "footer": {
-    "description": "Produzione di mobili e materassi di alta qualità in collaborazione con Starflex. Combinando comfort, durata e stile con tecnologia moderna.",
+    "tagline": "Qualità dal 1992",
+    "description": "Fornitore leader di materie prime per mobili e produzione di materassi. Oltre 30 anni di eccellenza nel settore.",
+    "yearsExperience": "Anni di Esperienza",
     "quickLinks": "Link Rapidi",
+    "products": "I Nostri Prodotti",
+    "contact": "Contattaci",
+    "address": "Pristina, Kosovo",
+    "workingHours": "Lun - Ven: 8:00 - 17:00",
+    "saturday": "Sab: 9:00 - 14:00",
+    "followUs": "Seguici",
+    "officialPartner": "Partner Ufficiale",
+    "rights": "Tutti i diritti riservati.",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
     "partners": "Partner",
     "copyright": "© 2025 DoqiSHPK. Tutti i diritti riservati."
   },

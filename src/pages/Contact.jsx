@@ -65,9 +65,9 @@ const Contact = () => {
     {
       icon: PhoneIcon,
       title: t('contact.phone'),
-      content: '+383 49 123 456',
-      details: '+383 44 987 654',
-      link: 'tel:+38349123456'
+      content: '+383 49 882 083',
+      details: '+383 49 882 083',
+      link: 'tel:+38349882083'
     },
     {
       icon: EnvelopeIcon,
@@ -145,7 +145,7 @@ const Contact = () => {
             <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-10">
               <div className="mb-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-3">
-                  {t('contact.sendMessage', 'Send us a Message')}
+                  {t('contact.sendMessage')}
                 </h2>
                 <p className="text-gray-600">
                   {t('contact.formDescription')}
@@ -239,7 +239,7 @@ const Contact = () => {
                         value={formData.company}
                         onChange={handleChange}
                         className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                        placeholder={t('contact.companyPlaceholder', 'Your Company')}
+                        placeholder={t('contact.companyPlaceholder')}
                       />
                     </div>
                   </div>

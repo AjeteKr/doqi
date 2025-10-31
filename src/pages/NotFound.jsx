@@ -62,15 +62,15 @@ const NotFound = () => {
 
           <div className="flex-1 text-left lg:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-              {t('notFound.whoopsTitle', 'Whoops! Lost in Space?')}
+              {t('notFound.whoopsTitle')}
             </h1>
 
             <div className="mb-8">
               <p className="text-gray-600 text-lg mb-2">
-                {t('notFound.pageNotFoundMessage', 'The page you\'re looking for isn\'t found :(')}
+                {t('notFound.pageNotFoundMessage')}
               </p>
               <p className="text-gray-500 text-base">
-                {t('notFound.suggestHome', 'We suggest you back to home')}
+                {t('notFound.suggestHome')}
               </p>
             </div>
 
@@ -78,7 +78,7 @@ const NotFound = () => {
               onClick={handleGoBack}
               className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
             >
-              {t('notFound.backToHome', 'Back to Home')}
+              {t('notFound.backToHome')}
             </button>
           </div>
         </div>

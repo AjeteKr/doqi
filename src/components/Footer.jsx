@@ -139,8 +139,8 @@ const Footer = () => {
               <li className="flex items-start space-x-3 text-gray-300 text-sm">
                 <ClockIcon className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
                 <div>
-                  <p>{t('footer.workingHours', 'Mon - Fri: 8:00 - 17:00')}</p>
-                  <p className="text-xs text-gray-400">{t('footer.saturday', 'Sat: 9:00 - 14:00')}</p>
+                  <p>{t('footer.workingHours')}</p>
+                  <p className="text-xs text-gray-400">{t('footer.saturday')}</p>
                 </div>
               </li>
             </ul>
@@ -154,7 +154,7 @@ const Footer = () => {
             {/* Social Media */}
             <div>
               <p className="text-sm text-gray-400 mb-3 text-center md:text-left">
-                {t('footer.followUs', 'Follow Us')}
+                {t('footer.followUs')}
               </p>
               <div className="flex gap-4">
                 <a 
@@ -185,7 +185,7 @@ const Footer = () => {
             {/* Partner Badge */}
             <div className="flex items-center gap-3 px-6 py-3 bg-gray-800/50 rounded-lg border border-gray-700/50">
               <div className="text-right">
-                <p className="text-xs text-gray-400">{t('footer.officialPartner', 'Official Partner')}</p>
+                <p className="text-xs text-gray-400">{t('footer.officialPartner')}</p>
                 <p className="text-lg font-bold text-red-500">StarFlex</p>
               </div>
               <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
@@ -199,14 +199,14 @@ const Footer = () => {
         <div className="border-t border-gray-700/50 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
             <p>
-              © {currentYear} <span className="text-white font-semibold">DOQI SHPK</span>. {t('footer.rights', 'All rights reserved.')}
+              © {currentYear} <span className="text-white font-semibold">DOQI SHPK</span>. {t('footer.rights')}
             </p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-red-500 transition-colors">
-                {t('footer.privacy', 'Privacy Policy')}
+                {t('footer.privacy')}
               </a>
               <a href="#" className="hover:text-red-500 transition-colors">
-                {t('footer.terms', 'Terms of Service')}
+                {t('footer.terms')}
               </a>
             </div>
           </div>

@@ -188,10 +188,10 @@ const Starflex = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              {t('starflex.whyChoose', 'Why Choose StarFlex?')}
+              {t('starflex.whyChoose')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('starflex.whyChooseDescription', 'Discover what makes our mattresses the perfect choice for your sleep needs')}
+              {t('starflex.whyChooseDescription')}
             </p>
           </div>
 
@@ -283,7 +283,7 @@ const Starflex = () => {
                         </div>
                       )}
                       <span className="text-red-600 hover:text-red-700 font-medium text-sm group-hover:underline flex items-center gap-1">
-                        {t('starflex.viewDetails', 'View Details')}
+                        {t('starflex.viewDetails')}
                         <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>

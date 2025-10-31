@@ -94,19 +94,19 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               <li className="text-gray-300 text-sm hover:text-red-500 transition-colors cursor-pointer">
-                {t('categories.compactHPL')}
+                {t('products.categories.compactHPL')}
               </li>
               <li className="text-gray-300 text-sm hover:text-red-500 transition-colors cursor-pointer">
-                {t('categories.mattress')}
+                {t('products.categories.mattress')}
               </li>
               <li className="text-gray-300 text-sm hover:text-red-500 transition-colors cursor-pointer">
-                {t('categories.sofaChair')}
+                {t('products.categories.sofaChair')}
               </li>
               <li className="text-gray-300 text-sm hover:text-red-500 transition-colors cursor-pointer">
-                {t('categories.mdfChipBoard')}
+                {t('products.categories.mdfChipBoard')}
               </li>
               <li className="text-gray-300 text-sm hover:text-red-500 transition-colors cursor-pointer">
-                {t('categories.accessories')}
+                {t('products.categories.accessories')}
               </li>
             </ul>
           </div>

@@ -35,23 +35,23 @@ const Favorites = () => {
               <ArrowLeftIcon className="h-6 w-6" />
             </button>
             <h1 className="text-3xl font-bold text-gray-900">
-              {t('favorites.title', 'My Favorites')}
+              {t('favorites.title')}
             </h1>
           </div>
 
           <div className="text-center py-12">
             <HeartIcon className="mx-auto h-24 w-24 text-gray-300 mb-6" />
             <h3 className="text-xl font-medium text-gray-900 mb-2">
-              {t('favorites.empty.title', 'No favorites yet')}
+              {t('favorites.empty.title')}
             </h3>
             <p className="text-gray-500 mb-8">
-              {t('favorites.empty.description', 'Start adding products to your favorites by clicking the heart icon.')}
+              {t('favorites.empty.description')}
             </p>
             <Link
               to="/products"
               className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
             >
-              {t('favorites.empty.browseProducts', 'Browse Products')}
+              {t('favorites.empty.browseProducts')}
             </Link>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Favorites = () => {
               <ArrowLeftIcon className="h-6 w-6" />
             </button>
             <h1 className="text-3xl font-bold text-gray-900">
-              {t('favorites.title', 'My Favorites')} ({favorites.length})
+              {t('favorites.title')} ({favorites.length})
             </h1>
           </div>
           
@@ -80,7 +80,7 @@ const Favorites = () => {
               onClick={clearFavorites}
               className="px-4 py-2 text-red-600 hover:text-red-800 font-medium transition-colors"
             >
-              {t('favorites.clearAll', 'Clear All')}
+              {t('favorites.clearAll')}
             </button>
           )}
         </div>
@@ -131,7 +131,7 @@ const Favorites = () => {
                 {product.origin && (
                   <div className="flex items-center justify-between">
                     <span className="text-sm font-medium text-blue-600">
-                      {t('product.from', 'From')}: {product.origin}
+                      {t('product.from')}: {product.origin}
                     </span>
                     <ShoppingCartIcon className="h-5 w-5 text-gray-400" />
                   </div>

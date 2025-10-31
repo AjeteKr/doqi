@@ -10,23 +10,23 @@ const Reviews = ({ reviews = [] }) => {
   const sampleReviews = [
     {
       id: 1,
-      name: t('reviews.review1.name', 'Elira M.'),
-      role: t('reviews.review1.role', 'Restaurant Owner'),
-      comment: t('reviews.review1.comment', 'As a restaurant owner, durability and design are equally important. The HPL Compact panels we purchased from Doqi Shpk gave our space a modern look and can easily handle daily wear and tear. Customers often compliment the design — it was the right investment for our business.'),
+      name: t('reviews.review1.name'),
+      role: t('reviews.review1.role'),
+      comment: t('reviews.review1.comment'),
       image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=400&fit=crop&crop=face"
     },
     {
       id: 2,
-      name: t('reviews.review2.name', 'Petrit G.'),
-      role: t('reviews.review2.role', 'Interior Designer'),
-      comment: t('reviews.review2.comment', 'Working with Doqi has transformed how I approach commercial projects. Their extensive range of materials and professional consultation helped me deliver exceptional results to my clients. The quality speaks for itself.'),
+      name: t('reviews.review2.name'),
+      role: t('reviews.review2.role'),
+      comment: t('reviews.review2.comment'),
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=400&fit=crop&crop=face"
     },
     {
       id: 3,
-      name: t('reviews.review3.name', 'Ana K.'),
-      role: t('reviews.review3.role', 'Hotel Manager'),
-      comment: t('reviews.review3.comment', 'We furnished our entire hotel with materials from Doqi. The combination of durability, style, and competitive pricing made them our preferred partner. Our guests consistently praise the modern aesthetic.'),
+      name: t('reviews.review3.name'),
+      role: t('reviews.review3.role'),
+      comment: t('reviews.review3.comment'),
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=400&fit=crop&crop=face"
     }
   ]
@@ -79,7 +79,7 @@ const Reviews = ({ reviews = [] }) => {
             {t('reviews.title')}
           </h2>
           <p className="text-base text-gray-600">
-            {t('reviews.subtitle', 'Customer Satisfaction')}
+            {t('reviews.subtitle')}
           </p>
         </div>
 

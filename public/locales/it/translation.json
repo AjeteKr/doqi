@@ -253,6 +253,10 @@
       }
     },
     "otherProducts": "Potrebbe Piacerti Anche",
+    "similarProducts": "Prodotti Simili",
+    "basedOnSubcategory": "Basato sulla sottocategoria",
+    "basedOnCategory": "Basato sulla categoria",
+    "recommendedForYou": "Consigliato per te",
     "origin": "Origine"
   },
   "notFound": {

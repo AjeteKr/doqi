@@ -252,6 +252,10 @@
       }
     },
     "otherProducts": "Можда ће Вам се Такође Свидети",
+    "similarProducts": "Слични Производи",
+    "basedOnSubcategory": "На основу подкатегорије",
+    "basedOnCategory": "На основу категорије",
+    "recommendedForYou": "Препоручено за вас",
     "origin": "Порекло"
   },
   "notFound": {

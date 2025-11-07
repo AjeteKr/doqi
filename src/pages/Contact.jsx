@@ -60,7 +60,7 @@ const Contact = () => {
       title: t('contact.location'),
       content: t('footer.address'),
       details: 'Autostrada Prishtinë-Ferizaj, km 7',
-      link: 'https://maps.google.com/?q=Prishtina,Kosovo'
+      link: 'https://www.google.com/maps/place/DO%C3%87I+SH.P.K/data=!4m2!3m1!1s0x0:0xe3c1d44565a8237b?sa=X&ved=1t:2428&ictx=111'
     },
     {
       icon: PhoneIcon,

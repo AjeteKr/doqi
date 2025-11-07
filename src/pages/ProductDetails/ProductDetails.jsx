@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { useFavorites } from '../../context/FavoritesContext'
 import { HeartIcon, ArrowLeftIcon, MapPinIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid'
+import SimilarProducts from '../../components/SimilarProducts'
 
 const ProductDetails = () => {
   const { t } = useTranslation()
@@ -20,12 +21,7 @@ const ProductDetails = () => {
       try {
         setLoading(true)
         
-        if (location.state?.product) {
-          setProduct(location.state.product)
-          setLoading(false)
-          return
-        }
-
+        // Always fetch all products for similar products section
         const response = await fetch('/products.json')
         if (!response.ok) {
           throw new Error('Failed to fetch products')
@@ -33,6 +29,13 @@ const ProductDetails = () => {
         const data = await response.json()
         const products = data.products || []
         setAllProducts(products)
+
+        // Use product from location state if available
+        if (location.state?.product) {
+          setProduct(location.state.product)
+          setLoading(false)
+          return
+        }
 
         // Find product by matching slug
         const foundProduct = products.find(p => {
@@ -443,62 +446,8 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      {/* Related Products - Creative Grid */}
-      {allProducts.length > 1 && (
-        <div className="bg-white py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center gap-4 mb-10">
-              <div className="w-2 h-12 bg-red-600 rounded-full"></div>
-              <h2 className="text-4xl font-bold text-gray-900">
-                {t('productDetails.otherProducts')}
-              </h2>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {allProducts
-                .filter(p => p.id !== product.id)
-                .slice(0, 4)
-                .map((relatedProduct, index) => (
-                  <div
-                    key={relatedProduct.id}
-                    onClick={() => {
-                      const newSlug = relatedProduct.title
-                        .toLowerCase()
-                        .replace(/[^a-z0-9\s-]/g, '')
-                        .replace(/\s+/g, '-')
-                        .replace(/-+/g, '-')
-                        .trim()
-                      navigate(`/product/${newSlug}`, { state: { product: relatedProduct } })
-                      window.scrollTo({ top: 0, behavior: 'smooth' })
-                    }}
-                    className="group backdrop-blur-sm bg-gray-50/80 rounded-2xl border border-gray-200/50 hover:border-red-600/50 transition-all duration-300 overflow-hidden cursor-pointer transform hover:-translate-y-2"
-                    style={{ animationDelay: `${index * 100}ms` }}
-                  >
-                    <div className="relative overflow-hidden bg-white">
-                      <div className="absolute inset-0 bg-gradient-to-br from-red-500/0 to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                      <img
-                        src={getProductImagePath(relatedProduct.image)}
-                        alt={relatedProduct.title}
-                        className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-700"
-                        onError={(e) => {
-                          e.target.src = '/images/placeholder-product.jpg'
-                        }}
-                      />
-                    </div>
-                    <div className="p-5">
-                      <h3 className="text-base font-bold text-gray-900 line-clamp-2 group-hover:text-red-600 transition-colors mb-2">
-                        {relatedProduct.title}
-                      </h3>
-                      {relatedProduct.category && (
-                        <p className="text-xs text-gray-500 font-semibold">{relatedProduct.category}</p>
-                      )}
-                    </div>
-                  </div>
-                ))}
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Similar Products Section */}
+      <SimilarProducts currentProduct={product} allProducts={allProducts} />
     </div>
   )
 }

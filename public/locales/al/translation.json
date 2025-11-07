@@ -250,6 +250,10 @@
       }
     },
     "otherProducts": "Mund të Pëlqeni Gjithashtu",
+    "similarProducts": "Produkte të Ngjashme",
+    "basedOnSubcategory": "Bazuar në nënkategorinë",
+    "basedOnCategory": "Bazuar në kategorinë",
+    "recommendedForYou": "Rekomanduar për ju",
     "origin": "Origjina"
   },
   "notFound": {

@@ -254,6 +254,10 @@
       }
     },
     "otherProducts": "Das Könnte Ihnen Auch Gefallen",
+    "similarProducts": "Ähnliche Produkte",
+    "basedOnSubcategory": "Basierend auf Unterkategorie",
+    "basedOnCategory": "Basierend auf Kategorie",
+    "recommendedForYou": "Für Sie empfohlen",
     "origin": "Herkunft"
   },
   "notFound": {

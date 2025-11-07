@@ -250,6 +250,10 @@
       }
     },
     "otherProducts": "You May Also Like",
+    "similarProducts": "Similar Products",
+    "basedOnSubcategory": "Based on subcategory",
+    "basedOnCategory": "Based on category",
+    "recommendedForYou": "Recommended for you",
     "origin": "Origin"
   },
   "notFound": {

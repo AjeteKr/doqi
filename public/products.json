@@ -44,6 +44,25 @@
       "description": "This is a Calacata product",
       "category": "mdfChipBoard",
       "subCategory": null
+    },
+    {
+      "origin": "Kosovo",
+      "featured": false,
+      "specifications": {
+        "size": "121",
+        "thickness": "23",
+        "material": "chip",
+        "color": "brown, black",
+        "warranty": "12gr",
+        "grade": "a1",
+        "height": "122gr"
+      },
+      "inStock": true,
+      "title": "Palisander",
+      "id": 1,
+      "image": "/images/products/whatsapp-image-2025-10-22-at-16.45.49.jpeg",
+      "description": "This is  Palisander...",
+      "category": "mdfChipBoard"
     }
   ]
 }

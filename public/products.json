@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "origin": "Italy",
       "price": "23",
       "featured": true,
       "inStock": true,
@@ -9,19 +10,40 @@
       "image": "/images/products/whatsapp-image-2025-10-22-at-16.47.10.jpeg",
       "description": "This is a Sierra Ocean product, very good product.",
       "category": "compactHPL",
-      "subCategory": null,
-      "origin": "Italy"
+      "subCategory": null
     },
     {
-      "inStock": true,
-      "featured": false,
-      "id": 2,
-      "title": "Royce",
-      "description": "this is a Royce product.",
-      "image": "/images/products/whatsapp-image-2025-10-22-at-16.46.48.jpeg",
+      "origin": "Italy",
       "price": "3",
-      "category": "compactHPL",
-      "origin": "Italy"
+      "featured": false,
+      "inStock": true,
+      "title": "Royce",
+      "id": 2,
+      "image": "/images/products/whatsapp-image-2025-10-22-at-16.46.48.jpeg",
+      "description": "this is a Royce product.",
+      "category": "compactHPL"
+    },
+    {
+      "origin": "Kosovo",
+      "featured": true,
+      "specifications": {
+        "size": "122",
+        "color": "white",
+        "height": "122gr",
+        "material": "idk",
+        "density": "12gr",
+        "thickness": "22",
+        "grade": "a1",
+        "certification": "kosovo",
+        "warranty": "12g"
+      },
+      "inStock": true,
+      "title": "Calacata",
+      "id": 3,
+      "image": "/images/products/whatsapp-image-2025-10-22-at-16.46.17.jpeg",
+      "description": "This is a Calacata product",
+      "category": "mdfChipBoard",
+      "subCategory": null
     }
   ]
 }

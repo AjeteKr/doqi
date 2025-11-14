@@ -55,6 +55,20 @@
       "image": "/images/products/siena.jpg",
       "description": "MDF SIENA ",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Alvic, Spain",
+      "featured": false,
+      "specifications": {
+        "size": "1240mm x 2750 mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MDF Medium Density Fibreboard",
+      "id": 5,
+      "image": "/images/products/velazquez-04.jpg",
+      "description": "MDF VELAZQUEZ 04",
+      "category": "mdfChipBoard"
     }
   ]
 }

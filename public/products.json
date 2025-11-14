@@ -80,6 +80,21 @@
       "image": "/images/products/sierra-marble.jpg",
       "description": "Strong, stable MDF panel engineered for easy cutting, shaping, and finishing",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Kosovo",
+      "featured": false,
+      "specifications": {
+        "size": "All dimensions are available ",
+        "thickness": "",
+        "height": "30 cm"
+      },
+      "inStock": true,
+      "title": "Aloe Vera me Susta",
+      "id": 6,
+      "image": "/images/products/49a16acb-b6b0-47a7-b49f-172fc0699e4e.jpg",
+      "description": "High-quality mattress designed for comfort and durability.",
+      "category": "mattress"
     }
   ]
 }

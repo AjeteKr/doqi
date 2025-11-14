@@ -95,6 +95,20 @@
       "image": "/images/products/49a16acb-b6b0-47a7-b49f-172fc0699e4e.jpg",
       "description": "High-quality mattress designed for comfort and durability.",
       "category": "mattress"
+    },
+    {
+      "origin": "Spain",
+      "featured": false,
+      "specifications": {
+        "size": "2100mmx2800mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "Antracit",
+      "id": 8,
+      "image": "/images/products/mdf-fis.-antrasit.jpg",
+      "description": "MDF is a smooth, durable engineered wood board made from compressed wood fibers—perfect for furniture and interior projects.",
+      "category": "mdfChipBoard"
     }
   ]
 }

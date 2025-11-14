@@ -27,6 +27,20 @@
       "image": "/images/products/nogal-rosales-03.jpg",
       "description": "MDF NOGAL ROSALES 03",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Alvic, Spain",
+      "featured": false,
+      "specifications": {
+        "size": "1240mm x 275mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MDF - Medium Density Fibreboard",
+      "id": 3,
+      "image": "/images/products/picasso-02.jpg",
+      "description": "MDF PICASSO 02",
+      "category": "mdfChipBoard"
     }
   ]
 }

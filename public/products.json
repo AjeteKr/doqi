@@ -97,6 +97,20 @@
       "image": "/images/products/evora-04.jpg",
       "description": "MDF EVORA 04",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Alvic, Spain",
+      "featured": false,
+      "specifications": {
+        "size": "1240mm x 2750mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MDF - Medium Density Fibreboard",
+      "id": 8,
+      "image": "/images/products/trevi-01.jpg",
+      "description": "MDF TREVI 01",
+      "category": "mdfChipBoard"
     }
   ]
 }

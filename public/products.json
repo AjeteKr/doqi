@@ -41,6 +41,20 @@
       "image": "/images/products/f256.jpg",
       "description": "MFC F256 LOTUS\n",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Kastamonu, Turkey",
+      "featured": false,
+      "specifications": {
+        "size": "2070mm x 2800mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MFC – Melamine Faced Chipboard",
+      "id": 4,
+      "image": "/images/products/f338.jpg",
+      "description": "MFC F338 ORIENT",
+      "category": "mdfChipBoard"
     }
   ]
 }

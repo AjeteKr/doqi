@@ -1,3 +1,18 @@
 {
-  "products": []
+  "products": [
+    {
+      "origin": "Alvic, Spain",
+      "featured": false,
+      "specifications": {
+        "size": "1240mm x 2750mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "Medium Density Fibreboard",
+      "id": 1,
+      "image": "/images/products/goya-03.jpg",
+      "description": "MDF GOYA 03",
+      "category": "mdfChipBoard"
+    }
+  ]
 }

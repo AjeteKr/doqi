@@ -1,113 +1,17 @@
 {
   "products": [
     {
-      "origin": "Italy",
-      "price": "23",
-      "featured": true,
-      "inStock": true,
-      "title": "Sierra Ocean",
-      "id": 1,
-      "image": "/images/products/whatsapp-image-2025-10-22-at-16.47.10.jpeg",
-      "description": "This is a Sierra Ocean product, very good product.",
-      "category": "compactHPL",
-      "subCategory": null
-    },
-    {
-      "origin": "Italy",
-      "price": "3",
-      "featured": false,
-      "inStock": true,
-      "title": "Royce",
-      "id": 2,
-      "image": "/images/products/whatsapp-image-2025-10-22-at-16.46.48.jpeg",
-      "description": "this is a Royce product.",
-      "category": "compactHPL"
-    },
-    {
-      "origin": "Kosovo",
-      "featured": true,
-      "specifications": {
-        "size": "122",
-        "color": "white",
-        "height": "122gr",
-        "material": "idk",
-        "density": "12gr",
-        "thickness": "22",
-        "grade": "a1",
-        "certification": "kosovo",
-        "warranty": "12g"
-      },
-      "inStock": true,
-      "title": "Calacata",
-      "id": 3,
-      "image": "/images/products/whatsapp-image-2025-10-22-at-16.46.17.jpeg",
-      "description": "This is a Calacata product",
-      "category": "mdfChipBoard",
-      "subCategory": null
-    },
-    {
-      "origin": "Kosovo",
-      "featured": false,
-      "specifications": {
-        "size": "121",
-        "thickness": "23",
-        "material": "chip",
-        "color": "brown, black",
-        "warranty": "12gr",
-        "grade": "a1",
-        "height": "122gr"
-      },
-      "inStock": true,
-      "title": "Palisander",
-      "id": 1,
-      "image": "/images/products/whatsapp-image-2025-10-22-at-16.45.49.jpeg",
-      "description": "This is  Palisander...",
-      "category": "mdfChipBoard"
-    },
-    {
       "origin": "Turkey",
-      "featured": true,
-      "specifications": {
-        "size": "210x310",
-        "thickness": "18mm",
-        "grade": "A1",
-        "density": "High ",
-        "certification": "Certified"
-      },
-      "inStock": true,
-      "title": "Sierra Marble",
-      "id": 4,
-      "image": "/images/products/sierra-marble.jpg",
-      "description": "Strong, stable MDF panel engineered for easy cutting, shaping, and finishing",
-      "category": "mdfChipBoard"
-    },
-    {
-      "origin": "Kosovo",
       "featured": false,
       "specifications": {
-        "size": "All dimensions are available ",
-        "thickness": "",
-        "height": "30 cm"
-      },
-      "inStock": true,
-      "title": "Aloe Vera me Susta",
-      "id": 6,
-      "image": "/images/products/49a16acb-b6b0-47a7-b49f-172fc0699e4e.jpg",
-      "description": "High-quality mattress designed for comfort and durability.",
-      "category": "mattress"
-    },
-    {
-      "origin": "Spain",
-      "featured": false,
-      "specifications": {
-        "size": "2100mmx2800mm",
+        "size": "207mm x 280mm",
         "thickness": "18mm"
       },
       "inStock": true,
-      "title": "Antracit",
-      "id": 8,
-      "image": "/images/products/mdf-fis.-antrasit.jpg",
-      "description": "MDF is a smooth, durable engineered wood board made from compressed wood fibers—perfect for furniture and interior projects.",
+      "title": "MFC – Melamine Faced Chipboard",
+      "id": 1,
+      "image": "/images/products/f310-calacatta-marble.png",
+      "description": "MFC F310 CALACATTA",
       "category": "mdfChipBoard"
     }
   ]

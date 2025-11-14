@@ -83,6 +83,20 @@
       "image": "/images/products/f358-herat.jpg",
       "description": "MFC F358 HERAT",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Kastamonu, Turkey",
+      "featured": false,
+      "specifications": {
+        "size": "2070mm x 2800mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MFC – Melamine Faced Chipboard",
+      "id": 7,
+      "image": "/images/products/f272.jpg",
+      "description": "MFC F272 ATENA",
+      "category": "mdfChipBoard"
     }
   ]
 }

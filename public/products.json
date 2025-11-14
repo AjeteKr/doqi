@@ -97,6 +97,20 @@
       "image": "/images/products/f272.jpg",
       "description": "MFC F272 ATENA",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Kastamonu, Turkey",
+      "featured": false,
+      "specifications": {
+        "size": "2070mm x 2800mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MFC – Melamine Faced Chipboard",
+      "id": 8,
+      "image": "/images/products/f285.jpg",
+      "description": "MFC F285 BRONX",
+      "category": "mdfChipBoard"
     }
   ]
 }

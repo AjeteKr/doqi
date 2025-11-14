@@ -41,6 +41,20 @@
       "image": "/images/products/picasso-02.jpg",
       "description": "MDF PICASSO 02",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Alvic, Spain",
+      "featured": false,
+      "specifications": {
+        "size": "1240mm x 280mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MDF Medium Density Fibreboard",
+      "id": 4,
+      "image": "/images/products/siena.jpg",
+      "description": "MDF SIENA ",
+      "category": "mdfChipBoard"
     }
   ]
 }

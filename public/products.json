@@ -55,6 +55,20 @@
       "image": "/images/products/f338.jpg",
       "description": "MFC F338 ORIENT",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Kastamonu, Turkey",
+      "featured": false,
+      "specifications": {
+        "size": "2070mm x 2800mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MFC – Melamine Faced Chipboard",
+      "id": 5,
+      "image": "/images/products/f339.jpg",
+      "description": "MFC F339 HANOI",
+      "category": "mdfChipBoard"
     }
   ]
 }

@@ -27,6 +27,20 @@
       "image": "/images/products/f257.jpg",
       "description": "MFC F257 BERMUDA",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Kastamonu, Turkey",
+      "featured": false,
+      "specifications": {
+        "size": "207mm x 280mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MFC – Melamine Faced Chipboard",
+      "id": 3,
+      "image": "/images/products/f256.jpg",
+      "description": "MFC F256 LOTUS\n",
+      "category": "mdfChipBoard"
     }
   ]
 }

@@ -13,6 +13,20 @@
       "image": "/images/products/f310-calacatta-marble.png",
       "description": "MFC F310 CALACATTA",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Turkey",
+      "featured": false,
+      "specifications": {
+        "size": "207mm x 280mm",
+        "thickness": "18mm"
+      },
+      "inStock": true,
+      "title": "MFC – Melamine Faced Chipboard",
+      "id": 2,
+      "image": "/images/products/f257.jpg",
+      "description": "MFC F257 BERMUDA",
+      "category": "mdfChipBoard"
     }
   ]
 }

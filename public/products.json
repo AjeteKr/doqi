@@ -63,6 +63,23 @@
       "image": "/images/products/whatsapp-image-2025-10-22-at-16.45.49.jpeg",
       "description": "This is  Palisander...",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Turkey",
+      "featured": true,
+      "specifications": {
+        "size": "210x310",
+        "thickness": "18mm",
+        "grade": "A1",
+        "density": "High ",
+        "certification": "Certified"
+      },
+      "inStock": true,
+      "title": "Sierra Marble",
+      "id": 4,
+      "image": "/images/products/sierra-marble.jpg",
+      "description": "Strong, stable MDF panel engineered for easy cutting, shaping, and finishing",
+      "category": "mdfChipBoard"
     }
   ]
 }

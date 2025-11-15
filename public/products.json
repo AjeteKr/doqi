@@ -111,6 +111,21 @@
       "image": "/images/products/trevi-01.jpg",
       "description": "MDF TREVI 01",
       "category": "mdfChipBoard"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1300 x 3050, 10 x 1620 x 4200, 10 x 1860 x 4200, 12 x 1310 x 4200, HGS 10 X 1860 x 42000, HGS 10 x 1300 x 305, ICE 12 x 1620 x 4200, ICE 10 x 1620 x 4200, ICE 12 x 1310 x 4200",
+        "additional": "",
+        "thickness": "10mm, 12mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "id": 9,
+      "image": "/images/products/2262_tc.jpg",
+      "description": "COMPACT #2262 BIANCO EXTRA",
+      "category": "compactHPL"
     }
   ]
 }

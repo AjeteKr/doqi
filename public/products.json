@@ -140,6 +140,20 @@
       "image": "/images/products/2633.jpg",
       "description": "COMPACT #2633 Antrasit Grigio Grafite \n",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "ICE 12 x 1310 x 4200",
+        "thickness": "12mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "id": 11,
+      "image": "/images/products/164.jpg",
+      "description": "COMPACT #0164  Cachemire",
+      "category": "compactHPL"
     }
   ]
 }

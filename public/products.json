@@ -126,6 +126,20 @@
       "image": "/images/products/2262_tc.jpg",
       "description": "COMPACT #2262 BIANCO EXTRA",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
+        "thickness": "10mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "id": 10,
+      "image": "/images/products/2633.jpg",
+      "description": "COMPACT #2633 Antrasit Grigio Grafite \n",
+      "category": "compactHPL"
     }
   ]
 }

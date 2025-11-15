@@ -116,7 +116,7 @@
       "origin": "Puricelli, Italy",
       "featured": false,
       "specifications": {
-        "size": "10 x 1300 x 3050, 10 x 1620 x 4200, 10 x 1860 x 4200, 12 x 1310 x 4200, HGS 10 x 1860 x 4200, HGS 10 x 1300 x 305, ICE 12 x 1620 x 4200, ICE 10 x 1620 x 4200, ICE 12 x 1310 x 4200",
+        "size": "10 x 1300 x 3050, 10 x 1620 x 4200,  HGS 10 x 1300 x 305,  ICE 10 x 1620 x 4200",
         "additional": "",
         "thickness": "10mm, 12mm"
       },
@@ -145,14 +145,14 @@
       "origin": "Puricelli, Italy",
       "featured": false,
       "specifications": {
-        "size": "ICE 12 x 1310 x 4200",
-        "thickness": "12mm"
+        "size": "10 x 1310 x 4200, ",
+        "thickness": "10mm"
       },
       "inStock": true,
       "title": "COMPACT HPL - Compact High Pressure Laminate",
       "id": 11,
-      "image": "/images/products/164.jpg",
-      "description": "COMPACT #0164  Cachemire",
+      "image": "/images/products/151918.jpeg",
+      "description": "COMPACT #2071 NERO",
       "category": "compactHPL"
     }
   ]

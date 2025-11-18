@@ -217,6 +217,21 @@
       "image": "/images/products/6015.jpg",
       "description": "COMPACT #6015 BURN STEEL\n",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "id": 16,
+      "image": "/images/products/6014-feature-image-puricelli-kitchen-and-bath-1.jpg",
+      "description": "COMPACT #6014 ZEBRA MARBLE\n",
+      "category": "compactHPL"
     }
   ]
 }

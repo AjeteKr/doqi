@@ -202,6 +202,21 @@
       "image": "/images/products/6019.jpg",
       "description": "COMPACT #6019 CALACATTA\n\n",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "id": 15,
+      "image": "/images/products/6015.jpg",
+      "description": "COMPACT #6015 BURN STEEL\n",
+      "category": "compactHPL"
     }
   ]
 }

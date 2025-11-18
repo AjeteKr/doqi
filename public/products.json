@@ -262,6 +262,21 @@
       "image": "/images/products/6120.jpg",
       "description": "COMPACT #6120 MERCURY\n",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
+        "thickness": "10mm",
+        "material": "MATT + HGS"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "id": 19,
+      "image": "/images/products/6133.jpg",
+      "description": "COMPACT #6133 MARQUINA\n",
+      "category": "compactHPL"
     }
   ]
 }

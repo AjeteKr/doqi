@@ -187,6 +187,19 @@
       "image": "/images/products/6310.webp",
       "description": "COMPACT #6310 Nero Tunisi",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, "
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "id": 14,
+      "image": "/images/products/6019.jpg",
+      "description": "COMPACT #6019 CALACATTA\n\n",
+      "category": "compactHPL"
     }
   ]
 }

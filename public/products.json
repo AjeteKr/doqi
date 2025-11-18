@@ -277,6 +277,20 @@
       "image": "/images/products/6133.jpg",
       "description": "COMPACT #6133 MARQUINA\n",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
+        "thickness": "10mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "id": 20,
+      "image": "/images/products/6140.jpg",
+      "description": "#6140 CALIPSO",
+      "category": "compactHPL"
     }
   ]
 }

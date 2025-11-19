@@ -361,6 +361,21 @@
       "image": "/images/products/6131.jpg",
       "description": "COMPACT - 6131 MARQUINA LOUNGE",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
+        "thickness": "10mm",
+        "material": "MAT + HGS"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - 6152 LASA PURE",
+      "id": 26,
+      "image": "/images/products/6152.webp",
+      "description": "COMPACT #6152 LASA PURE",
+      "category": "compactHPL"
     }
   ]
 }

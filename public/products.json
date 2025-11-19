@@ -283,7 +283,8 @@
       "featured": false,
       "specifications": {
         "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
-        "thickness": "10mm"
+        "thickness": "10mm",
+        "material": "MATT"
       },
       "inStock": true,
       "title": "COMPACT HPL - #6140 CALIPSO",
@@ -297,7 +298,8 @@
       "featured": false,
       "specifications": {
         "size": "10 x 1310 x 4200, 10 x 1300 x 4200",
-        "thickness": "10mm"
+        "thickness": "10mm",
+        "material": "MATT"
       },
       "inStock": true,
       "title": "COMPACT HPL - #0218 SAHARA",
@@ -311,7 +313,8 @@
       "featured": false,
       "specifications": {
         "size": "10 x 1310 x 4200",
-        "thickness": "10mm"
+        "thickness": "10mm",
+        "material": "MATT"
       },
       "inStock": true,
       "title": "COMPACT HPL  - #4064 - CONCRETE GRIS",
@@ -325,7 +328,8 @@
       "featured": false,
       "specifications": {
         "size": "10 x 1310 x 4200",
-        "thickness": "10mm"
+        "thickness": "10mm",
+        "material": "MATT"
       },
       "inStock": true,
       "title": "COMPACT HPL - #6116 NUVOLENTO",
@@ -339,7 +343,8 @@
       "featured": false,
       "specifications": {
         "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
-        "thickness": "10mm"
+        "thickness": "10mm",
+        "material": "MATT"
       },
       "inStock": true,
       "title": "COMPACT HPL - #6240 CIVIDALE MALDON",
@@ -353,7 +358,8 @@
       "featured": false,
       "specifications": {
         "size": "10 x 1310 x 4200",
-        "thickness": "10mm"
+        "thickness": "10mm",
+        "material": "MATT"
       },
       "inStock": true,
       "title": "COMPACT HPL - #6131 MARQUINA LOUNGE",
@@ -382,7 +388,8 @@
       "featured": false,
       "specifications": {
         "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
-        "thickness": "10mm"
+        "thickness": "10mm",
+        "material": "MATT"
       },
       "inStock": true,
       "title": "COMPACT HPL - #0941 CONCRETE",
@@ -396,13 +403,44 @@
       "featured": false,
       "specifications": {
         "size": "10 x 1310 x 4200",
-        "thickness": "10mm"
+        "thickness": "10mm",
+        "material": "MATT"
       },
       "inStock": true,
       "title": "COMPACT HPL - #6230 SINOPE MARBLE",
       "id": 28,
       "image": "/images/products/6230.jpg",
       "description": "COMPACT #6230 SINOPE MARBLE",
+      "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #6241 CIVIDALE CINNAMON ",
+      "id": 29,
+      "image": "/images/products/6241.webp",
+      "description": "COMPACT - #6241 CIVIDALE CINNAMON ",
+      "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #6242 CIVIDALE CAYENNE",
+      "id": 30,
+      "image": "/images/products/6242.webp",
+      "description": "COMPACT - #6242 CIVIDALE CAYENNE",
       "category": "compactHPL"
     }
   ]

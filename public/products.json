@@ -319,6 +319,20 @@
       "image": "/images/products/4064.jpg",
       "description": "COMPACT #4064 - CONCRETE GRIS\n",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - 6116 NUVOLENTO",
+      "id": 23,
+      "image": "/images/products/6116.jpg",
+      "description": "COMPACT - #6116 NUVOLENTO",
+      "category": "compactHPL"
     }
   ]
 }

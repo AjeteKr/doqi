@@ -122,7 +122,7 @@
         "material": "MATT + HGS"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 2262 BIANCO EXTRA",
       "id": 9,
       "image": "/images/products/2262_tc.jpg",
       "description": "COMPACT #2262 BIANCO EXTRA",
@@ -137,10 +137,10 @@
         "material": "MATT"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 2633 ANTRASIT GRIGIO GRAFITE",
       "id": 10,
       "image": "/images/products/2633.jpg",
-      "description": "COMPACT #2633 Antrasit Grigio Grafite \n",
+      "description": "COMPACT #2633 ANTRASIT GRIGIO GRAFITE\n",
       "category": "compactHPL"
     },
     {
@@ -152,7 +152,7 @@
         "material": "MATT"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 2071 NERO",
       "id": 11,
       "image": "/images/products/151918.jpeg",
       "description": "COMPACT #2071 NERO",
@@ -167,10 +167,10 @@
         "material": "MATT + HGS"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6022 GREY PULPIS",
       "id": 12,
       "image": "/images/products/6022.jpg",
-      "description": "COMPACT #6022 Grey Pulpis\n",
+      "description": "COMPACT #6022 GREY PULPIS\n",
       "category": "compactHPL"
     },
     {
@@ -182,10 +182,10 @@
         "material": "MATT"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6310 NERO TUNISI",
       "id": 13,
       "image": "/images/products/6310.webp",
-      "description": "COMPACT #6310 Nero Tunisi",
+      "description": "COMPACT #6310 NERO TUNISI",
       "category": "compactHPL"
     },
     {
@@ -197,7 +197,7 @@
         "material": "MATT + HGS"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6019 CALACATTA",
       "id": 14,
       "image": "/images/products/6019.jpg",
       "description": "COMPACT #6019 CALACATTA\n\n",
@@ -212,7 +212,7 @@
         "material": "MATT"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6015 BURN STEEL",
       "id": 15,
       "image": "/images/products/6015.jpg",
       "description": "COMPACT #6015 BURN STEEL\n",
@@ -227,7 +227,7 @@
         "material": "MATT"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6014 ZEBRA MARBLE",
       "id": 16,
       "image": "/images/products/6014-feature-image-puricelli-kitchen-and-bath-1.jpg",
       "description": "COMPACT #6014 ZEBRA MARBLE\n",
@@ -242,7 +242,7 @@
         "material": "MATT + HGS"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6111 GREY STONE",
       "id": 17,
       "image": "/images/products/6111.jpg",
       "description": "COMPACT #6111 GREY STONE\n\n",
@@ -257,7 +257,7 @@
         "material": "MATT"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6120 MERCURY",
       "id": 18,
       "image": "/images/products/6120.jpg",
       "description": "COMPACT #6120 MERCURY\n",
@@ -272,7 +272,7 @@
         "material": "MATT + HGS"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6133 MARQUINA",
       "id": 19,
       "image": "/images/products/6133.jpg",
       "description": "COMPACT #6133 MARQUINA\n",
@@ -286,10 +286,24 @@
         "thickness": "10mm"
       },
       "inStock": true,
-      "title": "COMPACT HPL - Compact High Pressure Laminate",
+      "title": "COMPACT HPL - 6140 CALIPSO",
       "id": 20,
       "image": "/images/products/6140.jpg",
       "description": "#6140 CALIPSO",
+      "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, 10 x 1300 x 4200",
+        "thickness": "10mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #0218 SAHARA",
+      "id": 21,
+      "image": "/images/products/0218.webp",
+      "description": "COMPACT - #0218 SAHARA",
       "category": "compactHPL"
     }
   ]

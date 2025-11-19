@@ -305,6 +305,20 @@
       "image": "/images/products/0218.webp",
       "description": "COMPACT - #0218 SAHARA",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL  - 4064 - CONCRETE GRIS",
+      "id": 22,
+      "image": "/images/products/4064.jpg",
+      "description": "COMPACT #4064 - CONCRETE GRIS\n",
+      "category": "compactHPL"
     }
   ]
 }

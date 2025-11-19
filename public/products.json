@@ -347,6 +347,20 @@
       "image": "/images/products/6240.webp",
       "description": "COMPACT -  #6240 CIVIDALE MALDON",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #6131 | Marquina Lounge",
+      "id": 25,
+      "image": "/images/products/6131.jpg",
+      "description": "COMPACT - 6131 MARQUINA LOUNGE",
+      "category": "compactHPL"
     }
   ]
 }

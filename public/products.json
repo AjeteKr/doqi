@@ -333,6 +333,20 @@
       "image": "/images/products/6116.jpg",
       "description": "COMPACT - #6116 NUVOLENTO",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200, 10 x 1300 x 3050",
+        "thickness": "10mm"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - 6240 CIVIDALE MALDON",
+      "id": 24,
+      "image": "/images/products/6240.webp",
+      "description": "COMPACT -  #6240 CIVIDALE MALDON",
+      "category": "compactHPL"
     }
   ]
 }

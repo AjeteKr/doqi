@@ -278,20 +278,32 @@
   "reviews": {
     "title": "Scelto da Migliaia di Clienti Soddisfatti",
     "subtitle": "Soddisfazione del Cliente",
+    "verified": "Cliente Verificato",
+    "rating": "Valutazione",
+    "reviewedOn": "Recensito il",
     "review1": {
       "name": "Elira M.",
-      "role": "Proprietaria di Ristorante",
-      "comment": "Come proprietaria di un ristorante, durata e design sono ugualmente importanti. I pannelli HPL Compatti che abbiamo acquistato da Doqi Shpk hanno dato al nostro spazio un aspetto moderno e possono facilmente gestire l'usura quotidiana. I clienti spesso complimentano il design — è stato l'investimento giusto per la nostra attività."
+      "role": "Proprietaria di Ristorante, Pristina",
+      "comment": "Come proprietaria di un ristorante, durata e design sono ugualmente importanti. I pannelli HPL Compatti che abbiamo acquistato da Doqi Shpk hanno dato al nostro spazio un aspetto moderno e possono facilmente gestire l'usura quotidiana. I clienti spesso complimentano il design — è stato l'investimento giusto per la nostra attività.",
+      "date": "Novembre 2024"
     },
     "review2": {
       "name": "Petrit G.",
-      "role": "Designer d'Interni",
-      "comment": "Lavorare con Doqi ha trasformato il mio approccio ai progetti commerciali. La loro vasta gamma di materiali e la consulenza professionale mi hanno aiutato a ottenere risultati eccezionali per i miei clienti. La qualità parla da sé."
+      "role": "Designer d'Interni, Prizren",
+      "comment": "Lavorare con Doqi ha trasformato il mio approccio ai progetti commerciali. La loro vasta gamma di materiali e la consulenza professionale mi hanno aiutato a ottenere risultati eccezionali per i miei clienti. La qualità parla da sé.",
+      "date": "Ottobre 2024"
     },
     "review3": {
       "name": "Ana K.",
-      "role": "Direttrice Hotel",
-      "comment": "Abbiamo arredato l'intero nostro hotel con materiali di Doqi. La combinazione di durata, stile e prezzi competitivi li ha resi il nostro partner preferito. I nostri ospiti lodano costantemente l'estetica moderna."
+      "role": "Direttrice Hotel, Peja",
+      "comment": "Abbiamo arredato l'intero nostro hotel con materiali di Doqi. La combinazione di durata, stile e prezzi competitivi li ha resi il nostro partner preferito. I nostri ospiti lodano costantemente l'estetica moderna.",
+      "date": "Settembre 2024"
+    },
+    "review4": {
+      "name": "Arben D.",
+      "role": "Proprietario di Casa, Gjakova",
+      "comment": "Ho acquistato un materasso StarFlex e pannelli MDF per la ristrutturazione della mia casa. La qualità ha superato le mie aspettative! Il team è stato professionale, la consegna puntuale e i prezzi equi. Altamente consigliato!",
+      "date": "Agosto 2024"
     }
   },
   "starflex": {

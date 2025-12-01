@@ -282,20 +282,32 @@
   "reviews": {
     "title": "Vertraut von Tausenden Zufriedener Kunden",
     "subtitle": "Kundenzufriedenheit",
+    "verified": "Verifizierter Kunde",
+    "rating": "Bewertung",
+    "reviewedOn": "Bewertet am",
     "review1": {
       "name": "Elira M.",
-      "role": "Restaurantbesitzerin",
-      "comment": "Als Restaurantbesitzerin sind Haltbarkeit und Design gleichermaßen wichtig. Die HPL-Kompaktplatten, die wir von Doqi Shpk gekauft haben, verliehen unserem Raum ein modernes Aussehen und können den täglichen Verschleiß problemlos bewältigen. Kunden loben oft das Design — es war die richtige Investition für unser Geschäft."
+      "role": "Restaurantbesitzerin, Pristina",
+      "comment": "Als Restaurantbesitzerin sind Haltbarkeit und Design gleichermaßen wichtig. Die HPL-Kompaktplatten, die wir von Doqi Shpk gekauft haben, verliehen unserem Raum ein modernes Aussehen und können den täglichen Verschleiß problemlos bewältigen. Kunden loben oft das Design — es war die richtige Investition für unser Geschäft.",
+      "date": "November 2024"
     },
     "review2": {
       "name": "Petrit G.",
-      "role": "Innenarchitekt",
-      "comment": "Die Zusammenarbeit mit Doqi hat meine Herangehensweise an kommerzielle Projekte verändert. Ihr umfangreiches Materialangebot und ihre professionelle Beratung haben mir geholfen, außergewöhnliche Ergebnisse für meine Kunden zu erzielen. Die Qualität spricht für sich."
+      "role": "Innenarchitekt, Prizren",
+      "comment": "Die Zusammenarbeit mit Doqi hat meine Herangehensweise an kommerzielle Projekte verändert. Ihr umfangreiches Materialangebot und ihre professionelle Beratung haben mir geholfen, außergewöhnliche Ergebnisse für meine Kunden zu erzielen. Die Qualität spricht für sich.",
+      "date": "Oktober 2024"
     },
     "review3": {
       "name": "Ana K.",
-      "role": "Hoteldirektorin",
-      "comment": "Wir haben unser gesamtes Hotel mit Materialien von Doqi eingerichtet. Die Kombination aus Haltbarkeit, Stil und wettbewerbsfähigen Preisen machte sie zu unserem bevorzugten Partner. Unsere Gäste loben durchweg die moderne Ästhetik."
+      "role": "Hoteldirektorin, Peja",
+      "comment": "Wir haben unser gesamtes Hotel mit Materialien von Doqi eingerichtet. Die Kombination aus Haltbarkeit, Stil und wettbewerbsfähigen Preisen machte sie zu unserem bevorzugten Partner. Unsere Gäste loben durchweg die moderne Ästhetik.",
+      "date": "September 2024"
+    },
+    "review4": {
+      "name": "Arben D.",
+      "role": "Hausbesitzer, Gjakova",
+      "comment": "Ich habe eine StarFlex-Matratze und MDF-Platten für meine Hausrenovierung gekauft. Die Qualität übertraf meine Erwartungen! Das Team war professionell, die Lieferung pünktlich und die Preise fair. Sehr zu empfehlen!",
+      "date": "August 2024"
     }
   },
   "starflex": {

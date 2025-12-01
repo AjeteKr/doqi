@@ -361,5 +361,66 @@
       "visitShowroom": "Visita Showroom",
       "browseCollection": "Sfoglia Collezione"
     }
+  },
+  "register": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Unisciti alla nostra comunità",
+    "title": "Crea il Tuo Account",
+    "passwordHint": "Almeno 6 caratteri",
+    "createButton": {
+      "loading": "Creazione account...",
+      "default": "Crea Account"
+    },
+    "or": "o",
+    "loginPrompt": "Hai già un account?",
+    "loginHere": "Accedi qui",
+    "backToHome": "← Torna alla Home"
+  },
+  "login": {
+    "brand": "DoqiSHPK",
+    "welcome": "Bentornato",
+    "title": "Accedi al Tuo Account",
+    "loading": "Accesso in corso...",
+    "button": "Accedi",
+    "or": "o",
+    "registerPrompt": "Non hai un account?",
+    "createHere": "Creane uno qui",
+    "backToHome": "← Torna alla Home"
+  },
+  "profile": {
+    "loading": "Caricamento del tuo profilo...",
+    "title": "Il Mio Profilo",
+    "description": "Gestisci le informazioni e le preferenze del tuo account",
+    "accountInformation": "Informazioni Account",
+    "fullName": "Nome Completo",
+    "emailAddress": "Indirizzo Email",
+    "userId": "ID Utente",
+    "accountType": "Tipo di Account",
+    "accountStatus": "Stato Account",
+    "accountActive": "L'account è attivo",
+    "quickActions": "Azioni Rapide",
+    "tokenInfo": "Informazioni Token",
+    "tokenStatus": "Stato Token",
+    "active": "Attivo",
+    "storedIn": "Archiviato in",
+    "localStorage": "localStorage",
+    "key": "Chiave",
+    "tokenKey": "token",
+    "copyToken": "Copia Token",
+    "editProfile": "Modifica Profilo",
+    "changePassword": "Cambia Password",
+    "logout": "Esci",
+    "accountVerifiedText": "Il tuo account è verificato e in buono stato. Puoi accedere a tutte le funzionalità della piattaforma."
+  },
+  "productDetails": {
+    "loading": "Caricamento prodotto...",
+    "notFoundTitle": "Prodotto Non Trovato",
+    "notFoundMessage": "Il prodotto che stai cercando non esiste.",
+    "backToProducts": "Torna ai Prodotti"
+  },
+  "ui": {
+    "productsErrorLoading": "Errore nel caricamento dei prodotti: {{error}}",
+    "or": "o",
+    "backToHome": "← Torna alla Home"
   }
 }

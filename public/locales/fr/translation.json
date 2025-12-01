@@ -361,5 +361,66 @@
       "visitShowroom": "Visiter le Showroom",
       "browseCollection": "Parcourir la Collection"
     }
+  },
+  "register": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Rejoignez notre communauté",
+    "title": "Créez Votre Compte",
+    "passwordHint": "Au moins 6 caractères",
+    "createButton": {
+      "loading": "Création du compte...",
+      "default": "Créer un Compte"
+    },
+    "or": "ou",
+    "loginPrompt": "Vous avez déjà un compte?",
+    "loginHere": "Connectez-vous ici",
+    "backToHome": "← Retour à l'Accueil"
+  },
+  "login": {
+    "brand": "DoqiSHPK",
+    "welcome": "Bienvenue",
+    "title": "Connectez-vous à Votre Compte",
+    "loading": "Connexion en cours...",
+    "button": "Se Connecter",
+    "or": "ou",
+    "registerPrompt": "Vous n'avez pas de compte?",
+    "createHere": "Créez-en un ici",
+    "backToHome": "← Retour à l'Accueil"
+  },
+  "profile": {
+    "loading": "Chargement de votre profil...",
+    "title": "Mon Profil",
+    "description": "Gérez les informations et les préférences de votre compte",
+    "accountInformation": "Informations du Compte",
+    "fullName": "Nom Complet",
+    "emailAddress": "Adresse Email",
+    "userId": "ID Utilisateur",
+    "accountType": "Type de Compte",
+    "accountStatus": "Statut du Compte",
+    "accountActive": "Le compte est actif",
+    "quickActions": "Actions Rapides",
+    "tokenInfo": "Informations Token",
+    "tokenStatus": "Statut du Token",
+    "active": "Actif",
+    "storedIn": "Stocké dans",
+    "localStorage": "localStorage",
+    "key": "Clé",
+    "tokenKey": "token",
+    "copyToken": "Copier le Token",
+    "editProfile": "Modifier le Profil",
+    "changePassword": "Changer le Mot de Passe",
+    "logout": "Se Déconnecter",
+    "accountVerifiedText": "Votre compte est vérifié et en règle. Vous pouvez accéder à toutes les fonctionnalités de la plateforme."
+  },
+  "productDetails": {
+    "loading": "Chargement du produit...",
+    "notFoundTitle": "Produit Non Trouvé",
+    "notFoundMessage": "Le produit que vous recherchez n'existe pas.",
+    "backToProducts": "Retour aux Produits"
+  },
+  "ui": {
+    "productsErrorLoading": "Erreur lors du chargement des produits: {{error}}",
+    "or": "ou",
+    "backToHome": "← Retour à l'Accueil"
   }
 }

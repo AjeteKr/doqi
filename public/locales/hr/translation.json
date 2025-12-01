@@ -364,5 +364,66 @@
       "visitShowroom": "Posjetite Showroom",
       "browseCollection": "Pregledajte Kolekciju"
     }
+  },
+  "register": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Pridružite se našoj zajednici",
+    "title": "Stvorite Svoj Račun",
+    "passwordHint": "Najmanje 6 znakova",
+    "createButton": {
+      "loading": "Stvaranje računa...",
+      "default": "Stvori Račun"
+    },
+    "or": "ili",
+    "loginPrompt": "Već imate račun?",
+    "loginHere": "Prijavite se ovdje",
+    "backToHome": "← Natrag na Početnu"
+  },
+  "login": {
+    "brand": "DoqiSHPK",
+    "welcome": "Dobrodošli natrag",
+    "title": "Prijavite se na Svoj Račun",
+    "loading": "Prijava u tijeku...",
+    "button": "Prijavi se",
+    "or": "ili",
+    "registerPrompt": "Nemate račun?",
+    "createHere": "Stvorite ga ovdje",
+    "backToHome": "← Natrag na Početnu"
+  },
+  "profile": {
+    "loading": "Učitavanje vašeg profila...",
+    "title": "Moj Profil",
+    "description": "Upravljajte informacijama i postavkama svog računa",
+    "accountInformation": "Informacije o Računu",
+    "fullName": "Puno Ime",
+    "emailAddress": "Email Adresa",
+    "userId": "Korisnički ID",
+    "accountType": "Vrsta Računa",
+    "accountStatus": "Status Računa",
+    "accountActive": "Račun je aktivan",
+    "quickActions": "Brze Radnje",
+    "tokenInfo": "Token Informacije",
+    "tokenStatus": "Status Tokena",
+    "active": "Aktivan",
+    "storedIn": "Pohranjeno u",
+    "localStorage": "localStorage",
+    "key": "Ključ",
+    "tokenKey": "token",
+    "copyToken": "Kopiraj Token",
+    "editProfile": "Uredi Profil",
+    "changePassword": "Promijeni Lozinku",
+    "logout": "Odjavi se",
+    "accountVerifiedText": "Vaš račun je verificiran i u dobrom stanju. Možete pristupiti svim funkcijama platforme."
+  },
+  "productDetails": {
+    "loading": "Učitavanje proizvoda...",
+    "notFoundTitle": "Proizvod Nije Pronađen",
+    "notFoundMessage": "Proizvod koji tražite ne postoji.",
+    "backToProducts": "Natrag na Proizvode"
+  },
+  "ui": {
+    "productsErrorLoading": "Greška pri učitavanju proizvoda: {{error}}",
+    "or": "ili",
+    "backToHome": "← Natrag na Početnu"
   }
 }

@@ -210,8 +210,11 @@
     "removeFromFavorites": "Hiq nga të preferuarat"
   },
   "productDetails": {
+    "loading": "Duke ngarkuar produktin...",
+    "notFoundTitle": "Produkti Nuk u Gjet",
+    "notFoundMessage": "Produkti që po kërkoni nuk ekziston.",
     "requestQuote": "Kërko Ofertë",
-    "backToProducts": "Kthehu",
+    "backToProducts": "Kthehu te Produktet",
     "technicalSpecs": "Specifikimet Teknike",
     "keyFeatures": "Karakteristikat Kryesore",
     "applications": "Aplikime",
@@ -372,5 +375,61 @@
       "visitShowroom": "Vizito Sallonin",
       "browseCollection": "Shfleto Koleksionin"
     }
+  },
+  "register": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Bashkohu me komunitetin tonë",
+    "title": "Krijo Llogarinë Tënde",
+    "passwordHint": "Të paktën 6 karaktere",
+    "createButton": {
+      "loading": "Duke krijuar llogarinë...",
+      "default": "Krijo Llogarinë"
+    },
+    "or": "ose",
+    "loginPrompt": "Ke tashmë një llogari?",
+    "loginHere": "Hyr këtu",
+    "backToHome": "← Kthehu në Kryefaqe"
+  },
+  "login": {
+    "brand": "DoqiSHPK",
+    "welcome": "Mirë se erdhe përsëri",
+    "title": "Hyr në Llogarinë Tënde",
+    "loading": "Duke u kyçur...",
+    "button": "Hyr",
+    "or": "ose",
+    "registerPrompt": "Nuk ke një llogari?",
+    "createHere": "Krijo këtu",
+    "backToHome": "← Kthehu në Kryefaqe"
+  },
+  "profile": {
+    "loading": "Duke ngarkuar profilin tuaj...",
+    "title": "Profili Im",
+    "description": "Menaxho informacionin dhe preferencat e llogarisë sate",
+    "accountInformation": "Informacioni i Llogarisë",
+    "fullName": "Emri i Plotë",
+    "emailAddress": "Adresa Email",
+    "userId": "ID e Përdoruesit",
+    "accountType": "Lloji i Llogarisë",
+    "accountStatus": "Statusi i Llogarisë",
+    "accountActive": "Llogaria është aktive",
+    "quickActions": "Veprime të Shpejta",
+    "tokenInfo": "Info e Token-it",
+    "tokenStatus": "Statusi i Token-it",
+    "active": "Aktiv",
+    "storedIn": "Ruajtur në",
+    "localStorage": "localStorage",
+    "key": "Çelësi",
+    "tokenKey": "token",
+    "copyToken": "Kopjo Token-in",
+    "editProfile": "Ndrysho Profilin",
+    "changePassword": "Ndrysho Fjalëkalimin",
+    "logout": "Dil",
+    "accountVerifiedText": "Llogaria juaj është e verifikuar dhe në gjendje të mirë. Mund të aksesoni të gjitha funksionet e platformës."
+  },
+    
+  "ui": {
+    "productsErrorLoading": "Gabim në ngarkimin e produkteve: {{error}}",
+    "or": "ose",
+    "backToHome": "← Kthehu në Kryefaqe"
   }
 }

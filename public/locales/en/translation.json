@@ -210,8 +210,11 @@
     "removeFromFavorites": "Remove from favorites"
   },
   "productDetails": {
+    "loading": "Loading product...",
+    "notFoundTitle": "Product Not Found",
+    "notFoundMessage": "The product you're looking for doesn't exist.",
+    "backToProducts": "Back to Products",
     "requestQuote": "Request Quote",
-    "backToProducts": "Back",
     "technicalSpecs": "Technical Specifications",
     "keyFeatures": "Key Features",
     "applications": "Applications",
@@ -358,5 +361,61 @@
       "visitShowroom": "Visit Showroom",
       "browseCollection": "Browse Collection"
     }
+  }
+  ,
+  "register": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Join our community",
+    "title": "Create Your Account",
+    "passwordHint": "At least 6 characters",
+    "createButton": {
+      "loading": "Creating Account...",
+      "default": "Create Account"
+    },
+    "or": "or",
+    "loginPrompt": "Already have an account?",
+    "loginHere": "Login here",
+    "backToHome": "← Back to Home"
+  },
+  "login": {
+    "brand": "DoqiSHPK",
+    "welcome": "Welcome back",
+    "title": "Login to Your Account",
+    "loading": "Logging in...",
+    "button": "Login",
+    "or": "or",
+    "registerPrompt": "Don't have an account?",
+    "createHere": "Create one here",
+    "backToHome": "← Back to Home"
+  },
+  "profile": {
+    "loading": "Loading your profile...",
+    "title": "My Profile",
+    "description": "Manage your account information and preferences",
+    "accountInformation": "Account Information",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "userId": "User ID",
+    "accountType": "Account Type",
+    "accountStatus": "Account Status",
+    "accountActive": "Account is active",
+    "quickActions": "Quick Actions",
+    "tokenInfo": "Token Info",
+    "tokenStatus": "Token Status",
+    "active": "Active",
+    "storedIn": "Stored in",
+    "localStorage": "localStorage",
+    "key": "Key",
+    "tokenKey": "token",
+    "copyToken": "Copy Token",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "logout": "Logout",
+    "accountVerifiedText": "Your account is verified and in good standing. You can access all platform features."
+  },
+  "ui": {
+    "productsErrorLoading": "Error loading products: {{error}}",
+    "or": "or",
+    "backToHome": "← Back to Home"
   }
 }

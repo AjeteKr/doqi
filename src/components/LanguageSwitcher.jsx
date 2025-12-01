@@ -1,4 +1,3 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { US } from 'country-flag-icons/react/3x2'
 import { AL } from 'country-flag-icons/react/3x2'

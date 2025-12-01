@@ -118,7 +118,7 @@ const VideoPlayer = ({
       )}
 
       {/* Custom CSS for glassmorphism effect */}
-      <style jsx>{`
+      <style>{`
         .glass-border {
           border: 4px solid rgba(255, 255, 255, 0.2);
           backdrop-filter: blur(22.9px);
@@ -140,9 +140,9 @@ const VideoPlayer = ({
           border-radius: 20px;
           z-index: -1;
         }
+        }
         
-        .glass-border * {
-          user-select: none;
+        .glass-border::after {
           -webkit-user-select: none;
           -moz-user-select: none;
           -ms-user-select: none;

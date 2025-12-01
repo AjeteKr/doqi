@@ -201,12 +201,12 @@ const Footer = () => {
               © {currentYear} <span className="text-white font-semibold">DOQI SHPK</span>. {t('footer.rights')}
             </p>
             <div className="flex gap-6">
-              <a href="#" className="hover:text-red-500 transition-colors">
+              <Link to="/privacy" className="hover:text-red-500 transition-colors">
                 {t('footer.privacy')}
-              </a>
-              <a href="#" className="hover:text-red-500 transition-colors">
+              </Link>
+              <Link to="/terms" className="hover:text-red-500 transition-colors">
                 {t('footer.terms')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

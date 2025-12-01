@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 const VideoPlayer = ({ 
   videoSrc = "/videos/doqishpk.mp4",
@@ -7,9 +7,20 @@ const VideoPlayer = ({
 }) => {
   const [isPlaying, setIsPlaying] = useState(false)
   const [isFullscreen, setIsFullscreen] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
   const videoRef = useRef(null)
 
-  const togglePlay = () => {
+  useEffect(() => {
+    // Detect mobile device
+    const checkMobile = () => {
+      setIsMobile(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+    }
+    checkMobile()
+  }, [])
+
+  const togglePlay = (e) => {
+    e.preventDefault()
+    e.stopPropagation()
     if (videoRef.current) {
       if (isPlaying) {
         videoRef.current.pause()
@@ -20,7 +31,9 @@ const VideoPlayer = ({
     }
   }
 
-  const openFullscreen = () => {
+  const openFullscreen = (e) => {
+    e.preventDefault()
+    e.stopPropagation()
     setIsFullscreen(true)
     if (videoRef.current) {
       videoRef.current.play()
@@ -28,7 +41,11 @@ const VideoPlayer = ({
     }
   }
 
-  const closeFullscreen = () => {
+  const closeFullscreen = (e) => {
+    if (e) {
+      e.preventDefault()
+      e.stopPropagation()
+    }
     setIsFullscreen(false)
     if (videoRef.current) {
       videoRef.current.pause()
@@ -39,7 +56,14 @@ const VideoPlayer = ({
   return (
     <>
       {/* Video Card */}
-      <div className={`relative ${className} bg-black/10 backdrop-blur-md rounded-2xl overflow-hidden transform hover:scale-105 transition-all duration-300 glass-border select-none`} style={{ userSelect: 'none', WebkitUserSelect: 'none' }}>
+      <div 
+        className={`relative ${className} bg-black/10 backdrop-blur-md rounded-2xl overflow-hidden transform hover:scale-105 transition-all duration-300 glass-border select-none`} 
+        style={{ 
+          userSelect: 'none', 
+          WebkitUserSelect: 'none',
+          touchAction: 'manipulation'
+        }}
+      >
         {/* Video Element */}
         <video 
           ref={videoRef}
@@ -47,18 +71,26 @@ const VideoPlayer = ({
           className="w-full h-full object-cover rounded-xl"
           poster={posterSrc}
           preload="metadata"
+          playsInline
           onPlay={() => setIsPlaying(true)}
           onPause={() => setIsPlaying(false)}
           onClick={(e) => e.stopPropagation()}
+          onTouchStart={(e) => e.stopPropagation()}
         />
         
         {/* Controls Overlay */}
-        <div className="absolute inset-0 flex items-center justify-center select-none">
+        <div className="absolute inset-0 flex items-center justify-center select-none" style={{ pointerEvents: 'none' }}>
           {/* Play/Pause Button */}
           <button
             onClick={togglePlay}
-            className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center hover:bg-white/30 transition-colors mr-3 select-none focus:outline-none"
-            style={{ userSelect: 'none', WebkitUserSelect: 'none' }}
+            onTouchEnd={togglePlay}
+            className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center hover:bg-white/30 transition-colors mr-3 select-none focus:outline-none active:scale-95"
+            style={{ 
+              userSelect: 'none', 
+              WebkitUserSelect: 'none',
+              pointerEvents: 'auto',
+              touchAction: 'manipulation'
+            }}
           >
             {isPlaying ? (
               // Pause Icon
@@ -76,8 +108,14 @@ const VideoPlayer = ({
           {/* Fullscreen Button */}
           <button
             onClick={openFullscreen}
-            className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-white/30 transition-colors select-none focus:outline-none"
-            style={{ userSelect: 'none', WebkitUserSelect: 'none' }}
+            onTouchEnd={openFullscreen}
+            className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-white/30 transition-colors select-none focus:outline-none active:scale-95"
+            style={{ 
+              userSelect: 'none', 
+              WebkitUserSelect: 'none',
+              pointerEvents: 'auto',
+              touchAction: 'manipulation'
+            }}
           >
             <svg className="w-5 h-5 text-white pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/>
@@ -91,14 +129,22 @@ const VideoPlayer = ({
         <div 
           className="fixed inset-0 z-50 bg-black bg-opacity-95 flex items-center justify-center p-4"
           onClick={closeFullscreen}
+          onTouchEnd={closeFullscreen}
+          style={{ touchAction: 'manipulation' }}
         >
-          <div className="relative w-full max-w-6xl aspect-video">
+          <div 
+            className="relative w-full max-w-6xl aspect-video"
+            onClick={(e) => e.stopPropagation()}
+            onTouchEnd={(e) => e.stopPropagation()}
+          >
             <video 
               className="w-full h-full rounded-lg"
               controls 
               autoPlay
+              playsInline
               onEnded={closeFullscreen}
               onClick={(e) => e.stopPropagation()}
+              onTouchStart={(e) => e.stopPropagation()}
             >
               <source src={videoSrc} type="video/mp4" />
               Your browser does not support the video tag.
@@ -107,7 +153,9 @@ const VideoPlayer = ({
             {/* Close Button */}
             <button
               onClick={closeFullscreen}
-              className="absolute -top-12 right-0 text-white hover:text-red-400 transition-colors"
+              onTouchEnd={closeFullscreen}
+              className="absolute -top-12 right-0 text-white hover:text-red-400 transition-colors active:scale-95"
+              style={{ touchAction: 'manipulation' }}
             >
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

@@ -71,7 +71,8 @@
     "productFound": "prodotto trovato",
     "productsFound": "prodotti trovati",
     "tryAdjusting": "Prova a modificare la tua ricerca o il filtro per trovare ciò che stai cercando.",
-    "clearAllFilters": "Cancella Tutti i Filtri"
+    "clearAllFilters": "Cancella tutti i filtri",
+    "browseAll": "Sfoglia tutti i prodotti"
   },
   "about": {
     "title": "Chi è DoqiSHPK",
@@ -422,5 +423,79 @@
     "productsErrorLoading": "Errore nel caricamento dei prodotti: {{error}}",
     "or": "o",
     "backToHome": "← Torna alla Home"
+  },
+  "terms": {
+    "title": "Termini di Servizio",
+    "subtitle": "Si prega di leggere attentamente questi termini prima di utilizzare il nostro sito web",
+    "lastUpdated": "Ultimo aggiornamento: 1 dicembre 2025",
+    "introduction": "Benvenuti in Doçi Sh.p.k. (\"noi\", \"nostro\", \"ci\"). Accedendo o utilizzando il nostro sito web www.doqi-ks.com, accetti di rispettare ed essere vincolato dai seguenti Termini di Servizio. Se non sei d'accordo con questi termini, ti preghiamo di non utilizzare il nostro sito web.",
+    "generalInfo": {
+      "title": "Informazioni Generali",
+      "content": "Il sito web www.doqi-ks.com è di proprietà e gestito da Doçi Sh.p.k., un'azienda registrata in Kosovo.\nIl nostro sito web fornisce informazioni sui nostri prodotti, servizi e attività aziendali."
+    },
+    "useOfWebsite": {
+      "title": "Uso del Sito Web",
+      "content": "Questo sito web è destinato esclusivamente a scopo informativo.\nGli utenti possono navigare i nostri prodotti e le informazioni aziendali ma non possono copiare, riprodurre o distribuire alcun contenuto da questo sito web senza autorizzazione scritta da Doçi Sh.p.k."
+    },
+    "intellectualProperty": {
+      "title": "Proprietà Intellettuale",
+      "content": "Tutti i testi, grafici, immagini, design di prodotti e altri materiali su questo sito web sono proprietà intellettuale di Doçi Sh.p.k. o dei suoi licenziatari.\nNon è consentito utilizzare, copiare o riprodurre questi materiali per scopi commerciali senza previo consenso scritto."
+    },
+    "accuracyOfInfo": {
+      "title": "Accuratezza delle Informazioni",
+      "content": "Facciamo ragionevoli sforzi per garantire che tutte le informazioni visualizzate sul nostro sito web siano accurate e aggiornate.\nTuttavia, Doçi Sh.p.k. non garantisce che le informazioni siano prive di errori o omissioni e si riserva il diritto di aggiornare o modificare i contenuti in qualsiasi momento."
+    },
+    "linksToOtherSites": {
+      "title": "Link ad Altri Siti Web",
+      "content": "Il nostro sito web può includere link a siti esterni.\nNon siamo responsabili per i contenuti, le politiche o le pratiche di questi siti web di terze parti."
+    },
+    "limitationOfLiability": {
+      "title": "Limitazione di Responsabilità",
+      "content": "Doçi Sh.p.k. non sarà responsabile per danni diretti, indiretti, incidentali o consequenziali derivanti dall'uso o dall'impossibilità di utilizzare questo sito web."
+    },
+    "changesToTerms": {
+      "title": "Modifiche a Questi Termini",
+      "content": "Ci riserviamo il diritto di modificare o sostituire questi Termini di Servizio in qualsiasi momento.\nLa versione aggiornata sarà sempre disponibile su questa pagina con una data rivista."
+    },
+    "contact": {
+      "title": "Contatto",
+      "content": "Per qualsiasi domanda riguardante questi Termini, ti preghiamo di contattarci a:\n📧 info@doqi-ks.com"
+    },
+    "questionsTitle": "Hai Domande?",
+    "questionsText": "Se hai domande o dubbi sui nostri Termini di Servizio, siamo qui per aiutarti."
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "subtitle": "La tua privacy è importante per noi",
+    "lastUpdated": "Ultimo aggiornamento: 1 dicembre 2025",
+    "introduction": "In Doçi Sh.p.k., apprezziamo la tua privacy e ci impegniamo a proteggerla. Questa Informativa sulla Privacy spiega come gestiamo le informazioni in relazione al nostro sito web www.doqi-ks.com.",
+    "infoWeCollect": {
+      "title": "Informazioni Che Raccogliamo",
+      "content": "Non raccogliamo dati personali dai visitatori del nostro sito web.\nIl sito viene utilizzato esclusivamente per visualizzare informazioni sui nostri prodotti e servizi."
+    },
+    "cookiesAnalytics": {
+      "title": "Cookie e Analisi",
+      "content": "Il nostro sito web non utilizza cookie, tecnologie di tracciamento o strumenti di analisi che raccolgono dati utente identificabili."
+    },
+    "linksToOtherSites": {
+      "title": "Link ad Altri Siti",
+      "content": "Il nostro sito web può contenere link ad altri siti web.\nNon siamo responsabili per le pratiche sulla privacy di questi siti esterni."
+    },
+    "dataSecurity": {
+      "title": "Sicurezza dei Dati",
+      "content": "Anche se non raccogliamo dati, manteniamo misure di sicurezza tecniche per mantenere il nostro sito web sicuro e prevenire accessi non autorizzati."
+    },
+    "changesToPolicy": {
+      "title": "Modifiche a Questa Politica",
+      "content": "Potremmo aggiornare periodicamente questa Informativa sulla Privacy.\nQualsiasi modifica sarà pubblicata su questa pagina con una data aggiornata."
+    },
+    "contact": {
+      "title": "Contattaci",
+      "content": "Se hai domande su questa Informativa sulla Privacy, ti preghiamo di contattarci a:\n📧 info@doqi-ks.com"
+    },
+    "commitmentTitle": "Il Nostro Impegno per la Privacy",
+    "commitmentText": "Siamo impegnati a mantenere i più alti standard di privacy e trasparenza. La tua fiducia è importante per noi.",
+    "questionsTitle": "Domande sulla Privacy?",
+    "questionsText": "Se hai domande o dubbi sulla nostra Informativa sulla Privacy, non esitare a contattarci."
   }
 }

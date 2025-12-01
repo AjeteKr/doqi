@@ -68,7 +68,8 @@
     "productFound": "product found",
     "productsFound": "products found",
     "tryAdjusting": "Try adjusting your search or filter to find what you're looking for.",
-    "clearAllFilters": "Clear All Filters"
+    "clearAllFilters": "Clear All Filters",
+    "browseAll": "Browse All Products"
   },
   "about": {
     "title": "About DoqiSHPK",
@@ -417,5 +418,79 @@
     "productsErrorLoading": "Error loading products: {{error}}",
     "or": "or",
     "backToHome": "← Back to Home"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Please read these terms carefully before using our website",
+    "lastUpdated": "Last updated: December 1, 2025",
+    "introduction": "Welcome to Doçi Sh.p.k. (\"we\", \"our\", \"us\"). By accessing or using our website www.doqi-ks.com, you agree to comply with and be bound by the following Terms of Service. If you do not agree with these terms, please do not use our website.",
+    "generalInfo": {
+      "title": "General Information",
+      "content": "The website www.doqi-ks.com is owned and operated by Doçi Sh.p.k., a company registered in Kosovo.\nOur website provides information about our products, services, and company activities."
+    },
+    "useOfWebsite": {
+      "title": "Use of Website",
+      "content": "This website is intended for informational purposes only.\nUsers may browse our products and company information but may not copy, reproduce, or distribute any content from this website without written permission from Doçi Sh.p.k."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "content": "All text, graphics, images, product designs, and other materials on this website are the intellectual property of Doçi Sh.p.k. or its licensors.\nYou may not use, copy, or reproduce these materials for commercial purposes without prior written consent."
+    },
+    "accuracyOfInfo": {
+      "title": "Accuracy of Information",
+      "content": "We make reasonable efforts to ensure that all information displayed on our website is accurate and up to date.\nHowever, Doçi Sh.p.k. does not guarantee that the information is free of errors or omissions and reserves the right to update or modify content at any time."
+    },
+    "linksToOtherSites": {
+      "title": "Links to Other Websites",
+      "content": "Our website may include links to external sites.\nWe are not responsible for the content, policies, or practices of those third-party websites."
+    },
+    "limitationOfLiability": {
+      "title": "Limitation of Liability",
+      "content": "Doçi Sh.p.k. shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use this website."
+    },
+    "changesToTerms": {
+      "title": "Changes to These Terms",
+      "content": "We reserve the right to modify or replace these Terms of Service at any time.\nThe updated version will always be available on this page with a revised date."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "For any questions regarding these Terms, please contact us at:\n📧 info@doqi-ks.com"
+    },
+    "questionsTitle": "Have Questions?",
+    "questionsText": "If you have any questions or concerns about our Terms of Service, we're here to help."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is important to us",
+    "lastUpdated": "Last updated: December 1, 2025",
+    "introduction": "At Doçi Sh.p.k., we value your privacy and are committed to protecting it. This Privacy Policy explains how we handle information in connection with our website www.doqi-ks.com.",
+    "infoWeCollect": {
+      "title": "Information We Collect",
+      "content": "We do not collect any personal data from visitors to our website.\nThe site is used solely to display information about our products and services."
+    },
+    "cookiesAnalytics": {
+      "title": "Cookies and Analytics",
+      "content": "Our website does not use cookies, tracking technologies, or analytics tools that collect identifiable user data."
+    },
+    "linksToOtherSites": {
+      "title": "Links to Other Sites",
+      "content": "Our website may contain links to other websites.\nWe are not responsible for the privacy practices of those external sites."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "Even though we do not collect data, we maintain technical safeguards to keep our website secure and to prevent unauthorized access."
+    },
+    "changesToPolicy": {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy periodically.\nAny changes will be posted on this page with an updated date."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at:\n📧 info@doqi-ks.com"
+    },
+    "commitmentTitle": "Our Privacy Commitment",
+    "commitmentText": "We are committed to maintaining the highest standards of privacy and transparency. Your trust is important to us.",
+    "questionsTitle": "Questions About Privacy?",
+    "questionsText": "If you have any questions or concerns about our Privacy Policy, feel free to reach out to us."
   }
 }

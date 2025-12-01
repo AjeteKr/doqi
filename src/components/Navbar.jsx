@@ -60,7 +60,7 @@ const Navbar = () => {
               to="/starflex" 
               className="hidden lg:flex items-center"
             >
-              <img src="/src/assets/images/starflex-logo.png" alt="StarFlex Logo" className="h-16 w-auto hover:opacity-80 transition-opacity" />
+              <img src="/images/starflex-logo.png" alt="StarFlex Logo" className="h-16 w-auto hover:opacity-80 transition-opacity" />
             </Link>
             
             <div className="hidden lg:flex items-center space-x-5">
@@ -144,7 +144,7 @@ const Navbar = () => {
                 className="text-red-600 hover:text-red-700 px-3 py-2 text-sm font-medium flex items-center"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                <img src="/src/assets/images/starflex-logo.png" alt="StarFlex Logo" className="h-6 w-auto" />
+                <img src="/images/starflex-logo.png" alt="StarFlex Logo" className="h-6 w-auto" />
               </Link>
               <div className="px-3 py-2 flex items-center space-x-4">
                 <Link 

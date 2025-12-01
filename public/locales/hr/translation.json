@@ -70,7 +70,8 @@
     "productFound": "proizvod pronađen",
     "productsFound": "proizvoda pronađeno",
     "tryAdjusting": "Pokušajte prilagoditi svoju pretragu ili filter kako biste pronašli ono što tražite.",
-    "clearAllFilters": "Obriši Sve Filtere"
+    "clearAllFilters": "Obriši Sve Filtere",
+    "browseAll": "Pregledaj Sve Proizvode"
   },
   "about": {
     "title": "O DoqiSHPK",
@@ -425,5 +426,79 @@
     "productsErrorLoading": "Greška pri učitavanju proizvoda: {{error}}",
     "or": "ili",
     "backToHome": "← Natrag na Početnu"
+  },
+  "terms": {
+    "title": "Uvjeti Korištenja",
+    "subtitle": "Molimo pažljivo pročitajte ove uvjete prije korištenja naše web stranice",
+    "lastUpdated": "Posljednje ažurirano: 1. prosinca 2025.",
+    "introduction": "Dobrodošli u Doçi Sh.p.k. (\"mi\", \"naš\", \"nas\"). Pristupanjem ili korištenjem naše web stranice www.doqi-ks.com, slažete se s pridržavanjem i vezanošću sljedećim Uvjetima Korištenja. Ako se ne slažete s ovim uvjetima, molimo ne koristite našu web stranicu.",
+    "generalInfo": {
+      "title": "Opće Informacije",
+      "content": "Web stranicu www.doqi-ks.com posjeduje i upravlja Doçi Sh.p.k., tvrtka registrirana na Kosovu.\nNaša web stranica pruža informacije o našim proizvodima, uslugama i aktivnostima tvrtke."
+    },
+    "useOfWebsite": {
+      "title": "Korištenje Web Stranice",
+      "content": "Ova web stranica je namijenjena samo u informativne svrhe.\nKorisnici mogu pregledati naše proizvode i informacije o tvrtki, ali ne smiju kopirati, reproducirati ili distribuirati bilo kakav sadržaj s ove web stranice bez pisanog odobrenja Doçi Sh.p.k."
+    },
+    "intellectualProperty": {
+      "title": "Intelektualno Vlasništvo",
+      "content": "Sav tekst, grafika, slike, dizajn proizvoda i drugi materijali na ovoj web stranici su intelektualno vlasništvo Doçi Sh.p.k. ili njegovih licencora.\nNe smijete koristiti, kopirati ili reproducirati ove materijale u komercijalne svrhe bez prethodne pisane suglasnosti."
+    },
+    "accuracyOfInfo": {
+      "title": "Točnost Informacija",
+      "content": "Činimo razumne napore kako bismo osigurali da sve informacije prikazane na našoj web stranici budu točne i ažurne.\nMeđutim, Doçi Sh.p.k. ne garantira da informacije ne sadrže pogreške ili propuste i zadržava pravo da ažurira ili izmijeni sadržaj u bilo kojem trenutku."
+    },
+    "linksToOtherSites": {
+      "title": "Linkovi na Druge Web Stranice",
+      "content": "Naša web stranica može uključivati linkove na vanjske stranice.\nNismo odgovorni za sadržaj, politike ili prakse tih trećih strana."
+    },
+    "limitationOfLiability": {
+      "title": "Ograničenje Odgovornosti",
+      "content": "Doçi Sh.p.k. neće biti odgovoran za bilo kakvu izravnu, neizravnu, slučajnu ili posljedičnu štetu koja proizlazi iz korištenja ili nemogućnosti korištenja ove web stranice."
+    },
+    "changesToTerms": {
+      "title": "Izmjene Ovih Uvjeta",
+      "content": "Zadržavamo pravo da izmijenimo ili zamijenimo ove Uvjete Korištenja u bilo kojem trenutku.\nAžurirana verzija će uvijek biti dostupna na ovoj stranici s revidiranim datumom."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "Za sva pitanja u vezi ovih Uvjeta, molimo kontaktirajte nas na:\n📧 info@doqi-ks.com"
+    },
+    "questionsTitle": "Imate Pitanja?",
+    "questionsText": "Ako imate bilo kakva pitanja ili nedoumice u vezi naših Uvjeta Korištenja, tu smo da pomognemo."
+  },
+  "privacy": {
+    "title": "Politika Privatnosti",
+    "subtitle": "Vaša privatnost nam je važna",
+    "lastUpdated": "Posljednje ažurirano: 1. prosinca 2025.",
+    "introduction": "U Doçi Sh.p.k., cijenimo vašu privatnost i posvećeni smo njenoj zaštiti. Ova Politika Privatnosti objašnjava kako rukujemo informacijama u vezi s našom web stranicom www.doqi-ks.com.",
+    "infoWeCollect": {
+      "title": "Informacije Koje Prikupljamo",
+      "content": "Ne prikupljamo nikakve osobne podatke od posjetitelja naše web stranice.\nStranica se koristi isključivo za prikaz informacija o našim proizvodima i uslugama."
+    },
+    "cookiesAnalytics": {
+      "title": "Kolačići i Analitika",
+      "content": "Naša web stranica ne koristi kolačiće, tehnologije praćenja ili analitičke alate koji prikupljaju podatke o korisniku koji se mogu identificirati."
+    },
+    "linksToOtherSites": {
+      "title": "Linkovi na Druge Stranice",
+      "content": "Naša web stranica može sadržavati linkove na druge web stranice.\nNismo odgovorni za prakse privatnosti tih vanjskih stranica."
+    },
+    "dataSecurity": {
+      "title": "Sigurnost Podataka",
+      "content": "Iako ne prikupljamo podatke, održavamo tehničke zaštitne mjere kako bismo održali našu web stranicu sigurnom i spriječili neovlašteni pristup."
+    },
+    "changesToPolicy": {
+      "title": "Izmjene Ove Politike",
+      "content": "Možemo periodično ažurirati ovu Politiku Privatnosti.\nSvake izmjene će biti objavljene na ovoj stranici s ažuriranim datumom."
+    },
+    "contact": {
+      "title": "Kontaktirajte Nas",
+      "content": "Ako imate bilo kakva pitanja o ovoj Politici Privatnosti, molimo kontaktirajte nas na:\n📧 info@doqi-ks.com"
+    },
+    "commitmentTitle": "Naša Predanost Privatnosti",
+    "commitmentText": "Predani smo održavanju najviših standarda privatnosti i transparentnosti. Vaše povjerenje nam je važno.",
+    "questionsTitle": "Pitanja o Privatnosti?",
+    "questionsText": "Ako imate bilo kakva pitanja ili nedoumice o našoj Politici Privatnosti, slobodno nas kontaktirajte."
   }
 }

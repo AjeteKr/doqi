@@ -60,7 +60,7 @@ const Contact = () => {
       title: t('contact.location'),
       content: t('footer.address'),
       details: 'Autostrada Prishtinë-Ferizaj, km 7',
-      link: 'https://www.google.com/maps/place/DO%C3%87I+SH.P.K/data=!4m2!3m1!1s0x0:0xe3c1d44565a8237b?sa=X&ved=1t:2428&ictx=111'
+      link: 'https://maps.app.goo.gl/UAbdaFkjsoVW6yHo6'
     },
     {
       icon: PhoneIcon,
@@ -305,7 +305,7 @@ const Contact = () => {
               {/* Google Map */}
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden h-96">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47449.94168283707!2d21.122359199999998!3d42.662914399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee605110927%3A0x9365bfdf385eb95a!2sPristina!5e0!3m2!1sen!2s!4v1635789012345!5m2!1sen!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.8677647662706!2d21.192827476545154!3d42.61748707116721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f3e3ecfd36b%3A0xe3c1d44565a8237b!2sDO%C3%87I%20SH.P.K!5e0!3m2!1sen!2s!4v1733078400000!5m2!1sen!2s"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

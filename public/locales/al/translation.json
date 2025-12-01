@@ -68,7 +68,8 @@
     "productFound": "produkt u gjet",
     "productsFound": "produkte u gjetën",
     "tryAdjusting": "Provoni të përshtatni kërkimin ose filtrin tuaj për të gjetur atë që po kërkoni.",
-    "clearAllFilters": "Pastro Të Gjitha Filtrat"
+    "clearAllFilters": "Pastro Të Gjitha Filtrat",
+    "browseAll": "Shfleto Të Gjitha Produktet"
   },
   "about": {
     "title": "Rreth DoqiSHPK",
@@ -431,5 +432,79 @@
     "productsErrorLoading": "Gabim në ngarkimin e produkteve: {{error}}",
     "or": "ose",
     "backToHome": "← Kthehu në Kryefaqe"
+  },
+  "terms": {
+    "title": "Kushtet e Shërbimit",
+    "subtitle": "Ju lutemi lexoni me kujdes këto kushte para se të përdorni faqen tonë",
+    "lastUpdated": "Përditësuar më: 1 Dhjetor 2025",
+    "introduction": "Mirë se vini në Doçi Sh.p.k. (\"ne\", \"tonë\", \"na\"). Duke hyrë ose duke përdorur faqen tonë www.doqi-ks.com, ju pranoni të respektoni dhe të jeni të lidhur me Kushtet e mëposhtme të Shërbimit. Nëse nuk pajtoheni me këto kushte, ju lutemi mos e përdorni faqen tonë.",
+    "generalInfo": {
+      "title": "Informacion i Përgjithshëm",
+      "content": "Faqja www.doqi-ks.com është pronë dhe operohet nga Doçi Sh.p.k., një kompani e regjistruar në Kosovë.\nFaqja jonë ofron informacion mbi produktet tona, shërbimet dhe aktivitetet e kompanisë."
+    },
+    "useOfWebsite": {
+      "title": "Përdorimi i Faqes",
+      "content": "Kjo faqe është krijuar vetëm për qëllime informative.\nPërdoruesit mund të shfletojnë produktet dhe informacionet e kompanisë tonë, por nuk mund të kopjojnë, riprodhojnë ose shpërndajnë asnjë përmbajtje nga kjo faqe pa leje me shkrim nga Doçi Sh.p.k."
+    },
+    "intellectualProperty": {
+      "title": "Prona Intelektuale",
+      "content": "I gjithë teksti, grafikat, imazhet, dizajnet e produkteve dhe materialet e tjera në këtë faqe janë pronë intelektuale e Doçi Sh.p.k. ose licensuesve të saj.\nNuk mund t'i përdorni, kopjoni ose riprodhoni këto materiale për qëllime komerciale pa pëlqimin paraprak me shkrim."
+    },
+    "accuracyOfInfo": {
+      "title": "Saktësia e Informacionit",
+      "content": "Ne bëjmë përpjekje të arsyeshme për të siguruar që të gjitha informacionet e shfaqura në faqen tonë janë të sakta dhe të përditësuara.\nMegjithatë, Doçi Sh.p.k. nuk garanton që informacioni është pa gabime ose lëshime dhe rezervon të drejtën për të përditësuar ose modifikuar përmbajtjen në çdo kohë."
+    },
+    "linksToOtherSites": {
+      "title": "Lidhje me Faqe të Tjera",
+      "content": "Faqja jonë mund të përfshijë lidhje me faqe të jashtme.\nNe nuk jemi përgjegjës për përmbajtjen, politikat ose praktikat e atyre faqeve të palëve të treta."
+    },
+    "limitationOfLiability": {
+      "title": "Kufizimi i Përgjegjësisë",
+      "content": "Doçi Sh.p.k. nuk do të jetë përgjegjës për asnjë dëm të drejtpërdrejtë, të tërthortë, të rastësishëm ose pasues që rrjedh nga përdorimi ose pamundësia për të përdorur këtë faqe."
+    },
+    "changesToTerms": {
+      "title": "Ndryshime në Këto Kushte",
+      "content": "Ne rezervojmë të drejtën për të modifikuar ose zëvendësuar këto Kushte të Shërbimit në çdo kohë.\nVersioni i përditësuar do të jetë gjithmonë i disponueshëm në këtë faqe me një datë të rishikuar."
+    },
+    "contact": {
+      "title": "Kontakti",
+      "content": "Për çdo pyetje në lidhje me këto Kushte, ju lutemi na kontaktoni në:\n📧 info@doqi-ks.com"
+    },
+    "questionsTitle": "Keni Pyetje?",
+    "questionsText": "Nëse keni ndonjë pyetje ose shqetësim në lidhje me Kushtet tona të Shërbimit, jemi këtu për t'ju ndihmuar."
+  },
+  "privacy": {
+    "title": "Politika e Privatësisë",
+    "subtitle": "Privatësia juaj është e rëndësishme për ne",
+    "lastUpdated": "Përditësuar më: 1 Dhjetor 2025",
+    "introduction": "Në Doçi Sh.p.k., ne e vlerësojmë privatësinë tuaj dhe jemi të përkushtuar ta mbrojmë atë. Kjo Politikë e Privatësisë shpjegon se si ne trajtojmë informacionin në lidhje me faqen tonë www.doqi-ks.com.",
+    "infoWeCollect": {
+      "title": "Informacioni që Mbledhim",
+      "content": "Ne nuk mbledhim asnjë të dhënë personale nga vizitorët e faqes sonë.\nFaqja përdoret vetëm për të shfaqur informacion mbi produktet dhe shërbimet tona."
+    },
+    "cookiesAnalytics": {
+      "title": "Cookies dhe Analitika",
+      "content": "Faqja jonë nuk përdor cookies, teknologji gjurmimi ose mjete analitike që mbledhin të dhëna të identifikueshme të përdoruesve."
+    },
+    "linksToOtherSites": {
+      "title": "Lidhje me Faqe të Tjera",
+      "content": "Faqja jonë mund të përmbajë lidhje me faqe të tjera.\nNe nuk jemi përgjegjës për praktikat e privatësisë të atyre faqeve të jashtme."
+    },
+    "dataSecurity": {
+      "title": "Siguria e të Dhënave",
+      "content": "Edhe pse ne nuk mbledhim të dhëna, ne mbajmë masa mbrojtëse teknike për të mbajtur faqen tonë të sigurt dhe për të parandaluar akseset e paautorizuara."
+    },
+    "changesToPolicy": {
+      "title": "Ndryshime në Këtë Politikë",
+      "content": "Ne mund të përditësojmë këtë Politikë të Privatësisë periodikisht.\nÇdo ndryshim do të postohet në këtë faqe me një datë të përditësuar."
+    },
+    "contact": {
+      "title": "Na Kontaktoni",
+      "content": "Nëse keni ndonjë pyetje në lidhje me këtë Politikë të Privatësisë, ju lutemi na kontaktoni në:\n📧 info@doqi-ks.com"
+    },
+    "commitmentTitle": "Përkushtimi Ynë për Privatësinë",
+    "commitmentText": "Ne jemi të përkushtuar të mbajmë standardet më të larta të privatësisë dhe transparencës. Besimi juaj është i rëndësishëm për ne.",
+    "questionsTitle": "Pyetje mbi Privatësinë?",
+    "questionsText": "Nëse keni ndonjë pyetje ose shqetësim në lidhje me Politikën tonë të Privatësisë, mos hezitoni të na kontaktoni."
   }
 }

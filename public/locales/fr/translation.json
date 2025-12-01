@@ -71,7 +71,8 @@
     "productFound": "produit trouvé",
     "productsFound": "produits trouvés",
     "tryAdjusting": "Essayez d'ajuster votre recherche ou votre filtre pour trouver ce que vous cherchez.",
-    "clearAllFilters": "Effacer Tous les Filtres"
+    "clearAllFilters": "Effacer tous les filtres",
+    "browseAll": "Parcourir tous les produits"
   },
   "about": {
     "title": "À Propos de DoqiSHPK",
@@ -422,5 +423,79 @@
     "productsErrorLoading": "Erreur lors du chargement des produits: {{error}}",
     "or": "ou",
     "backToHome": "← Retour à l'Accueil"
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "subtitle": "Veuillez lire attentivement ces conditions avant d'utiliser notre site web",
+    "lastUpdated": "Dernière mise à jour : 1er décembre 2025",
+    "introduction": "Bienvenue chez Doçi Sh.p.k. (\"nous\", \"notre\", \"nos\"). En accédant ou en utilisant notre site web www.doqi-ks.com, vous acceptez de vous conformer et d'être lié par les Conditions d'Utilisation suivantes. Si vous n'êtes pas d'accord avec ces conditions, veuillez ne pas utiliser notre site web.",
+    "generalInfo": {
+      "title": "Informations Générales",
+      "content": "Le site web www.doqi-ks.com appartient et est exploité par Doçi Sh.p.k., une société enregistrée au Kosovo.\nNotre site web fournit des informations sur nos produits, services et activités de l'entreprise."
+    },
+    "useOfWebsite": {
+      "title": "Utilisation du Site Web",
+      "content": "Ce site web est destiné uniquement à des fins d'information.\nLes utilisateurs peuvent parcourir nos produits et informations sur l'entreprise mais ne peuvent pas copier, reproduire ou distribuer du contenu de ce site web sans autorisation écrite de Doçi Sh.p.k."
+    },
+    "intellectualProperty": {
+      "title": "Propriété Intellectuelle",
+      "content": "Tous les textes, graphiques, images, conceptions de produits et autres matériaux sur ce site web sont la propriété intellectuelle de Doçi Sh.p.k. ou de ses concédants de licence.\nVous ne pouvez pas utiliser, copier ou reproduire ces matériaux à des fins commerciales sans consentement écrit préalable."
+    },
+    "accuracyOfInfo": {
+      "title": "Exactitude des Informations",
+      "content": "Nous faisons des efforts raisonnables pour nous assurer que toutes les informations affichées sur notre site web sont exactes et à jour.\nCependant, Doçi Sh.p.k. ne garantit pas que les informations sont exemptes d'erreurs ou d'omissions et se réserve le droit de mettre à jour ou de modifier le contenu à tout moment."
+    },
+    "linksToOtherSites": {
+      "title": "Liens vers d'Autres Sites Web",
+      "content": "Notre site web peut inclure des liens vers des sites externes.\nNous ne sommes pas responsables du contenu, des politiques ou des pratiques de ces sites web tiers."
+    },
+    "limitationOfLiability": {
+      "title": "Limitation de Responsabilité",
+      "content": "Doçi Sh.p.k. ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser ce site web."
+    },
+    "changesToTerms": {
+      "title": "Modifications de Ces Conditions",
+      "content": "Nous nous réservons le droit de modifier ou de remplacer ces Conditions d'Utilisation à tout moment.\nLa version mise à jour sera toujours disponible sur cette page avec une date révisée."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Pour toute question concernant ces Conditions, veuillez nous contacter à :\n📧 info@doqi-ks.com"
+    },
+    "questionsTitle": "Des Questions ?",
+    "questionsText": "Si vous avez des questions ou des préoccupations concernant nos Conditions d'Utilisation, nous sommes là pour vous aider."
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "subtitle": "Votre vie privée est importante pour nous",
+    "lastUpdated": "Dernière mise à jour : 1er décembre 2025",
+    "introduction": "Chez Doçi Sh.p.k., nous apprécions votre vie privée et nous nous engageons à la protéger. Cette Politique de Confidentialité explique comment nous gérons les informations concernant notre site web www.doqi-ks.com.",
+    "infoWeCollect": {
+      "title": "Informations Que Nous Collectons",
+      "content": "Nous ne collectons aucune donnée personnelle auprès des visiteurs de notre site web.\nLe site est utilisé uniquement pour afficher des informations sur nos produits et services."
+    },
+    "cookiesAnalytics": {
+      "title": "Cookies et Analyses",
+      "content": "Notre site web n'utilise pas de cookies, de technologies de suivi ou d'outils d'analyse qui collectent des données utilisateur identifiables."
+    },
+    "linksToOtherSites": {
+      "title": "Liens vers d'Autres Sites",
+      "content": "Notre site web peut contenir des liens vers d'autres sites web.\nNous ne sommes pas responsables des pratiques de confidentialité de ces sites externes."
+    },
+    "dataSecurity": {
+      "title": "Sécurité des Données",
+      "content": "Bien que nous ne collections pas de données, nous maintenons des mesures de sécurité techniques pour garder notre site web sécurisé et empêcher tout accès non autorisé."
+    },
+    "changesToPolicy": {
+      "title": "Modifications de Cette Politique",
+      "content": "Nous pouvons mettre à jour cette Politique de Confidentialité périodiquement.\nToute modification sera publiée sur cette page avec une date mise à jour."
+    },
+    "contact": {
+      "title": "Contactez-Nous",
+      "content": "Si vous avez des questions sur cette Politique de Confidentialité, veuillez nous contacter à :\n📧 info@doqi-ks.com"
+    },
+    "commitmentTitle": "Notre Engagement en Matière de Confidentialité",
+    "commitmentText": "Nous nous engageons à maintenir les normes les plus élevées en matière de confidentialité et de transparence. Votre confiance est importante pour nous.",
+    "questionsTitle": "Questions sur la Confidentialité ?",
+    "questionsText": "Si vous avez des questions ou des préoccupations concernant notre Politique de Confidentialité, n'hésitez pas à nous contacter."
   }
 }

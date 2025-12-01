@@ -3,6 +3,12 @@ import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import ProductCard from '../../components/ProductCard'
 import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import compactHPLIcon from '../../assets/icons/compactHPL.png'
+import sofaChairIcon from '../../assets/icons/sofa-chair.png'
+import mdfChipBoardIcon from '../../assets/icons/mdf-ChipBoard.png'
+import accessoriesIcon from '../../assets/icons/accessories.png'
+import mattressIcon from '../../assets/icons/mattress.png'
+import cuttingIcon from '../../assets/icons/cutting.png'
 
 const Products = () => {
   const { t } = useTranslation()
@@ -15,29 +21,49 @@ const Products = () => {
   const [searchQuery, setSearchQuery] = useState('')
   const [showSuggestions, setShowSuggestions] = useState(false)
   const [searchSuggestions, setSearchSuggestions] = useState([])
+  const [showSubCategories, setShowSubCategories] = useState(false)
   const searchRef = useRef(null)
 
   const categories = [
-    { key: 'all', translationKey: 'products.categories.all' },
-    { key: 'compactHPL', translationKey: 'products.categories.compactHPL' },
-    { key: 'mattress', translationKey: 'products.categories.mattress' },
-    { key: 'sofaChair', translationKey: 'products.categories.sofaChair' },
-    { key: 'mdfChipBoard', translationKey: 'products.categories.mdfChipBoard' },
-    { key: 'customerService', translationKey: 'products.categories.customerService' },
-    { key: 'accessories', translationKey: 'products.categories.accessories' }
-  ]
-
-  const subCategories = [
-    { key: 'all', translationKey: 'products.subCategories.all' },
-    { key: 'cutting', translationKey: 'products.subCategories.cutting' },
-    { key: 'edgeBanding', translationKey: 'products.subCategories.edgeBanding' },
-    { key: 'cnc', translationKey: 'products.subCategories.cnc' },
-    { key: 'ecoFlex', translationKey: 'products.subCategories.ecoFlex' },
-    { key: 'mediumFlex', translationKey: 'products.subCategories.mediumFlex' },
-    { key: 'starFlex', translationKey: 'products.subCategories.starFlex' },
-    { key: 'hotelLineConcept', translationKey: 'products.subCategories.hotelLineConcept' },
-    { key: 'sofa', translationKey: 'products.subCategories.sofa' },
-    { key: 'chair', translationKey: 'products.subCategories.chair' }
+    { 
+      key: 'customerService', 
+      translationKey: 'products.categories.customerService',
+      icon: cuttingIcon,
+      hasSubCategories: true,
+      subCategories: ['cutting', 'edgeBanding', 'cnc']
+    },
+    { 
+      key: 'mattress', 
+      translationKey: 'products.categories.mattress',
+      icon: mattressIcon,
+      hasSubCategories: true,
+      subCategories: ['ecoFlex', 'mediumFlex', 'starFlex', 'hotelLineConcept']
+    },
+    { 
+      key: 'sofaChair', 
+      translationKey: 'products.categories.sofaChair',
+      icon: sofaChairIcon,
+      hasSubCategories: true,
+      subCategories: ['sofa', 'chair']
+    },
+    { 
+      key: 'mdfChipBoard', 
+      translationKey: 'products.categories.mdfChipBoard',
+      icon: mdfChipBoardIcon,
+      hasSubCategories: false 
+    },
+    { 
+      key: 'compactHPL', 
+      translationKey: 'products.categories.compactHPL',
+      icon: compactHPLIcon,
+      hasSubCategories: false 
+    },
+    { 
+      key: 'accessories', 
+      translationKey: 'products.categories.accessories',
+      icon: accessoriesIcon,
+      hasSubCategories: false 
+    }
   ]
 
   // Load products from JSON
@@ -68,13 +94,13 @@ const Products = () => {
   useEffect(() => {
     let filtered = products
 
-    // Filter by category
-    if (selectedCategory !== 'all') {
+    // Filter by category (if not 'all')
+    if (selectedCategory && selectedCategory !== 'all') {
       filtered = filtered.filter(product => product.category === selectedCategory)
     }
 
-    // Filter by subcategory
-    if (selectedSubCategory !== 'all') {
+    // Filter by subcategory (if not 'all')
+    if (selectedSubCategory && selectedSubCategory !== 'all') {
       filtered = filtered.filter(product => product.subCategory === selectedSubCategory)
     }
 
@@ -138,6 +164,40 @@ const Products = () => {
   const clearSearch = () => {
     setSearchQuery('')
     setShowSuggestions(false)
+  }
+
+  const handleCategoryClick = (categoryKey) => {
+    const category = categories.find(cat => cat.key === categoryKey)
+    
+    if (category && category.hasSubCategories) {
+      if (selectedCategory === categoryKey && showSubCategories) {
+        // Deselect category
+        setShowSubCategories(false)
+        setSelectedCategory(null)
+        setSelectedSubCategory(null)
+      } else {
+        // Select category with subcategories
+        setSelectedCategory(categoryKey)
+        setShowSubCategories(true)
+        setSelectedSubCategory(null)
+      }
+    } else {
+      // Category without subcategories
+      setSelectedCategory(categoryKey)
+      setShowSubCategories(false)
+      setSelectedSubCategory(null)
+    }
+  }
+
+  const handleSubCategoryClick = (subCategoryKey) => {
+    setSelectedSubCategory(subCategoryKey)
+  }
+
+  const clearAllFilters = () => {
+    setSelectedCategory(null)
+    setSelectedSubCategory(null)
+    setShowSubCategories(false)
+    setSearchQuery('')
   }
 
   if (loading) {
@@ -225,59 +285,104 @@ const Products = () => {
         </div>
       </div>
 
-      {/* Category Filters */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="mb-6">
-          <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">
-            {t('common.category')}
-          </h3>
-          <div className="flex flex-wrap gap-3">
+      {/* Category Filters - Grid Style */}
+      <div className="bg-gray-50 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-left mb-6">
+            <h2 className="text-2xl sm:text-3xl font-normal text-black mb-2">
+              {t('products.ourProducts')}
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600">
+              {t('products.findYourPerfectPiece')}
+            </p>
+          </div>
+
+          {/* Categories Grid */}
+          <div className="grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-4 lg:gap-6 mb-6">
             {categories.map((category) => (
-              <button
+              <div
                 key={category.key}
-                onClick={() => {
-                  setSelectedCategory(category.key)
-                  setSelectedSubCategory('all')
-                }}
-                className={`px-6 py-2.5 rounded-full font-semibold transition-all duration-200 ${
-                  selectedCategory === category.key
-                    ? 'bg-red-600 text-white shadow-lg shadow-red-600/30 scale-105'
-                    : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300 hover:border-red-600 hover:text-red-600'
+                onClick={() => handleCategoryClick(category.key)}
+                className={`group relative rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg ${
+                  selectedCategory === category.key 
+                    ? 'bg-red-400' 
+                    : 'bg-gray-200 hover:bg-red-400'
                 }`}
               >
-                {t(category.translationKey)}
-              </button>
+                {/* Icon */}
+                <div className="flex justify-center mb-2 sm:mb-3 lg:mb-4 relative z-10">
+                  <img 
+                    src={category.icon} 
+                    alt={t(category.translationKey)}
+                    className={`w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 object-contain transition-all duration-300 ${
+                      selectedCategory === category.key 
+                        ? 'brightness-0 invert' 
+                        : 'group-hover:brightness-0 group-hover:invert'
+                    }`}
+                  />
+                </div>
+                
+                {/* Category Name */}
+                <h3 className={`text-center text-xs sm:text-sm lg:text-sm font-medium transition-colors relative z-10 leading-tight ${
+                  selectedCategory === category.key 
+                    ? 'text-white' 
+                    : 'text-gray-800 group-hover:text-white'
+                }`}>
+                  {t(category.translationKey)}
+                </h3>
+              </div>
             ))}
           </div>
-        </div>
 
-        {/* SubCategory Filters */}
-        {selectedCategory !== 'all' && (
-          <div className="mb-6">
-            <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">
-              Sub {t('common.category')}
-            </h3>
-            <div className="flex flex-wrap gap-3">
-              {subCategories.map((subCategory) => (
-                <button
-                  key={subCategory.key}
-                  onClick={() => setSelectedSubCategory(subCategory.key)}
-                  className={`px-5 py-2 rounded-full font-medium transition-all duration-200 text-sm ${
-                    selectedSubCategory === subCategory.key
-                      ? 'bg-red-100 text-red-600 border-2 border-red-600'
-                      : 'bg-gray-50 text-gray-600 hover:bg-gray-100 border border-gray-200'
+          {/* Sub-Categories */}
+          {showSubCategories && selectedCategory && (
+            <div className="mb-6">
+              <div className="flex flex-wrap gap-4">
+                <span
+                  onClick={() => handleSubCategoryClick(null)}
+                  className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                    selectedSubCategory === null
+                      ? 'text-red-500 font-semibold'
+                      : 'text-gray-600 hover:text-red-400'
                   }`}
                 >
-                  {t(subCategory.translationKey)}
-                </button>
-              ))}
+                  {t('products.subCategories.all')}
+                </span>
+                
+                {categories.find(cat => cat.key === selectedCategory)?.subCategories?.map((subCategory) => (
+                  <span
+                    key={subCategory}
+                    onClick={() => handleSubCategoryClick(subCategory)}
+                    className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                      selectedSubCategory === subCategory
+                        ? 'text-red-500 font-semibold'
+                        : 'text-gray-600 hover:text-red-400'
+                    }`}
+                  >
+                    {t(`products.subCategories.${subCategory}`)}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-        )}
+          )}
+
+          {/* Clear Filters Button */}
+          {(selectedCategory || searchQuery) && (
+            <div className="text-center">
+              <button
+                onClick={clearAllFilters}
+                className="inline-flex items-center gap-2 px-6 py-2 bg-white border border-gray-300 rounded-full text-gray-700 hover:bg-gray-50 hover:border-red-600 hover:text-red-600 transition-all duration-200"
+              >
+                <XMarkIcon className="h-5 w-5" />
+                {t('products.clearAllFilters')}
+              </button>
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Products Grid */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-20">
         {/* Results Header */}
         <div className="flex items-center justify-between mb-8">
           <div>

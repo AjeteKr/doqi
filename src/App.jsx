@@ -10,6 +10,8 @@ import Products from './pages/Products/Products'
 import ProductDetails from './pages/ProductDetails/ProductDetails'
 import Favorites from './pages/Favorites'
 import Starflex from './pages/Starflex/Starflex'
+import TermsOfService from './pages/TermsOfService'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 import NotFound from './pages/NotFound'
 import { FavoritesProvider } from './context/FavoritesContext'
 
@@ -28,6 +30,8 @@ function App() {
             <Route path="/product/:slug" element={<ProductDetails />} />
             <Route path="/favorites" element={<Favorites />} />
             <Route path="/starflex" element={<Starflex />} />
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

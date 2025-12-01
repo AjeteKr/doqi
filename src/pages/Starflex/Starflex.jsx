@@ -6,7 +6,6 @@ import {
   SparklesIcon,
   ShieldCheckIcon,
   CubeIcon,
-  TruckIcon,
   HeartIcon
 } from '@heroicons/react/24/outline'
 
@@ -59,11 +58,6 @@ const Starflex = () => {
       icon: ShieldCheckIcon,
       title: t('starflex.features.warranty.title'),
       description: t('starflex.features.warranty.description')
-    },
-    {
-      icon: TruckIcon,
-      title: t('starflex.features.delivery.title'),
-      description: t('starflex.features.delivery.description')
     },
     {
       icon: HeartIcon,

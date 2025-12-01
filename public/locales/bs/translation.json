@@ -213,8 +213,11 @@
     "removeFromFavorites": "Ukloni iz Favorita"
   },
   "productDetails": {
+    "loading": "Učitavanje proizvoda...",
+    "notFoundTitle": "Proizvod Nije Pronađen",
+    "notFoundMessage": "Proizvod koji tražite ne postoji.",
+    "backToProducts": "Nazad na Proizvode",
     "requestQuote": "Zatraži Ponudu",
-    "backToProducts": "Nazad",
     "technicalSpecs": "Tehničke Specifikacije",
     "keyFeatures": "Ključne Karakteristike",
     "applications": "Primjene",
@@ -361,5 +364,60 @@
       "visitShowroom": "Posjetite Showroom",
       "browseCollection": "Pregledajte Kolekciju"
     }
+  },
+  "register": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Pridruži se našoj zajednici",
+    "title": "Kreirajte Svoj Nalog",
+    "passwordHint": "Najmanje 6 karaktera",
+    "createButton": {
+      "loading": "Kreiranje naloga...",
+      "default": "Kreiraj Nalog"
+    },
+    "or": "ili",
+    "loginPrompt": "Već imate nalog?",
+    "loginHere": "Prijavite se ovdje",
+    "backToHome": "← Nazad na Početnu"
+  },
+  "login": {
+    "brand": "DoqiSHPK",
+    "welcome": "Dobrodošli nazad",
+    "title": "Prijavite se na Vaš Nalog",
+    "loading": "Prijava u toku...",
+    "button": "Prijavi se",
+    "or": "ili",
+    "registerPrompt": "Nemate nalog?",
+    "createHere": "Kreirajte ovdje",
+    "backToHome": "← Nazad na Početnu"
+  },
+  "profile": {
+    "loading": "Učitavanje vašeg profila...",
+    "title": "Moj Profil",
+    "description": "Upravljajte informacijama i postavkama svog naloga",
+    "accountInformation": "Informacije o Nalogu",
+    "fullName": "Puno Ime",
+    "emailAddress": "Email Adresa",
+    "userId": "Korisnički ID",
+    "accountType": "Tip Naloga",
+    "accountStatus": "Status Naloga",
+    "accountActive": "Nalog je aktivan",
+    "quickActions": "Brze Akcije",
+    "tokenInfo": "Token Informacije",
+    "tokenStatus": "Status Tokena",
+    "active": "Aktivan",
+    "storedIn": "Pohranjen u",
+    "localStorage": "localStorage",
+    "key": "Ključ",
+    "tokenKey": "token",
+    "copyToken": "Kopiraj Token",
+    "editProfile": "Uredi Profil",
+    "changePassword": "Promijeni Lozinku",
+    "logout": "Odjavi se",
+    "accountVerifiedText": "Vaš nalog je verificiran i u dobrom stanju. Možete pristupiti svim funkcijama platforme."
+  },
+  "ui": {
+    "productsErrorLoading": "Greška pri učitavanju proizvoda: {{error}}",
+    "or": "ili",
+    "backToHome": "← Nazad na Početnu"
   }
 }

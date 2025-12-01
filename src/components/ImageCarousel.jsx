@@ -125,7 +125,7 @@ const ImageCarousel = ({
       )}
 
       {/* CSS for progress animation */}
-      <style jsx>{`
+      <style>{`
         @keyframes progress {
           from { width: 0%; }
           to { width: 100%; }

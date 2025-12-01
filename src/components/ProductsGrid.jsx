@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { useFavorites } from '../context/FavoritesContext'
@@ -51,19 +51,8 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
     return true
   })
 
-  // Limit products based on screen size: 2 on mobile, 6 on larger screens
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 640)
-  
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 640)
-    }
-    
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
-  
-  const maxProducts = isMobile ? 2 : 6
+  // Limit products to 8 for all screen sizes
+  const maxProducts = 8
   const displayProducts = filteredProducts.slice(0, maxProducts)
   const hasMoreProducts = filteredProducts.length > maxProducts
 
@@ -107,7 +96,7 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
       <section className="py-8 sm:py-12 lg:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-red-600">
-            <p>Error loading products: {error}</p>
+            <p>{t('ui.productsErrorLoading', { error })}</p>
           </div>
         </div>
       </section>

@@ -244,7 +244,7 @@ const SimilarProducts = ({ currentProduct, allProducts }) => {
       </div>
 
       {/* Custom scrollbar hiding styles */}
-      <style jsx>{`
+      <style>{`
         .scrollbar-hide::-webkit-scrollbar {
           display: none;
         }

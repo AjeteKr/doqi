@@ -214,8 +214,11 @@
     "removeFromFavorites": "Aus Favoriten entfernen"
   },
   "productDetails": {
+    "loading": "Produkt wird geladen...",
+    "notFoundTitle": "Produkt Nicht Gefunden",
+    "notFoundMessage": "Das gesuchte Produkt existiert nicht.",
+    "backToProducts": "Zurück zu Produkten",
     "requestQuote": "Angebot Anfordern",
-    "backToProducts": "Zurück",
     "technicalSpecs": "Technische Daten",
     "keyFeatures": "Hauptmerkmale",
     "applications": "Anwendungen",
@@ -362,5 +365,60 @@
       "visitShowroom": "Showroom Besuchen",
       "browseCollection": "Kollektion Durchsuchen"
     }
+  },
+  "register": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Treten Sie unserer Gemeinschaft bei",
+    "title": "Erstellen Sie Ihr Konto",
+    "passwordHint": "Mindestens 6 Zeichen",
+    "createButton": {
+      "loading": "Konto wird erstellt...",
+      "default": "Konto Erstellen"
+    },
+    "or": "oder",
+    "loginPrompt": "Haben Sie bereits ein Konto?",
+    "loginHere": "Hier anmelden",
+    "backToHome": "← Zurück zur Startseite"
+  },
+  "login": {
+    "brand": "DoqiSHPK",
+    "welcome": "Willkommen zurück",
+    "title": "Melden Sie sich bei Ihrem Konto an",
+    "loading": "Anmeldung läuft...",
+    "button": "Anmelden",
+    "or": "oder",
+    "registerPrompt": "Haben Sie kein Konto?",
+    "createHere": "Hier erstellen",
+    "backToHome": "← Zurück zur Startseite"
+  },
+  "profile": {
+    "loading": "Ihr Profil wird geladen...",
+    "title": "Mein Profil",
+    "description": "Verwalten Sie Ihre Kontoinformationen und Einstellungen",
+    "accountInformation": "Kontoinformationen",
+    "fullName": "Vollständiger Name",
+    "emailAddress": "E-Mail-Adresse",
+    "userId": "Benutzer-ID",
+    "accountType": "Kontotyp",
+    "accountStatus": "Kontostatus",
+    "accountActive": "Konto ist aktiv",
+    "quickActions": "Schnellaktionen",
+    "tokenInfo": "Token-Informationen",
+    "tokenStatus": "Token-Status",
+    "active": "Aktiv",
+    "storedIn": "Gespeichert in",
+    "localStorage": "localStorage",
+    "key": "Schlüssel",
+    "tokenKey": "token",
+    "copyToken": "Token Kopieren",
+    "editProfile": "Profil Bearbeiten",
+    "changePassword": "Passwort Ändern",
+    "logout": "Abmelden",
+    "accountVerifiedText": "Ihr Konto ist verifiziert und in gutem Zustand. Sie können auf alle Plattformfunktionen zugreifen."
+  },
+  "ui": {
+    "productsErrorLoading": "Fehler beim Laden der Produkte: {{error}}",
+    "or": "oder",
+    "backToHome": "← Zurück zur Startseite"
   }
 }

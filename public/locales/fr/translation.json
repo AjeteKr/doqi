@@ -177,7 +177,7 @@
     "quickLinks": "Liens Rapides",
     "products": "Nos Produits",
     "contact": "Contactez-nous",
-    "address": "Pristina, Kosovo",
+    "address": "Ferizaj, Kosovo",
     "workingHours": "Lun - Ven: 8:00 - 17:00",
     "saturday": "Sam: 9:00 - 14:00",
     "followUs": "Suivez-nous",
@@ -308,6 +308,7 @@
   },
   "starflex": {
     "badge": "Collection de Matelas Premium",
+    "mattressProducer": "Producteur de Matelas",
     "hero": {
       "subtitle": "Dormez dans un Confort Ultime",
       "description": "Découvrez le mélange parfait de confort, de soutien et de qualité. Nos matelas premium sont conçus pour vous offrir le meilleur sommeil de votre vie.",

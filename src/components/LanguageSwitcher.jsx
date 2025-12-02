@@ -41,15 +41,15 @@ const LanguageSwitcher = ({ className = "" }) => {
   const { i18n } = useTranslation()
 
   const languages = [
-    { code: 'en', name: 'English', country: 'en' },
     { code: 'al', name: 'Shqip', country: 'al' },
+    { code: 'en', name: 'English', country: 'en' },
+    { code: 'de', name: 'Deutsch', country: 'de' },
+    { code: 'it', name: 'Italiano', country: 'it' },
+    { code: 'fr', name: 'Français', country: 'fr' },
     { code: 'sr', name: 'Српски', country: 'sr' },
     { code: 'bs', name: 'Bosanski', country: 'bs' },
     { code: 'hr', name: 'Hrvatski', country: 'hr' },
-    { code: 'mk', name: 'Македонски', country: 'mk' },
-    { code: 'it', name: 'Italiano', country: 'it' },
-    { code: 'fr', name: 'Français', country: 'fr' },
-    { code: 'de', name: 'Deutsch', country: 'de' }
+    { code: 'mk', name: 'Македонски', country: 'mk' }
   ]
 
   const handleLanguageChange = (languageCode) => {

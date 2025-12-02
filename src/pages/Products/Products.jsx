@@ -26,11 +26,10 @@ const Products = () => {
 
   const categories = [
     { 
-      key: 'customerService', 
-      translationKey: 'products.categories.customerService',
-      icon: cuttingIcon,
-      hasSubCategories: true,
-      subCategories: ['cutting', 'edgeBanding', 'cnc']
+      key: 'mdfChipBoard', 
+      translationKey: 'products.categories.mdfChipBoard',
+      icon: mdfChipBoardIcon,
+      hasSubCategories: false 
     },
     { 
       key: 'mattress', 
@@ -40,17 +39,17 @@ const Products = () => {
       subCategories: ['ecoFlex', 'mediumFlex', 'starFlex', 'hotelLineConcept']
     },
     { 
-      key: 'sofaChair', 
-      translationKey: 'products.categories.sofaChair',
-      icon: sofaChairIcon,
-      hasSubCategories: true,
-      subCategories: ['sofa', 'chair']
+      key: 'accessories', 
+      translationKey: 'products.categories.accessories',
+      icon: accessoriesIcon,
+      hasSubCategories: false 
     },
     { 
-      key: 'mdfChipBoard', 
-      translationKey: 'products.categories.mdfChipBoard',
-      icon: mdfChipBoardIcon,
-      hasSubCategories: false 
+      key: 'customerService', 
+      translationKey: 'products.categories.customerService',
+      icon: cuttingIcon,
+      hasSubCategories: true,
+      subCategories: ['cutting', 'edgeBanding', 'cnc']
     },
     { 
       key: 'compactHPL', 
@@ -59,10 +58,11 @@ const Products = () => {
       hasSubCategories: false 
     },
     { 
-      key: 'accessories', 
-      translationKey: 'products.categories.accessories',
-      icon: accessoriesIcon,
-      hasSubCategories: false 
+      key: 'sofaChair', 
+      translationKey: 'products.categories.sofaChair',
+      icon: sofaChairIcon,
+      hasSubCategories: true,
+      subCategories: ['sofa', 'chair']
     }
   ]
 
@@ -340,7 +340,7 @@ const Products = () => {
               <div className="flex flex-wrap gap-4">
                 <span
                   onClick={() => handleSubCategoryClick(null)}
-                  className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                  className={`cursor-pointer transition-colors duration-200 text-lg font-medium ${
                     selectedSubCategory === null
                       ? 'text-red-500 font-semibold'
                       : 'text-gray-600 hover:text-red-400'
@@ -353,7 +353,7 @@ const Products = () => {
                   <span
                     key={subCategory}
                     onClick={() => handleSubCategoryClick(subCategory)}
-                    className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                    className={`cursor-pointer transition-colors duration-200 text-lg font-medium ${
                       selectedSubCategory === subCategory
                         ? 'text-red-500 font-semibold'
                         : 'text-gray-600 hover:text-red-400'

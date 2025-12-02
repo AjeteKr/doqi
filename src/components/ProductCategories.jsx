@@ -14,27 +14,27 @@ const ProductCategories = ({ onCategoryChange }) => {
   const [showSubCategories, setShowSubCategories] = useState(false)
 
   const categories = [
-    { 
-      id: 'customerService', 
-      icon: cuttingIcon,
-      hasSubCategories: true,
-      subCategories: ['cutting', 'edgeBanding', 'cnc']
-    },
+    { id: 'mdfChipBoard', icon: mdfChipBoardIcon, hasSubCategories: false },
     { 
       id: 'mattress', 
       icon: mattressIcon,
       hasSubCategories: true,
       subCategories: ['ecoFlex', 'mediumFlex', 'starFlex', 'hotelLineConcept']
     },
+    { id: 'accessories', icon: accessoriesIcon, hasSubCategories: false },
+    { 
+      id: 'customerService', 
+      icon: cuttingIcon,
+      hasSubCategories: true,
+      subCategories: ['cutting', 'edgeBanding', 'cnc']
+    },
+    { id: 'compactHPL', icon: compactHPLIcon, hasSubCategories: false },
     { 
       id: 'sofaChair', 
       icon: sofaChairIcon,
       hasSubCategories: true,
       subCategories: ['sofa', 'chair']
-    },
-    { id: 'mdfChipBoard', icon: mdfChipBoardIcon, hasSubCategories: false },
-    { id: 'compactHPL', icon: compactHPLIcon, hasSubCategories: false },
-    { id: 'accessories', icon: accessoriesIcon, hasSubCategories: false }
+    }
   ]
 
   const handleCategoryClick = (categoryId) => {
@@ -134,7 +134,7 @@ const ProductCategories = ({ onCategoryChange }) => {
                     onCategoryChange(activeCategory)
                   }
                 }}
-                className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                className={`cursor-pointer transition-colors duration-200 text-lg font-medium ${
                   activeSubCategory === null
                     ? 'text-red-500 font-semibold'
                     : 'text-gray-600 hover:text-red-400'
@@ -147,7 +147,7 @@ const ProductCategories = ({ onCategoryChange }) => {
                 <span
                   key={subCategory}
                   onClick={() => handleSubCategoryClick(subCategory)}
-                  className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                  className={`cursor-pointer transition-colors duration-200 text-lg font-medium ${
                     activeSubCategory === subCategory
                       ? 'text-red-500 font-semibold'
                       : 'text-gray-600 hover:text-red-400'

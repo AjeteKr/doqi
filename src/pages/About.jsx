@@ -194,12 +194,9 @@ const About = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
             {partners.map((partner, index) => (
-              <a
+              <div
                 key={index}
-                href={partner.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center justify-center p-6 bg-white rounded-xl border-2 border-gray-100 hover:border-red-600 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
+                className="group flex items-center justify-center p-6 bg-white rounded-xl border-2 border-gray-100 hover:border-red-600 hover:shadow-lg transition-all duration-300"
                 title={partner.name}
               >
                 <img
@@ -207,7 +204,7 @@ const About = () => {
                   alt={partner.name}
                   className="max-w-full max-h-20 object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
                 />
-              </a>
+              </div>
             ))}
           </div>
         </div>

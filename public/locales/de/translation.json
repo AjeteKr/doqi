@@ -177,7 +177,7 @@
     "quickLinks": "Schnelllinks",
     "products": "Unsere Produkte",
     "contact": "Kontaktieren Sie Uns",
-    "address": "Pristina, Kosovo",
+    "address": "Ferizaj, Kosovo",
     "workingHours": "Mo - Fr: 8:00 - 17:00",
     "saturday": "Sa: 9:00 - 14:00",
     "followUs": "Folgen Sie Uns",
@@ -311,7 +311,8 @@
     }
   },
   "starflex": {
-    "badge": "Premium Matratzen-Kollektion",
+    "badge": "Premium Matratzenkollection",
+    "mattressProducer": "Matratzenhersteller",
     "hero": {
       "subtitle": "Schlafen Sie in ultimativem Komfort",
       "description": "Erleben Sie die perfekte Mischung aus Komfort, Unterstützung und Qualität. Unsere Premium-Matratzen sind so konzipiert, dass sie Ihnen den besten Schlaf Ihres Lebens bieten.",

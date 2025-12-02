@@ -166,33 +166,22 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
 
               {/* Product Info */}
               <div className="p-4">
-                <h3 className="font-semibold text-gray-900 text-lg mb-1 line-clamp-1">
+                <h3 className="font-semibold text-gray-900 text-lg mb-2 line-clamp-1">
                   {product.title}
                 </h3>
                 
-                {/* Bottom Row - Origin and Cart */}
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-1">
-                    <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {/* Origin */}
+                {product.origin && (
+                  <div className="flex items-center gap-1 text-gray-600">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    <span className="text-gray-700 font-medium text-sm">
-                      {product.origin || 'Unknown'}
+                    <span className="text-sm font-medium">
+                      {product.origin}
                     </span>
                   </div>
-                  
-                  <button 
-                    onClick={(e) => {
-                      e.stopPropagation();
-                    }}
-                    className="p-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition-colors duration-200"
-                  >
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 01-2 2H9a2 2 0 01-2-2v-6" />
-                    </svg>
-                  </button>
-                </div>
+                )}
               </div>
             </div>
           ))}

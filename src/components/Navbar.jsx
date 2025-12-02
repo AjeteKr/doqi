@@ -30,25 +30,25 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center space-x-10">
             <Link 
               to="/" 
-              className="text-gray-800 hover:text-red-600 text-sm font-medium transition-colors"
+              className="text-gray-800 hover:text-red-600 text-base font-medium transition-colors"
             >
               {t('nav.home')}
             </Link>
             <Link 
               to="/about" 
-              className="text-gray-800 hover:text-red-600 text-sm font-medium transition-colors"
+              className="text-gray-800 hover:text-red-600 text-base font-medium transition-colors"
             >
               {t('nav.about')}
             </Link>
             <Link 
               to="/products" 
-              className="text-gray-800 hover:text-red-600 text-sm font-medium transition-colors"
+              className="text-gray-800 hover:text-red-600 text-base font-medium transition-colors"
             >
               {t('nav.products')}
             </Link>
             <Link 
               to="/contact" 
-              className="text-gray-800 hover:text-red-600 text-sm font-medium transition-colors"
+              className="text-gray-800 hover:text-red-600 text-base font-medium transition-colors"
             >
               {t('nav.contact')}
             </Link>
@@ -58,9 +58,12 @@ const Navbar = () => {
           <div className="flex items-center space-x-6">
             <Link 
               to="/starflex" 
-              className="hidden lg:flex items-center"
+              className="hidden lg:flex flex-col items-center group"
             >
-              <img src="/images/starflex-logo.png" alt="StarFlex Logo" className="h-16 w-auto hover:opacity-80 transition-opacity" />
+              <img src="/images/starflex-logo.png" alt="StarFlex Logo" className="h-6 w-auto group-hover:opacity-80 transition-opacity" />
+              <span className="text-[8px] text-gray-600 uppercase tracking-wide font-medium -mt-0.5">
+                {t('starflex.mattressProducer')}
+              </span>
             </Link>
             
             <div className="hidden lg:flex items-center space-x-5">

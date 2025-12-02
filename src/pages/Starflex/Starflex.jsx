@@ -105,15 +105,19 @@ const Starflex = () => {
                 <span className="text-sm font-medium">{t('starflex.badge')}</span>
               </div>
               
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                <span className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
-                  StarFlex
-                </span>
-                <br />
-                <span className="text-3xl md:text-4xl text-gray-200">
+              <div className="mb-6">
+                <h1 className="text-6xl md:text-7xl font-bold leading-tight">
+                  <span className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
+                    STARFLEX
+                  </span>
+                </h1>
+                <p className="text-base md:text-lg text-gray-400 tracking-widest mt-2 uppercase">
+                  {t('starflex.mattressProducer')}
+                </p>
+                <p className="text-3xl md:text-4xl text-gray-200 mt-4">
                   {t('starflex.hero.subtitle')}
-                </span>
-              </h1>
+                </p>
+              </div>
               
               <p className="text-xl text-gray-100 mb-8 leading-relaxed">
                 {t('starflex.hero.description')}

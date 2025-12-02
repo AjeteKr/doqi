@@ -340,7 +340,7 @@ const Products = () => {
               <div className="flex flex-wrap gap-4">
                 <span
                   onClick={() => handleSubCategoryClick(null)}
-                  className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                  className={`cursor-pointer transition-colors duration-200 text-lg font-medium ${
                     selectedSubCategory === null
                       ? 'text-red-500 font-semibold'
                       : 'text-gray-600 hover:text-red-400'
@@ -353,7 +353,7 @@ const Products = () => {
                   <span
                     key={subCategory}
                     onClick={() => handleSubCategoryClick(subCategory)}
-                    className={`cursor-pointer transition-colors duration-200 text-sm font-medium ${
+                    className={`cursor-pointer transition-colors duration-200 text-lg font-medium ${
                       selectedSubCategory === subCategory
                         ? 'text-red-500 font-semibold'
                         : 'text-gray-600 hover:text-red-400'

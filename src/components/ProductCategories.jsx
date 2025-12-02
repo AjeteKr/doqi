@@ -134,7 +134,7 @@ const ProductCategories = ({ onCategoryChange }) => {
                     onCategoryChange(activeCategory)
                   }
                 }}
-                className={`cursor-pointer transition-colors duration-200 text-base font-medium ${
+                className={`cursor-pointer transition-colors duration-200 text-lg font-medium ${
                   activeSubCategory === null
                     ? 'text-red-500 font-semibold'
                     : 'text-gray-600 hover:text-red-400'
@@ -147,7 +147,7 @@ const ProductCategories = ({ onCategoryChange }) => {
                 <span
                   key={subCategory}
                   onClick={() => handleSubCategoryClick(subCategory)}
-                  className={`cursor-pointer transition-colors duration-200 text-base font-medium ${
+                  className={`cursor-pointer transition-colors duration-200 text-lg font-medium ${
                     activeSubCategory === subCategory
                       ? 'text-red-500 font-semibold'
                       : 'text-gray-600 hover:text-red-400'

@@ -174,7 +174,7 @@
     "quickLinks": "Lidhje të Shpejta",
     "products": "Produktet Tona",
     "contact": "Na Kontaktoni",
-    "address": "Prishtinë, Kosovë",
+    "address": "Ferizaj, Kosovë",
     "workingHours": "Hën - Pre: 8:00 - 17:00",
     "saturday": "Sht: 9:00 - 14:00",
     "followUs": "Na Ndiqni",
@@ -322,6 +322,7 @@
   },
   "starflex": {
     "badge": "Koleksioni Premium i Dyshekëve",
+    "mattressProducer": "Prodhues Dyshekësh",
     "hero": {
       "subtitle": "Flini në Komoditet të Plotë",
       "description": "Përvoni përzierjën perfekte të komoditetit, mbështetjes dhe cilësisë. Dyshekët tanë premium janë dizajnuar t'ju japin gjumin më të mirë të jetës suaj.",

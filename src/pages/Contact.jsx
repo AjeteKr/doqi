@@ -59,15 +59,15 @@ const Contact = () => {
       icon: MapPinIcon,
       title: t('contact.location'),
       content: t('footer.address'),
-      details: 'Autostrada Prishtinë-Ferizaj, km 7',
+      details: 'Ferizaj, Kosovo',
       link: 'https://maps.app.goo.gl/UAbdaFkjsoVW6yHo6'
     },
     {
       icon: PhoneIcon,
       title: t('contact.phone'),
-      content: '+383 49 882 083',
-      details: '+383 49 882 083',
-      link: 'tel:+38349882083'
+      content: '+377 44 82 75 54',
+      details: '+377 44 82 75 54',
+      link: 'tel:+37744827554'
     },
     {
       icon: EnvelopeIcon,

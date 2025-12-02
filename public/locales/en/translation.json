@@ -174,7 +174,7 @@
     "quickLinks": "Quick Links",
     "products": "Our Products",
     "contact": "Contact Us",
-    "address": "Prishtina, Kosovo",
+    "address": "Ferizaj, Kosovo",
     "workingHours": "Mon - Fri: 8:00 - 17:00",
     "saturday": "Sat: 9:00 - 14:00",
     "followUs": "Follow Us",
@@ -308,6 +308,7 @@
   },
   "starflex": {
     "badge": "Premium Mattress Collection",
+    "mattressProducer": "Mattress Producer",
     "hero": {
       "subtitle": "Sleep in Ultimate Comfort",
       "description": "Experience the perfect blend of comfort, support, and quality. Our premium mattresses are designed to give you the best sleep of your life.",

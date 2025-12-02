@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="mb-6">
               <h2 className="text-3xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
-                DOQI
+                DOQI SHPK
               </h2>
               <p className="text-sm text-gray-400 mt-1">
                 {t('footer.tagline')}
@@ -124,8 +124,8 @@ const Footer = () => {
               <li className="flex items-start space-x-3 text-gray-300 text-sm">
                 <PhoneIcon className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
                 <div>
-                  <a href="tel:+38349123456" className="hover:text-red-500 transition-colors">
-                    +383 49 123 456
+                  <a href="tel:+37744827554" className="hover:text-red-500 transition-colors">
+                    +377 44 82 75 54
                   </a>
                 </div>
               </li>

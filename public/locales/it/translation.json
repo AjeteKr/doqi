@@ -177,7 +177,7 @@
     "quickLinks": "Link Rapidi",
     "products": "I Nostri Prodotti",
     "contact": "Contattaci",
-    "address": "Pristina, Kosovo",
+    "address": "Ferizaj, Kosovo",
     "workingHours": "Lun - Ven: 8:00 - 17:00",
     "saturday": "Sab: 9:00 - 14:00",
     "followUs": "Seguici",
@@ -308,6 +308,7 @@
   },
   "starflex": {
     "badge": "Collezione Materassi Premium",
+    "mattressProducer": "Produttore di Materassi",
     "hero": {
       "subtitle": "Dormi nel Massimo Comfort",
       "description": "Sperimenta la perfetta combinazione di comfort, supporto e qualità. I nostri materassi premium sono progettati per darti il miglior sonno della tua vita.",

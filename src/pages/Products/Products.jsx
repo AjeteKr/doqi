@@ -26,11 +26,10 @@ const Products = () => {
 
   const categories = [
     { 
-      key: 'customerService', 
-      translationKey: 'products.categories.customerService',
-      icon: cuttingIcon,
-      hasSubCategories: true,
-      subCategories: ['cutting', 'edgeBanding', 'cnc']
+      key: 'mdfChipBoard', 
+      translationKey: 'products.categories.mdfChipBoard',
+      icon: mdfChipBoardIcon,
+      hasSubCategories: false 
     },
     { 
       key: 'mattress', 
@@ -40,17 +39,17 @@ const Products = () => {
       subCategories: ['ecoFlex', 'mediumFlex', 'starFlex', 'hotelLineConcept']
     },
     { 
-      key: 'sofaChair', 
-      translationKey: 'products.categories.sofaChair',
-      icon: sofaChairIcon,
-      hasSubCategories: true,
-      subCategories: ['sofa', 'chair']
+      key: 'accessories', 
+      translationKey: 'products.categories.accessories',
+      icon: accessoriesIcon,
+      hasSubCategories: false 
     },
     { 
-      key: 'mdfChipBoard', 
-      translationKey: 'products.categories.mdfChipBoard',
-      icon: mdfChipBoardIcon,
-      hasSubCategories: false 
+      key: 'customerService', 
+      translationKey: 'products.categories.customerService',
+      icon: cuttingIcon,
+      hasSubCategories: true,
+      subCategories: ['cutting', 'edgeBanding', 'cnc']
     },
     { 
       key: 'compactHPL', 
@@ -59,10 +58,11 @@ const Products = () => {
       hasSubCategories: false 
     },
     { 
-      key: 'accessories', 
-      translationKey: 'products.categories.accessories',
-      icon: accessoriesIcon,
-      hasSubCategories: false 
+      key: 'sofaChair', 
+      translationKey: 'products.categories.sofaChair',
+      icon: sofaChairIcon,
+      hasSubCategories: true,
+      subCategories: ['sofa', 'chair']
     }
   ]
 

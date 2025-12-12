@@ -517,6 +517,21 @@
       "image": "/images/products/0281-gold.jpg",
       "description": "COMPACT - #0281 GOLD MARMO CALACATTA",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #5620",
+      "id": 36,
+      "image": "/images/products/whatsapp-image-2025-12-12-at-14.49.31_62222296.jpg",
+      "description": "COMPACT - #5620",
+      "category": "compactHPL"
     }
   ]
 }

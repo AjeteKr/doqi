@@ -487,6 +487,36 @@
       "image": "/images/products/6170-onice-white-mm-ice-core-2.jpg",
       "description": "COMPACT - #6170 ONICE WHITE",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #6141 KINTSUGI PARU",
+      "id": 34,
+      "image": "/images/products/6141-scaled.jpg",
+      "description": "COMPACT - #6141 KINTSUGI PARU",
+      "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #0281 GOLD MARMO CALACATTA",
+      "id": 35,
+      "image": "/images/products/0281-gold.jpg",
+      "description": "COMPACT - #0281 GOLD MARMO CALACATTA",
+      "category": "compactHPL"
     }
   ]
 }

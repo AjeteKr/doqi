@@ -442,6 +442,51 @@
       "image": "/images/products/6242.webp",
       "description": "COMPACT - #6242 CIVIDALE CAYENNE",
       "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL  - #0982 BROWN WORK",
+      "id": 31,
+      "image": "/images/products/0982.webp",
+      "description": "COMPACT - #0982 BROWN WORK",
+      "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy ",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm",
+        "material": "MATT"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #0180 MONUMENT OAK",
+      "id": 32,
+      "image": "/images/products/0180.jpg",
+      "description": "COMPACT - #0180 MONUMENT OAK",
+      "category": "compactHPL"
+    },
+    {
+      "origin": "Puricelli, Italy",
+      "featured": false,
+      "specifications": {
+        "size": "10 x 1310 x 4200",
+        "thickness": "10mm",
+        "material": "MATT + HGS"
+      },
+      "inStock": true,
+      "title": "COMPACT HPL - #6170 ONICE WHITE",
+      "id": 33,
+      "image": "/images/products/6170-onice-white-mm-ice-core-2.jpg",
+      "description": "COMPACT - #6170 ONICE WHITE",
+      "category": "compactHPL"
     }
   ]
 }

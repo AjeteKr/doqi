@@ -1,10 +1,16 @@
-{
+﻿{
   "nav": {
     "home": "Kryefaqja",
     "about": "Rreth Nesh",
     "products": "Produktet",
     "contact": "Kontakti",
-    "starflex": "StarFlex"
+    "starflex": "StarFlex",
+    "login": "Hyr",
+    "register": "Regjistrohu",
+    "logout": "Dil",
+    "profile": "Profili",
+    "adminDashboard": "Paneli i Adminit",
+    "staffDashboard": "Paneli i Stafit"
   },
   "hero": {
     "title": "Cilësi që Mund të Besosh,",
@@ -69,7 +75,12 @@
     "productsFound": "produkte u gjetën",
     "tryAdjusting": "Provoni të përshtatni kërkimin ose filtrin tuaj për të gjetur atë që po kërkoni.",
     "clearAllFilters": "Pastro Të Gjitha Filtrat",
-    "browseAll": "Shfleto Të Gjitha Produktet"
+    "browseAll": "Shfleto Të Gjitha Produktet",
+    "premium": "Premium",
+    "premiumProduct": "Produkt Premium",
+    "loginRequired": "Kërkohet Identifikim",
+    "premiumContentMessage": "Ky është një produkt premium. Ju lutemi identifikohuni për të parë detajet.",
+    "loginToView": "Identifikohu për të Parë"
   },
   "about": {
     "title": "Rreth DoqiSHPK",
@@ -125,6 +136,11 @@
     "partners": {
       "title": "Partnerët Tanë të Besuar",
       "subtitle": "Ne bashkëpunojmë me kompani lider të industrisë për të ofruar cilësi dhe inovacion të jashtëzakonshëm"
+    },
+    "careers": {
+      "title": "Bashkohu me Ekipin Tonë",
+      "description": "Gjithmonë jemi në kërkim të individëve me talent për t'u bashkuar me ekipin tonë në rritje. Eksploro mundësitë e karrierës në DoqiSHPK.",
+      "viewPositions": "Shiko Pozitat e Hapura"
     }
   },
   "contact": {
@@ -150,6 +166,7 @@
     "sending": "Duke dërguar...",
     "successTitle": "Mesazhi u Dërgua me Sukses!",
     "successMessage": "Faleminderit që na kontaktuat. Do të përgjigjemi brenda 24 orëve.",
+    "errorMessage": "Dështoi dërgimi i mesazhit. Ju lutemi provoni përsëri.",
     "whyContactUs": "Pse të Na Kontaktoni?",
     "reason1": "Këshilla ekspertësh për zgjedhjen e produkteve",
     "reason2": "Çmime konkurruese për porosi masive",
@@ -186,6 +203,7 @@
     "copyright": "© 2025 DoqiSHPK. Të gjitha të drejtat e rezervuara."
   },
   "common": {
+    "all": "Të Gjitha",
     "price": "Çmimi",
     "category": "Kategoria",
     "stock": "Stoku",
@@ -219,6 +237,12 @@
     "technicalSpecs": "Specifikimet Teknike",
     "keyFeatures": "Karakteristikat Kryesore",
     "applications": "Aplikime",
+    "premiumProduct": {
+      "title": "Produkt Premium",
+      "description": "Ky produkt është ekskluzivisht i disponueshëm për anëtarët premium. Ju lutemi përditësoni llogarinë tuaj për të parë detajet.",
+      "loginButton": "Hyr",
+      "backButton": "Kthehu te Produktet"
+    },
     "features": {
       "premiumMaterial": "Material Premium",
       "surfaceFinish": "Përfundimi i Sipërfaqes",
@@ -394,6 +418,13 @@
     "brand": "DoqiSHPK",
     "subtitle": "Bashkohu me komunitetin tonë",
     "title": "Krijo Llogarinë Tënde",
+    "nameLabel": "Emri i Plotë",
+    "namePlaceholder": "Emri Mbiemri",
+    "emailLabel": "Adresa Email",
+    "emailPlaceholder": "email@adresa.com",
+    "passwordLabel": "Fjalëkalimi",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Konfirmo Fjalëkalimin",
     "passwordHint": "Të paktën 6 karaktere",
     "createButton": {
       "loading": "Duke krijuar llogarinë...",
@@ -402,18 +433,64 @@
     "or": "ose",
     "loginPrompt": "Ke tashmë një llogari?",
     "loginHere": "Hyr këtu",
-    "backToHome": "← Kthehu në Kryefaqe"
+    "backToHome": "← Kthehu në Kryefaqe",
+    "errorPasswordMatch": "Fjalëkalimet nuk përputhen",
+    "errorPasswordLength": "Fjalëkalimi duhet të jetë të paktën 6 karaktere",
+    "errorUnexpected": "Ndodhi një gabim i papritur"
   },
   "login": {
     "brand": "DoqiSHPK",
     "welcome": "Mirë se erdhe përsëri",
     "title": "Hyr në Llogarinë Tënde",
+    "emailLabel": "Adresa Email",
+    "emailPlaceholder": "email@adresa.com",
+    "passwordLabel": "Fjalëkalimi",
+    "passwordPlaceholder": "••••••••",
     "loading": "Duke u kyçur...",
     "button": "Hyr",
     "or": "ose",
     "registerPrompt": "Nuk ke një llogari?",
     "createHere": "Krijo këtu",
-    "backToHome": "← Kthehu në Kryefaqe"
+    "backToHome": "← Kthehu në Kryefaqe",
+    "errorUnexpected": "Ndodhi një gabim i papritur",
+    "errorInvalidCredentials": "Kredencialet e pavlefshme",
+    "errorAccountSuspended": "Llogaria juaj është pezulluar. Ju lutemi kontaktoni mbështetjen.",
+    "forgotPassword": "Keni harruar fjalëkalimin?"
+  },
+  "forgotPassword": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Rivendosni fjalëkalimin tuaj",
+    "title": "Harruat Fjalëkalimin",
+    "description": "Vendosni adresën tuaj të emailit dhe do t'ju dërgojmë një link për të rivendosur fjalëkalimin.",
+    "emailLabel": "Adresa Email",
+    "emailPlaceholder": "email@adresa.com",
+    "button": "Dërgo Linkun e Rivendosjes",
+    "sending": "Duke dërguar...",
+    "backToLogin": "Kthehu te Hyrja",
+    "backToHome": "← Kthehu në Kryefaqe",
+    "errorUnexpected": "Ndodhi një gabim i papritur",
+    "successMessage": "Nëse emaili ekziston, një link rivendosjeje është dërguar"
+  },
+  "resetPassword": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Krijoni një fjalëkalim të ri",
+    "title": "Rivendos Fjalëkalimin",
+    "description": "Vendosni fjalëkalimin tuaj të ri më poshtë.",
+    "newPasswordLabel": "Fjalëkalimi i Ri",
+    "newPasswordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Konfirmo Fjalëkalimin",
+    "confirmPasswordPlaceholder": "••••••••",
+    "button": "Rivendos Fjalëkalimin",
+    "resetting": "Duke rivendosur...",
+    "backToLogin": "Kthehu te Hyrja",
+    "backToHome": "← Kthehu në Kryefaqe",
+    "noToken": "Nuk është dhënë asnjë token rivendosjeje",
+    "passwordMismatch": "Fjalëkalimet nuk përputhen",
+    "passwordTooShort": "Fjalëkalimi duhet të jetë të paktën 6 karaktere",
+    "errorUnexpected": "Ndodhi një gabim i papritur",
+    "redirecting": "Duke ridrejtuar te hyrja...",
+    "successMessage": "Fjalëkalimi u rivendos me sukses",
+    "errorInvalidToken": "Token i pavlefshëm ose i skaduar"
   },
   "profile": {
     "loading": "Duke ngarkuar profilin tuaj...",
@@ -438,7 +515,12 @@
     "editProfile": "Ndrysho Profilin",
     "changePassword": "Ndrysho Fjalëkalimin",
     "logout": "Dil",
-    "accountVerifiedText": "Llogaria juaj është e verifikuar dhe në gjendje të mirë. Mund të aksesoni të gjitha funksionet e platformës."
+    "accountVerifiedText": "Llogaria juaj është e verifikuar dhe në gjendje të mirë. Mund të aksesoni të gjitha funksionet e platformës.",
+    "currentPassword": "Fjalëkalimi Aktual",
+    "newPassword": "Fjalëkalimi i Ri",
+    "save": "Ruaj",
+    "saving": "Duke ruajtur...",
+    "cancel": "Anulo"
   },
     
   "ui": {
@@ -519,5 +601,597 @@
     "commitmentText": "Ne jemi të përkushtuar të mbajmë standardet më të larta të privatësisë dhe transparencës. Besimi juaj është i rëndësishëm për ne.",
     "questionsTitle": "Pyetje mbi Privatësinë?",
     "questionsText": "Nëse keni ndonjë pyetje ose shqetësim në lidhje me Politikën tonë të Privatësisë, mos hezitoni të na kontaktoni."
+  },
+  "admin": {
+    "layout": {
+      "adminPanel": "Paneli i Adminit",
+      "administrator": "Administrator"
+    },
+    "nav": {
+      "dashboard": "Paneli Kryesor",
+      "products": "Produktet",
+      "orders": "Porositë",
+      "users": "Përdoruesit",
+      "settings": "Cilësimet"
+    },
+    "dashboard": {
+      "title": "Paneli i Adminit",
+      "welcome": "Mirë se erdhe përsëri",
+      "totalUsers": "Përdoruesit Totalë",
+      "activeUsers": "Përdoruesit Aktivë",
+      "admins": "Administratorët",
+      "activeToday": "Aktivë Sot",
+      "totalOrders": "Porositë Totale",
+      "totalProducts": "Produktet Totale",
+      "revenue": "Të Ardhurat",
+      "today": "sot",
+      "suspended": "të pezulluar",
+      "staff": "staf",
+      "loggedInToday": "identifikuar sot",
+      "quickActions": "Veprime të Shpejta",
+      "addProduct": "Shto Produkt",
+      "viewOrders": "Shiko Porositë",
+      "manageUsers": "Menaxho Përdoruesit",
+      "recentActivity": "Aktivitetet e Fundit",
+      "noActivity": "Nuk ka aktivitet të fundit për të shfaqur",
+      "activityUserRegistered": "{{name}} u regjistrua",
+      "activityContactMessage": "{{name}} dërgoi një mesazh",
+      "activityJobApplication": "{{name}} aplikoi për punë"
+    },
+    "products": {
+      "title": "Menaxhimi i Produkteve",
+      "subtitle": "Menaxho katalogun e produkteve",
+      "searchPlaceholder": "Kërko produkte...",
+      "allCategories": "Të gjitha Kategoritë",
+      "allStockStatus": "Të gjitha Statuset e Stokut",
+      "addProduct": "Shto Produkt",
+      "showing": "Duke shfaqur {{count}} nga {{total}} produkte",
+      "featured": "E Veçantë",
+      "edit": "Modifiko",
+      "delete": "Fshi",
+      "previous": "I mëparshmi",
+      "next": "Tjetri",
+      "pageOf": "Faqja {{current}} nga {{total}}",
+      "addNewProduct": "Shto Produkt të Ri",
+      "editProduct": "Modifiko Produktin",
+      "confirmDelete": "A jeni të sigurt që dëshironi të fshini \"{{title}}\"?",
+      "table": {
+        "product": "Produkti",
+        "category": "Kategoria",
+        "price": "Çmimi",
+        "status": "Statusi",
+        "actions": "Veprimet"
+      },
+      "form": {
+        "title": "Titulli",
+        "description": "Përshkrimi",
+        "price": "Çmimi (€)",
+        "origin": "Origjina",
+        "category": "Kategoria",
+        "selectCategory": "Zgjidh kategorinë",
+        "subCategory": "Nën-kategoria",
+        "productImage": "Imazhi i Produktit",
+        "imageRequirements": "Madhësia maksimale: 5MB. Formatet e mbështetura: JPEG, PNG, GIF, WebP",
+        "preview": "Pamje paraprake",
+        "featuredProduct": "Produkt i Veçantë",
+        "premiumLoginRequired": "Premium (Kërkohet Hyrja)",
+        "premiumMembershipRequired": "Premium (Kërkohet Anëtarësim Premium)",
+        "cancel": "Anulo",
+        "uploading": "Duke ngarkuar...",
+        "createProduct": "Krijo Produktin",
+        "updateProduct": "Përditëso Produktin",
+        "specifications": {
+          "title": "Specifikimet e Produktit",
+          "subtitle": "Opsionale - Shto specifikimet e detajuara të produktit",
+          "size": "Përmasat/Madhësia",
+          "sizePlaceholder": "p.sh., 200x100 cm",
+          "thickness": "Trashësia",
+          "thicknessPlaceholder": "p.sh., 18mm",
+          "material": "Materiali",
+          "materialPlaceholder": "p.sh., Dushk, MDF",
+          "color": "Ngjyra",
+          "colorPlaceholder": "p.sh., E bardhë, Natyrore",
+          "finish": "Përfundimi",
+          "finishPlaceholder": "p.sh., Mat, I shkëlqyer",
+          "warranty": "Garancia",
+          "warrantyPlaceholder": "p.sh., 2 vjet",
+          "certification": "Certifikimi",
+          "certificationPlaceholder": "p.sh., ISO 9001, CE",
+          "density": "Dendësia",
+          "densityPlaceholder": "p.sh., 680-750 kg/m³",
+          "grade": "Grada/Cilësia",
+          "gradePlaceholder": "p.sh., Grada-A, Premium",
+          "accuracy": "Saktësia",
+          "accuracyPlaceholder": "p.sh., ±0.1mm",
+          "turnaround": "Koha e Përfundimit",
+          "turnaroundPlaceholder": "p.sh., 24-48 orë",
+          "maxSize": "Madhësia Maksimale",
+          "maxSizePlaceholder": "p.sh., 3050 x 1300mm",
+          "firmness": "Fortësia",
+          "firmnessPlaceholder": "p.sh., Mesatarisht e fortë",
+          "height": "Lartësia",
+          "heightPlaceholder": "p.sh., 25cm",
+          "additional": "Informacione Shtesë",
+          "additionalPlaceholder": "Specifikimet ose detajet e tjera..."
+        }
+      },
+      "errors": {
+        "invalidFileType": "Tipi i skedarit i pavlefshëm. Vetëm imazhe JPEG, PNG, GIF dhe WebP janë të lejuara.",
+        "fileTooLarge": "Madhësia e skedarit është shumë e madhe. Madhësia maksimale është 5MB.",
+        "titleRequired": "Titulli i produktit është i detyrueshëm",
+        "operationFailed": "Dështoi {{mode}} produkti",
+        "deleteFailed": "Dështoi fshirja e produktit",
+        "loadFailed": "Dështoi ngarkimi i produkteve"
+      },
+      "success": {
+        "created": "Produkti u krijua me sukses!",
+        "updated": "Produkti u përditësua me sukses!",
+        "deleted": "Produkti u fshi me sukses!"
+      }
+    },
+    "messages": {
+      "title": "Mesazhet e Kontaktit",
+      "subtitle": "Menaxho dhe përgjigju pyetjeve të klientëve",
+      "loading": "Duke ngarkuar mesazhet...",
+      "noMessages": "Nuk u gjetën mesazhe",
+      "search": "Kërko mesazhe...",
+      "stats": {
+        "total": "Mesazhe Totale",
+        "pending": "Në Pritje",
+        "solved": "Të Zgjidhura"
+      },
+      "filter": {
+        "all": "Të Gjitha",
+        "pending": "Në Pritje",
+        "solved": "Të Zgjidhura"
+      },
+      "status": {
+        "pending": "Në Pritje",
+        "solved": "Zgjidhur"
+      },
+      "table": {
+        "status": "Statusi",
+        "sender": "Dërguesi",
+        "subject": "Subjekti",
+        "date": "Data",
+        "actions": "Veprimet"
+      },
+      "detail": {
+        "name": "Emri",
+        "email": "Email",
+        "phone": "Telefoni",
+        "company": "Kompania",
+        "date": "Marrë Më",
+        "message": "Mesazhi",
+        "solvedBy": "Zgjidhur Nga"
+      },
+      "actions": {
+        "markSolved": "Shënoje si të Zgjidhur",
+        "markPending": "Shënoje si në Pritje",
+        "delete": "Fshi"
+      },
+      "confirmSolve": {
+        "title": "Shëno si të Zgjidhur?",
+        "message": "A jeni të sigurt që dëshironi ta shënoni këtë mesazh si të zgjidhur?"
+      },
+      "confirmPending": {
+        "title": "Shëno si në Pritje?",
+        "message": "A jeni të sigurt që dëshironi ta shënoni këtë mesazh si në pritje?"
+      },
+      "confirmDelete": {
+        "title": "Fshi Mesazhin?",
+        "message": "Ky veprim nuk mund të zhbëhet. A jeni të sigurt?"
+      },
+      "success": {
+        "markedSolved": "Mesazhi u shënua si i zgjidhur",
+        "markedPending": "Mesazhi u shënua si në pritje",
+        "deleted": "Mesazhi u fshi me sukses"
+      },
+      "errors": {
+        "loadFailed": "Dështoi ngarkimi i mesazheve",
+        "updateFailed": "Dështoi përditësimi i statusit të mesazhit",
+        "deleteFailed": "Dështoi fshirja e mesazhit"
+      }
+    },
+    "users": {
+      "title": "Menaxhimi i Përdoruesve",
+      "subtitle": "Menaxho llogaritë e përdoruesve, rolet dhe lejet",
+      "search": "Kërko",
+      "searchPlaceholder": "Kërko sipas emrit ose emailit...",
+      "filterByRole": "Filtro sipas Rolit",
+      "filterByStatus": "Filtro sipas Statusit",
+      "allRoles": "Të gjitha Rolet",
+      "allStatuses": "Të gjitha Statuset",
+      "admin": "Admin",
+      "staff": "Staf",
+      "user": "Përdorues",
+      "premium": "Premium",
+      "active": "Aktiv",
+      "suspended": "I pezulluar",
+      "suspend": "Pezullo",
+      "activate": "Aktivo",
+      "delete": "Fshi",
+      "never": "Kurrë",
+      "table": {
+        "user": "Përdoruesi",
+        "email": "Emaili",
+        "role": "Roli",
+        "status": "Statusi",
+        "lastLogin": "Identifikimi i Fundit",
+        "actions": "Veprimet"
+      },
+      "confirmSuspend": "A jeni të sigurt që dëshironi të pezulloni këtë përdorues?",
+      "confirmActivate": "A jeni të sigurt që dëshironi të aktivizoni këtë përdorues?",
+      "confirmRoleChange": "A jeni të sigurt që dëshironi të ndryshoni rolin e këtij përdoruesi në",
+      "confirmDelete": "A jeni të sigurt që dëshironi të fshini këtë përdorues? Kjo do ta pezullojë llogarinë e tyre.",
+      "successSuspend": "Përdoruesi u pezullua me sukses",
+      "successActivate": "Përdoruesi u aktivizua me sukses",
+      "successRoleUpdate": "Roli i përdoruesit u përditësua me sukses",
+      "successDelete": "Përdoruesi u fshi me sukses",
+      "errorLoad": "Dështoi ngarkimi i përdoruesve",
+      "errorSuspend": "Dështoi pezullimi i përdoruesit",
+      "errorActivate": "Dështoi aktivizimi i përdoruesit",
+      "errorRoleUpdate": "Dështoi përditësimi i rolit të përdoruesit",
+      "errorDelete": "Dështoi fshirja e përdoruesit",
+      "pagination": {
+        "showing": "Duke shfaqur",
+        "to": "deri në",
+        "of": "nga",
+        "results": "rezultate",
+        "previous": "Mëparshëm",
+        "next": "Tjetër"
+      }
+    },
+    "settings": {
+      "title": "Parametrat e Adminit",
+      "subtitle": "Menaxho konfigurimin dhe preferencat e faqes suaj",
+      "save": "Ruaj Parametrat",
+      "saving": "Duke ruajtur...",
+      "reset": "Rivendos",
+      "saveChanges": "Ruaj Ndryshimet",
+      "discard": "Hidhi Poshtë",
+      "unsavedChanges": "Keni ndryshime të paruajtura",
+      "unsavedChangesDesc": "Mos harroni të ruani ndryshimet tuaja përpara se të largoheni nga kjo faqe",
+      "general": {
+        "title": "Parametrat e Përgjithshme",
+        "siteName": "Emri i Faqes",
+        "siteDescription": "Përshkrimi i Faqes",
+        "contactEmail": "Email-i i Kontaktit",
+        "contactPhone": "Telefoni i Kontaktit"
+      },
+      "business": {
+        "title": "Parametrat e Biznesit",
+        "currency": "Monedha",
+        "taxRate": "Norma e Taksës",
+        "shippingFee": "Tarifa e Transportit",
+        "freeShippingThreshold": "Pragu i Transportit Falas"
+      },
+      "email": {
+        "title": "Njoftimet me Email",
+        "emailNotifications": "Aktivizo Njoftimet me Email",
+        "emailNotificationsDesc": "Merrni njoftime me email për ngjarje të rëndësishme",
+        "orderNotifications": "Njoftimet për Porositë",
+        "orderNotificationsDesc": "Merrni njoftime kur bëhen porosite e reja",
+        "newUserNotifications": "Njoftimet për Përdorues të Rinj",
+        "newUserNotificationsDesc": "Merrni njoftime kur regjistrohen përdorues të rinj"
+      },
+      "products": {
+        "title": "Parametrat e Produkteve",
+        "productsPerPage": "Produktet për Faqe",
+        "maxImageSize": "Madhësia Maksimale e Imazhit",
+        "allowReviews": "Lejo Recensionet e Produkteve",
+        "allowReviewsDesc": "Aktivizo klientët të lënë recensione për produktet",
+        "moderateReviews": "Modero Recensionet",
+        "moderateReviewsDesc": "Kërko miratimin e adminit përpara se recensionet të publikohen"
+      },
+      "security": {
+        "title": "Parametrat e Sigurisë",
+        "requireEmailVerification": "Kërko Verifikimin e Email-it",
+        "requireEmailVerificationDesc": "Përdoruesit duhet të verifikojnë email-in e tyre përpara se të hyjnë në faqe",
+        "sessionTimeout": "Koha e Mbarimit të Sesionit",
+        "maxLoginAttempts": "Përpjekjet Maksimale të Hyrjes"
+      },
+      "maintenance": {
+        "title": "Mënyra e Mirëmbajtjes",
+        "maintenanceMode": "Aktivizo Mënyrën e Mirëmbajtjes",
+        "maintenanceModeDesc": "Vendos faqen në mënyrën e mirëmbajtjes (vetëm adminët mund të hyjnë)",
+        "maintenanceMessage": "Mesazhi i Mirëmbajtjes"
+      },
+      "success": {
+        "saved": "Parametrat u ruajtën me sukses!",
+        "reset": "Parametrat u rivendosën në gjendjen e fundit të ruajtur"
+      },
+      "errors": {
+        "saveFailed": "Dështoi ruajtja e parametrave"
+      }
+    }
+  },
+  "confirmDialog": {
+    "deleteProduct": {
+      "title": "Fshi Produktin",
+      "message": "A jeni i sigurt që dëshironi të fshini \"{{productTitle}}\"? Ky veprim nuk mund të zhbëhet.",
+      "confirmText": "Fshi",
+      "cancelText": "Anulo"
+    },
+    "suspendUser": {
+      "title": "Pezullo Përdoruesin",
+      "message": "A jeni i sigurt që dëshironi të pezulloni këtë përdorues?",
+      "confirmText": "Pezullo",
+      "cancelText": "Anulo"
+    },
+    "activateUser": {
+      "title": "Aktivo Përdoruesin",
+      "message": "A jeni i sigurt që dëshironi të aktivizoni këtë përdorues?",
+      "confirmText": "Aktivo",
+      "cancelText": "Anulo"
+    },
+    "changeRole": {
+      "title": "Ndrysho Rolin e Përdoruesit",
+      "message": "A jeni i sigurt që dëshironi të ndryshoni rolin e këtij përdoruesi në {{roleName}}?",
+      "confirmText": "Ndrysho Rolin",
+      "cancelText": "Anulo"
+    },
+    "deleteUser": {
+      "title": "Fshi Përdoruesin",
+      "message": "A jeni i sigurt që dëshironi të fshini këtë përdorues? Kjo do ta pezullojë llogarinë e tyre.",
+      "confirmText": "Fshi",
+      "cancelText": "Anulo"
+    },
+    "saveSettings": {
+      "title": "Ruaj Parametrat",
+      "message": "A jeni i sigurt që dëshironi të ruani këto parametra? Kjo do të aplikojë ndryshimet në konfigurimin e faqes suaj.",
+      "confirmText": "Ruaj Parametrat",
+      "cancelText": "Anulo"
+    },
+    "resetSettings": {
+      "title": "Rivendos Parametrat",
+      "message": "A jeni i sigurt që dëshironi të heqni dorë nga të gjitha ndryshimet e paruajtura?",
+      "confirmText": "Rivendos",
+      "cancelText": "Anulo"
+    }
+  },
+  "careers": {
+    "hero": {
+      "title": "Bashkohu me Ekipin Tonë",
+      "subtitle": "Ndërto karrierën tënde me një kompani që vlerëson inovacionin, cilësinë dhe punën në ekip",
+      "feature1": "Mundësi për Rritje",
+      "feature2": "Kulturë e Shkëlqyer Ekipi"
+    },
+    "openPositions": {
+      "title": "Pozitat e Hapura",
+      "subtitle": "Zbulo mundësi të mahnitshme karriere dhe gjej rolin e përsosur për ty",
+      "noJobs": "Nuk Ka Pozita të Hapura",
+      "checkBack": "Aktualisht nuk kemi pozita të hapura. Ju lutem kontrolloni përsëri më vonë për mundësi të reja."
+    },
+    "job": {
+      "type": "Lloji",
+      "experience": "Përvoja",
+      "salary": "Paga",
+      "deadline": "Apliko Deri",
+      "applyNow": "Apliko Tani",
+      "alreadyApplied": "Tashmë i Aplikuar",
+      "noDepartment": "Të Përgjithshme"
+    },
+    "error": {
+      "fetchFailed": "Dështoi ngarkimi i pozitave të punës",
+      "loginRequired": "Ju lutem identifikohuni për të aplikuar për këtë pozitë",
+      "pdfOnly": "Vetëm skedarët PDF janë të lejuar",
+      "fileTooLarge": "Madhësia e skedarit duhet të jetë më pak se 5MB",
+      "alreadyApplied": "Ju tashmë keni aplikuar për këtë pozitë",
+      "cvRequired": "Skedari CV është i detyrueshëm",
+      "submitFailed": "Dështoi dërgimi i aplikimit. Ju lutem provoni përsëri."
+    },
+    "success": {
+      "applied": "Aplikimi u dërgua me sukses! Ne do të shqyrtojmë aplikimin tuaj dhe do t'ju kontaktojmë së shpejti."
+    },
+    "application": {
+      "title": "Apliko për këtë Pozitë",
+      "fullName": "Emri i Plotë",
+      "email": "Email",
+      "phone": "Numri i Telefonit",
+      "cv": "CV / Jetëjesa",
+      "cvHelper": "(PDF, max 5MB)",
+      "chooseFile": "Zgjidh Skedarin",
+      "noFileChosen": "Asnje skedar i zgjedhur",
+      "coverLetter": "Letra Motivuese",
+      "coverLetterPlaceholder": "Na trego pse je i interesuar për këtë pozitë dhe çfarë të bën kandidatin ideal...",
+      "cancel": "Anulo",
+      "submit": "Dërgo Aplikimin",
+      "submitting": "Duke dërguar..."
+    }
+  },
+  "staff": {
+    "layout": {
+      "staffPanel": "Paneli i Stafit",
+      "staffMember": "Anëtar i Stafit"
+    },
+    "nav": {
+      "dashboard": "Paneli Kryesor",
+      "messages": "Mesazhet",
+      "orders": "Porositë",
+      "products": "Produktet",
+      "jobs": "Pozitat e Punës",
+      "applications": "Aplikime"
+    },
+    "dashboard": {
+      "title": "Paneli i Stafit",
+      "welcome": "Mirë se erdhe përsëri",
+      "pendingMessages": "Mesazhet në Pritje",
+      "totalMessages": "Mesazhet Totale",
+      "totalProducts": "Produktet Totale",
+      "quickActions": "Veprime të Shpejta",
+      "viewOrders": "Shiko Porositë",
+      "manageProducts": "Menaxho Produktet",
+      "reports": "Raportet",
+      "recentActivity": "Aktivitetet e Fundit",
+      "noActivity": "Nuk ka aktivitet të fundit për të shfaqur"
+    },
+    "products": {
+      "title": "Përmbledhja e Produkteve",
+      "subtitle": "Shiko dhe monitoriso inventarin e produkteve",
+      "searchPlaceholder": "Kërko produkte...",
+      "noProducts": "Nuk u gjetën produkte",
+      "inStock": "Në Stok",
+      "outOfStock": "Jashtë Stokut",
+      "showing": "Duke shfaqur",
+      "of": "nga",
+      "products": "produkte",
+      "stats": {
+        "total": "Produktet Totale",
+        "inStock": "Në Stok",
+        "outOfStock": "Jashtë Stokut"
+      },
+      "filter": {
+        "all": "Të Gjitha Statuset e Stokut",
+        "inStock": "Vetëm Në Stok",
+        "outOfStock": "Vetëm Jashtë Stokut"
+      },
+      "table": {
+        "product": "Produkti",
+        "category": "Kategoria",
+        "origin": "Origjina",
+        "stock": "Statusi i Stokut",
+        "featured": "I Veçantë"
+      }
+    },
+    "jobs": {
+      "title": "Pozitat e Punës",
+      "subtitle": "Menaxhoni pozitat e hapura në Doqi SHPK",
+      "searchPlaceholder": "Kërko sipas titullit, departamentit...",
+      "addNew": "Shto Pozitë të Re",
+      "loading": "Duke ngarkuar...",
+      "noJobs": "Nuk u gjetën pozita pune",
+      "edit": "Ndrysho",
+      "delete": "Fshi",
+      "create": "Krijo",
+      "update": "Përditëso",
+      "cancel": "Anulo",
+      "stats": {
+        "total": "Pozita Totale",
+        "active": "Pozita Aktive",
+        "departments": "Departamente"
+      },
+      "filter": {
+        "allStatus": "Të Gjitha Statuset",
+        "active": "Vetëm Aktive",
+        "inactive": "Vetëm Joaktive",
+        "allTypes": "Të Gjitha Llojet"
+      },
+      "employmentType": {
+        "fullTime": "Kohë e plotë",
+        "partTime": "Kohë e pjesshme",
+        "contract": "Kontratë",
+        "internship": "Praktikë"
+      },
+      "status": {
+        "active": "Aktive",
+        "inactive": "Joaktive"
+      },
+      "table": {
+        "title": "Titulli i Pozitës",
+        "department": "Departamenti",
+        "location": "Vendndodhja",
+        "type": "Lloji i Punësimit",
+        "deadline": "Afati i Aplikimit",
+        "status": "Statusi",
+        "actions": "Veprime"
+      },
+      "modal": {
+        "createTitle": "Krijo Pozitë të Re Pune",
+        "editTitle": "Ndrysho Pozitën e Punës"
+      },
+      "form": {
+        "title": "Titulli i Punës",
+        "department": "Departamenti",
+        "location": "Vendndodhja",
+        "employmentType": "Lloji i Punësimit",
+        "experienceLevel": "Niveli i Përvojës",
+        "deadline": "Afati i Aplikimit",
+        "salaryRange": "Diapazoni i Pagës",
+        "salaryRangePlaceholder": "p.sh., €30,000 - €45,000",
+        "isActive": "Pozitë Aktive",
+        "description": "Përshkrimi i Punës",
+        "responsibilities": "Përgjegjësitë",
+        "requirements": "Kërkesat",
+        "qualifications": "Kualifikimet",
+        "benefits": "Përfitimet",
+        "selectType": "Zgjidhni llojin e punësimit",
+        "selectLevel": "Zgjidhni nivelin e përvojës",
+        "onePerLine": "Një artikull për rresht"
+      },
+      "experienceLevel": {
+        "entryLevel": "Nivel Fillestar",
+        "midLevel": "Nivel Mesatar",
+        "seniorLevel": "Nivel i Lartë",
+        "lead": "Udhëheqës"
+      },
+      "success": {
+        "created": "Pozita e punës u krijua me sukses",
+        "updated": "Pozita e punës u përditësua me sukses",
+        "deleted": "Pozita e punës u fshi me sukses"
+      },
+      "error": {
+        "fetchFailed": "Dështoi ngarkimi i pozitave të punës",
+        "saveFailed": "Dështoi ruajtja e pozitës së punës",
+        "deleteFailed": "Dështoi fshirja e pozitës së punës"
+      },
+      "confirmDelete": {
+        "title": "Fshi Pozitën e Punës",
+        "message": "Jeni i sigurt që dëshironi të fshini këtë pozitë pune? Ky veprim nuk mund të zhbëhet."
+      }
+    },
+    "applications": {
+      "title": "Aplikime për Punë",
+      "subtitle": "Shqyrto dhe menaxho aplikacionet për punë",
+      "loading": "Duke ngarkuar aplikacionet...",
+      "noApplications": "Nuk u gjetën aplikacione",
+      "view": "Shiko",
+      "downloadCV": "Shkarko CV",
+      "applicationDetails": "Detajet e Aplikimit",
+      "applicantInfo": "Informacioni i Aplikantit",
+      "jobInfo": "Informacioni i Punës",
+      "updateStatus": "Përditëso Statusin",
+      "currentStatus": "Statusi Aktual",
+      "notes": "Shënime",
+      "notesPlaceholder": "Shto shënime rreth këtij aplikimi...",
+      "markReviewed": "Shëno si të Shqyrtuar",
+      "markAccepted": "Shëno si të Pranuar",
+      "markRejected": "Shëno si të Refuzuar",
+      "statusHistory": "Historia e Statusit",
+      "reviewedAt": "Shqyrtuar më",
+      "stats": {
+        "total": "Aplikime Totale",
+        "pending": "Në Pritje",
+        "reviewed": "Të Shqyrtuara",
+        "accepted": "Të Pranuara",
+        "rejected": "Të Refuzuara"
+      },
+      "filter": {
+        "allStatus": "Të Gjitha Statuset"
+      },
+      "status": {
+        "pending": "Në Pritje",
+        "reviewed": "E Shqyrtuar",
+        "accepted": "E Pranuar",
+        "rejected": "E Refuzuar"
+      },
+      "table": {
+        "applicant": "Aplikanti",
+        "job": "Pozita e Punës",
+        "contact": "Kontakti",
+        "appliedDate": "Data e Aplikimit",
+        "status": "Statusi",
+        "actions": "Veprime"
+      },
+      "success": {
+        "cvDownloaded": "CV u shkarkua me sukses",
+        "statusUpdated": "Statusi i aplikimit u përditësua me sukses"
+      },
+      "error": {
+        "fetchFailed": "Dështoi ngarkimi i aplikacioneve",
+        "cvDownloadFailed": "Dështoi shkarkimi i CV",
+        "statusUpdateFailed": "Dështoi përditësimi i statusit të aplikimit"
+      }
+    }
   }
 }

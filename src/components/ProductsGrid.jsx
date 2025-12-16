@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useFavorites } from '../context/FavoritesContext'
 import { HeartIcon } from '@heroicons/react/24/outline'
 import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid'
+import { getPublicProducts } from '../services/productService'
 
 const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, title = null }) => {
   const { t } = useTranslation()
@@ -17,22 +18,22 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
     const fetchProducts = async () => {
       try {
         setLoading(true)
-        const response = await fetch('/products.json')
-        if (!response.ok) {
-          throw new Error('Failed to fetch products')
-        }
-        const data = await response.json()
+        const filters = {}
+        if (selectedCategory) filters.category = selectedCategory
+        if (selectedSubCategory) filters.subCategory = selectedSubCategory
+        // Don't filter by featured - show all products in "Our Products" section
+        
+        const data = await getPublicProducts(1, 100, filters)
         setProducts(data.products || [])
       } catch (err) {
         setError(err.message)
-        console.error('Error fetching products:', err)
       } finally {
         setLoading(false)
       }
     }
 
     fetchProducts()
-  }, [])
+  }, [selectedCategory, selectedSubCategory])
 
   // Filter products based on selected category and subcategory
   const filteredProducts = products.filter(product => {
@@ -64,18 +65,8 @@ const ProductsGrid = ({ selectedCategory = null, selectedSubCategory = null, tit
     return `/images/products/${imagePath}`
   }
 
-  const generateSlug = (title) => {
-    return title
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .trim()
-  }
-
   const handleProductClick = (product) => {
-    const slug = generateSlug(product.title)
-    navigate(`/product/${slug}`, { state: { product } })
+    navigate(`/product/${product.id}`)
   }
 
   if (loading) {

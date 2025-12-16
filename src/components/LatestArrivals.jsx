@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { useFavorites } from '../context/FavoritesContext'
+import { getPublicProducts } from '../services/productService'
 
 const LatestArrivals = () => {
   const { t } = useTranslation()
@@ -13,22 +14,15 @@ const LatestArrivals = () => {
   const [latestProducts, setLatestProducts] = useState([])
   const [loading, setLoading] = useState(true)
 
-  // Fetch products and get the latest ones
+  // Fetch latest products from API
   useEffect(() => {
     const fetchLatestProducts = async () => {
       try {
-        const response = await fetch('/products.json')
-        if (!response.ok) {
-          throw new Error('Failed to fetch products')
-        }
-        const data = await response.json()
+        const data = await getPublicProducts(1, 8, {})
         const products = data.products || []
-        
-        const latest = products.slice(-8).reverse()
-        setLatestProducts(latest)
+        setLatestProducts(products)
         setLoading(false)
       } catch (error) {
-        console.error('Error fetching latest products:', error)
         setLatestProducts([])
         setLoading(false)
       }
@@ -45,13 +39,7 @@ const LatestArrivals = () => {
   }
 
   const handleProductClick = (product) => {
-    const slug = product.title
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .trim()
-    navigate(`/product/${slug}`, { state: { product } })
+    navigate(`/product/${product.id}`)
   }
 
   const checkScrollButtons = () => {

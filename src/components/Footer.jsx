@@ -123,9 +123,12 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3 text-gray-300 text-sm">
                 <PhoneIcon className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
-                <div>
-                  <a href="tel:+37744827554" className="hover:text-red-500 transition-colors">
-                    +377 44 82 75 54
+                <div className="flex flex-col space-y-1">
+                  <a href="tel:+38344227419" className="hover:text-red-500 transition-colors">
+                    +383 44 22 74 19
+                  </a>
+                  <a href="tel:+38344827554" className="hover:text-red-500 transition-colors">
+                    +383 44 82 75 54
                   </a>
                 </div>
               </li>
@@ -182,15 +185,18 @@ const Footer = () => {
             </div>
 
             {/* Partner Badge */}
-            <div className="flex items-center gap-3 px-6 py-3 bg-gray-800/50 rounded-lg border border-gray-700/50">
+            <Link 
+              to="/starflex"
+              className="flex items-center gap-3 px-6 py-3 bg-gray-800/50 rounded-lg border border-gray-700/50 hover:bg-gray-800 hover:border-red-600/50 transition-all duration-300 group"
+            >
               <div className="text-right">
-                <p className="text-xs text-gray-400">{t('footer.officialPartner')}</p>
-                <p className="text-lg font-bold text-red-500">StarFlex</p>
+                <p className="text-xs text-gray-400 group-hover:text-gray-300">{t('footer.officialPartner')}</p>
+                <p className="text-lg font-bold text-red-500 group-hover:text-red-400">StarFlex</p>
               </div>
-              <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center group-hover:bg-red-500 transition-colors">
                 <span className="text-white font-bold text-xl">S</span>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 

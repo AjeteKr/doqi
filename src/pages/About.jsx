@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import { CheckCircleIcon, LightBulbIcon, UserGroupIcon, SparklesIcon } from '@heroicons/react/24/outline'
+import { useNavigate } from 'react-router-dom'
+import { CheckCircleIcon, LightBulbIcon, UserGroupIcon, SparklesIcon, BriefcaseIcon } from '@heroicons/react/24/outline'
 
 // Import partner logos
 import kastamonuLogo from '../assets/partners/kastamonu.png'
@@ -16,9 +17,11 @@ import comfytexLogo from '../assets/partners/comfytex.png'
 import boyteksLogo from '../assets/partners/boyteks.png'
 import apexLogo from '../assets/partners/apex.png'
 import mitreApelLogo from '../assets/partners/mitre-apel.png'
+import aytuqLogo from '../assets/partners/aytuq.png'
 
 const About = () => {
   const { t } = useTranslation()
+  const navigate = useNavigate()
 
   const partners = [
     { name: 'Kastamonu Entegre', logo: kastamonuLogo, url: 'https://www.kastamonuentegre.com/en' },
@@ -34,7 +37,8 @@ const About = () => {
     { name: 'Comfytex', logo: comfytexLogo, url: 'https://comfytex.com.tr/' },
     { name: 'Boyteks', logo: boyteksLogo, url: 'https://www.boyteks.com/en/home' },
     { name: 'Apex Adhesive', logo: apexLogo, url: 'https://apexadhesive.com/' },
-    { name: 'Mitre Apel', logo: mitreApelLogo, url: 'https://mitreapel.ca/' }
+    { name: 'Mitre Apel', logo: mitreApelLogo, url: 'https://mitreapel.ca/' },
+    { name: 'Aytuq', logo: aytuqLogo, url: 'https://aytuq.com/' }
   ]
 
   const values = [
@@ -123,6 +127,27 @@ const About = () => {
                   <p className="text-gray-700 leading-relaxed">
                     {t('about.vision.description')}
                   </p>
+                </div>
+              </div>
+              
+              {/* Careers CTA */}
+              <div className="mt-8 bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-8 md:p-10">
+                <div className="text-center">
+                  <h4 className="text-3xl font-bold text-white mb-3">
+                    {t('about.careers.title')}
+                  </h4>
+                  <p className="text-red-50 text-lg mb-6">
+                    {t('about.careers.description')}
+                  </p>
+                  <button
+                    onClick={() => navigate('/careers')}
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-white text-red-600 font-semibold rounded-xl hover:bg-red-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+                  >
+                    {t('about.careers.viewPositions')}
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>

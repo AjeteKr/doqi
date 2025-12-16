@@ -1,10 +1,16 @@
-{
+﻿{
   "nav": {
     "home": "Startseite",
     "about": "Über uns",
     "products": "Produkte",
     "contact": "Kontakt",
-    "starflex": "StarFlex"
+    "starflex": "StarFlex",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "profile": "Profil",
+    "adminDashboard": "Admin-Dashboard",
+    "staffDashboard": "Personal-Dashboard"
   },
   "hero": {
     "title": "Qualität, der Sie vertrauen können,",
@@ -72,7 +78,12 @@
     "productsFound": "Produkte gefunden",
     "tryAdjusting": "Versuchen Sie, Ihre Suche oder Filter anzupassen, um das Gesuchte zu finden.",
     "clearAllFilters": "Alle Filter löschen",
-    "browseAll": "Alle Produkte durchsuchen"
+    "browseAll": "Alle Produkte durchsuchen",
+    "premium": "Premium",
+    "premiumProduct": "Premium-Produkt",
+    "loginRequired": "Anmeldung Erforderlich",
+    "premiumContentMessage": "Dies ist ein Premium-Produkt. Bitte melden Sie sich an, um Details anzuzeigen.",
+    "loginToView": "Anmelden zum Ansehen"
   },
   "about": {
     "title": "Über DoqiSHPK",
@@ -128,6 +139,11 @@
     "partners": {
       "title": "Unsere Vertrauenswürdigen Partner",
       "subtitle": "Wir arbeiten mit führenden Unternehmen der Branche zusammen, um außergewöhnliche Qualität und Innovation zu liefern"
+    },
+    "careers": {
+      "title": "Treten Sie unserem Team bei",
+      "description": "Wir suchen stets nach talentierten Personen, die sich unserem wachsenden Team anschließen möchten. Entdecken Sie Karrieremöglichkeiten bei DoqiSHPK.",
+      "viewPositions": "Offene Stellen ansehen"
     }
   },
   "contact": {
@@ -153,6 +169,7 @@
     "sending": "Wird gesendet...",
     "successTitle": "Nachricht Erfolgreich Gesendet!",
     "successMessage": "Vielen Dank, dass Sie uns kontaktiert haben. Wir werden innerhalb von 24 Stunden antworten.",
+    "errorMessage": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
     "whyContactUs": "Warum Uns Kontaktieren?",
     "reason1": "Expertenberatung zur Produktauswahl",
     "reason2": "Wettbewerbsfähige Preise für Großbestellungen",
@@ -189,6 +206,7 @@
     "copyright": "© 2025 DoqiSHPK. Alle Rechte vorbehalten."
   },
   "common": {
+    "all": "Alle",
     "price": "Preis",
     "category": "Kategorie",
     "stock": "Lager",
@@ -223,6 +241,12 @@
     "technicalSpecs": "Technische Daten",
     "keyFeatures": "Hauptmerkmale",
     "applications": "Anwendungen",
+    "premiumProduct": {
+      "title": "Premium-Produkt",
+      "description": "Dieses Produkt ist exklusiv für Premium-Mitglieder erhältlich. Bitte upgraden Sie Ihr Konto, um Details anzuzeigen.",
+      "loginButton": "Anmelden",
+      "backButton": "Zurück zu Produkten"
+    },
     "features": {
       "premiumMaterial": "Premium Material",
       "surfaceFinish": "Oberflächenveredelung",
@@ -277,7 +301,14 @@
     "funFactLabel": "Wussten Sie?",
     "funFact": "DoqiSHPK ist spezialisiert auf hochwertige Kompakt-HPL-Produkte und Matratzen. Entdecken Sie unsere Kollektion, um das perfekte Stück für Ihren Raum zu finden!",
     "keyboardHint": "Drücken Sie",
-    "keyboardHintAction": "um zur Startseite zu gelangen"
+    "keyboardHintAction": "um zur Startseite zu gelangen",
+    "goHome": "Zur Startseite",
+    "goBack": "Zurück",
+    "help": "Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Support.",
+    "whoopsTitle": "Hoppla! Im Weltraum verloren?",
+    "pageNotFoundMessage": "Wir konnten die gesuchte Seite nicht finden.",
+    "suggestHome": "Lassen Sie uns Sie zurück zur Erkundung unserer hochwertigen Möbel und Matratzen bringen.",
+    "backToHome": "Zurück zur Startseite"
   },
   "reviews": {
     "title": "Vertraut von Tausenden Zufriedener Kunden",
@@ -384,6 +415,16 @@
     "brand": "DoqiSHPK",
     "subtitle": "Treten Sie unserer Gemeinschaft bei",
     "title": "Erstellen Sie Ihr Konto",
+    "nameLabel": "Vollständiger Name",
+    "namePlaceholder": "Max Mustermann",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "ihre@email.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Passwort bestätigen",
+    "errorPasswordMatch": "Passwörter stimmen nicht überein",
+    "errorPasswordLength": "Passwort muss mindestens 6 Zeichen lang sein",
+    "errorUnexpected": "Ein unerwarteter Fehler ist aufgetreten",
     "passwordHint": "Mindestens 6 Zeichen",
     "createButton": {
       "loading": "Konto wird erstellt...",
@@ -398,12 +439,55 @@
     "brand": "DoqiSHPK",
     "welcome": "Willkommen zurück",
     "title": "Melden Sie sich bei Ihrem Konto an",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "ihre@email.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "••••••••",
+    "errorUnexpected": "Ein unerwarteter Fehler ist aufgetreten",
     "loading": "Anmeldung läuft...",
     "button": "Anmelden",
     "or": "oder",
     "registerPrompt": "Haben Sie kein Konto?",
     "createHere": "Hier erstellen",
-    "backToHome": "← Zurück zur Startseite"
+    "backToHome": "← Zurück zur Startseite",
+    "errorInvalidCredentials": "Ungültige Anmeldedaten",
+    "errorAccountSuspended": "Ihr Konto wurde gesperrt. Bitte kontaktieren Sie den Support.",
+    "forgotPassword": "Passwort vergessen?"
+  },
+  "forgotPassword": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Setzen Sie Ihr Passwort zurück",
+    "title": "Passwort Vergessen",
+    "description": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts.",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "ihre@email.com",
+    "button": "Link zum Zurücksetzen senden",
+    "sending": "Senden...",
+    "backToLogin": "Zurück zur Anmeldung",
+    "backToHome": "← Zurück zur Startseite",
+    "errorUnexpected": "Ein unerwarteter Fehler ist aufgetreten",
+    "successMessage": "Wenn die E-Mail existiert, wurde ein Link gesendet"
+  },
+  "resetPassword": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Erstellen Sie ein neues Passwort",
+    "title": "Passwort Zurücksetzen",
+    "description": "Geben Sie unten Ihr neues Passwort ein.",
+    "newPasswordLabel": "Neues Passwort",
+    "newPasswordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Passwort Bestätigen",
+    "confirmPasswordPlaceholder": "••••••••",
+    "button": "Passwort Zurücksetzen",
+    "resetting": "Zurücksetzen...",
+    "backToLogin": "Zurück zur Anmeldung",
+    "backToHome": "← Zurück zur Startseite",
+    "noToken": "Kein Reset-Token angegeben",
+    "passwordMismatch": "Passwörter stimmen nicht überein",
+    "passwordTooShort": "Passwort muss mindestens 6 Zeichen lang sein",
+    "errorUnexpected": "Ein unerwarteter Fehler ist aufgetreten",
+    "redirecting": "Weiterleitung zur Anmeldung...",
+    "successMessage": "Passwort erfolgreich zurückgesetzt",
+    "errorInvalidToken": "Ungültiger oder abgelaufener Token"
   },
   "profile": {
     "loading": "Ihr Profil wird geladen...",
@@ -428,7 +512,12 @@
     "editProfile": "Profil Bearbeiten",
     "changePassword": "Passwort Ändern",
     "logout": "Abmelden",
-    "accountVerifiedText": "Ihr Konto ist verifiziert und in gutem Zustand. Sie können auf alle Plattformfunktionen zugreifen."
+    "accountVerifiedText": "Ihr Konto ist verifiziert und in gutem Zustand. Sie können auf alle Plattformfunktionen zugreifen.",
+    "currentPassword": "Aktuelles Passwort",
+    "newPassword": "Neues Passwort",
+    "save": "Speichern",
+    "saving": "Speichern...",
+    "cancel": "Abbrechen"
   },
   "ui": {
     "productsErrorLoading": "Fehler beim Laden der Produkte: {{error}}",
@@ -508,5 +597,587 @@
     "commitmentText": "Wir sind bestrebt, die höchsten Standards in Bezug auf Datenschutz und Transparenz aufrechtzuerhalten. Ihr Vertrauen ist uns wichtig.",
     "questionsTitle": "Fragen zum Datenschutz?",
     "questionsText": "Wenn Sie Fragen oder Bedenken zu unserer Datenschutzrichtlinie haben, zögern Sie nicht, uns zu kontaktieren."
+  },
+  "admin": {
+    "layout": {
+      "adminPanel": "Admin-Panel",
+      "administrator": "Administrator"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "products": "Produkte",
+      "orders": "Bestellungen",
+      "users": "Benutzer",
+      "settings": "Einstellungen"
+    },
+    "dashboard": {
+      "title": "Admin-Dashboard",
+      "welcome": "Willkommen zurück",
+      "totalUsers": "Benutzer Gesamt",
+      "activeUsers": "Aktive Benutzer",
+      "admins": "Administratoren",
+      "activeToday": "Heute Aktiv",
+      "today": "heute",
+      "suspended": "gesperrt",
+      "staff": "Mitarbeiter",
+      "loggedInToday": "heute angemeldet",
+      "quickActions": "Schnellaktionen",
+      "addProduct": "Produkt Hinzufügen",
+      "viewOrders": "Bestellungen Anzeigen",
+      "manageUsers": "Benutzer Verwalten",
+      "recentActivity": "Letzte Aktivität",
+      "noActivity": "Keine aktuelle Aktivität zum Anzeigen"
+    },
+    "products": {
+      "title": "Produktverwaltung",
+      "subtitle": "Verwalten Sie Ihren Produktkatalog",
+      "searchPlaceholder": "Produkte suchen...",
+      "allCategories": "Alle Kategorien",
+      "allStockStatus": "Alle Lagerstatus",
+      "addProduct": "Produkt Hinzufügen",
+      "showing": "Zeige {{count}} von {{total}} Produkten",
+      "featured": "Empfohlen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "pageOf": "Seite {{current}} von {{total}}",
+      "addNewProduct": "Neues Produkt Hinzufügen",
+      "editProduct": "Produkt Bearbeiten",
+      "confirmDelete": "Möchten Sie \"{{title}}\" wirklich löschen?",
+      "table": {
+        "product": "Produkt",
+        "category": "Kategorie",
+        "price": "Preis",
+        "status": "Status",
+        "actions": "Aktionen"
+      },
+      "form": {
+        "title": "Titel",
+        "description": "Beschreibung",
+        "price": "Preis (€)",
+        "origin": "Herkunft",
+        "category": "Kategorie",
+        "selectCategory": "Kategorie wählen",
+        "subCategory": "Unterkategorie",
+        "productImage": "Produktbild",
+        "imageRequirements": "Maximale Dateigröße: 5MB. Unterstützte Formate: JPEG, PNG, GIF, WebP",
+        "preview": "Vorschau",
+        "featuredProduct": "Empfohlenes Produkt",
+        "premiumLoginRequired": "Premium (Anmeldung Erforderlich)",
+        "premiumMembershipRequired": "Premium (Premium-Mitgliedschaft erforderlich)",
+        "cancel": "Abbrechen",
+        "uploading": "Hochladen...",
+        "createProduct": "Produkt Erstellen",
+        "updateProduct": "Produkt Aktualisieren",
+        "specifications": {
+          "title": "Produktspezifikationen",
+          "subtitle": "Optional - Detaillierte Produktspezifikationen hinzufügen",
+          "size": "Abmessungen/Größe",
+          "sizePlaceholder": "z.B., 200x100 cm",
+          "thickness": "Dicke",
+          "thicknessPlaceholder": "z.B., 18mm",
+          "material": "Material",
+          "materialPlaceholder": "z.B., Eiche, MDF",
+          "color": "Farbe",
+          "colorPlaceholder": "z.B., Weiß, Natur",
+          "finish": "Oberfläche",
+          "finishPlaceholder": "z.B., Matt, Glänzend",
+          "warranty": "Garantie",
+          "warrantyPlaceholder": "z.B., 2 Jahre",
+          "certification": "Zertifizierung",
+          "certificationPlaceholder": "z.B., ISO 9001, CE",
+          "density": "Dichte",
+          "densityPlaceholder": "z.B., 680-750 kg/m³",
+          "grade": "Grad/Qualität",
+          "gradePlaceholder": "z.B., A-Grad, Premium",
+          "accuracy": "Genauigkeit",
+          "accuracyPlaceholder": "z.B., ±0.1mm",
+          "turnaround": "Bearbeitungszeit",
+          "turnaroundPlaceholder": "z.B., 24-48 Stunden",
+          "maxSize": "Maximale Größe",
+          "maxSizePlaceholder": "z.B., 3050 x 1300mm",
+          "firmness": "Festigkeit",
+          "firmnessPlaceholder": "z.B., Mittelfest",
+          "height": "Höhe",
+          "heightPlaceholder": "z.B., 25cm",
+          "additional": "Zusätzliche Informationen",
+          "additionalPlaceholder": "Weitere Spezifikationen oder Details..."
+        }
+      },
+      "errors": {
+        "invalidFileType": "Ungültiger Dateityp. Nur JPEG, PNG, GIF und WebP-Bilder sind erlaubt.",
+        "fileTooLarge": "Datei zu groß. Maximale Größe ist 5MB.",
+        "titleRequired": "Produkttitel ist erforderlich",
+        "operationFailed": "{{mode}} Produkt fehlgeschlagen",
+        "deleteFailed": "Löschen des Produkts fehlgeschlagen",
+        "loadFailed": "Laden der Produkte fehlgeschlagen"
+      },
+      "success": {
+        "created": "Produkt erfolgreich erstellt!",
+        "updated": "Produkt erfolgreich aktualisiert!",
+        "deleted": "Produkt erfolgreich gelöscht!"
+      }
+    },
+    "users": {
+      "title": "Benutzerverwaltung",
+      "subtitle": "Benutzerkonten, Rollen und Berechtigungen verwalten",
+      "search": "Suchen",
+      "searchPlaceholder": "Nach Name oder E-Mail suchen...",
+      "filterByRole": "Nach Rolle Filtern",
+      "filterByStatus": "Nach Status Filtern",
+      "allRoles": "Alle Rollen",
+      "allStatuses": "Alle Status",
+      "admin": "Admin",
+      "staff": "Mitarbeiter",
+      "user": "Benutzer",
+      "premium": "Premium",
+      "active": "Aktiv",
+      "suspended": "Gesperrt",
+      "suspend": "Sperren",
+      "activate": "Aktivieren",
+      "delete": "Löschen",
+      "never": "Niemals",
+      "table": {
+        "user": "Benutzer",
+        "email": "E-Mail",
+        "role": "Rolle",
+        "status": "Status",
+        "lastLogin": "Letzte Anmeldung",
+        "actions": "Aktionen"
+      },
+      "confirmSuspend": "Sind Sie sicher, dass Sie diesen Benutzer sperren möchten?",
+      "confirmActivate": "Sind Sie sicher, dass Sie diesen Benutzer aktivieren möchten?",
+      "confirmRoleChange": "Sind Sie sicher, dass Sie die Rolle dieses Benutzers ändern möchten in",
+      "confirmDelete": "Sind Sie sicher, dass Sie diesen Benutzer löschen möchten? Dies wird ihr Konto sperren.",
+      "successSuspend": "Benutzer erfolgreich gesperrt",
+      "successActivate": "Benutzer erfolgreich aktiviert",
+      "successRoleUpdate": "Benutzerrolle erfolgreich aktualisiert",
+      "successDelete": "Benutzer erfolgreich gelöscht",
+      "errorLoad": "Benutzer konnten nicht geladen werden",
+      "errorSuspend": "Benutzer konnte nicht gesperrt werden",
+      "errorActivate": "Benutzer konnte nicht aktiviert werden",
+      "errorRoleUpdate": "Benutzerrolle konnte nicht aktualisiert werden",
+      "errorDelete": "Benutzer konnte nicht gelöscht werden",
+      "pagination": {
+        "showing": "Zeige",
+        "to": "bis",
+        "of": "von",
+        "results": "Ergebnissen",
+        "previous": "Zurück",
+        "next": "Weiter"
+      }
+    },
+    "messages": {
+      "title": "Kontaktnachrichten",
+      "subtitle": "Kundenanfragen verwalten und beantworten",
+      "loading": "Nachrichten werden geladen...",
+      "noMessages": "Keine Nachrichten gefunden",
+      "search": "Nachrichten durchsuchen...",
+      "stats": {
+        "total": "Nachrichten Gesamt",
+        "pending": "Ausstehend",
+        "solved": "Gelöst"
+      },
+      "filter": {
+        "all": "Alle",
+        "pending": "Ausstehend",
+        "solved": "Gelöst"
+      },
+      "status": {
+        "pending": "Ausstehend",
+        "solved": "Gelöst"
+      },
+      "table": {
+        "status": "Status",
+        "sender": "Absender",
+        "subject": "Betreff",
+        "date": "Datum",
+        "actions": "Aktionen"
+      },
+      "detail": {
+        "name": "Name",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "company": "Firma",
+        "date": "Empfangen Am",
+        "message": "Nachricht",
+        "solvedBy": "Gelöst Von"
+      },
+      "actions": {
+        "markSolved": "Als Gelöst Markieren",
+        "markPending": "Als Ausstehend Markieren",
+        "delete": "Löschen"
+      },
+      "confirmSolve": {
+        "title": "Als Gelöst Markieren?",
+        "message": "Sind Sie sicher, dass Sie diese Nachricht als gelöst markieren möchten?"
+      },
+      "confirmPending": {
+        "title": "Als Ausstehend Markieren?",
+        "message": "Sind Sie sicher, dass Sie diese Nachricht als ausstehend markieren möchten?"
+      },
+      "confirmDelete": {
+        "title": "Nachricht Löschen?",
+        "message": "Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher?"
+      },
+      "success": {
+        "markedSolved": "Nachricht als gelöst markiert",
+        "markedPending": "Nachricht als ausstehend markiert",
+        "deleted": "Nachricht erfolgreich gelöscht"
+      },
+      "errors": {
+        "loadFailed": "Nachrichten konnten nicht geladen werden",
+        "updateFailed": "Nachrichtenstatus konnte nicht aktualisiert werden",
+        "deleteFailed": "Nachricht konnte nicht gelöscht werden"
+      }
+    }
+  },
+  "confirmDialog": {
+    "deleteProduct": {
+      "title": "Produkt löschen",
+      "message": "Sind Sie sicher, dass Sie \"{{productTitle}}\" löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirmText": "Löschen",
+      "cancelText": "Abbrechen"
+    },
+    "suspendUser": {
+      "title": "Benutzer Sperren",
+      "message": "Sind Sie sicher, dass Sie diesen Benutzer sperren möchten?",
+      "confirmText": "Sperren",
+      "cancelText": "Abbrechen"
+    },
+    "activateUser": {
+      "title": "Benutzer Aktivieren",
+      "message": "Sind Sie sicher, dass Sie diesen Benutzer aktivieren möchten?",
+      "confirmText": "Aktivieren",
+      "cancelText": "Abbrechen"
+    },
+    "changeRole": {
+      "title": "Benutzerrolle Ändern",
+      "message": "Sind Sie sicher, dass Sie die Rolle dieses Benutzers in {{roleName}} ändern möchten?",
+      "confirmText": "Rolle Ändern",
+      "cancelText": "Abbrechen"
+    },
+    "deleteUser": {
+      "title": "Benutzer Löschen",
+      "message": "Sind Sie sicher, dass Sie diesen Benutzer löschen möchten? Dadurch wird ihr Konto gesperrt.",
+      "confirmText": "Löschen",
+      "cancelText": "Abbrechen"
+    },
+    "saveSettings": {
+      "title": "Einstellungen Speichern",
+      "message": "Sind Sie sicher, dass Sie diese Einstellungen speichern möchten? Dadurch werden Änderungen an Ihrer Website-Konfiguration übernommen.",
+      "confirmText": "Einstellungen Speichern",
+      "cancelText": "Abbrechen"
+    },
+    "resetSettings": {
+      "title": "Einstellungen Zurücksetzen",
+      "message": "Sind Sie sicher, dass Sie alle nicht gespeicherten Änderungen verwerfen möchten?",
+      "confirmText": "Zurücksetzen",
+      "cancelText": "Abbrechen"
+    }
+  },
+  "adminProducts": {
+    "title": "Produktverwaltung",
+    "subtitle": "Verwalten Sie Ihren Produktkatalog",
+    "searchPlaceholder": "Produkte suchen...",
+    "allCategories": "Alle Kategorien",
+    "allStockStatus": "Alle Lagerstatus",
+    "addProduct": "Produkt Hinzufügen",
+    "showing": "Zeige",
+    "of": "von",
+    "productsText": "Produkten",
+    "tableProduct": "Produkt",
+    "tableCategory": "Kategorie",
+    "tablePrice": "Preis",
+    "tableStatus": "Status",
+    "tableActions": "Aktionen",
+    "featured": "Hervorgehoben",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "noProductsFound": "Keine Produkte gefunden",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "page": "Seite",
+    "addNewProduct": "Neues Produkt Hinzufügen",
+    "editProduct": "Produkt Bearbeiten",
+    "titleRequired": "Titel *",
+    "description": "Beschreibung",
+    "priceEuro": "Preis (€)",
+    "origin": "Herkunft",
+    "category": "Kategorie",
+    "selectCategory": "Kategorie auswählen",
+    "subCategory": "Unterkategorie",
+    "productImage": "Produktbild",
+    "maxFileSize": "Max. Dateigröße: 5MB. Unterstützte Formate: JPEG, PNG, GIF, WebP",
+    "preview": "Vorschau:",
+    "productSpecifications": "Produktspezifikationen",
+    "optionalSpecifications": "Optional - Detaillierte Produktspezifikationen hinzufügen",
+    "dimensionsSize": "Abmessungen/Größe",
+    "thickness": "Dicke",
+    "material": "Material",
+    "color": "Farbe",
+    "finish": "Oberfläche",
+    "warranty": "Garantie",
+    "certification": "Zertifizierung",
+    "density": "Dichte",
+    "gradeQuality": "Klasse/Qualität",
+    "accuracy": "Genauigkeit",
+    "turnaroundTime": "Bearbeitungszeit",
+    "maxSize": "Max. Größe",
+    "firmness": "Festigkeit",
+    "height": "Höhe",
+    "additionalInformation": "Zusätzliche Informationen",
+    "additionalPlaceholder": "Weitere Spezifikationen oder Details...",
+    "featuredProduct": "Hervorgehobenes Produkt",
+    "premiumLoginRequired": "Premium (Anmeldung Erforderlich)",
+    "cancel": "Abbrechen",
+    "uploading": "Hochladen...",
+    "createProduct": "Produkt Erstellen",
+    "updateProduct": "Produkt Aktualisieren"
+  },
+  "careers": {
+    "hero": {
+      "title": "Treten Sie unserem Team bei",
+      "subtitle": "Bauen Sie Ihre Karriere mit einem Unternehmen auf, das Innovation, Qualität und Teamarbeit schätzt",
+      "feature1": "Wachstumsmöglichkeiten",
+      "feature2": "Großartige Teamkultur"
+    },
+    "openPositions": {
+      "title": "Offene Stellen",
+      "subtitle": "Entdecken Sie spannende Karrieremöglichkeiten und finden Sie die perfekte Rolle für Sie",
+      "noJobs": "Keine offenen Stellen",
+      "checkBack": "Derzeit haben wir keine offenen Stellen. Bitte schauen Sie später nach neuen Möglichkeiten vorbei."
+    },
+    "job": {
+      "type": "Typ",
+      "experience": "Erfahrung",
+      "salary": "Gehalt",
+      "deadline": "Bewerben bis",
+      "applyNow": "Jetzt bewerben",
+      "alreadyApplied": "Bereits Beworben",
+      "noDepartment": "Allgemein"
+    },
+    "error": {
+      "fetchFailed": "Fehler beim Laden der Stellenangebote",
+      "loginRequired": "Bitte melden Sie sich an, um sich für diese Stelle zu bewerben",
+      "pdfOnly": "Nur PDF-Dateien sind erlaubt",
+      "fileTooLarge": "Die Dateigröße muss weniger als 5MB betragen",
+      "alreadyApplied": "Sie haben sich bereits für diese Stelle beworben",
+      "cvRequired": "Lebenslauf-Datei ist erforderlich",
+      "submitFailed": "Bewerbung konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    },
+    "success": {
+      "applied": "Bewerbung erfolgreich gesendet! Wir werden Ihre Bewerbung prüfen und uns bald bei Ihnen melden."
+    },
+    "application": {
+      "title": "Bewerben Sie sich für diese Stelle",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "cv": "Lebenslauf",
+      "cvHelper": "(PDF, max 5MB)",
+      "chooseFile": "Datei auswählen",
+      "noFileChosen": "Keine Datei ausgewählt",
+      "coverLetter": "Anschreiben",
+      "coverLetterPlaceholder": "Erzählen Sie uns, warum Sie an dieser Position interessiert sind und was Sie zu einem hervorragenden Kandidaten macht...",
+      "cancel": "Abbrechen",
+      "submit": "Bewerbung absenden",
+      "submitting": "Wird gesendet..."
+    }
+  },
+  "staff": {
+    "layout": {
+      "staffPanel": "Mitarbeiterpanel",
+      "staffMember": "Mitarbeiter"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "messages": "Nachrichten",
+      "orders": "Bestellungen",
+      "products": "Produkte",
+      "jobs": "Stellenangebote",
+      "applications": "Bewerbungen"
+    },
+    "dashboard": {
+      "title": "Mitarbeiter-Dashboard",
+      "welcome": "Willkommen zurück",
+      "pendingMessages": "Ausstehende Nachrichten",
+      "totalMessages": "Gesamtnachrichten",
+      "totalProducts": "Produkte Gesamt",
+      "quickActions": "Schnellaktionen",
+      "viewOrders": "Bestellungen Anzeigen",
+      "manageProducts": "Produkte Verwalten",
+      "reports": "Berichte",
+      "recentActivity": "Letzte Aktivität",
+      "noActivity": "Keine aktuelle Aktivität anzuzeigen"
+    },
+    "products": {
+      "title": "Produktübersicht",
+      "subtitle": "Produktinventar anzeigen und überwachen",
+      "searchPlaceholder": "Produkte suchen...",
+      "noProducts": "Keine Produkte gefunden",
+      "inStock": "Auf Lager",
+      "outOfStock": "Nicht Auf Lager",
+      "showing": "Anzeigen",
+      "of": "von",
+      "products": "Produkte",
+      "stats": {
+        "total": "Gesamtprodukte",
+        "inStock": "Auf Lager",
+        "outOfStock": "Nicht Auf Lager"
+      },
+      "filter": {
+        "all": "Alle Lagerbestände",
+        "inStock": "Nur Auf Lager",
+        "outOfStock": "Nur Nicht Auf Lager"
+      },
+      "table": {
+        "product": "Produkt",
+        "category": "Kategorie",
+        "origin": "Herkunft",
+        "stock": "Lagerstatus",
+        "featured": "Empfohlen"
+      }
+    },
+    "jobs": {
+      "title": "Stellenangebote",
+      "subtitle": "Offene Stellen bei Doqi SHPK verwalten",
+      "searchPlaceholder": "Suche nach Titel, Abteilung...",
+      "addNew": "Neue Stelle Hinzufügen",
+      "loading": "Lädt...",
+      "noJobs": "Keine Stellenangebote gefunden",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "create": "Erstellen",
+      "update": "Aktualisieren",
+      "cancel": "Abbrechen",
+      "stats": {
+        "total": "Gesamt Stellen",
+        "active": "Aktive Stellen",
+        "departments": "Abteilungen"
+      },
+      "filter": {
+        "allStatus": "Alle Status",
+        "active": "Nur Aktiv",
+        "inactive": "Nur Inaktiv",
+        "allTypes": "Alle Typen"
+      },
+      "employmentType": {
+        "fullTime": "Vollzeit",
+        "partTime": "Teilzeit",
+        "contract": "Vertrag",
+        "internship": "Praktikum"
+      },
+      "status": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "table": {
+        "title": "Stellentitel",
+        "department": "Abteilung",
+        "location": "Standort",
+        "type": "Beschäftigungsart",
+        "deadline": "Bewerbungsfrist",
+        "status": "Status",
+        "actions": "Aktionen"
+      },
+      "modal": {
+        "createTitle": "Neue Stellenanzeige Erstellen",
+        "editTitle": "Stellenanzeige Bearbeiten"
+      },
+      "form": {
+        "title": "Stellentitel",
+        "department": "Abteilung",
+        "location": "Standort",
+        "employmentType": "Beschäftigungsart",
+        "experienceLevel": "Erfahrungsstufe",
+        "deadline": "Bewerbungsfrist",
+        "salaryRange": "Gehaltsspanne",
+        "salaryRangePlaceholder": "z.B., €30.000 - €45.000",
+        "isActive": "Aktive Stelle",
+        "description": "Stellenbeschreibung",
+        "responsibilities": "Verantwortlichkeiten",
+        "requirements": "Anforderungen",
+        "qualifications": "Qualifikationen",
+        "benefits": "Vorteile",
+        "selectType": "Beschäftigungsart auswählen",
+        "selectLevel": "Erfahrungsstufe auswählen",
+        "onePerLine": "Ein Element pro Zeile"
+      },
+      "experienceLevel": {
+        "entryLevel": "Einstiegsniveau",
+        "midLevel": "Mittleres Niveau",
+        "seniorLevel": "Senior-Niveau",
+        "lead": "Leitend"
+      },
+      "success": {
+        "created": "Stellenanzeige erfolgreich erstellt",
+        "updated": "Stellenanzeige erfolgreich aktualisiert",
+        "deleted": "Stellenanzeige erfolgreich gelöscht"
+      },
+      "error": {
+        "fetchFailed": "Laden der Stellenangebote fehlgeschlagen",
+        "saveFailed": "Speichern der Stellenanzeige fehlgeschlagen",
+        "deleteFailed": "Löschen der Stellenanzeige fehlgeschlagen"
+      },
+      "confirmDelete": {
+        "title": "Stellenanzeige Löschen",
+        "message": "Sind Sie sicher, dass Sie diese Stellenanzeige löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+      }
+    },
+    "applications": {
+      "title": "Bewerbungen",
+      "subtitle": "Bewerbungen überprüfen und verwalten",
+      "loading": "Bewerbungen werden geladen...",
+      "noApplications": "Keine Bewerbungen gefunden",
+      "view": "Ansehen",
+      "downloadCV": "Lebenslauf Herunterladen",
+      "applicationDetails": "Bewerbungsdetails",
+      "applicantInfo": "Bewerberinformationen",
+      "jobInfo": "Stelleninformationen",
+      "updateStatus": "Status Aktualisieren",
+      "currentStatus": "Aktueller Status",
+      "notes": "Notizen",
+      "notesPlaceholder": "Notizen zu dieser Bewerbung hinzufügen...",
+      "markReviewed": "Als Überprüft Markieren",
+      "markAccepted": "Als Angenommen Markieren",
+      "markRejected": "Als Abgelehnt Markieren",
+      "statusHistory": "Statusverlauf",
+      "reviewedAt": "Überprüft am",
+      "stats": {
+        "total": "Bewerbungen Gesamt",
+        "pending": "Ausstehend",
+        "reviewed": "Überprüft",
+        "accepted": "Angenommen",
+        "rejected": "Abgelehnt"
+      },
+      "filter": {
+        "allStatus": "Alle Status"
+      },
+      "status": {
+        "pending": "Ausstehend",
+        "reviewed": "Überprüft",
+        "accepted": "Angenommen",
+        "rejected": "Abgelehnt"
+      },
+      "table": {
+        "applicant": "Bewerber",
+        "job": "Stellenposition",
+        "contact": "Kontakt",
+        "appliedDate": "Bewerbungsdatum",
+        "status": "Status",
+        "actions": "Aktionen"
+      },
+      "success": {
+        "cvDownloaded": "Lebenslauf erfolgreich heruntergeladen",
+        "statusUpdated": "Bewerbungsstatus erfolgreich aktualisiert"
+      },
+      "error": {
+        "fetchFailed": "Laden der Bewerbungen fehlgeschlagen",
+        "cvDownloadFailed": "Herunterladen des Lebenslaufs fehlgeschlagen",
+        "statusUpdateFailed": "Aktualisierung des Status fehlgeschlagen"
+      }
+    }
   }
 }

@@ -5,58 +5,79 @@ import { useFavorites } from '../../context/FavoritesContext'
 import { HeartIcon, ArrowLeftIcon, MapPinIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid'
 import SimilarProducts from '../../components/SimilarProducts'
+import { getPublicProductById, getPublicProducts } from '../../services/productService'
 
 const ProductDetails = () => {
   const { t } = useTranslation()
-  const { slug } = useParams()
+  const { id } = useParams()
   const location = useLocation()
   const navigate = useNavigate()
   const { toggleFavorite, isFavorite } = useFavorites()
   const [product, setProduct] = useState(null)
   const [loading, setLoading] = useState(true)
   const [allProducts, setAllProducts] = useState([])
+  const [accessBlocked, setAccessBlocked] = useState({ blocked: false, type: null })
 
   useEffect(() => {
     const loadProduct = async () => {
       try {
         setLoading(true)
+        setAccessBlocked({ blocked: false, type: null })
         
-        // Always fetch all products for similar products section
-        const response = await fetch('/products.json')
-        if (!response.ok) {
-          throw new Error('Failed to fetch products')
-        }
-        const data = await response.json()
-        const products = data.products || []
-        setAllProducts(products)
+        // Fetch all products for similar products section
+        const productsData = await getPublicProducts(1, 500, {})
+        setAllProducts(productsData.products || [])
 
-        // Use product from location state if available
+        // Check if product was passed via state
         if (location.state?.product) {
           setProduct(location.state.product)
           setLoading(false)
           return
         }
 
-        // Find product by matching slug
-        const foundProduct = products.find(p => {
-          const productSlug = p.title
+        // If ID is numeric, fetch by ID
+        if (!isNaN(id)) {
+          const productData = await getPublicProductById(id)
+          setProduct(productData)
+          setLoading(false)
+          return
+        }
+
+        // If ID is a slug, find the product in the fetched products
+        const foundProduct = productsData.products.find(p => {
+          const slug = p.title
             .toLowerCase()
             .replace(/[^a-z0-9\s-]/g, '')
             .replace(/\s+/g, '-')
             .replace(/-+/g, '-')
             .trim()
-          return productSlug === slug
+          return slug === id
         })
 
-        setProduct(foundProduct || null)
+        if (foundProduct) {
+          setProduct(foundProduct)
+        } else {
+          setProduct(null)
+        }
         setLoading(false)
       } catch (error) {
+        console.error('Error loading product:', error)
+        // Check if it's an access error (403)
+        if (error.response && error.response.status === 403) {
+          const errorData = error.response.data
+          if (errorData.requiresPremium) {
+            setAccessBlocked({ blocked: true, type: 'premium' })
+          } else if (errorData.requiresLogin) {
+            setAccessBlocked({ blocked: true, type: 'login' })
+          }
+        }
+        setProduct(null)
         setLoading(false)
       }
     }
 
     loadProduct()
-  }, [slug, location.state])
+  }, [id, location.state])
 
   if (loading) {
     return (
@@ -64,6 +85,42 @@ const ProductDetails = () => {
         <div className="text-center">
           <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600"></div>
           <p className="mt-4 text-gray-600">{t('productDetails.loading')}</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (accessBlocked.blocked) {
+    const isPremium = accessBlocked.type === 'premium'
+    const titleKey = isPremium ? 'productDetails.premiumProduct.title' : 'productDetails.loginRequired.title'
+    const descKey = isPremium ? 'productDetails.premiumProduct.description' : 'productDetails.loginRequired.description'
+    
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-red-50/30">
+        <div className="text-center max-w-md mx-auto px-4">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-10 border border-gray-200/50 shadow-xl">
+            <div className="bg-red-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg className="w-10 h-10 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+            </div>
+            <h1 className="text-2xl font-bold text-gray-900 mb-3">{t(titleKey)}</h1>
+            <p className="text-gray-600 mb-6">{t(descKey)}</p>
+            <div className="flex gap-3 justify-center">
+              <Link 
+                to="/login"
+                className="bg-red-600 text-white px-6 py-3 rounded-xl hover:bg-red-700 transition-colors font-semibold"
+              >
+                {t('productDetails.premiumProduct.loginButton')}
+              </Link>
+              <Link 
+                to="/products"
+                className="bg-gray-200 text-gray-700 px-6 py-3 rounded-xl hover:bg-gray-300 transition-colors font-semibold"
+              >
+                {t('productDetails.premiumProduct.backButton')}
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     )

@@ -1,10 +1,16 @@
-{
+﻿{
   "nav": {
     "home": "Home",
     "about": "About",
     "products": "Products",
     "contact": "Contact",
-    "starflex": "StarFlex"
+    "starflex": "StarFlex",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "adminDashboard": "Admin Dashboard",
+    "staffDashboard": "Staff Dashboard"
   },
   "hero": {
     "title": "Quality You Can Trust,",
@@ -69,7 +75,12 @@
     "productsFound": "products found",
     "tryAdjusting": "Try adjusting your search or filter to find what you're looking for.",
     "clearAllFilters": "Clear All Filters",
-    "browseAll": "Browse All Products"
+    "browseAll": "Browse All Products",
+    "premium": "Premium",
+    "premiumProduct": "Premium Product",
+    "loginRequired": "Login Required",
+    "premiumContentMessage": "This is a premium product. Please login to view details.",
+    "loginToView": "Login to View"
   },
   "about": {
     "title": "About DoqiSHPK",
@@ -125,6 +136,11 @@
     "partners": {
       "title": "Our Trusted Partners",
       "subtitle": "We collaborate with industry-leading companies to deliver exceptional quality and innovation"
+    },
+    "careers": {
+      "title": "Join Our Team",
+      "description": "We're always looking for talented individuals to join our growing team. Explore career opportunities at DoqiSHPK.",
+      "viewPositions": "View Open Positions"
     }
   },
   "contact": {
@@ -150,6 +166,7 @@
     "sending": "Sending...",
     "successTitle": "Message Sent Successfully!",
     "successMessage": "Thank you for contacting us. We will respond within 24 hours.",
+    "errorMessage": "Failed to send message. Please try again.",
     "whyContactUs": "Why Contact Us?",
     "reason1": "Expert advice on product selection",
     "reason2": "Competitive pricing for bulk orders",
@@ -186,6 +203,7 @@
     "copyright": "© 2025 DoqiSHPK. All rights reserved."
   },
   "common": {
+    "all": "All",
     "price": "Price",
     "category": "Category",
     "stock": "Stock",
@@ -219,6 +237,18 @@
     "technicalSpecs": "Technical Specifications",
     "keyFeatures": "Key Features",
     "applications": "Applications",
+    "premiumProduct": {
+      "title": "Premium Product",
+      "description": "This product is exclusively available to premium members. Please upgrade your account to view details.",
+      "loginButton": "Log In",
+      "backButton": "Back to Products"
+    },
+    "loginRequired": {
+      "title": "Login Required",
+      "description": "This product is only available to registered users. Please log in or create an account to view details.",
+      "loginButton": "Log In",
+      "backButton": "Back to Products"
+    },
     "features": {
       "premiumMaterial": "Premium Material",
       "surfaceFinish": "Surface Finish",
@@ -273,7 +303,14 @@
     "funFactLabel": "Did you know?",
     "funFact": "DoqiSHPK specializes in high-quality Compact HPL products and mattresses. Explore our collection to find the perfect piece for your space!",
     "keyboardHint": "Press",
-    "keyboardHintAction": "to go home"
+    "keyboardHintAction": "to go home",
+    "goHome": "Go to Homepage",
+    "goBack": "Go Back",
+    "help": "If you believe this is a mistake, please contact support.",
+    "whoopsTitle": "Whoops! Lost in Space?",
+    "pageNotFoundMessage": "We couldn't find the page you're looking for.",
+    "suggestHome": "Let's get you back to exploring our quality furniture and mattresses.",
+    "backToHome": "Back to Home"
   },
   "reviews": {
     "title": "Trusted by Thousands of Happy Customers",
@@ -381,6 +418,13 @@
     "brand": "DoqiSHPK",
     "subtitle": "Join our community",
     "title": "Create Your Account",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Confirm Password",
     "passwordHint": "At least 6 characters",
     "createButton": {
       "loading": "Creating Account...",
@@ -389,18 +433,64 @@
     "or": "or",
     "loginPrompt": "Already have an account?",
     "loginHere": "Login here",
-    "backToHome": "← Back to Home"
+    "backToHome": "← Back to Home",
+    "errorPasswordMatch": "Passwords do not match",
+    "errorPasswordLength": "Password must be at least 6 characters long",
+    "errorUnexpected": "An unexpected error occurred"
   },
   "login": {
     "brand": "DoqiSHPK",
     "welcome": "Welcome back",
     "title": "Login to Your Account",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
     "loading": "Logging in...",
     "button": "Login",
     "or": "or",
     "registerPrompt": "Don't have an account?",
     "createHere": "Create one here",
-    "backToHome": "← Back to Home"
+    "backToHome": "← Back to Home",
+    "errorUnexpected": "An unexpected error occurred",
+    "errorInvalidCredentials": "Invalid credentials",
+    "errorAccountSuspended": "Your account has been suspended. Please contact support.",
+    "forgotPassword": "Forgot password?"
+  },
+  "forgotPassword": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Reset your password",
+    "title": "Forgot Password",
+    "description": "Enter your email address and we'll send you a link to reset your password.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "button": "Send Reset Link",
+    "sending": "Sending...",
+    "backToLogin": "Back to Login",
+    "backToHome": "← Back to Home",
+    "errorUnexpected": "An unexpected error occurred",
+    "successMessage": "If the email exists, a password reset link has been sent"
+  },
+  "resetPassword": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Create a new password",
+    "title": "Reset Password",
+    "description": "Enter your new password below.",
+    "newPasswordLabel": "New Password",
+    "newPasswordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "••••••••",
+    "button": "Reset Password",
+    "resetting": "Resetting...",
+    "backToLogin": "Back to Login",
+    "backToHome": "← Back to Home",
+    "noToken": "No reset token provided",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 6 characters long",
+    "errorUnexpected": "An unexpected error occurred",
+    "redirecting": "Redirecting to login...",
+    "successMessage": "Password reset successful",
+    "errorInvalidToken": "Invalid or expired reset token"
   },
   "profile": {
     "loading": "Loading your profile...",
@@ -425,7 +515,12 @@
     "editProfile": "Edit Profile",
     "changePassword": "Change Password",
     "logout": "Logout",
-    "accountVerifiedText": "Your account is verified and in good standing. You can access all platform features."
+    "accountVerifiedText": "Your account is verified and in good standing. You can access all platform features.",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel"
   },
   "ui": {
     "productsErrorLoading": "Error loading products: {{error}}",
@@ -505,5 +600,657 @@
     "commitmentText": "We are committed to maintaining the highest standards of privacy and transparency. Your trust is important to us.",
     "questionsTitle": "Questions About Privacy?",
     "questionsText": "If you have any questions or concerns about our Privacy Policy, feel free to reach out to us."
+  },
+  "admin": {
+    "layout": {
+      "adminPanel": "Admin Panel",
+      "administrator": "Administrator"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "orders": "Orders",
+      "users": "Users",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "welcome": "Welcome back",
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users",
+      "admins": "Admins",
+      "activeToday": "Active Today",
+      "totalOrders": "Total Orders",
+      "totalProducts": "Total Products",
+      "revenue": "Revenue",
+      "today": "today",
+      "suspended": "suspended",
+      "staff": "staff",
+      "loggedInToday": "logged in today",
+      "quickActions": "Quick Actions",
+      "addProduct": "Add Product",
+      "viewOrders": "View Orders",
+      "manageUsers": "Manage Users",
+      "recentActivity": "Recent Activity",
+      "noActivity": "No recent activity to display",
+      "activityUserRegistered": "{{name}} registered",
+      "activityContactMessage": "{{name}} sent a message",
+      "activityJobApplication": "{{name}} applied for a job"
+    },
+    "products": {
+      "title": "Product Management",
+      "subtitle": "Manage your product catalog",
+      "searchPlaceholder": "Search products...",
+      "allCategories": "All Categories",
+      "allStockStatus": "All Stock Status",
+      "addProduct": "Add Product",
+      "showing": "Showing {{count}} of {{total}} products",
+      "featured": "Featured",
+      "edit": "Edit",
+      "delete": "Delete",
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {{current}} of {{total}}",
+      "addNewProduct": "Add New Product",
+      "editProduct": "Edit Product",
+      "confirmDelete": "Are you sure you want to delete \"{{title}}\"?",
+      "table": {
+        "product": "Product",
+        "category": "Category",
+        "price": "Price",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "form": {
+        "title": "Title",
+        "description": "Description",
+        "price": "Price (€)",
+        "origin": "Origin",
+        "category": "Category",
+        "selectCategory": "Select category",
+        "subCategory": "Sub Category",
+        "selectSubCategory": "Select sub category",
+        "productImage": "Product Image",
+        "imageRequirements": "Max file size: 5MB. Supported formats: JPEG, PNG, GIF, WebP",
+        "preview": "Preview",
+        "featuredProduct": "Featured Product",
+        "loginRequired": "Login Required (Visible only to logged-in users)",
+        "premiumMembershipRequired": "Premium (Premium Membership Required)",
+        "cancel": "Cancel",
+        "uploading": "Uploading...",
+        "createProduct": "Create Product",
+        "updateProduct": "Update Product",
+        "specifications": {
+          "title": "Product Specifications",
+          "subtitle": "Optional - Add detailed product specifications",
+          "size": "Dimensions/Size",
+          "sizePlaceholder": "e.g., 200x100 cm",
+          "thickness": "Thickness",
+          "thicknessPlaceholder": "e.g., 18mm",
+          "material": "Material",
+          "materialPlaceholder": "e.g., Oak, MDF",
+          "color": "Color",
+          "colorPlaceholder": "e.g., White, Natural",
+          "finish": "Finish",
+          "finishPlaceholder": "e.g., Matte, Glossy",
+          "warranty": "Warranty",
+          "warrantyPlaceholder": "e.g., 2 years",
+          "certification": "Certification",
+          "certificationPlaceholder": "e.g., ISO 9001, CE",
+          "density": "Density",
+          "densityPlaceholder": "e.g., 680-750 kg/m³",
+          "grade": "Grade/Quality",
+          "gradePlaceholder": "e.g., A-Grade, Premium",
+          "accuracy": "Accuracy",
+          "accuracyPlaceholder": "e.g., ±0.1mm",
+          "turnaround": "Turnaround Time",
+          "turnaroundPlaceholder": "e.g., 24-48 hours",
+          "maxSize": "Max Size",
+          "maxSizePlaceholder": "e.g., 3050 x 1300mm",
+          "firmness": "Firmness",
+          "firmnessPlaceholder": "e.g., Medium-Firm",
+          "height": "Height",
+          "heightPlaceholder": "e.g., 25cm",
+          "additional": "Additional Information",
+          "additionalPlaceholder": "Any other specifications or details..."
+        }
+      },
+      "errors": {
+        "invalidFileType": "Invalid file type. Only JPEG, PNG, GIF and WebP images are allowed.",
+        "fileTooLarge": "File size too large. Maximum size is 5MB.",
+        "titleRequired": "Product title is required",
+        "operationFailed": "Failed to {{mode}} product",
+        "deleteFailed": "Failed to delete product",
+        "loadFailed": "Failed to load products"
+      },
+      "success": {
+        "created": "Product created successfully!",
+        "updated": "Product updated successfully!",
+        "deleted": "Product deleted successfully!"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "subtitle": "Manage user accounts, roles, and permissions",
+      "search": "Search",
+      "searchPlaceholder": "Search by name or email...",
+      "filterByRole": "Filter by Role",
+      "filterByStatus": "Filter by Status",
+      "allRoles": "All Roles",
+      "allStatuses": "All Statuses",
+      "admin": "Admin",
+      "staff": "Staff",
+      "user": "User",
+      "premium": "Premium",
+      "active": "Active",
+      "suspended": "Suspended",
+      "suspend": "Suspend",
+      "activate": "Activate",
+      "delete": "Delete",
+      "never": "Never",
+      "table": {
+        "user": "User",
+        "email": "Email",
+        "role": "Role",
+        "status": "Status",
+        "lastLogin": "Last Login",
+        "actions": "Actions"
+      },
+      "confirmSuspend": "Are you sure you want to suspend this user?",
+      "confirmActivate": "Are you sure you want to activate this user?",
+      "confirmRoleChange": "Are you sure you want to change this user's role to",
+      "confirmDelete": "Are you sure you want to delete this user? This will suspend their account.",
+      "successSuspend": "User suspended successfully",
+      "successActivate": "User activated successfully",
+      "successRoleUpdate": "User role updated successfully",
+      "successDelete": "User deleted successfully",
+      "errorLoad": "Failed to load users",
+      "errorSuspend": "Failed to suspend user",
+      "errorActivate": "Failed to activate user",
+      "errorRoleUpdate": "Failed to update user role",
+      "errorDelete": "Failed to delete user",
+      "pagination": {
+        "showing": "Showing",
+        "to": "to",
+        "of": "of",
+        "results": "results",
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "settings": {
+      "title": "Admin Settings",
+      "subtitle": "Manage your site configuration and preferences",
+      "save": "Save Settings",
+      "saving": "Saving...",
+      "reset": "Reset",
+      "saveChanges": "Save Changes",
+      "discard": "Discard",
+      "unsavedChanges": "You have unsaved changes",
+      "unsavedChangesDesc": "Don't forget to save your changes before leaving this page",
+      "general": {
+        "title": "General Settings",
+        "siteName": "Site Name",
+        "siteDescription": "Site Description",
+        "contactEmail": "Contact Email",
+        "contactPhone": "Contact Phone"
+      },
+      "business": {
+        "title": "Business Settings",
+        "currency": "Currency",
+        "taxRate": "Tax Rate",
+        "shippingFee": "Shipping Fee",
+        "freeShippingThreshold": "Free Shipping Threshold"
+      },
+      "email": {
+        "title": "Email Notifications",
+        "emailNotifications": "Enable Email Notifications",
+        "emailNotificationsDesc": "Receive email notifications for important events",
+        "orderNotifications": "Order Notifications",
+        "orderNotificationsDesc": "Get notified when new orders are placed",
+        "newUserNotifications": "New User Notifications",
+        "newUserNotificationsDesc": "Get notified when new users register"
+      },
+      "products": {
+        "title": "Product Settings",
+        "productsPerPage": "Products Per Page",
+        "maxImageSize": "Maximum Image Size",
+        "allowReviews": "Allow Product Reviews",
+        "allowReviewsDesc": "Enable customers to leave product reviews",
+        "moderateReviews": "Moderate Reviews",
+        "moderateReviewsDesc": "Require admin approval before reviews are published"
+      },
+      "security": {
+        "title": "Security Settings",
+        "requireEmailVerification": "Require Email Verification",
+        "requireEmailVerificationDesc": "Users must verify their email before accessing the site",
+        "sessionTimeout": "Session Timeout",
+        "maxLoginAttempts": "Maximum Login Attempts"
+      },
+      "maintenance": {
+        "title": "Maintenance Mode",
+        "maintenanceMode": "Enable Maintenance Mode",
+        "maintenanceModeDesc": "Put the site in maintenance mode (only admins can access)",
+        "maintenanceMessage": "Maintenance Message"
+      },
+      "success": {
+        "saved": "Settings saved successfully!",
+        "reset": "Settings reset to last saved state"
+      },
+      "errors": {
+        "saveFailed": "Failed to save settings"
+      }
+    },
+    "messages": {
+      "title": "Contact Messages",
+      "subtitle": "Manage and respond to customer inquiries",
+      "loading": "Loading messages...",
+      "noMessages": "No messages found",
+      "search": "Search messages...",
+      "stats": {
+        "total": "Total Messages",
+        "pending": "Pending",
+        "solved": "Resolved"
+      },
+      "filter": {
+        "all": "All",
+        "pending": "Pending",
+        "solved": "Resolved"
+      },
+      "status": {
+        "pending": "Pending",
+        "solved": "Resolved"
+      },
+      "table": {
+        "status": "Status",
+        "sender": "Sender",
+        "subject": "Subject",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "detail": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "company": "Company",
+        "date": "Received On",
+        "message": "Message",
+        "solvedBy": "Resolved By"
+      },
+      "actions": {
+        "markSolved": "Mark as Resolved",
+        "markPending": "Mark as Pending",
+        "delete": "Delete"
+      },
+      "confirmSolve": {
+        "title": "Mark as Resolved?",
+        "message": "Are you sure you want to mark this message as resolved?"
+      },
+      "confirmPending": {
+        "title": "Mark as Pending?",
+        "message": "Are you sure you want to mark this message as pending?"
+      },
+      "confirmDelete": {
+        "title": "Delete Message?",
+        "message": "This action cannot be undone. Are you sure?"
+      },
+      "success": {
+        "markedSolved": "Message marked as resolved",
+        "markedPending": "Message marked as pending",
+        "deleted": "Message deleted successfully"
+      },
+      "errors": {
+        "loadFailed": "Failed to load messages",
+        "updateFailed": "Failed to update message status",
+        "deleteFailed": "Failed to delete message"
+      }
+    }
+  },
+  "confirmDialog": {
+    "deleteProduct": {
+      "title": "Delete Product",
+      "message": "Are you sure you want to delete \"{{productTitle}}\"? This action cannot be undone.",
+      "confirmText": "Delete",
+      "cancelText": "Cancel"
+    },
+    "suspendUser": {
+      "title": "Suspend User",
+      "message": "Are you sure you want to suspend this user?",
+      "confirmText": "Suspend",
+      "cancelText": "Cancel"
+    },
+    "activateUser": {
+      "title": "Activate User",
+      "message": "Are you sure you want to activate this user?",
+      "confirmText": "Activate",
+      "cancelText": "Cancel"
+    },
+    "changeRole": {
+      "title": "Change User Role",
+      "message": "Are you sure you want to change this user's role to {{roleName}}?",
+      "confirmText": "Change Role",
+      "cancelText": "Cancel"
+    },
+    "deleteUser": {
+      "title": "Delete User",
+      "message": "Are you sure you want to delete this user? This will suspend their account.",
+      "confirmText": "Delete",
+      "cancelText": "Cancel"
+    },
+    "saveSettings": {
+      "title": "Save Settings",
+      "message": "Are you sure you want to save these settings? This will apply changes to your site configuration.",
+      "confirmText": "Save Settings",
+      "cancelText": "Cancel"
+    },
+    "resetSettings": {
+      "title": "Reset Settings",
+      "message": "Are you sure you want to discard all unsaved changes?",
+      "confirmText": "Reset",
+      "cancelText": "Cancel"
+    }
+  },
+  "adminProducts": {
+    "title": "Product Management",
+    "subtitle": "Manage your product catalog",
+    "searchPlaceholder": "Search products...",
+    "allCategories": "All Categories",
+    "allStockStatus": "All Stock Status",
+    "addProduct": "Add Product",
+    "showing": "Showing",
+    "of": "of",
+    "productsText": "products",
+    "tableProduct": "Product",
+    "tableCategory": "Category",
+    "tablePrice": "Price",
+    "tableStatus": "Status",
+    "tableActions": "Actions",
+    "featured": "Featured",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noProductsFound": "No products found",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "addNewProduct": "Add New Product",
+    "editProduct": "Edit Product",
+    "titleRequired": "Title *",
+    "description": "Description",
+    "priceEuro": "Price (€)",
+    "origin": "Origin",
+    "category": "Category",
+    "selectCategory": "Select category",
+    "subCategory": "Sub Category",
+    "productImage": "Product Image",
+    "maxFileSize": "Max file size: 5MB. Supported formats: JPEG, PNG, GIF, WebP",
+    "preview": "Preview:",
+    "productSpecifications": "Product Specifications",
+    "optionalSpecifications": "Optional - Add detailed product specifications",
+    "dimensionsSize": "Dimensions/Size",
+    "thickness": "Thickness",
+    "material": "Material",
+    "color": "Color",
+    "finish": "Finish",
+    "warranty": "Warranty",
+    "certification": "Certification",
+    "density": "Density",
+    "gradeQuality": "Grade/Quality",
+    "accuracy": "Accuracy",
+    "turnaroundTime": "Turnaround Time",
+    "maxSize": "Max Size",
+    "firmness": "Firmness",
+    "height": "Height",
+    "additionalInformation": "Additional Information",
+    "additionalPlaceholder": "Any other specifications or details...",
+    "featuredProduct": "Featured Product",
+    "premiumLoginRequired": "Premium (Login Required)",
+    "cancel": "Cancel",
+    "uploading": "Uploading...",
+    "createProduct": "Create Product",
+    "updateProduct": "Update Product"
+  },
+  "careers": {
+    "hero": {
+      "title": "Join Our Team",
+      "subtitle": "Build your career with a company that values innovation, quality, and teamwork",
+      "feature1": "Growth Opportunities",
+      "feature2": "Great Team Culture"
+    },
+    "openPositions": {
+      "title": "Open Positions",
+      "subtitle": "Discover exciting career opportunities and find the perfect role for you",
+      "noJobs": "No Open Positions",
+      "checkBack": "We don't have any open positions at the moment. Please check back later for new opportunities."
+    },
+    "job": {
+      "type": "Type",
+      "experience": "Experience",
+      "salary": "Salary",
+      "deadline": "Apply By",
+      "applyNow": "Apply Now",
+      "alreadyApplied": "Already Applied",
+      "noDepartment": "General"
+    },
+    "error": {
+      "fetchFailed": "Failed to load job positions",
+      "loginRequired": "Please login to apply for this position",
+      "pdfOnly": "Only PDF files are allowed",
+      "fileTooLarge": "File size must be less than 5MB",
+      "alreadyApplied": "You have already applied for this position",
+      "cvRequired": "CV file is required",
+      "submitFailed": "Failed to submit application. Please try again."
+    },
+    "success": {
+      "applied": "Application submitted successfully! We will review your application and contact you soon."
+    },
+    "application": {
+      "title": "Apply for this Position",
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "cv": "CV / Resume",
+      "cvHelper": "(PDF, max 5MB)",
+      "chooseFile": "Choose File",
+      "noFileChosen": "No file chosen",
+      "coverLetter": "Cover Letter",
+      "coverLetterPlaceholder": "Tell us why you're interested in this position and what makes you a great fit...",
+      "cancel": "Cancel",
+      "submit": "Submit Application",
+      "submitting": "Submitting..."
+    }
+  },
+  "staff": {
+    "layout": {
+      "staffPanel": "Staff Panel",
+      "staffMember": "Staff Member"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "messages": "Messages",
+      "orders": "Orders",
+      "products": "Products",
+      "jobs": "Job Positions",
+      "applications": "Applications"
+    },
+    "dashboard": {
+      "title": "Staff Dashboard",
+      "welcome": "Welcome back",
+      "pendingMessages": "Pending Messages",
+      "totalMessages": "Total Messages",
+      "totalProducts": "Total Products",
+      "quickActions": "Quick Actions",
+      "viewOrders": "View Orders",
+      "manageProducts": "Manage Products",
+      "reports": "Reports",
+      "recentActivity": "Recent Activity",
+      "noActivity": "No recent activity to display"
+    },
+    "products": {
+      "title": "Products Overview",
+      "subtitle": "View and monitor product inventory",
+      "searchPlaceholder": "Search products...",
+      "noProducts": "No products found",
+      "inStock": "In Stock",
+      "outOfStock": "Out of Stock",
+      "showing": "Showing",
+      "of": "of",
+      "products": "products",
+      "stats": {
+        "total": "Total Products",
+        "inStock": "In Stock",
+        "outOfStock": "Out of Stock"
+      },
+      "filter": {
+        "all": "All Stock Status",
+        "inStock": "In Stock Only",
+        "outOfStock": "Out of Stock Only"
+      },
+      "table": {
+        "product": "Product",
+        "category": "Category",
+        "origin": "Origin",
+        "stock": "Stock Status",
+        "featured": "Featured"
+      }
+    },
+    "jobs": {
+      "title": "Job Positions",
+      "subtitle": "Manage open positions at Doqi SHPK",
+      "searchPlaceholder": "Search by title, department...",
+      "addNew": "Add New Position",
+      "loading": "Loading...",
+      "noJobs": "No job positions found",
+      "edit": "Edit",
+      "delete": "Delete",
+      "create": "Create",
+      "update": "Update",
+      "cancel": "Cancel",
+      "stats": {
+        "total": "Total Positions",
+        "active": "Active Positions",
+        "departments": "Departments"
+      },
+      "filter": {
+        "allStatus": "All Status",
+        "active": "Active Only",
+        "inactive": "Inactive Only",
+        "allTypes": "All Types"
+      },
+      "employmentType": {
+        "fullTime": "Full-time",
+        "partTime": "Part-time",
+        "contract": "Contract",
+        "internship": "Internship"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "table": {
+        "title": "Job Title",
+        "department": "Department",
+        "location": "Location",
+        "type": "Employment Type",
+        "deadline": "Application Deadline",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "modal": {
+        "createTitle": "Create New Job Position",
+        "editTitle": "Edit Job Position"
+      },
+      "form": {
+        "title": "Job Title",
+        "department": "Department",
+        "location": "Location",
+        "employmentType": "Employment Type",
+        "experienceLevel": "Experience Level",
+        "deadline": "Application Deadline",
+        "salaryRange": "Salary Range",
+        "salaryRangePlaceholder": "e.g., €30,000 - €45,000",
+        "isActive": "Active Position",
+        "description": "Job Description",
+        "responsibilities": "Responsibilities",
+        "requirements": "Requirements",
+        "qualifications": "Qualifications",
+        "benefits": "Benefits",
+        "selectType": "Select employment type",
+        "selectLevel": "Select experience level",
+        "onePerLine": "One item per line"
+      },
+      "experienceLevel": {
+        "entryLevel": "Entry Level",
+        "midLevel": "Mid Level",
+        "seniorLevel": "Senior Level",
+        "lead": "Lead"
+      },
+      "success": {
+        "created": "Job position created successfully",
+        "updated": "Job position updated successfully",
+        "deleted": "Job position deleted successfully"
+      },
+      "error": {
+        "fetchFailed": "Failed to load job positions",
+        "saveFailed": "Failed to save job position",
+        "deleteFailed": "Failed to delete job position"
+      },
+      "confirmDelete": {
+        "title": "Delete Job Position",
+        "message": "Are you sure you want to delete this job position? This action cannot be undone."
+      }
+    },
+    "applications": {
+      "title": "Job Applications",
+      "subtitle": "Review and manage job applications",
+      "loading": "Loading applications...",
+      "noApplications": "No applications found",
+      "view": "View",
+      "downloadCV": "Download CV",
+      "applicationDetails": "Application Details",
+      "applicantInfo": "Applicant Information",
+      "jobInfo": "Job Information",
+      "updateStatus": "Update Status",
+      "currentStatus": "Current Status",
+      "notes": "Notes",
+      "notesPlaceholder": "Add notes about this application...",
+      "markReviewed": "Mark as Reviewed",
+      "markAccepted": "Mark as Accepted",
+      "markRejected": "Mark as Rejected",
+      "statusHistory": "Status History",
+      "reviewedAt": "Reviewed at",
+      "stats": {
+        "total": "Total Applications",
+        "pending": "Pending",
+        "reviewed": "Reviewed",
+        "accepted": "Accepted",
+        "rejected": "Rejected"
+      },
+      "filter": {
+        "allStatus": "All Status"
+      },
+      "status": {
+        "pending": "Pending",
+        "reviewed": "Reviewed",
+        "accepted": "Accepted",
+        "rejected": "Rejected"
+      },
+      "table": {
+        "applicant": "Applicant",
+        "job": "Job Position",
+        "contact": "Contact",
+        "appliedDate": "Applied Date",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "success": {
+        "cvDownloaded": "CV downloaded successfully",
+        "statusUpdated": "Application status updated successfully"
+      },
+      "error": {
+        "fetchFailed": "Failed to load applications",
+        "cvDownloadFailed": "Failed to download CV",
+        "statusUpdateFailed": "Failed to update application status"
+      }
+    }
   }
 }

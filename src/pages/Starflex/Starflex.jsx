@@ -29,7 +29,6 @@ const Starflex = () => {
         const mattresses = data.products.filter(product => product.category === 'mattress')
         setMattressProducts(mattresses)
       } catch (err) {
-        console.error('Error fetching mattress products:', err)
       } finally {
         setLoading(false)
       }

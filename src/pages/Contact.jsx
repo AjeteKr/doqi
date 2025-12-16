@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import contactService from '../services/contactService'
+import Toast from '../components/Toast'
 import { 
   MapPinIcon, 
   PhoneIcon, 
@@ -7,7 +9,8 @@ import {
   ClockIcon,
   CheckCircleIcon,
   UserIcon,
-  BuildingOfficeIcon
+  BuildingOfficeIcon,
+  ExclamationTriangleIcon
 } from '@heroicons/react/24/outline'
 
 const Contact = () => {
@@ -22,6 +25,7 @@ const Contact = () => {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitSuccess, setSubmitSuccess] = useState(false)
+  const [toast, setToast] = useState({ show: false, message: '', type: 'success' })
 
   const handleChange = (e) => {
     setFormData({
@@ -30,14 +34,21 @@ const Contact = () => {
     })
   }
 
+  const showToast = (message, type = 'success') => {
+    setToast({ show: true, message, type })
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false)
+    try {
+      await contactService.submitMessage(formData)
+      
       setSubmitSuccess(true)
+      showToast(t('contact.successMessage'), 'success')
+      
+      // Reset form
       setFormData({
         name: '',
         email: '',
@@ -51,7 +62,12 @@ const Contact = () => {
       setTimeout(() => {
         setSubmitSuccess(false)
       }, 5000)
-    }, 1500)
+    } catch (error) {
+      console.error('Error submitting contact form:', error)
+      showToast(t('contact.errorMessage'), 'error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const contactInfo = [
@@ -65,9 +81,9 @@ const Contact = () => {
     {
       icon: PhoneIcon,
       title: t('contact.phone'),
-      content: '+377 44 82 75 54',
-      details: '+377 44 82 75 54',
-      link: 'tel:+37744827554'
+      content: '+383 44 22 74 19',
+      details: '+383 44 82 75 54',
+      link: 'tel:+38344227419'
     },
     {
       icon: EnvelopeIcon,
@@ -86,6 +102,12 @@ const Contact = () => {
   ]
   return (
     <div className="min-h-screen bg-gray-50">
+      <Toast
+        show={toast.show}
+        message={toast.message}
+        type={toast.type}
+        onClose={() => setToast({ ...toast, show: false })}
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-red-600 via-red-700 to-red-800 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -210,7 +232,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
-                      {t('contact.phone')}
+                      {t('contact.phone')} <span className="text-red-500">*</span>
                     </label>
                     <div className="relative">
                       <PhoneIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
@@ -220,6 +242,7 @@ const Contact = () => {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
+                        required
                         className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                         placeholder="+383 XX XXX XXX"
                       />

@@ -1,30 +1,20 @@
-import axios from 'axios';
-
-// VITE_API_URL is base URL without /api, so we add it here
-const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-const API_URL = `${baseURL}/api`;
+import axios from '../api';
 
 // Get product statistics
 export const getProductStats = async () => {
-  const token = localStorage.getItem('token');
-  const response = await axios.get(`${API_URL}/admin/products/stats`, {
-    headers: { Authorization: `Bearer ${token}` }
-  });
+  const response = await axios.get('/admin/products/stats');
   return response.data;
 };
 
 // Get all products with pagination and filters
 export const getAllProducts = async (page = 1, limit = 20, filters = {}) => {
-  const token = localStorage.getItem('token');
   const params = new URLSearchParams({
     page: page.toString(),
     limit: limit.toString(),
     ...filters
   });
   
-  const response = await axios.get(`${API_URL}/admin/products?${params}`, {
-    headers: { Authorization: `Bearer ${token}` }
-  });
+  const response = await axios.get(`/admin/products?${params}`);
   return response.data;
 };
 

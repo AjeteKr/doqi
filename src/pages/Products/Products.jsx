@@ -66,21 +66,18 @@ const Products = () => {
     }
   ]
 
-  // Load products from JSON
+  // Load products from API
   useEffect(() => {
     const loadProducts = async () => {
       try {
-        const response = await fetch('/products.json')
-        if (!response.ok) {
-          throw new Error('Failed to fetch products')
-        }
-        const data = await response.json()
+        const { getPublicProducts } = await import('../../services/productService')
+        const data = await getPublicProducts(1, 500, {})
         const productsData = data.products || []
         setProducts(productsData)
         setFilteredProducts(productsData)
         setLoading(false)
       } catch (error) {
-        console.error('Error loading products:', error)
+        console.error('Failed to load products:', error)
         setProducts([])
         setFilteredProducts([])
         setLoading(false)
@@ -149,14 +146,8 @@ const Products = () => {
     setShowSuggestions(true)
   }
 
-  const handleSuggestionClick = (product) => {
-    const slug = product.title
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .trim()
-    navigate(`/product/${slug}`, { state: { product } })
+  const handleProductClick = (product) => {
+    navigate(`/product/${product.id}`)
     setSearchQuery('')
     setShowSuggestions(false)
   }

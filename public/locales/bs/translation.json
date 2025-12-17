@@ -1,10 +1,16 @@
-{
+﻿{
   "nav": {
     "home": "Početna",
     "about": "O nama",
     "products": "Proizvodi",
     "contact": "Kontakt",
-    "starflex": "StarFlex"
+    "starflex": "StarFlex",
+    "login": "Prijavi se",
+    "register": "Registruj se",
+    "logout": "Odjavi se",
+    "profile": "Profil",
+    "adminDashboard": "Admin Panel",
+    "staffDashboard": "Panel Osoblja"
   },
   "hero": {
     "title": "Kvalitet kojem možete vjerovati,",
@@ -70,8 +76,13 @@
     "productFound": "proizvod pronađen",
     "productsFound": "proizvoda pronađeno",
     "tryAdjusting": "Pokušajte prilagoditi pretragu ili filter kako biste pronašli ono što tražite.",
-    "clearAllFilters": "Obriši sve filtere",
-    "browseAll": "Pregledaj sve proizvode"
+    "clearAllFilters": "Očisti Sve Filtere",
+    "browseAll": "Pregledaj Sve Proizvode",
+    "premium": "Premium",
+    "premiumProduct": "Premium Proizvod",
+    "loginRequired": "Potrebna Prijava",
+    "premiumContentMessage": "Ovo je premium proizvod. Molimo prijavite se da biste vidjeli detalje.",
+    "loginToView": "Prijavite se za Pregled"
   },
   "about": {
     "title": "O DoqiSHPK",
@@ -127,6 +138,11 @@
     "partners": {
       "title": "Naši Pouzdani Partneri",
       "subtitle": "Sarađujemo sa vodećim kompanijama u industriji kako bismo pružili izuzetnu kvalitetu i inovaciju"
+    },
+    "careers": {
+      "title": "Pridružite se našem timu",
+      "description": "Uvijek tražimo talentirane pojedince koji će se pridružiti našem rastućem timu. Istražite mogućnosti karijere u DoqiSHPK.",
+      "viewPositions": "Pogledajte otvorene pozicije"
     }
   },
   "contact": {
@@ -152,6 +168,7 @@
     "sending": "Slanje...",
     "successTitle": "Poruka Uspješno Poslana!",
     "successMessage": "Hvala što ste nas kontaktirali. Odgovorit ćemo u roku od 24 sata.",
+    "errorMessage": "Slanje poruke nije uspelo. Molimo pokušajte ponovo.",
     "whyContactUs": "Zašto Nas Kontaktirati?",
     "reason1": "Stručni savjeti o izboru proizvoda",
     "reason2": "Konkurentne cijene za veće narudžbe",
@@ -188,6 +205,7 @@
     "copyright": "© 2025 DoqiSHPK. Sva prava zadržana."
   },
   "common": {
+    "all": "Sve",
     "price": "Cijena",
     "category": "Kategorija",
     "stock": "Skladište",
@@ -222,6 +240,12 @@
     "technicalSpecs": "Tehničke Specifikacije",
     "keyFeatures": "Ključne Karakteristike",
     "applications": "Primjene",
+    "premiumProduct": {
+      "title": "Premium Proizvod",
+      "description": "Ovaj proizvod je ekskluzivno dostupan premium članovima. Molimo nadogradite vaš račun da biste vidjeli detalje.",
+      "loginButton": "Prijavite se",
+      "backButton": "Nazad na Proizvode"
+    },
     "features": {
       "premiumMaterial": "Premium Materijal",
       "surfaceFinish": "Površinska Obrada",
@@ -276,7 +300,14 @@
     "funFactLabel": "Jeste li znali?",
     "funFact": "DoqiSHPK specijaliziran je za visokokvalitetne Compact HPL proizvode i dušeke. Istražite našu kolekciju kako biste pronašli savršen komad za vaš prostor!",
     "keyboardHint": "Pritisnite",
-    "keyboardHintAction": "za povratak na početnu"
+    "keyboardHintAction": "za povratak na početnu",
+    "goHome": "Idi na Početnu",
+    "goBack": "Vrati se Nazad",
+    "help": "Ako mislite da je ovo greška, molimo kontaktirajte podršku.",
+    "whoopsTitle": "Ups! Izgubljeni u prostoru?",
+    "pageNotFoundMessage": "Nismo mogli pronaći stranicu koju tražite.",
+    "suggestHome": "Vratimo vas na istraživanje našeg kvalitetnog namještaja i dušeka.",
+    "backToHome": "Nazad na početnu"
   },
   "reviews": {
     "title": "Povjerenje Hiljada Zadovoljnih Kupaca",
@@ -383,7 +414,17 @@
     "brand": "DoqiSHPK",
     "subtitle": "Pridruži se našoj zajednici",
     "title": "Kreirajte Svoj Nalog",
+    "nameLabel": "Puno Ime",
+    "namePlaceholder": "Ime Prezime",
+    "emailLabel": "Email Adresa",
+    "emailPlaceholder": "vas@email.com",
+    "passwordLabel": "Lozinka",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Potvrdi Lozinku",
     "passwordHint": "Najmanje 6 karaktera",
+    "errorPasswordMatch": "Lozinke se ne podudaraju",
+    "errorPasswordLength": "Lozinka mora imati najmanje 6 znakova",
+    "errorUnexpected": "Došlo je do neočekivane greške",
     "createButton": {
       "loading": "Kreiranje naloga...",
       "default": "Kreiraj Nalog"
@@ -397,12 +438,55 @@
     "brand": "DoqiSHPK",
     "welcome": "Dobrodošli nazad",
     "title": "Prijavite se na Vaš Nalog",
+    "emailLabel": "Email Adresa",
+    "emailPlaceholder": "vas@email.com",
+    "passwordLabel": "Lozinka",
+    "passwordPlaceholder": "••••••••",
+    "errorUnexpected": "Došlo je do neočekivane greške",
     "loading": "Prijava u toku...",
     "button": "Prijavi se",
     "or": "ili",
     "registerPrompt": "Nemate nalog?",
     "createHere": "Kreirajte ovdje",
-    "backToHome": "← Nazad na Početnu"
+    "backToHome": "← Nazad na Početnu",
+    "errorInvalidCredentials": "Neispravni podaci za prijavu",
+    "errorAccountSuspended": "Vaš račun je suspendovan. Molimo kontaktirajte podršku.",
+    "forgotPassword": "Zaboravili ste lozinku?"
+  },
+  "forgotPassword": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Resetujte svoju lozinku",
+    "title": "Zaboravljena Lozinka",
+    "description": "Unesite svoju email adresu i poslaćemo vam link za resetovanje lozinke.",
+    "emailLabel": "Email Adresa",
+    "emailPlaceholder": "vas@email.com",
+    "button": "Pošalji Link za Resetovanje",
+    "sending": "Slanje u toku...",
+    "backToLogin": "Nazad na Prijavu",
+    "backToHome": "← Nazad na Početnu",
+    "errorUnexpected": "Došlo je do neočekivane greške",
+    "successMessage": "Ako email postoji, link za resetovanje je poslan"
+  },
+  "resetPassword": {
+    "brand": "DoqiSHPK",
+    "subtitle": "Kreirajte novu lozinku",
+    "title": "Resetuj Lozinku",
+    "description": "Unesite svoju novu lozinku ispod.",
+    "newPasswordLabel": "Nova Lozinka",
+    "newPasswordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Potvrdite Lozinku",
+    "confirmPasswordPlaceholder": "••••••••",
+    "button": "Resetuj Lozinku",
+    "resetting": "Resetovanje...",
+    "backToLogin": "Nazad na Prijavu",
+    "backToHome": "← Nazad na Početnu",
+    "noToken": "Token za resetovanje nije naveden",
+    "passwordMismatch": "Lozinke se ne poklapaju",
+    "passwordTooShort": "Lozinka mora imati najmanje 6 karaktera",
+    "errorUnexpected": "Došlo je do neočekivane greške",
+    "redirecting": "Preusmeravanje na prijavu...",
+    "successMessage": "Lozinka je uspešno resetovana",
+    "errorInvalidToken": "Nevažeći ili istekli token"
   },
   "profile": {
     "loading": "Učitavanje vašeg profila...",
@@ -427,7 +511,12 @@
     "editProfile": "Uredi Profil",
     "changePassword": "Promijeni Lozinku",
     "logout": "Odjavi se",
-    "accountVerifiedText": "Vaš nalog je verificiran i u dobrom stanju. Možete pristupiti svim funkcijama platforme."
+    "accountVerifiedText": "Vaš račun je verifikovan i u dobrom stanju. Možete pristupiti svim funkcijama platforme.",
+    "currentPassword": "Trenutna Lozinka",
+    "newPassword": "Nova Lozinka",
+    "save": "Sačuvaj",
+    "saving": "Čuvanje...",
+    "cancel": "Otkaži"
   },
   "ui": {
     "productsErrorLoading": "Greška pri učitavanju proizvoda: {{error}}",
@@ -503,9 +592,490 @@
       "title": "Kontaktirajte Nas",
       "content": "Ako imate bilo kakva pitanja o ovoj Politici Privatnosti, molimo kontaktirajte nas na:\n📧 info@doqi-ks.com"
     },
-    "commitmentTitle": "Naša Posvećenost Privatnosti",
-    "commitmentText": "Posvećeni smo održavanju najviših standarda privatnosti i transparentnosti. Vaše povjerenje nam je važno.",
-    "questionsTitle": "Pitanja o Privatnosti?",
-    "questionsText": "Ako imate bilo kakva pitanja ili nedoumice o našoj Politici Privatnosti, slobodno nas kontaktirajte."
+    "commitmentTitle": "Naša posvećenost privatnosti",
+    "commitmentText": "Posvećeni smo održavanju najviših standarda privatnosti i transparentnosti. Vaše povjerenje je važno za nas.",
+    "questionsTitle": "Pitanja o privatnosti?",
+    "questionsText": "Ako imate bilo kakvih pitanja ili nedoumica u vezi naše Politike privatnosti, slobodno nas kontaktirajte."
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Panel",
+      "welcome": "Dobrodošli nazad",
+      "totalUsers": "Ukupno Korisnika",
+      "activeUsers": "Aktivni Korisnici",
+      "admins": "Administratori",
+      "activeToday": "Aktivni Danas",
+      "today": "danas",
+      "suspended": "suspendovani",
+      "staff": "osoblje",
+      "loggedInToday": "prijavljeni danas",
+      "quickActions": "Brze Akcije",
+      "addProduct": "Dodaj Proizvod",
+      "viewOrders": "Pogledaj Narudžbe",
+      "manageUsers": "Upravljaj Korisnicima",
+      "recentActivity": "Nedavna Aktivnost",
+      "noActivity": "Nema nedavne aktivnosti za prikaz"
+    },
+    "users": {
+      "title": "Upravljanje Korisnicima",
+      "subtitle": "Upravljajte korisničkim nalozima, ulogama i dozvolama",
+      "search": "Pretraži",
+      "searchPlaceholder": "Pretraži po imenu ili emailu...",
+      "filterByRole": "Filtriraj po Ulozi",
+      "filterByStatus": "Filtriraj po Statusu",
+      "allRoles": "Sve Uloge",
+      "allStatuses": "Svi Statusi",
+      "admin": "Admin",
+      "staff": "Osoblje",
+      "user": "Korisnik",
+      "premium": "Premium",
+      "active": "Aktivan",
+      "suspended": "Suspendovan",
+      "suspend": "Suspenuj",
+      "activate": "Aktiviraj",
+      "delete": "Obriši",
+      "never": "Nikada",
+      "table": {
+        "user": "Korisnik",
+        "email": "Email",
+        "role": "Uloga",
+        "status": "Status",
+        "lastLogin": "Posljednja Prijava",
+        "actions": "Akcije"
+      },
+      "confirmSuspend": "Jeste li sigurni da želite suspendovati ovog korisnika?",
+      "confirmActivate": "Jeste li sigurni da želite aktivirati ovog korisnika?",
+      "confirmRoleChange": "Jeste li sigurni da želite promijeniti ulogu ovog korisnika u",
+      "confirmDelete": "Jeste li sigurni da želite obrisati ovog korisnika? Ovo će suspendovati njihov nalog.",
+      "successSuspend": "Korisnik je uspješno suspendovan",
+      "successActivate": "Korisnik je uspješno aktiviran",
+      "successRoleUpdate": "Uloga korisnika je uspješno ažurirana",
+      "successDelete": "Korisnik je uspješno obrisan",
+      "errorLoad": "Učitavanje korisnika nije uspjelo",
+      "errorSuspend": "Suspendovanje korisnika nije uspjelo",
+      "errorActivate": "Aktiviranje korisnika nije uspjelo",
+      "errorRoleUpdate": "Ažuriranje uloge korisnika nije uspjelo",
+      "errorDelete": "Brisanje korisnika nije uspjelo",
+      "pagination": {
+        "showing": "Prikazuje se",
+        "to": "do",
+        "of": "od",
+        "results": "rezultata",
+        "previous": "Prethodno",
+        "next": "Sljedeće"
+      }
+    },
+    "messages": {
+      "title": "Poruke Kontakta",
+      "subtitle": "Upravljajte i odgovarajte na upite kupaca",
+      "loading": "Učitavanje poruka...",
+      "noMessages": "Nisu pronađene poruke",
+      "search": "Pretražite poruke...",
+      "stats": {
+        "total": "Ukupno Poruka",
+        "pending": "Na Čekanju",
+        "solved": "Riješeno"
+      },
+      "filter": {
+        "all": "Sve",
+        "pending": "Na Čekanju",
+        "solved": "Riješeno"
+      },
+      "status": {
+        "pending": "Na Čekanju",
+        "solved": "Riješeno"
+      },
+      "table": {
+        "status": "Status",
+        "sender": "Pošiljalac",
+        "subject": "Predmet",
+        "date": "Datum",
+        "actions": "Akcije"
+      },
+      "detail": {
+        "name": "Ime",
+        "email": "Email",
+        "phone": "Telefon",
+        "company": "Kompanija",
+        "date": "Primljeno",
+        "message": "Poruka",
+        "solvedBy": "Riješio"
+      },
+      "actions": {
+        "markSolved": "Označi kao Riješeno",
+        "markPending": "Označi kao Na Čekanju",
+        "delete": "Obriši"
+      },
+      "confirmSolve": {
+        "title": "Označi kao Riješeno?",
+        "message": "Da li ste sigurni da želite označiti ovu poruku kao riješenu?"
+      },
+      "confirmPending": {
+        "title": "Označi kao Na Čekanju?",
+        "message": "Da li ste sigurni da želite označiti ovu poruku kao na čekanju?"
+      },
+      "confirmDelete": {
+        "title": "Obriši Poruku?",
+        "message": "Ova radnja se ne može poništiti. Da li ste sigurni?"
+      },
+      "success": {
+        "markedSolved": "Poruka označena kao riješena",
+        "markedPending": "Poruka označena kao na čekanju",
+        "deleted": "Poruka uspješno obrisana"
+      },
+      "errors": {
+        "loadFailed": "Učitavanje poruka nije uspjelo",
+        "updateFailed": "Ažuriranje statusa poruke nije uspjelo",
+        "deleteFailed": "Brisanje poruke nije uspjelo"
+      }
+    }
+  },
+  "confirmDialog": {
+    "deleteProduct": {
+      "title": "Obriši Proizvod",
+      "message": "Da li ste sigurni da želite obrisati \"{{productTitle}}\"? Ova radnja se ne može poništiti.",
+      "confirmText": "Obriši",
+      "cancelText": "Otkaži"
+    },
+    "suspendUser": {
+      "title": "Suspendiraj Korisnika",
+      "message": "Da li ste sigurni da želite suspendirati ovog korisnika?",
+      "confirmText": "Suspendiraj",
+      "cancelText": "Otkaži"
+    },
+    "activateUser": {
+      "title": "Aktiviraj Korisnika",
+      "message": "Da li ste sigurni da želite aktivirati ovog korisnika?",
+      "confirmText": "Aktiviraj",
+      "cancelText": "Otkaži"
+    },
+    "changeRole": {
+      "title": "Promijeni Ulogu Korisnika",
+      "message": "Da li ste sigurni da želite promijeniti ulogu ovog korisnika u {{roleName}}?",
+      "confirmText": "Promijeni Ulogu",
+      "cancelText": "Otkaži"
+    },
+    "deleteUser": {
+      "title": "Obriši Korisnika",
+      "message": "Da li ste sigurni da želite obrisati ovog korisnika? Ovo će suspendirati njihov račun.",
+      "confirmText": "Obriši",
+      "cancelText": "Otkaži"
+    },
+    "saveSettings": {
+      "title": "Sačuvaj Postavke",
+      "message": "Da li ste sigurni da želite sačuvati ove postavke? Ovo će primijeniti promjene na konfiguraciju vašeg sajta.",
+      "confirmText": "Sačuvaj Postavke",
+      "cancelText": "Otkaži"
+    },
+    "resetSettings": {
+      "title": "Resetuj Postavke",
+      "message": "Da li ste sigurni da želite odbaciti sve nesačuvane promjene?",
+      "confirmText": "Resetuj",
+      "cancelText": "Otkaži"
+    }
+  },
+  "adminProducts": {
+    "title": "Upravljanje Proizvodima",
+    "subtitle": "Upravljajte katalogom proizvoda",
+    "searchPlaceholder": "Pretražite proizvode...",
+    "allCategories": "Sve Kategorije",
+    "allStockStatus": "Svi Statusi Zaliha",
+    "addProduct": "Dodaj Proizvod",
+    "showing": "Prikazuje se",
+    "of": "od",
+    "productsText": "proizvoda",
+    "tableProduct": "Proizvod",
+    "tableCategory": "Kategorija",
+    "tablePrice": "Cijena",
+    "tableStatus": "Status",
+    "tableActions": "Akcije",
+    "featured": "Istaknuto",
+    "edit": "Uredi",
+    "delete": "Obriši",
+    "noProductsFound": "Nema pronađenih proizvoda",
+    "previous": "Prethodno",
+    "next": "Sljedeće",
+    "page": "Stranica",
+    "addNewProduct": "Dodaj Novi Proizvod",
+    "editProduct": "Uredi Proizvod",
+    "titleRequired": "Naziv *",
+    "description": "Opis",
+    "priceEuro": "Cijena (€)",
+    "origin": "Porijeklo",
+    "category": "Kategorija",
+    "selectCategory": "Izaberite kategoriju",
+    "subCategory": "Podkategorija",
+    "productImage": "Slika Proizvoda",
+    "maxFileSize": "Maksimalna veličina: 5MB. Podržani formati: JPEG, PNG, GIF, WebP",
+    "preview": "Pregled:",
+    "productSpecifications": "Specifikacije Proizvoda",
+    "optionalSpecifications": "Opciono - Dodajte detaljne specifikacije proizvoda",
+    "dimensionsSize": "Dimenzije/Veličina",
+    "thickness": "Debljina",
+    "material": "Materijal",
+    "color": "Boja",
+    "finish": "Završnica",
+    "warranty": "Garancija",
+    "certification": "Certifikacija",
+    "density": "Gustoća",
+    "gradeQuality": "Stepen/Kvalitet",
+    "accuracy": "Preciznost",
+    "turnaroundTime": "Vrijeme Isporuke",
+    "maxSize": "Maksimalna Veličina",
+    "firmness": "Čvrstoća",
+    "height": "Visina",
+    "additionalInformation": "Dodatne Informacije",
+    "additionalPlaceholder": "Sve ostale specifikacije ili detalji...",
+    "featuredProduct": "Istaknuti Proizvod",
+    "premiumLoginRequired": "Premium (Potrebna Prijava)",
+    "premiumMembershipRequired": "Premium (Potrebno Premium Članstvo)",
+    "cancel": "Otkaži",
+    "uploading": "Učitavanje...",
+    "createProduct": "Kreiraj Proizvod",
+    "updateProduct": "Ažuriraj Proizvod"
+  },
+  "careers": {
+    "hero": {
+      "title": "Pridružite se našem timu",
+      "subtitle": "Gradite svoju karijeru sa kompanijom koja cijeni inovacije, kvalitet i timski rad",
+      "feature1": "Mogućnosti za rast",
+      "feature2": "Sjajna timska kultura"
+    },
+    "openPositions": {
+      "title": "Otvorene pozicije",
+      "subtitle": "Otkrijte uzbudljive prilike za karijeru i pronađite savršenu ulogu za sebe",
+      "noJobs": "Nema otvorenih pozicija",
+      "checkBack": "Trenutno nemamo otvorenih pozicija. Molimo provjerite kasnije za nove prilike."
+    },
+    "job": {
+      "type": "Tip",
+      "experience": "Iskustvo",
+      "salary": "Plata",
+      "deadline": "Prijavite se do",
+      "applyNow": "Prijavite se sada",
+      "alreadyApplied": "Već Prijavljeno",
+      "noDepartment": "Opšte"
+    },
+    "error": {
+      "fetchFailed": "Neuspjelo učitavanje pozicija",
+      "loginRequired": "Molimo prijavite se da biste aplicirali za ovu poziciju",
+      "pdfOnly": "Dozvoljene su samo PDF datoteke",
+      "fileTooLarge": "Veličina datoteke mora biti manja od 5MB",
+      "alreadyApplied": "Već ste aplicirali za ovu poziciju",
+      "cvRequired": "CV datoteka je obavezna",
+      "submitFailed": "Neuspela prijava aplikacije. Molimo pokušajte ponovo."
+    },
+    "success": {
+      "applied": "Aplikacija uspešno poslata! Razmotrićemo vašu aplikaciju i uskoro ćemo vas kontaktirati."
+    },
+    "application": {
+      "title": "Prijavite se za ovu poziciju",
+      "fullName": "Puno Ime",
+      "email": "Email",
+      "phone": "Broj Telefona",
+      "cv": "CV / Životopis",
+      "cvHelper": "(PDF, max 5MB)",
+      "chooseFile": "Odaberite Datoteku",
+      "noFileChosen": "Nije odabrana datoteka",
+      "coverLetter": "Propratno Pismo",
+      "coverLetterPlaceholder": "Recite nam zašto ste zainteresovani za ovu poziciju i šta vas čini odličnim kandidatom...",
+      "cancel": "Odustani",
+      "submit": "Pošalji Prijavu",
+      "submitting": "Slanje..."
+    }
+  },
+  "staff": {
+    "layout": {
+      "staffPanel": "Panel Osoblja",
+      "staffMember": "Član Osoblja"
+    },
+    "nav": {
+      "dashboard": "Kontrolna Ploča",
+      "messages": "Poruke",
+      "orders": "Narudžbe",
+      "products": "Proizvodi",
+      "jobs": "Poslovi",
+      "applications": "Prijave"
+    },
+    "dashboard": {
+      "title": "Panel Osoblja",
+      "welcome": "Dobrodošli nazad",
+      "pendingMessages": "Poruke na Čekanju",
+      "totalMessages": "Ukupno Poruka",
+      "totalProducts": "Ukupno Proizvoda",
+      "quickActions": "Brze Akcije",
+      "viewOrders": "Pogledaj Narudžbe",
+      "manageProducts": "Upravljaj Proizvodima",
+      "reports": "Izvještaji",
+      "recentActivity": "Nedavna Aktivnost",
+      "noActivity": "Nema nedavne aktivnosti za prikaz"
+    },
+    "products": {
+      "title": "Pregled Proizvoda",
+      "subtitle": "Pregledajte i pratite inventar proizvoda",
+      "searchPlaceholder": "Pretražite proizvode...",
+      "noProducts": "Nema pronađenih proizvoda",
+      "inStock": "Na Stanju",
+      "outOfStock": "Nema Na Stanju",
+      "showing": "Prikazuje se",
+      "of": "od",
+      "products": "proizvoda",
+      "stats": {
+        "total": "Ukupno Proizvoda",
+        "inStock": "Na Stanju",
+        "outOfStock": "Nema Na Stanju"
+      },
+      "filter": {
+        "all": "Svi Statusi Zaliha",
+        "inStock": "Samo Na Stanju",
+        "outOfStock": "Samo Nema Na Stanju"
+      },
+      "table": {
+        "product": "Proizvod",
+        "category": "Kategorija",
+        "origin": "Porijeklo",
+        "stock": "Status Zaliha",
+        "featured": "Istaknuto"
+      }
+    },
+    "jobs": {
+      "title": "Radne Pozicije",
+      "subtitle": "Upravljajte otvorenim pozicijama u Doqi SHPK",
+      "searchPlaceholder": "Pretraži po naslovu, odjelu...",
+      "addNew": "Dodaj Novu Poziciju",
+      "loading": "Učitavanje...",
+      "noJobs": "Nema pronađenih radnih pozicija",
+      "edit": "Uredi",
+      "delete": "Obriši",
+      "create": "Kreiraj",
+      "update": "Ažuriraj",
+      "cancel": "Odustani",
+      "stats": {
+        "total": "Ukupno Pozicija",
+        "active": "Aktivne Pozicije",
+        "departments": "Odjeli"
+      },
+      "filter": {
+        "allStatus": "Svi Statusi",
+        "active": "Samo Aktivne",
+        "inactive": "Samo Neaktivne",
+        "allTypes": "Svi Tipovi"
+      },
+      "employmentType": {
+        "fullTime": "Puno radno vrijeme",
+        "partTime": "Nepuno radno vrijeme",
+        "contract": "Ugovor",
+        "internship": "Pripravništvo"
+      },
+      "status": {
+        "active": "Aktivno",
+        "inactive": "Neaktivno"
+      },
+      "table": {
+        "title": "Naziv Pozicije",
+        "department": "Odjel",
+        "location": "Lokacija",
+        "type": "Tip Zaposlenja",
+        "deadline": "Rok za Prijavu",
+        "status": "Status",
+        "actions": "Akcije"
+      },
+      "modal": {
+        "createTitle": "Kreiraj Novu Radnu Poziciju",
+        "editTitle": "Uredi Radnu Poziciju"
+      },
+      "form": {
+        "title": "Naziv Pozicije",
+        "department": "Odjel",
+        "location": "Lokacija",
+        "employmentType": "Tip Zaposlenja",
+        "experienceLevel": "Nivo Iskustva",
+        "deadline": "Rok za Prijavu",
+        "salaryRange": "Raspon Plate",
+        "salaryRangePlaceholder": "npr., €30,000 - €45,000",
+        "isActive": "Aktivna Pozicija",
+        "description": "Opis Posla",
+        "responsibilities": "Odgovornosti",
+        "requirements": "Zahtjevi",
+        "qualifications": "Kvalifikacije",
+        "benefits": "Beneficije",
+        "selectType": "Odaberi tip zaposlenja",
+        "selectLevel": "Odaberi nivo iskustva",
+        "onePerLine": "Jedna stavka po redu"
+      },
+      "experienceLevel": {
+        "entryLevel": "Početni Nivo",
+        "midLevel": "Srednji Nivo",
+        "seniorLevel": "Viši Nivo",
+        "lead": "Vodeći"
+      },
+      "success": {
+        "created": "Radna pozicija uspješno kreirana",
+        "updated": "Radna pozicija uspješno ažurirana",
+        "deleted": "Radna pozicija uspješno obrisana"
+      },
+      "error": {
+        "fetchFailed": "Neuspješno učitavanje radnih pozicija",
+        "saveFailed": "Neuspješno spremanje radne pozicije",
+        "deleteFailed": "Neuspješno brisanje radne pozicije"
+      },
+      "confirmDelete": {
+        "title": "Obriši Radnu Poziciju",
+        "message": "Jeste li sigurni da želite obrisati ovu radnu poziciju? Ova akcija se ne može poništiti."
+      }
+    },
+    "applications": {
+      "title": "Prijave za Posao",
+      "subtitle": "Pregledajte i upravljajte prijavama za posao",
+      "loading": "Učitavanje prijava...",
+      "noApplications": "Nisu pronađene prijave",
+      "view": "Pregled",
+      "downloadCV": "Preuzmi CV",
+      "applicationDetails": "Detalji Prijave",
+      "applicantInfo": "Informacije o Kandidatu",
+      "jobInfo": "Informacije o Poslu",
+      "updateStatus": "Ažuriraj Status",
+      "currentStatus": "Trenutni Status",
+      "notes": "Napomene",
+      "notesPlaceholder": "Dodaj napomene o ovoj prijavi...",
+      "markReviewed": "Označi kao Pregledano",
+      "markAccepted": "Označi kao Prihvaćeno",
+      "markRejected": "Označi kao Odbijeno",
+      "statusHistory": "Historija Statusa",
+      "reviewedAt": "Pregledano",
+      "stats": {
+        "total": "Ukupno Prijava",
+        "pending": "Na Čekanju",
+        "reviewed": "Pregledano",
+        "accepted": "Prihvaćeno",
+        "rejected": "Odbijeno"
+      },
+      "filter": {
+        "allStatus": "Svi Statusi"
+      },
+      "status": {
+        "pending": "Na Čekanju",
+        "reviewed": "Pregledano",
+        "accepted": "Prihvaćeno",
+        "rejected": "Odbijeno"
+      },
+      "table": {
+        "applicant": "Kandidat",
+        "job": "Pozicija",
+        "contact": "Kontakt",
+        "appliedDate": "Datum Prijave",
+        "status": "Status",
+        "actions": "Akcije"
+      },
+      "success": {
+        "cvDownloaded": "CV uspješno preuzet",
+        "statusUpdated": "Status prijave uspješno ažuriran"
+      },
+      "error": {
+        "fetchFailed": "Učitavanje prijava nije uspjelo",
+        "cvDownloadFailed": "Preuzimanje CV nije uspjelo",
+        "statusUpdateFailed": "Ažuriranje statusa nije uspjelo"
+      }
+    }
   }
 }

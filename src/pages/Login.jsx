@@ -65,7 +65,7 @@ const Login = () => {
       <div className="w-full max-w-md">
         {/* Logo/Brand */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">{t('login.brand')}</h1>
+          <img src="/images/doqi-logo.png" alt="Doqi Logo" className="h-20 mx-auto mb-4" />
           <p className="text-gray-600">{t('login.welcome')}</p>
         </div>
 

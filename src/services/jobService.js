@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // VITE_API_URL is base URL without /api, so we add it here
-const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const baseURL = import.meta.env.VITE_API_URL;
 const API_URL = `${baseURL}/api`;
 
 // Get job statistics

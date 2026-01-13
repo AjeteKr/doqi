@@ -1,24 +1,9 @@
-import axios from 'axios';
-
-// VITE_API_URL is base URL without /api, so we add it here
-const baseURL = import.meta.env.VITE_API_URL;
-const API_URL = `${baseURL}/api/admin`;
-
-// Get authorization headers with JWT token
-const getAuthHeaders = () => {
-  const token = localStorage.getItem('token');
-  return {
-    headers: {
-      Authorization: `Bearer ${token}`,
-      'Content-Type': 'application/json'
-    }
-  };
-};
+import axios from '../api';
 
 // Get user statistics for dashboard
 export const getUserStats = async () => {
   try {
-    const response = await axios.get(`${API_URL}/users/stats`, getAuthHeaders());
+    const response = await axios.get(`/admin/users/stats`);
     return response.data;
   } catch (error) {
     throw error;
@@ -37,7 +22,7 @@ export const getUsers = async (params = {}) => {
     if (active !== undefined) queryParams.append('active', active);
     if (search) queryParams.append('search', search);
     
-    const response = await axios.get(`${API_URL}/users?${queryParams}`, getAuthHeaders());
+    const response = await axios.get(`/admin/users?${queryParams}`);
     return response.data;
   } catch (error) {
     throw error;
@@ -47,7 +32,7 @@ export const getUsers = async (params = {}) => {
 // Get single user by ID
 export const getUserById = async (userId) => {
   try {
-    const response = await axios.get(`${API_URL}/users/${userId}`, getAuthHeaders());
+    const response = await axios.get(`/admin/users/${userId}`);
     return response.data;
   } catch (error) {
     throw error;
@@ -58,9 +43,8 @@ export const getUserById = async (userId) => {
 export const updateUserStatus = async (userId, active) => {
   try {
     const response = await axios.patch(
-      `${API_URL}/users/${userId}/status`,
-      { active },
-      getAuthHeaders()
+      `/admin/users/${userId}/status`,
+      { active }
     );
     return response.data;
   } catch (error) {
@@ -72,9 +56,8 @@ export const updateUserStatus = async (userId, active) => {
 export const updateUserRole = async (userId, roleId) => {
   try {
     const response = await axios.patch(
-      `${API_URL}/users/${userId}/role`,
-      { role_id: roleId },
-      getAuthHeaders()
+      `/admin/users/${userId}/role`,
+      { role_id: roleId }
     );
     return response.data;
   } catch (error) {
@@ -85,7 +68,7 @@ export const updateUserRole = async (userId, roleId) => {
 // Delete user (soft delete via suspension)
 export const deleteUser = async (userId) => {
   try {
-    const response = await axios.delete(`${API_URL}/users/${userId}`, getAuthHeaders());
+    const response = await axios.delete(`/admin/users/${userId}`);
     return response.data;
   } catch (error) {
     throw error;
@@ -95,7 +78,7 @@ export const deleteUser = async (userId) => {
 // Get recent activity
 export const getRecentActivity = async (limit = 10) => {
   try {
-    const response = await axios.get(`${API_URL}/activity?limit=${limit}`, getAuthHeaders());
+    const response = await axios.get(`/admin/activity?limit=${limit}`);
     return response.data;
   } catch (error) {
     throw error;

@@ -69,18 +69,10 @@ export const downloadCV = async (id) => {
   return response.data;
 };
 
-export const checkIfApplied = checkIfApplied;
-
 export default {
   applyForJob,
   checkIfApplied,
   getUserApplications,
-  getAllApplications,
-  getApplicationById,
-  updateApplicationStatus,
-  getApplicationStats,
-  downloadCV
-};
   getAllApplications,
   getApplicationById,
   updateApplicationStatus,
